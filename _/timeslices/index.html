@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head>
+      <meta charset="utf-8"/>
+      <title>perpetually loading</title>
+      <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+      crossorigin="anonymous"></script>
+    <style>
+
+      body, html, #image {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      body {
+        background-color: black;
+        cursor: none;
+      }
+
+      #image {
+        background-size: cover;
+        background-position: 50% 50%;
+        filter: blur(30px);
+      }
+
+      #ring {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 3px solid white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -25px;
+        margin-top: -25px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="image"></div>
+    <div id="ring"></div>
+    <script>
+      const api = "http://lexachast.com/flickr.xml.php"
+      const $image = $("#image")
+
+      $(() => {
+
+        loadImage() 
+
+        function loadImage() {
+          $.get(api).done((xml) => {
+            const imageIndex = Math.floor(xml.length * Math.random())
+            const url = xml[imageIndex].url
+            const newImage = new Image()
+
+            newImage.onload = () => {
+              $image.css({ "background-image": `url(${url})` })  
+              setTimeout(loadImage, 10 * 1000)
+            }
+            newImage.src = url
+          })
+        }
+      })
+    </script>
+  </body>
+</html>
+

@@ -1,0 +1,25 @@
+@font-face {
+	font-family: 'x400';
+	font-weight:normal;
+	src: url('../fonts/rosalind-serif-v1-latin-greek-400.woff2') format('woff');
+}
+
+@font-face {
+	font-family: 'x700';
+	font-weight:normal;
+	src: url('../fonts/rosalind-serif-v1-latin-greek-700.woff2') format('woff');
+}
+
+body {
+	background-color: #f0f0f8;
+	margin: 50px;
+}
+
+* {
+	font-family: x400;
+	font-size:18px;
+	line-height: 24px;
+	font-weight: normal;
+	margin:0;
+	padding:0;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html> 
+
+<html>
+  <head>
+    <title>hy-phe-na-tion</title>
+    <style>
+
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont,"helvetica neue", helvetica, arial, sans-serif;
+        font-size: 36px;        
+        display: flex;
+        align-items: center;
+        justify-content: center;        
+      }
+
+      #text {
+          max-width: 300px;
+          text-align: left;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div id="text"></div>
+    <script src="list.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+
+      <script>
+
+        function sample(array) {
+          const index = (Math.random() * array.length / 3) << 0
+          return array[index]
+        }
+
+        function hypenate(word, count) {
+          const arr = word.split('-')
+          const result = []
+          for (let i = 0; i < count; i++) {
+            result.push(arr[i])
+          }
+
+          return result.join('')
+        }
+
+        function parts(word) {
+          return word.split('-').length
+        }
+
+
+        window.WORD_LIST.sort(function (a, b) {
+          if (a.length > b.length) return -1
+          if (a.length < b.length) return 1
+          if (a.length === b.length) return 0
+        })
+
+        let currentWord = null
+
+        pickWord()
+        
+        function pickWord() {
+          currentWord = sample(window.WORD_LIST)
+        }
+
+        function handlePart() {
+          const word = hypenate(currentWord, partCount)
+          if (partCount === 0) textContainer.innerHTML = ''
+          partCount++
+          if (partCount > parts(currentWord)) {
+            textContainer.innerHTML = word
+            partCount = 0
+            pickWord()
+            setTimeout(handlePart, 3000)
+          } else {
+            
+            if (partCount > 1) textContainer.innerHTML = word + '-'
+            setTimeout(handlePart, 1000)
+          }
+        }
+
+        const textContainer = document.getElementById('text')
+        
+        let partCount = 0
+
+        handlePart()
+
+        
+      </script>
+  </body>
+
+</html>

@@ -1,0 +1,688 @@
+@charset "utf-8";
+
+@import url('https://rsms.me/inter/inter-ui.css');
+html { font-family: 'Inter UI', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter UI var alt', sans-serif; }
+}
+
+
+
+/*@font-face {*/
+	/*font-family: 'Univers';*/
+	/*font-weight:normal;*/
+	/*font-style:normal;*/
+	/*src: url('/_/fonts/univers-webfont.woff') format('woff'), *//* Pretty Modern Browsers */
+	/*url('/_/fonts/univers-webfont.ttf')  format('truetype'), *//* Safari, Android, iOS */
+	/*url('/_/fonts/univers-webfont.svg') format('svg'); *//* Legacy iOS */
+/*}*/
+
+/*@font-face {
+	font-family: 'newfont';
+	font-weight:normal;
+	src: url('/_/fonts/a.woff') format('woff'), 
+	url('/_/fonts/a.ttf')  format('truetype'), 
+	url('/_/fonts/a') format('svg'); 
+}*/
+
+
+* {
+/*	font-family:   karla,'helvetica neue', helvetica, arial, sans-serif;
+*/	font-size: 16px;
+	line-height: 1.5;
+	x-font-weight: normal;
+	margin:0;
+	padding:0;
+	letter-spacing: -0.002em;
+    	font-weight: 400;
+}
+
+.back-button {
+	/* background-image: url(/_/back.svg); */
+	/* background-repeat: no-repeat; */
+	/* background-position: 2px 5px; */
+	/* background-size: 15px; */
+  /* padding-left: 24px; */
+}
+
+.back-button:before {
+  content: '↩';
+  font-size: 12px;
+  margin-right: 5px;
+  /* padding-left: 24px; */
+}
+
+.back-button:hover {
+	/* background-image: url(/_/back-hover.svg); */
+}
+
+
+.list-item-date {
+  float: right;
+}
+
+.image-caption {
+  float:left;
+}
+
+@media only screen and (max-width: 480px) {
+  .location {
+    display: none;
+  }
+
+  .list-item-date {
+    display: none;
+  }
+
+  .image-caption {
+    float: none;
+  }
+}
+
+img {
+	display: block;
+}
+
+body {
+	margin:66px 24px 24px 24px;
+	background-color: #efefef;
+}
+
+@media only screen and (max-width: 360px) {
+  body {
+    margin: 66px 12px 12px 12px;
+  }
+}
+
+.description {
+	hyphens: auto;
+}
+
+h1, .description {
+	margin-bottom: 24px;
+}
+
+h1 {
+	/*font-weight:bold;*/
+	/*font-family:'helvetica neue';*/
+	/*font-family:times;*/
+	font-weight: 600;
+}
+
+.related {
+	margin-bottom:36px;
+}
+
+.categories {
+	margin-top:36px;
+}
+ul {
+	list-style: none;
+}
+
+li.website {
+    margin-bottom:48px;
+}
+li.website:last-child {
+    margin-bottom:0px;
+}
+
+li.website img {
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.5);
+    margin-bottom:10px;
+}
+
+h2 {
+    /*text-indent: 23px;*/
+	border-bottom: 1px solid black;
+	display: inline-block;
+}
+
+a {
+	color:black;
+	text-decoration: none;
+	border-bottom: 1px solid #000000;
+
+	/*background-image: linear-gradient(to top,#efefef 0%,#efefef 49%,#000 50%,#000 100%);*/
+	/*background-size: 2px 2px;*/
+	/*background-repeat: repeat-x;*/
+	/*background-position: 0 97%;*/
+	/*text-shadow: 0.03em 0 #efefef,-0.03em 0 #efefef,0.05em 0 #efefef,-0.05em 0 #efefef,0.09em 0 #efefef,-0.075em 0 #efefef;*/
+
+}
+
+.floating-about a,
+.floating-top-left-nav a {
+	text-shadow: none;
+	/* background-image:none; */
+	background-color: #efefef;
+}
+
+a:hover {
+	color: blue;
+	border-bottom-color:blue;
+	/*background-image: linear-gradient(to top,#efefef 0%,#efefef 49%,blue 50%,blue 100%);*/
+}
+
+.main-menu {
+	position:fixed;
+	left:0;
+	top:0;
+	width: 100%;
+	padding:10px 0px;
+	background-color: white;
+	padding-left: 24px;
+	padding-right: 24px;
+	box-sizing: border-box;
+}
+
+.main-menu ul {
+
+}
+
+.main-menu li {
+	display: inline-block;
+	margin-right:20px;
+}
+
+.main-menu li:last-child {
+	margin-right:0;
+}
+
+.main-menu ul, .content {
+	clear: both;
+	max-width:900px;
+	margin:auto;
+}
+
+.sub-content {
+    margin-bottom: 48px;
+}
+
+h2 {
+    margin-bottom:48px;
+}
+
+.item {
+	margin-bottom: 36px;
+	list-style: none;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+em {
+	/*font-family:times;*/
+	font-style: italic;
+}
+.item:first-child {
+	margin-top: 0px;
+}
+.item:last-child {
+    margin-bottom: 0px;
+}
+
+sup a {
+	background:none;
+	font-size:16px;
+	padding:2px;
+}
+
+sup a:hover {
+	background:none;
+
+}
+
+
+figure.main-image.landscape img{
+    width: 100%;
+	max-width: 900px;
+}
+
+.main-image {
+	text-align:center;
+}
+
+figure.main-image.portrait img {
+    width: 100%;
+    max-width: 600px;
+
+	margin:auto;
+}
+/*
+figcaption, figcaption > * {
+	font-size:13px;
+}
+*/
+
+figure.main-image+figure.main-image {
+	margin-top:30px;
+}
+
+
+.now-item {
+	margin-bottom: 24px;
+}
+
+.now-item:last-child {
+	margin-bottom: 0px;
+}
+
+.website {
+	margin-bottom:10px;
+	text-align: center;
+}
+.website:last-child {
+	margin-bottom: 0;
+}
+
+
+.main-category {
+    margin-top:40px;
+}
+
+.named-anchor {
+    visibility: hidden;
+    color:rgba(255,255,255,0);
+    position:relative;
+    top:-25px;
+    border:none;
+
+}
+
+h3 {
+    margin-bottom:0px;
+}
+
+
+hr {
+    width:20%;
+	border:none;
+	border-bottom:1px solid black;
+	margin-top:48px;
+	margin-bottom:24px;
+}
+
+hr:before {
+	content: '';
+	float:left;
+}
+
+hr:after{
+	content: '';
+	float:right;
+}
+
+
+article > .text {
+    margin-top:00px;
+    margin-bottom:20px;
+}
+
+article, hr {
+}
+
+.related {
+    margin-top:20px;
+}
+
+/*.related li:before {
+	content: ')';
+	margin-left:0px;
+	margin-right:10px;
+}
+*/
+.related li {
+
+}
+
+
+
+.image-two-cols {
+	clear:both;
+	width: 100%;
+}
+
+.image-two-cols figure {
+	display: inline-block;
+}
+
+.image-two-cols figure:first-child {
+	margin-right:23px;
+}
+
+.viewer {
+	display:none;
+	position:fixed;
+	top: 0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:white;
+	cursor: e-resize;
+}
+
+.viewer .images {
+	position:absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+}
+
+/*.viewer.loading .images {*/
+	/*background-image: url(/img/spinner.gif);*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: 50% 50%;*/
+	/*background-size: 64px;*/
+/*}*/
+
+.viewer .image {
+	position:absolute;
+	left:0;
+	top:0;
+	display:none;
+}
+
+
+.no-scroll {
+	height: 100%;
+	overflow: hidden;
+}
+
+.viewer .caption {
+	position: absolute;
+	background-color: white;
+	padding: 5px 10px;
+	display:none;
+	top:0px;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+.btn-close-viewer {
+	position: absolute;
+	font-size: 48px;
+	line-height: 100%;
+	left: 20px;
+	top: 15px;
+	cursor: pointer;
+	padding:10px;
+	color: white;
+	mix-blend-mode: difference;
+}
+
+.btn-close-viewer:hover {
+	color:blue;
+	mix-blend-mode: normal;
+}
+
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+img.gallery-launcher {
+	cursor: -moz-zoom-in;
+	cursor: -webkit-zoom-in;
+	cursor: zoom-in;
+}
+
+
+#delinearinfo img{
+	box-shadow: 2px 1px 10px rgba(0,0,0,0.25);
+	margin-bottom:5px;
+}
+
+.thumbs {
+	position:relative;
+	width: 100%;
+	height:300px;
+}
+
+.thumbs img {
+}
+
+.thumb {
+	cursor: zoom-in;
+	position:absolute;
+}
+
+.when {
+}
+
+p, h2 {
+}
+
+q {
+
+}
+
+p+p {
+	margin-top:24px;
+}
+
+.mailing-list {
+	position:fixed;
+	display: none;
+	left: 0;
+	top: 0;
+	width:100%;
+	height: 100%;
+
+	align-items: center;
+	justify-content: center;
+}
+
+.content {
+	/* filter: blur(0px); */
+}
+
+.content.blurry {
+	filter: blur(10px);
+}
+
+.mailing-list.visible {
+	display: flex;
+}
+
+.floating-logo {
+	position:fixed;
+	width:50px;
+	height:50px;
+	background-size: 88%;
+	background-repeat:no-repeat;
+	cursor: pointer;
+	padding:5px;
+	border-radius:50%;
+	background-position: 50% 50%;
+	x-mix-blend-mode: difference;
+	display: none;
+}
+
+.floating-logo:hover {
+	background-color:blue;
+}
+
+.floating-logo-deli {
+	background-image:url(../img/delilogo.png);
+}
+
+.floating-logo-left {
+	background-image:url(../img/leftgallerylogo.png);
+}
+
+.floating-logo-death {
+	background-image:url(https://deathimitateslanguage.harmvandendorpel.com/images/thumb/random.jpg);
+	border-radius: 0;
+	width:100px;
+	height:100px;
+	mix-blend-mode: normal;
+}
+
+.floating-logo-dissociations {
+	background-image:url(../img/rope-ring.png);
+	mix-blend-mode: normal;
+
+}
+
+.floating-logo-tokens {
+	width: 60px;
+	height: 60px;
+	box-sizing: border-box;
+  mix-blend-mode: normal;
+	padding: 5px;
+	border-radius: 0;
+	background-size: 50px 50px;
+	background-position: 50% 50%;
+	background-image: url(https://tokens.harmvandendorpel.com/images/site/logo.png);
+}
+
+.floating-about {
+	position:fixed;
+	top:0;
+	right:0;
+	padding:12px 24px;
+}
+
+.floating-about a {
+	margin-left:10px;
+}
+
+.floating-top-left-nav {
+	position:fixed;
+	top:0;
+	left:0;
+	padding:12px 24px;
+}
+
+@media only screen and (max-width: 360px) {
+  .floating-top-left-nav {
+    padding:12px 12px;
+  }
+}
+
+.floating-top-left-nav a {
+	/*text-transform: uppercase;*/
+}
+
+
+.floating-about a,
+.floating-top-left-nav a {
+	/* background-image: none; */
+}
+
+.floating-about a {
+}
+
+.floating-about a:hover {
+}
+
+.item-upcoming a:after {
+	content:' 🕑';
+	font-size:13px;
+}
+
+
+input.email, #mc-embedded-subscribe {
+	border-radius: 5px;
+	padding: 5px;
+	-webkit-appearance: none;
+}
+
+.mc-field-group {
+	display: inline;
+}
+
+.mailing-list #mc_embed_signup input.mce_inline_error {
+	border-color: inherit;
+}
+
+.mailing-list #mc_embed_signup {
+	padding:10px;
+}
+
+.mailing-info,
+#mce-success-response {
+	max-width:380px;
+}
+#mce-success-response {
+	margin-top:10px;
+}
+
+.mailing-list #mc_embed_signup div.mce_inline_error {
+	font-weight: normal !important;
+	background-color: #ffff88 !important;
+	color:black !important;
+}
+
+.btn-close {
+	/*position: fixed;*/
+	/*top: 0;*/
+	/*right: 0;*/
+	/*padding: 2vw;*/
+	font-size: 24px;
+	cursor: pointer;
+}
+
+
+#mc-embedded-subscribe {
+	border: 1px solid black;
+	background:transparent;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#mce-EMAIL {
+	width: 210px;
+	padding-left:10px;
+	padding-right:10px;
+	border: 1px solid black;
+}
+
+html.index-index-index {
+	/*background-color: white;*/
+}
+html.index-index-index body {
+	/*margin-top:0;*/
+	/*background-color: white;*/
+}
+
+.index-index figure.main-image {
+	display: inline-block;
+}
+
+.index-index figure.main-image img {
+	max-width:400px;
+	/*max-width: 100%;*/
+	margin: 0;
+}
+
+
+
+@media only screen and (max-width: 360px) {
+  .index-index figure.main-image img {
+      max-width: 100%;
+  }  
+}
+
+.index-index img.smaller {
+	/*max-height: 250px;*/
+
+}
+
+html.index-index-index .floating-about a {
+	/*background-color: transparent;*/
+}
+
+.index-item-image a {
+	border-bottom: none;
+}
+
+.index-item-image {
+	width: 100%;
+}
