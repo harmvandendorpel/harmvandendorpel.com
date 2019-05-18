@@ -22,7 +22,7 @@
             <li class="item"><a href="/list/recent">Recent</a></li>
 
             <li class="item"  style="margin-top: 100px;"><a href="/list/software">Software</a></li>
-            <li class="item"><a href="https://www.are.na/harm-van-den-dorpel/my-drawings" target="_blank">Drawings</a></li>
+            <li class="item"><a href="https://www.are.na/harm-van-den-dorpel/drawings-qkfaoxldau0" target="_blank">Drawings</a></li>
             <li class="item"><a href="/list/writing">Writing</a></li>
 
             <li class="item" style="margin-top: 100px;"><a href="/about">About</a></li>
