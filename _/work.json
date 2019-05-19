@@ -204,7 +204,7 @@
   "location": "Art Basel, Miami Beach",
   "descr":"Which art problems can blockchain solve? As part of the Art Basel Miami conversation series, I will participate in this discussion with Ruth Catlow and Matt Hall, moderated by Orit Gat.",
   "date":"2018-12-07",
-  "cat":"blockchain,talks,art fairs",
+  "cat":"blockchain,talks,fairs",
   "perma":"what-art-problems-can-blockchain-solve-art-basel-miami",
   "images": {
   "path":"/",
@@ -273,7 +273,7 @@
 "descr":"Group presentation with Harm van den Dorpel, Constant Dullaart, Jan Robert Leegte and Rafaël Rozendaal. Also shortlisted as one of four nominees for the NN Group Art Award 2019.",
 "date":"2019-02-06",
 "perma":"art-rotterdam-2019",
-"cat":"art fairs,Netherlands",
+"cat":"fairs,Netherlands",
 "images": {
 "path":"/",
 "filenames":[
@@ -417,7 +417,7 @@
         "<a href='https://www.are.na/harm-van-den-dorpel/my-drawings' target='_blank'>More drawings</a>",
         "<a href='https://www.bozar.be/en/activities/143790-art-on-paper-2018' target='_blank'>About the fair</a>"
       ],
-      "cat": "Brussels,art fairs,drawings",
+      "cat": "Brussels,fairs,drawings",
       "images": {
         "path": "/automatic-drawings/",
         "filenames": [
@@ -2158,7 +2158,7 @@
       "location":"Art Basel",
       "title": "BioLab Studios",
       "descr": "Panel talk with Robin Meier, Anicka Yi and Harm van den Dorpel, moderated by Christoph Thun-Hohenstein<br><br><iframe width='640' height='360' src='https://www.youtube.com/embed/gqVJKMdRSwY' frameborder='0' allowfullscreen></iframe>",
-      "cat": "talks,art fairs,Switzerland,writing"
+      "cat": "talks,fairs,Switzerland,writing"
     },
     {
       "date": "2015-05-20",
@@ -2306,7 +2306,7 @@
       "perma": "structures-and-textures-databases",
       "location":"Foam, Amsterdam",
       "descr": "Panel discussion at Foam Amsterdam, organized by Melanie Bühler",
-      "cat": "talks, Netherlands",
+      "cat": "talks,Netherlands",
       "related": [
         "<a href='http://lunch-bytes.com/events/past/lunch-bytes-21/' target='_blank' itemprop='url'>More information</a>"
       ],
