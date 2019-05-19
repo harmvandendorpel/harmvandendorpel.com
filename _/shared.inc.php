@@ -19,12 +19,12 @@ function getContent() {
   }
 
   function filterUpcomingLambda($item) {
-// if (!array_key_exists('date', $item)) return false;
+    if (!array_key_exists('date', $item)) return false;
     return isUpcoming($item['date']);
   }
 
   function filterArchive($item) {
-// if (!array_key_exists('date', $item)) return false;	
+    if (!array_key_exists('date', $item)) return true;	
     return !isUpcoming($item['date']);
   }
 
