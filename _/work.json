@@ -132,7 +132,7 @@
   "title":"left gallery exhibition",
   "link":"https://www.stroom.nl/",
   "date":"2019-06-18",
-  "cat":"The Netherlands,blockchain"
+  "cat":"Netherlands,blockchain"
 },
 {
   "title":"Water Cooler Talks", 
@@ -273,7 +273,7 @@
 "descr":"Group presentation with Harm van den Dorpel, Constant Dullaart, Jan Robert Leegte and Rafaël Rozendaal. Also shortlisted as one of four nominees for the NN Group Art Award 2019.",
 "date":"2019-02-06",
 "perma":"art-rotterdam-2019",
-"cat":"art fairs,The Netherlands",
+"cat":"art fairs,Netherlands",
 "images": {
 "path":"/",
 "filenames":[
@@ -528,7 +528,7 @@
       "perma": "live-and-let-live",
       "descr": "Group exhibition with work by Harm van den Dorpel, Manfred Mohr, Vera Molnar, Tabor Robak, and Miao Ying at Upstream Gallery, Amsterdam.",
       "indexPic": false,
-      "cat": "exhibitions,software,The Netherlands",
+      "cat": "exhibitions,software,Netherlands",
       "related": [
         "<a href='http://www.upstreamgallery.nl/exhibitions/153/live-and-let-live' target='_blank'>Gallery website</a>",
         "<a href='https://harmvandendorpel.com/files/Markovs-Window.pdf'>Work description (PDF)</a>"
@@ -636,7 +636,7 @@
       "location": "Upstream Gallery, Amsterdam",
       "private": false,
       "tags": "epistemology,complexity,systems,codes",
-      "cat": "AI,exhibitions,The Netherlands,solo,sculpture,genetics",
+      "cat": "AI,exhibitions,Netherlands,solo,sculpture,genetics",
       "featured": true,
       "meta": "In this solo exhibition Harm van den Dorpel features works that react to different moments in the history of cybernetics. ",
       "indexPic": true,
@@ -783,7 +783,7 @@
       "perma": "pattern-and-presence-old",
       "private": true,
       "tags": "epistemology,complexity,systems,codes",
-      "cat": "exhibitions,The Netherlands,solo,software",
+      "cat": "exhibitions,Netherlands,solo,software",
       "indexPic": false,
       "date": "2018-02-24",
       "descr": "Solo exhibition at Upstream Gallery, Amsterdam.<br><br><div style='font-family: \"times new roman\"; font-style:italic; padding:3vh; background-color:white;'>We can understand the complexity of the outer world only because our codes for constructing the inner world are similarly diverse and complex. In this sense, we are a metaphor not only for ourselves but also for the larger system in which we are embedded. This leads (her) into a subtly nuanced analysis of couplings between inner world and outer world, including the insight that because the worlds are coupled, they must in the (last) analysis be regarded as a single system. <a href='https://monoskop.org/images/5/50/Hayles_N_Katherine_How_We_Became_Posthuman_Virtual_Bodies_in_Cybernetics_Literature_and_Informatics.pdf' style='font-style: normal; font-family: serif; margin-left:3px;border:none' target='_blank' title='souce'>🔗</a></div>",
@@ -839,7 +839,7 @@
       "related": [
         "<a href='http://www.li-ma.nl/site/cm' target='_blank'>Cultural Matter on Lima website</a>"
       ],
-      "cat": "exhibitions,The Netherlands,solo",
+      "cat": "exhibitions,Netherlands,solo",
       "private": true
     },
     {
@@ -1369,7 +1369,7 @@
       "perma": "shifting-optics-iv",
       "location":"Upstream Gallery, Amsterdam",
       "date": "2017-03-25",
-      "cat": "exhibitions,The Netherlands",
+      "cat": "exhibitions,Netherlands",
       "indexPic": false,
       "seeAlso": [
         "<a href='/death-imitates-language'>Death Imitates Language</a>"
@@ -1997,7 +1997,7 @@
       "date": "2015-12-01",
       
       "title": "Metropolis M: \"Kiezen voor complexiteit\" by Annet Dekker (Dutch)",
-      "cat": "writing,The Netherlands",
+      "cat": "writing,Netherlands",
       "link": "https://www.metropolism.com/nl/features/24054_harm_van_den_dorpel",
       "tags": "annet dekker, interview, metropolis m, Deli Near Info,dutch"
     },
@@ -2306,7 +2306,7 @@
       "perma": "structures-and-textures-databases",
       "location":"Foam, Amsterdam",
       "descr": "Panel discussion at Foam Amsterdam, organized by Melanie Bühler",
-      "cat": "talks, The Netherlands",
+      "cat": "talks, Netherlands",
       "related": [
         "<a href='http://lunch-bytes.com/events/past/lunch-bytes-21/' target='_blank' itemprop='url'>More information</a>"
       ],
@@ -2404,7 +2404,7 @@
       "endDate": "2015-04-25",
       "descr": "Group show at Upstream Gallery, Amsterdam",
       "perma": "shifting-optics",
-      "cat": "exhibitions, The Netherlands",
+      "cat": "exhibitions,Netherlands",
       "images": {
         "path": "/upstream/",
         "filenames": [
