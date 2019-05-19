@@ -55,9 +55,9 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 
 
 	function getImageUrl($item) {
-		if ($item["images"] && count($item["images"]["filenames"])) {
+		if (array_key_exists('images', $item) && count($item["images"]["filenames"])) {
 			$path = "/img";
-			if ($item["images"]["path"]) {
+			if (array_key_exists('path', $item["images"])) {
 				$path .= $item["images"]["path"];
 	        	} else {
 				$path = $path."/";
