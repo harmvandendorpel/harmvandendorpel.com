@@ -4,61 +4,58 @@ const ABSOLUTE_URL = 'https://harmvandendorpel.com';
 date_default_timezone_set('Europe/Berlin');
 
 function isUpcoming($s) {
-    $date = DateTime::createFromFormat('Y-m-d', $s);
-    $today = new DateTime();
-
-    return ($today < $date);
+  $date = DateTime::createFromFormat('Y-m-d', $s);
+  $today = new DateTime();
+  return ($today < $date);
 }
 
 function getContent() {
-    function sortDesc($a, $b) {
-        return @strtotime($a['date']) < @strtotime($b['date']);
-    }
+  function sortDesc($a, $b) {
+    return @strtotime($a['date']) < @strtotime($b['date']);
+  }
 
-     function sortAsc($a, $b) {
-        return strtotime($a['date']) > strtotime($b['date']);
-    }
+    function sortAsc($a, $b) {
+    return strtotime($a['date']) > strtotime($b['date']);
+  }
 
-    function filterUpcomingLambda($item) {
-	// if (!array_key_exists('date', $item)) return false;
-        return isUpcoming($item['date']);
-    }
+  function filterUpcomingLambda($item) {
+// if (!array_key_exists('date', $item)) return false;
+    return isUpcoming($item['date']);
+  }
 
-    function filterArchive($item) {
-	// if (!array_key_exists('date', $item)) return false;	
-        return !isUpcoming($item['date']);
-    }
+  function filterArchive($item) {
+// if (!array_key_exists('date', $item)) return false;	
+    return !isUpcoming($item['date']);
+  }
 
-    $data = json_decode(file_get_contents("work.json"), true)['content'];
+  $data = json_decode(file_get_contents("work.json"), true)['content'];
 
-    $upcoming = array_filter($data, "filterUpcomingLambda");
-    $archive = array_filter($data, "filterArchive");
+  $upcoming = array_filter($data, "filterUpcomingLambda");
+  $archive = array_filter($data, "filterArchive");
 
-    uasort($archive, 'sortDesc');
-    uasort($upcoming, 'sortAsc');
-    return array_merge($upcoming, $archive);
+  uasort($archive, 'sortDesc');
+  uasort($upcoming, 'sortAsc');
+  return array_merge($upcoming, $archive);
 }
 
 function summary($input) {
-    $metaDescription = strip_tags($input);
-    $metaDescription = explode('. ', $metaDescription)[0];
-    $metaDescription = explode(', ', $metaDescription)[0];
-    $metaDescription = explode('<br>', $metaDescription)[0];
-    // echo "<!-- $metaDescription -->";
-    if (strlen($metaDescription) > 140) {
-      $metaDescription = explode(' ', $metaDescription);
+  $metaDescription = strip_tags($input);
+  $metaDescription = explode('. ', $metaDescription)[0];
+  $metaDescription = explode(', ', $metaDescription)[0];
+  $metaDescription = explode('<br>', $metaDescription)[0];
+  if (strlen($metaDescription) > 140) {
+    $metaDescription = explode(' ', $metaDescription);
 
-      while(strlen(join(' ', $metaDescription)) > 140) {
-	// echo "<!-- pop -->";
+    while(strlen(join(' ', $metaDescription)) > 140) {
         array_pop($metaDescription);
-      }
-	$metaDescription[] = '...';
-     return join(' ', $metaDescription);
-   } else {
-     return $metaDescription;
-   }
-   $metaDescription = join(' ', $metaDescription);
-   return $metaDescription;
+    }
+    $metaDescription[] = '...';
+    return join(' ', $metaDescription);
+  } else {
+    return $metaDescription;
+  }
+  $metaDescription = join(' ', $metaDescription);
+  return $metaDescription;
 }
 
 function getListMetaPic($content) {
