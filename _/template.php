@@ -69,7 +69,7 @@ function meta($title, $metaDescription, $metaImg=null, $thisPageUrl, $metaKeywor
 
     <meta name="keywords" content="<?php echo implode(', ', $keywordArr); ?>">
     <link rel="alternate" type="application/rss+xml" title="Harm van den Dorpel RSS Feed" href="https://harmvandendorpel.com/feed/" />
-    <link href="<?php echo ABSOLUTE_URL; ?>/_/css/harmvandendorpel.css?a=<?php echo 312123123; // mt_rand(0, 10000000000000); ?>" rel="stylesheet">
+    <link href="<?php echo ABSOLUTE_URL; ?>/_/css/harmvandendorpel.css?a=4483598<?php // echo mt_rand(0, 10000000000000); ?>" rel="stylesheet">
     <?php
     if ($white) {
         echo "<style>body{background-color:white;} .back-button {background-color:white !important}  .floating-about a, .floating-top-left-nav a {background-color:white !important}</style>";

@@ -1,12 +1,31 @@
 {
-  "content": [
-
+  "content": [ 
+    {
+      "theme":"dark",
+      "title": "Strucures of Redundancy",
+      "descr": "Screenshots of new autobreeder software.",
+      "perma":"structures-of-redundancy",
+      "images": {
+        "path":"/structures-of-redundancy/",
+        "filenames": [
+          {"filename":"structures-of-redundancy-screenshot-09.jpg"},
+          {"filename":"structures-of-redundancy-screenshot-10.jpg"},
+          {"filename":"structures-of-redundancy-screenshot-01.jpg"},
+          {"filename":"structures-of-redundancy-screenshot-03.jpg"},
+          {"filename":"structures-of-redundancy-screenshot-04.jpg"},
+          {"filename":"structures-of-redundancy-screenshot-05.jpg"},
+          {"filename":"structures-of-redundancy-screenshot-06.jpg"},
+          {"filename":"structures-of-redundancy-screenshot-07.jpg"},
+          {"filename":"structures-of-redundancy-screenshot-08.jpg"}
+        ]
+      }
+    },
 	  {
 	  	"private":false,
 		"cat":"AI,software",
 		"tags":"algorithms,genetics,programming,relics",
 		"indexPic":true,
-		"perma":"structures-of-redundancy",
+		"perma":"structures-of-redundancy-prints",
 		"seeAlso":["<a href='https://harmvandendorpel.com/uninnocent-bystander'>Uninnocent Bystander</a>","<a href='https://harmvandendorpel.com/nested-exchange-prints'>Nested Exchange Prints</a>"],
 		"title":"Structures of Redundancy",
 		"descr":"Compositions evolving from primitive Turing machines. The more I lose myself in coding, the more I encounter historical computer science and AI relics. The algorithm used here is my contemporary interpretation of Cartesian genetic programming, which was invented in 1999.<br><br>UltraChrome HD print on Hahnemühle paper. Each work unique edition.",

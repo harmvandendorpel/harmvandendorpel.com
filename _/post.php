@@ -41,10 +41,16 @@
     meta($title.' - Harm van den Dorpel', $metaDescription, $imgUrl, $thisPageUrl, $metaKeywords, $white);
 
     $isUpcoming = isUpcoming($item['date']);
+
+    if (array_key_exists('theme', $item)) {
+      $themeClass = 'theme-'.$item['theme'];
+    } else {
+      $themeClass = 'theme-default';
+    }
     ?>
 </head>
 
-<body>
+<body class="<?php echo $themeClass; ?>">
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
     <div class="content">
