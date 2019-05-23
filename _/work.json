@@ -183,9 +183,13 @@
     "date": "2019-05-11",
     "meta": "In this solo exhibition he presents the newest iteration of works that explore the dynamics of algorithmic architectures.",
     "images":{
-      "path":"/cartesian-genetic-programming/",
+      "path":"/uninnocent-bystander/",
       "filenames": [
-        {"orientation":"landscape",	"filename":"cgp-1554148941503-framed.jpg"}
+        {"orientation":"landscape",	"filename":"uninnocent-bystander-01.jpg", "caption":"Structures of Redundancy (autobreeder), 2019"},
+        {"orientation":"landscape",	"filename":"uninnocent-bystander-02.jpg"},
+        {"orientation":"landscape",	"filename":"uninnocent-bystander-03.jpg", "caption":"Bars, 100×100cm, 2019"},
+        {"orientation":"landscape",	"filename":"uninnocent-bystander-05.jpg"},
+        {"orientation":"landscape",	"filename":"uninnocent-bystander-04.jpg", "caption": "Cussos Unfence Thermographers,  100×100cm, 2019"}
       ]
     },
     "perma":"uninnocent-bystander",
