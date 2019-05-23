@@ -7,6 +7,7 @@
       "cat":"AI,software,genetics",
       "descr": "<p>Generative software, generating compositions evolving from primitive Turing machines. The more I lose myself in coding, the more I encounter historical computer science and AI relics. The algorithm used here is my contemporary interpretation of Cartesian genetic programming, which was invented in 1999.</p>",
       "perma":"structures-of-redundancy",
+      
       "seeAlso": [
         "<a href='/structures-of-redundancy-prints'>Prints</a>"
       ],
@@ -179,6 +180,7 @@
 
   {
     "title": "Uninnocent Bystander",
+    "featured":true,
     "related": ["<a href='https://www.lehmannsilva.com/' target='_blank'>Lehmann + Silva gallery website</a>"],
     "date": "2019-05-11",
     "meta": "In this solo exhibition he presents the newest iteration of works that explore the dynamics of algorithmic architectures.",
