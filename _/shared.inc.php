@@ -1,4 +1,6 @@
 <?php
+
+require 'log.inc.php';
 const ABSOLUTE_URL = 'https://harmvandendorpel.com';
 // const ABSOLUTE_URL = '';
 date_default_timezone_set('Europe/Berlin');

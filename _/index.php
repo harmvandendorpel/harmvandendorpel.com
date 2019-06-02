@@ -2,6 +2,7 @@
 <html lang="en" class="index-index-index">
 <head>
 <?php
+    echo "<!--".thisPageHits()." -->";
     $content = filterFeatured();
     $title = 'Harm van den Dorpel';
     $description = 'Remember what it looked like before it meant anything?';

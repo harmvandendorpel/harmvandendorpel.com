@@ -1,15 +1,11 @@
 <?php
-require "shared.inc.php";
+require 'shared.inc.php';
 
 error_reporting(E_ERROR | E_PARSE);
 
-function meta($title, $metaDescription, $metaImg=null, $thisPageUrl, $metaKeywords, $white = false) {
-    // $metaDescription = summary($metaDescription);
-?>
+function meta($title, $metaDescription, $metaImg=null, $thisPageUrl, $metaKeywords, $white = false) { ?>
     <meta charset="UTF-8">
     <title><?php echo $title; ?></title>
-    <!-- link href="https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic" rel="stylesheet" type="text/css" -->
-
     <meta content='<?php echo ABSOLUTE_URL; ?>/_/favicon.png' property='og:image'>
     <meta content='<?php echo ABSOLUTE_URL; ?>/_/favicon.png' property='twitter:image'>
     <link href="<?php echo ABSOLUTE_URL; ?>/_/favicon.png" rel='shortcut icon'>
@@ -101,9 +97,9 @@ function script() {
 }
 
 function upcomingString($dateString) {
-	$item_date = date_create($dateString);
-	$item_year = date_format($item_date, 'Y');
-    return date_format($item_date,'F').' '.$item_year;
+  $item_date = date_create($dateString);
+  $item_year = date_format($item_date, 'Y');
+  return date_format($item_date,'F').' '.$item_year;
 }
 
 function do404($perma, $content) {
@@ -144,7 +140,7 @@ function indexItem($content, $textOnly = false, $cat=null, $forceImage=false) {
   $asImage = $forceImage || $content['images'] && $content["indexPic"] == 'true' && !$textOnly;
   ?>
   <li class="item <?php echo $asImage ? 'index-item-image': ''; ?>" id="item-<?php echo $content['perma'];?>" style="width: 100%;">
-      <a sxtyle='float:left;' href="<?php echo $url; ?>" rel="bookmark" <?php if ($targetBlank) {echo "target='_blank'";}?>><?php if ($asImage) {
+      <a href="<?php echo $url; ?>" rel="bookmark" <?php if ($targetBlank) {echo "target='_blank'";}?>><?php if ($asImage) {
           indexImage($content, $isUpcoming);
       } else {
           echo $caption;
@@ -158,8 +154,7 @@ function indexItem($content, $textOnly = false, $cat=null, $forceImage=false) {
         }
 
         if ($content['location'] && !$asImage) {
-            $location = $content['location'];
-            
+            $location = $content['location'];   
             echo "<div class='list-item-date'>&nbsp;&nbsp;&mdash;&nbsp;&nbsp;$date</div>";
             echo "<div style='float: right;' class='location'>$location</div>";
         }
@@ -250,5 +245,5 @@ function d($s) {
         $result = $m[$monthIndex].' '. $arr[0];
     }
     return $result;
-
 }
+

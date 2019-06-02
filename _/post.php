@@ -5,14 +5,13 @@
     $perma = $_GET['perma'];
     $item = findItem($content, $perma);
     if ($item == null) {
-	    
-	    do404($perma, $content);
+      do404($perma, $content);
     }
 ?><!doctype html>
 <html lang="en">
 <head><?php
 
-
+    echo "<!-- ".thisPageHits()." -->";
 
     $title = $item['title'];
 
