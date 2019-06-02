@@ -5,6 +5,9 @@
       "title": "Algues Artificielles Prints",
       "perma": "algues-artificielles-2019",
       "date":"2019-06-01",
+      "related": [
+        "<a href='/talking-turtles'>Talking Turtles</a>"
+      ],
       "images": {
         "path":"/algues-artificielles-2019/",
         "filenames": [
