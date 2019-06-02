@@ -5,8 +5,9 @@
       "title": "Algues Artificielles Prints",
       "perma": "algues-artificielles-2019",
       "date":"2019-06-01",
-      "related": [
-        "<a href='/talking-turtles'>Talking Turtles</a>"
+      "seeAlso": [
+        "<a href='/talking-turtles'>Talking Turtles</a>",
+        "<a href='https://harmvandendorpel.com/pattern-and-presence#0022.jpg'>Pattern and Presence</a>"
       ],
       "images": {
         "path":"/algues-artificielles-2019/",
