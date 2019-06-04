@@ -38,7 +38,7 @@
           {"filename":"structures-of-redundancy-screenshot-03.jpg"},
           {"filename":"structures-of-redundancy-screenshot-04.jpg"},
           {"filename":"structures-of-redundancy-screenshot-05.jpg"},
-          {"filename":"structures-of-redundancy-screenshot-06.jpg"},
+          {"filename":"structures-of-redundancy-screenshot-06.jpg", "orientation":"portrait"},
           {"filename":"structures-of-redundancy-screenshot-07.jpg"},
           {"filename":"structures-of-redundancy-screenshot-08.jpg"}
         ]
@@ -60,19 +60,19 @@
       "images": {
         "path":"/cartesian-genetic-programming/",
         "filenames": [
-          {"filename":"trebles-framed.jpg","caption":"Trebles, 100&times;100cm, 2019","orientation":"landscape"},
-          {"filename":"cgp-1554148941503-framed.jpg","caption":"Bars, 100&times;100cm, 2019","orientation":"landscape"},
-          {"filename":"run-2-cgp-1556373715343.jpg","caption":"Run Too, 100&times;100cm, 2019","orientation":"landscape"},          
-          {"filename":"cgp-1554306222667-framed.jpg","caption":"Untitled, 100&times;100cm, 2019","orientation":"landscape"},
-          {"filename":"notem.jpg","caption":"Notem, 100&times;100cm, 2019","orientation":"landscape"},
-          {"filename":"alternating-routines.jpg","caption":"Untitled, 100&times;100cm, 2019","orientation":"landscape"},
-          {"filename":"cgp-1554993052565-framed.jpg","caption":"Untitled, 100&times;100cm, 2019","orientation":"landscape"},
-          {"filename":"cgp-1554994948963-framed.jpg","caption":"Untitled, 50&times;50cm, 2019","orientation":"landscape"},
-          {"filename":"cgp-1556102404101-framed.jpg","caption":"Daisies, 100&times;100cm, 2019","orientation":"landscape"},
-          {"filename":"cgp-1556312769668-framed.jpg","caption":"Multi Dimensional Zoom, 50&times;50cm, 2019","orientation":"landscape"},
-          {"filename":"cgp-1556398426760-framed.jpg", "caption":"Decompress / Embrace Redundancy, 100&times;100cm, 2019","orientation":"landscape"},
-          {"filename":"push-forth-spector-framed.jpg", "caption":"Push Forth Spectre, 100&times;100cm, 2019","orientation":"landscape"},
-          {"filename":"symbol-no-aggression-framed.jpg", "caption":"Symbol No Aggression, 100&times;100cm, 2019","orientation":"landscape"}
+          {"filename":"trebles-framed.jpg","caption":"Trebles, 100&times;100cm, 2019","orientation":"portrait"},
+          {"filename":"cgp-1554148941503-framed.jpg","caption":"Bars, 100&times;100cm, 2019","orientation":"portrait"},
+          {"filename":"run-2-cgp-1556373715343.jpg","caption":"Run Too, 100&times;100cm, 2019","orientation":"portrait"},          
+          {"filename":"cgp-1554306222667-framed.jpg","caption":"Untitled, 100&times;100cm, 2019","orientation":"portrait"},
+          {"filename":"notem.jpg","caption":"Notem, 100&times;100cm, 2019","orientation":"portrait"},
+          {"filename":"alternating-routines.jpg","caption":"Untitled, 100&times;100cm, 2019","orientation":"portrait"},
+          {"filename":"cgp-1554993052565-framed.jpg","caption":"Untitled, 100&times;100cm, 2019","orientation":"portrait"},
+          {"filename":"cgp-1554994948963-framed.jpg","caption":"Untitled, 50&times;50cm, 2019","orientation":"portrait"},
+          {"filename":"cgp-1556102404101-framed.jpg","caption":"Daisies, 100&times;100cm, 2019","orientation":"portrait"},
+          {"filename":"cgp-1556312769668-framed.jpg","caption":"Multi Dimensional Zoom, 50&times;50cm, 2019","orientation":"portrait"},
+          {"filename":"cgp-1556398426760-framed.jpg", "caption":"Decompress / Embrace Redundancy, 100&times;100cm, 2019","orientation":"portrait"},
+          {"filename":"push-forth-spector-framed.jpg", "caption":"Push Forth Spectre, 100&times;100cm, 2019","orientation":"portrait"},
+          {"filename":"symbol-no-aggression-framed.jpg", "caption":"Symbol No Aggression, 100&times;100cm, 2019","orientation":"portrait"}
         ]
       }
 	  },
@@ -129,7 +129,7 @@
 		  "images": {
 			  "path":"/nested-exchange-prints/",
 			  "filenames": [
-				{"filename":"HD-2018-Peached Renitencies Mercer-hires.jpg","caption":"Peached Renitencies Mercer, 2018"},
+				{"orientation":"portrait", "filename":"HD-2018-Peached Renitencies Mercer-hires.jpg","caption":"Peached Renitencies Mercer, 2018"},
 				{"filename":"unjust-nonderogatorily-ventriloquist-web.jpg", "caption":"Unjust Nonderogatory Ventriloquist, 2018"},
 				{"filename":"79dd9f8882b228d5decb84231c958a26cdb65218.jpg", "caption":"Cussos Unfence Thermographers, 2019"},
 				{"filename":"1f320d3e7a9f5a63c61d1d9c9f08fe6d0c86e8d8-framed.jpg","caption":"Bellybuttons Stotinka Lesbic, 2018"},
