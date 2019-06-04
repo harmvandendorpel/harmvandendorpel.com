@@ -32,15 +32,15 @@
       "images": {
         "path":"/structures-of-redundancy/",
         "filenames": [
-          {"filename":"structures-of-redundancy-screenshot-09.jpg","orientation":"landscape"},
-          {"filename":"structures-of-redundancy-screenshot-10.jpg","orientation":"landscape"},
-          {"filename":"structures-of-redundancy-screenshot-01.jpg","orientation":"landscape"},
-          {"filename":"structures-of-redundancy-screenshot-03.jpg","orientation":"landscape"},
-          {"filename":"structures-of-redundancy-screenshot-04.jpg","orientation":"landscape"},
-          {"filename":"structures-of-redundancy-screenshot-05.jpg","orientation":"landscape"},
-          {"filename":"structures-of-redundancy-screenshot-06.jpg","orientation":"landscape"},
-          {"filename":"structures-of-redundancy-screenshot-07.jpg","orientation":"landscape"},
-          {"filename":"structures-of-redundancy-screenshot-08.jpg","orientation":"landscape"}
+          {"filename":"structures-of-redundancy-screenshot-09.jpg"},
+          {"filename":"structures-of-redundancy-screenshot-10.jpg"},
+          {"filename":"structures-of-redundancy-screenshot-01.jpg"},
+          {"filename":"structures-of-redundancy-screenshot-03.jpg"},
+          {"filename":"structures-of-redundancy-screenshot-04.jpg"},
+          {"filename":"structures-of-redundancy-screenshot-05.jpg"},
+          {"filename":"structures-of-redundancy-screenshot-06.jpg"},
+          {"filename":"structures-of-redundancy-screenshot-07.jpg"},
+          {"filename":"structures-of-redundancy-screenshot-08.jpg"},
         ]
       }
     },
@@ -208,11 +208,11 @@
     "images":{
       "path":"/uninnocent-bystander/",
       "filenames": [
-        {"orientation":"landscape",	"filename":"uninnocent-bystander-01.jpg", "caption":"Structures of Redundancy (autobreeder), 2019"},
-        {"orientation":"landscape",	"filename":"uninnocent-bystander-02.jpg"},
-        {"orientation":"landscape",	"filename":"uninnocent-bystander-03.jpg", "caption":"Bars, 100×100cm, 2019"},
-        {"orientation":"landscape",	"filename":"uninnocent-bystander-05.jpg"},
-        {"orientation":"landscape",	"filename":"uninnocent-bystander-04.jpg", "caption": "Cussos Unfence Thermographers,  100×100cm, 2019"}
+        {"filename":"uninnocent-bystander-01.jpg", "caption":"Structures of Redundancy (autobreeder), 2019"},
+        {"filename":"uninnocent-bystander-02.jpg"},
+        {"filename":"uninnocent-bystander-03.jpg", "caption":"Bars, 100×100cm, 2019"},
+        {"filename":"uninnocent-bystander-05.jpg"},
+        {"filename":"uninnocent-bystander-04.jpg", "caption": "Cussos Unfence Thermographers,  100×100cm, 2019"}
       ]
     },
     "perma":"uninnocent-bystander",
