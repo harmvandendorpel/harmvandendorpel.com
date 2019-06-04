@@ -214,7 +214,7 @@ figure.main-image.landscape img{
 figure.main-image.portrait img {
 	max-width: 100%;
 	margin: auto;
-	max-height: calc(100vh - 32px);
+	max-height: calc(100vh - 48px);
 }
 
 figure.main-image+figure.main-image {
