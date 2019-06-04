@@ -129,13 +129,13 @@
 		  "images": {
 			  "path":"/nested-exchange-prints/",
 			  "filenames": [
-				{"filename":"HD-2018-Peached Renitencies Mercer-hires.jpg","orientation":"landscape","caption":"Peached Renitencies Mercer, 2018"},
-				{"filename":"unjust-nonderogatorily-ventriloquist-web.jpg","orientation":"landscape", "caption":"Unjust Nonderogatory Ventriloquist, 2018"},
-				{"filename":"79dd9f8882b228d5decb84231c958a26cdb65218.jpg","orientation":"landscape","caption":"Cussos Unfence Thermographers, 2019"},
-				{"filename":"1f320d3e7a9f5a63c61d1d9c9f08fe6d0c86e8d8-framed.jpg", "orientation":"landscape","caption":"Bellybuttons Stotinka Lesbic, 2018"},
-				{"filename":"817bbd064e1b182b0a4a458e22fa34a98d29b621-framed.jpg", "orientation":"landscape","caption":"Unfenced Dispensation, 2018"},
-				{"filename":"50c2bc41558758e0897ba473e6feabdbfed9f67d-framed.jpg", "orientation":"landscape","caption":"Griper Matildas Badgers, 2018"},
-				{"filename":"d26bed11c6dafc622ec57177dbfe43e76a47051c-framed.jpg", "orientation":"landscape","caption":"Badgers Matildas Bejant, 2018"}
+				{"filename":"HD-2018-Peached Renitencies Mercer-hires.jpg","caption":"Peached Renitencies Mercer, 2018"},
+				{"filename":"unjust-nonderogatorily-ventriloquist-web.jpg", "caption":"Unjust Nonderogatory Ventriloquist, 2018"},
+				{"filename":"79dd9f8882b228d5decb84231c958a26cdb65218.jpg", "caption":"Cussos Unfence Thermographers, 2019"},
+				{"filename":"1f320d3e7a9f5a63c61d1d9c9f08fe6d0c86e8d8-framed.jpg","caption":"Bellybuttons Stotinka Lesbic, 2018"},
+				{"filename":"817bbd064e1b182b0a4a458e22fa34a98d29b621-framed.jpg","caption":"Unfenced Dispensation, 2018"},
+				{"filename":"50c2bc41558758e0897ba473e6feabdbfed9f67d-framed.jpg", "caption":"Griper Matildas Badgers, 2018"},
+				{"filename":"d26bed11c6dafc622ec57177dbfe43e76a47051c-framed.jpg", "caption":"Badgers Matildas Bejant, 2018"}
 			  ]
 		  }
 	  },
@@ -320,13 +320,13 @@
   "images": {
   "path":"/",
   "filenames":[
-    {"caption":"W. D. Sensualist, 2018. 112×112cm. Ultrachrome HD print on Hahnemühle paper. Unique edition.", "orientation":"landscape", "filename":"WDSensualist-framed.jpg"},
-    {"orientation":"landscape","caption":"P. R. Mercer, 2018. 112×112cm. Ultrachrome HD print on Hahnemühle paper. Unique edition.", "filename":"PRMercer-framed.jpg"},
-    {"orientation":"landscape","caption":"C. C. Rashes, 2018. 112×112cm. Ultrachrome HD print on Hahnemühle paper. Unique edition.", "filename":"CCRashes-framed.jpg"},
-    {"orientation":"landscape","caption":"Wyn (Generation Unknown), 2018. UV print on multilayered CNC arylic glass, polished. 100×100×3cm.", "filename":"0009.jpg"},
-    {"orientation":"landscape","caption":"Juancar Zolim Juancar, 2017. UV print on multilayered CNC arylic glass, polished. 100×100×3cm.", "filename":"juancar-zolim-juancar-photo.jpg"},
-    {"orientation":"landscape","caption":"Wsxzaq Mrjake Wadley, 2016. UV print on multilayered CNC arylic glass, polished. 100×100×3cm.", "filename":"GS-NBA-1948.jpg" },
-    {"orientation":"landscape","caption":"Vuwtvvyft Zcuviey Dayssuck, 2016. UV print on multilayered CNC arylic glass, polished. 100×100×3cm.", "filename":"GS-NBA-1949.jpg"}
+    {"caption":"W. D. Sensualist, 2018. 112×112cm. Ultrachrome HD print on Hahnemühle paper. Unique edition.", "filename":"WDSensualist-framed.jpg"},
+    {"caption":"P. R. Mercer, 2018. 112×112cm. Ultrachrome HD print on Hahnemühle paper. Unique edition.", "filename":"PRMercer-framed.jpg"},
+    {"caption":"C. C. Rashes, 2018. 112×112cm. Ultrachrome HD print on Hahnemühle paper. Unique edition.", "filename":"CCRashes-framed.jpg"},
+    {"caption":"Wyn (Generation Unknown), 2018. UV print on multilayered CNC arylic glass, polished. 100×100×3cm.", "filename":"0009.jpg"},
+    {"caption":"Juancar Zolim Juancar, 2017. UV print on multilayered CNC arylic glass, polished. 100×100×3cm.", "filename":"juancar-zolim-juancar-photo.jpg"},
+    {"caption":"Wsxzaq Mrjake Wadley, 2016. UV print on multilayered CNC arylic glass, polished. 100×100×3cm.", "filename":"GS-NBA-1948.jpg" },
+    {"caption":"Vuwtvvyft Zcuviey Dayssuck, 2016. UV print on multilayered CNC arylic glass, polished. 100×100×3cm.", "filename":"GS-NBA-1949.jpg"}
     ]
   }
 },
