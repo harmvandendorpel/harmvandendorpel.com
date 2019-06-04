@@ -29,7 +29,7 @@ html {
 }
 
 .image-caption {
-  float:left;
+  float: left;
 }
 
 @media only screen and (max-width: 480px) {
@@ -51,7 +51,7 @@ img {
 }
 
 body {
-	margin:66px 24px 24px 24px;
+	margin: 66px 24px 24px 24px;
 	background-color: #efefef;
 }
 
@@ -89,6 +89,7 @@ h1 {
 .categories {
 	margin-top:36px;
 }
+
 ul {
 	list-style: none;
 }
@@ -96,6 +97,7 @@ ul {
 li.website {
 	margin-bottom: 48px;
 }
+
 li.website:last-child {
 	margin-bottom: 0px;
 }
@@ -135,7 +137,7 @@ a {
 
 a:hover {
 	color: blue;
-	border-bottom-color:blue;
+	border-bottom-color: blue;
 	/*background-image: linear-gradient(to top,#efefef 0%,#efefef 49%,blue 50%,blue 100%);*/
 }
 
@@ -171,7 +173,7 @@ a:hover {
 }
 
 h2 {
-	margin-bottom:48px;
+	margin-bottom: 48px;
 }
 
 .item {
@@ -185,9 +187,11 @@ h2 {
 em {
 	font-style: italic;
 }
+
 .item:first-child {
 	margin-top: 0px;
 }
+
 .item:last-child {
   margin-bottom: 0px;
 }
@@ -237,17 +241,16 @@ figure.main-image+figure.main-image {
 	margin-bottom: 0;
 }
 
-
 .main-category {
-  margin-top:40px;
+  margin-top: 40px;
 }
 
 .named-anchor {
 	visibility: hidden;
-	color:rgba(255,255,255,0);
-	position:relative;
-	top:-25px;
-	border:none;
+	color: rgba(255,255,255,0);
+	position: relative;
+	top: -25px;
+	border: none;
 }
 
 h3 {
@@ -255,21 +258,21 @@ h3 {
 }
 
 hr {
-  width:20%;
-	border:none;
-	border-bottom:1px solid black;
-	margin-top:48px;
-	margin-bottom:24px;
+  width: 20%;
+	border: none;
+	border-bottom: 1px solid black;
+	margin-top: 48px;
+	margin-bottom: 24px;
 }
 
 hr:before {
 	content: '';
-	float:left;
+	float: left;
 }
 
 hr:after{
 	content: '';
-	float:right;
+	float: right;
 }
 
 article > .text {
@@ -277,15 +280,8 @@ article > .text {
 	margin-bottom: 20px;
 }
 
-article, hr {
-}
-
 .related {
 	margin-top:20px;
-}
-
-.related li {
-
 }
 
 .image-two-cols {
@@ -308,7 +304,7 @@ article, hr {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color:white;
+	background-color: white;
 	cursor: e-resize;
 }
 
@@ -374,10 +370,9 @@ img.gallery-launcher {
 	cursor: zoom-in;
 }
 
-
 #delinearinfo img{
 	box-shadow: 2px 1px 10px rgba(0,0,0,0.25);
-	margin-bottom:5px;
+	margin-bottom: 5px;
 }
 
 .thumbs {
@@ -386,16 +381,13 @@ img.gallery-launcher {
 	height:300px;
 }
 
-.thumbs img {
-}
-
 .thumb {
 	cursor: zoom-in;
-	position:absolute;
+	position: absolute;
 }
 
 p+p {
-	margin-top:24px;
+	margin-top: 24px;
 }
 
 .mailing-list {
@@ -405,7 +397,6 @@ p+p {
 	top: 0;
 	width:100%;
 	height: 100%;
-
 	align-items: center;
 	justify-content: center;
 }
@@ -419,11 +410,11 @@ p+p {
 }
 
 .floating-logo {
-	position:fixed;
-	width:50px;
-	height:50px;
+	position: fixed;
+	width: 50px;
+	height: 50px;
 	background-size: 88%;
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 	cursor: pointer;
 	padding:5px;
 	border-radius:50%;
@@ -433,27 +424,27 @@ p+p {
 }
 
 .floating-logo:hover {
-	background-color:blue;
+	background-color: blue;
 }
 
 .floating-logo-deli {
-	background-image:url(../img/delilogo.png);
+	background-image: url(../img/delilogo.png);
 }
 
 .floating-logo-left {
-	background-image:url(../img/leftgallerylogo.png);
+	background-image: url(../img/leftgallerylogo.png);
 }
 
 .floating-logo-death {
-	background-image:url(https://deathimitateslanguage.harmvandendorpel.com/images/thumb/random.jpg);
+	background-image: url(https://deathimitateslanguage.harmvandendorpel.com/images/thumb/random.jpg);
 	border-radius: 0;
-	width:100px;
-	height:100px;
+	width: 100px;
+	height: 100px;
 	mix-blend-mode: normal;
 }
 
 .floating-logo-dissociations {
-	background-image:url(../img/rope-ring.png);
+	background-image: url(../img/rope-ring.png);
 	mix-blend-mode: normal;
 
 }
@@ -478,7 +469,7 @@ p+p {
 }
 
 .floating-about a {
-	margin-left:10px;
+	margin-left: 10px;
 }
 
 .floating-top-left-nav {
@@ -490,13 +481,13 @@ p+p {
 
 @media only screen and (max-width: 360px) {
   .floating-top-left-nav {
-    padding:12px 12px;
+    padding: 12px 12px;
   }
 }
 
 .item-upcoming a:after {
-	content:' 🕑';
-	font-size:13px;
+	content: ' 🕑';
+	font-size: 13px;
 }
 
 input.email, #mc-embedded-subscribe {
@@ -514,7 +505,7 @@ input.email, #mc-embedded-subscribe {
 }
 
 .mailing-list #mc_embed_signup {
-	padding:10px;
+	padding: 10px;
 }
 
 .mailing-info,
@@ -528,7 +519,7 @@ input.email, #mc-embedded-subscribe {
 .mailing-list #mc_embed_signup div.mce_inline_error {
 	font-weight: normal !important;
 	background-color: #ffff88 !important;
-	color:black !important;
+	color: black !important;
 }
 
 .btn-close {
@@ -538,15 +529,15 @@ input.email, #mc-embedded-subscribe {
 
 #mc-embedded-subscribe {
 	border: 1px solid black;
-	background:transparent;
-	padding-left:10px;
-	padding-right:10px;
+	background: transparent;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #mce-EMAIL {
 	width: 210px;
-	padding-left:10px;
-	padding-right:10px;
+	padding-left: 10px;
+	padding-right: 10px;
 	border: 1px solid black;
 }
 
@@ -555,7 +546,7 @@ input.email, #mc-embedded-subscribe {
 }
 
 .index-index figure.main-image img {
-	max-width:400px;
+	max-width: 400px;
 	margin: 0;
 }
 
