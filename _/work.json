@@ -146,12 +146,12 @@
 "date":"2006-10-10",
 "title":"Resurrections",
 "perma":"resurrections",
-
+"cat":"animation",
 "descr":"<div style='padding:75% 0 0 0;position:relative;margin-bottom:50px;'><iframe src='https://player.vimeo.com/video/23196701?color=ffffff&title=0&byline=0' style='position:absolute;top:0;left:0;width:100%;height:100%;' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><div style='padding:75% 0 0 0;position:relative;margin-bottom:50px;'><iframe src='https://player.vimeo.com/video/23114890?color=ffffff&title=0&byline=0' style='position:absolute;top:0;left:0;width:100%;height:100%;' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><div style='padding:75% 0 0 0;position:relative;margin-bottom:50px;'><iframe src='https://player.vimeo.com/video/23112609?color=ffffff&title=0&byline=0' style='position:absolute;top:0;left:0;width:100%;height:100%;' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><div style='padding:75% 0 0 0;position:relative;margin-bottom:50px;'><iframe src='https://player.vimeo.com/video/23110679?color=ffffff&title=0&byline=0' style='position:absolute;top:0;left:0;width:100%;height:100%;' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><div style='padding:75% 0 0 0;position:relative;margin-bottom:50px;'><iframe src='https://player.vimeo.com/video/23111052?color=ffffff&title=0&byline=0' style='position:absolute;top:0;left:0;width:100%;height:100%;' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><div style='padding:75% 0 0 0;position:relative;margin-bottom:50px;'><iframe src='https://player.vimeo.com/video/23198572?color=ffffff&title=0&byline=0' style='position:absolute;top:0;left:0;width:100%;height:100%;' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><div style='padding:75% 0 0 0;position:relative;margin-bottom:50px;'><iframe src='https://player.vimeo.com/video/23116691?color=ffffff&title=0&byline=0' style='position:absolute;top:0;left:0;width:100%;height:100%;' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>"
 },
 {
   "location": "Stroom, Den Haag",
-  "title":"left gallery exhibition",
+  "title":"Right of Access",
   "link":"https://www.stroom.nl/",
   "date":"2019-06-18",
   "cat":"Netherlands,blockchain"
