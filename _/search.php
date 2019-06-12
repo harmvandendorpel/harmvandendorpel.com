@@ -10,13 +10,29 @@ function contains($query, $field) {
   return preg_match("/".$query."/i", $field) > 0;
 }
 
+function hasImageCaption($query, $item) {
+  if ($item['images']) {
+    if ($item['images']['filenames']) {
+      $images = $item['images']['filenames'];
+      for ($i = 0; $i < count($images); $i++) {
+        $image = $images[$i];
+        if (contains($query, $image["caption"])) {
+          return true;
+        }
+      }
+    }
+  }
+  return false;
+}
+
 function filter($item) {  
   global $query;
   if (
     contains($query, $item['title']) ||
     contains($query, $item['descr']) ||
     contains($query, $item['cat']) ||
-    contains($query, $item['tags']) 
+    contains($query, $item['tags']) ||
+    hasImageCaption($query, $item)
   ) {
     return true;
   }
