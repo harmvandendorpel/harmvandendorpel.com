@@ -237,13 +237,16 @@ function d($s) {
         12 => 'December',
     );
 
-    $arr = explode('-', $s);
-    $monthIndex = (int)trim($arr[1]);
+    $date = new DateTime($s);
+
+    // $month = $date->format('M');
+    // $arr = explode('-', $s);
+    // $monthIndex = (int)trim($arr[1]);
 
     if (isUpcoming($s)) {
-        $result = ltrim($arr[2], '0').' '.$m[$monthIndex].' '. $arr[0]. ' (upcoming)';
+        $result = $date->format('W'); //ltrim($arr[2], '0').' '.$m[$monthIndex].' '. $arr[0]. ' (upcoming)';
     } else {
-        $result = $m[$monthIndex].' '. $arr[0];
+        $result = $result = $date->format('W'); // $m[$monthIndex].' '. $arr[0];
     }
     return $result;
 }
