@@ -7,7 +7,7 @@ $items = getData();
 $query = $_GET['q'];
 
 function contains($query, $field) {
-  return preg_match("/".$query."/i", $$field)  > 0;
+  return preg_match("/".$query."/i", $field) > 0;
 }
 
 function filter($item) {  
