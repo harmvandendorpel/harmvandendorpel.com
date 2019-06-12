@@ -11,6 +11,11 @@ function isUpcoming($s) {
   return $today < $date;
 }
 
+function getData() {
+    $data = json_decode(file_get_contents("work.json"), true)['content'];
+    return $data;
+}
+
 function getContent() {
   function sortDesc($a, $b) {
     return @strtotime($a['date']) < @strtotime($b['date']);
@@ -30,7 +35,7 @@ function getContent() {
     return !isUpcoming($item['date']);
   }
 
-  $data = json_decode(file_get_contents("work.json"), true)['content'];
+  $data = getData();
 
   $upcoming = array_filter($data, "filterUpcomingLambda");
   $archive = array_filter($data, "filterArchive");
