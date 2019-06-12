@@ -134,9 +134,9 @@ function indexItem($content, $textOnly = false, $cat=null, $forceImage=false) {
   $isUpcoming = isUpcoming($content['date']);
 
   $caption = $content['title'];
-  if ($isUpcoming && false) {
-    $caption .= ' ('.upcomingString($content['date']).')';
-  }
+//   if ($isUpcoming && false) {
+//     $caption .= ' ('.upcomingString($content['date']).')';
+//   }
 
   $asImage = $forceImage || $content['images'] && $content["indexPic"] == 'true' && !$textOnly;
   ?>
