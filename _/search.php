@@ -48,13 +48,16 @@ function filter($item) {
 function formatItem($item) {
   if ($item['link']) {
     $link = $item['link'];
+    $external = true;
   } else {
     $link = '/'.$item['perma'];
+    $external = false;
   }
 
   return array(
     title => $item['title'],
-    link => $link
+    link => $link,
+    external => $external
   );
 }
 
