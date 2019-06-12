@@ -7,6 +7,7 @@ $items = getData();
 $query = $_GET['q'];
 
 function filter($item) {
+  echo $item['title'];
   if (strpos($item['title'], $query) !== false) {
     return true;
   }
