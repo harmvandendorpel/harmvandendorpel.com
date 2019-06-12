@@ -1,0 +1,19 @@
+{
+  "name": "harmvandendorpel.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish": "git add -A; git commit -m 'publish'; git push origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harmvandendorpel/harmvandendorpel.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harmvandendorpel/harmvandendorpel.com/issues"
+  },
+  "homepage": "https://github.com/harmvandendorpel/harmvandendorpel.com#readme"
+}
