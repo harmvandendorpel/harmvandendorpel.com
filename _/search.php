@@ -6,11 +6,17 @@ $items = getData();
 
 $query = $_GET['q'];
 
+function contains($query, $field) {
+  return preg_match("/".$query."/i", $$field)  > 0;
+}
+
 function filter($item) {  
   global $query;
   if (
-    preg_match("/".$query."/i", $item['title'])  > 0 ||
-    preg_match("/".$query."/i", $item['descr'])  > 0
+    contains($query, $item['title']) ||
+    contains($query, $item['descr']) ||
+    contains($query, $item['cat']) ||
+    contains($query, $item['tags']) 
   ) {
     return true;
   }
