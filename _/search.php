@@ -1,5 +1,5 @@
 <?php
-// header('Content-type: application/json');
+header('Content-type: application/json');
 require "shared.inc.php";
 
 $items = getData();
@@ -21,10 +21,7 @@ if (strlen($query) <= 2) {
   $result = array_filter($items, 'filter');
 }
 
-echo "\n\n";
-echo "$query items.\n\n";
-echo count($result);
-echo "\n\n";
+echo json_encode($result);
 
 // echo json_encode($result);
 // echo levenshtein("harm","hans");
