@@ -44,9 +44,9 @@ function formatItem($item) {
   if ($item['link']) {
     $link = $item['link'];
   } else {
-    $link = '/'.$items['perma'];
+    $link = '/'.$item['perma'];
   }
-  
+
   return array(
     $title => $item['title'],
     $link => $link
