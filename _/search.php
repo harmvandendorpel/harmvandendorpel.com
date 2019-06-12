@@ -32,6 +32,7 @@ function filter($item) {
       contains($query, $item['title']) ||
       contains($query, $item['descr']) ||
       contains($query, $item['cat']) ||
+      contains($query, $item['location']) ||
       contains($query, $item['tags']) ||
       hasImageCaption($query, $item
     )
@@ -52,8 +53,8 @@ function formatItem($item) {
   }
 
   return array(
-    $title => $item['title'],
-    $link => $link
+    title => $item['title'],
+    link => $link
   );
 }
 
