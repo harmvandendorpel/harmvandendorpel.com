@@ -15,7 +15,7 @@ function filter($item) {
 }
 
 if (strlen($query) <= 1) {
-  $result = new stdClass();
+  $result = array();
 } else {
   $result = array_filter($items, 'filter');
 }
