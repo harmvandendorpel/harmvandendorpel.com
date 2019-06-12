@@ -1,7 +1,7 @@
 <?php
 require "shared.inc.php";
 
-echo getData();
+var_dump(getData());
 // echo levenshtein("harm","hans");
 // echo "\n";
 // echo levenshtein("xxxxx", "harm");
