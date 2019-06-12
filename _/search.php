@@ -7,6 +7,7 @@ $items = getData();
 $query = $_GET['q'];
 
 function filter($item) {  
+  echo $item;
   if (preg_match("/$query/i", $item['title'])) {
     return true;
   }
@@ -14,7 +15,7 @@ function filter($item) {
   return false;
 }
 
-if (strlen($query) <= 1) {
+if (strlen($query) <= 2) {
   $result = array();
 } else {
   $result = array_filter($items, 'filter');
