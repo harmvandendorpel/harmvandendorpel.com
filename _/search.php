@@ -8,7 +8,10 @@ $query = $_GET['q'];
 
 function filter($item) {  
   global $query;
-  if (preg_match("/".$query."/i", $item['title'])  > 0) {
+  if (
+    preg_match("/".$query."/i", $item['title'])  > 0 ||
+    preg_match("/".$query."/i", $item['descr'])  > 0
+  ) {
     return true;
   }
 
