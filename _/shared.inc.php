@@ -16,7 +16,7 @@ function getContent() {
     return @strtotime($a['date']) < @strtotime($b['date']);
   }
 
-    function sortAsc($a, $b) {
+  function sortAsc($a, $b) {
     return strtotime($a['date']) > strtotime($b['date']);
   }
 
