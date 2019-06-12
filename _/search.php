@@ -8,12 +8,7 @@ $query = $_GET['q'];
 
 function filter($item) {  
   global $query;
-  echo "\n";
-  echo $query . " appears in " . $item['title'];
-  echo " : ";
-  echo preg_match("/".$query."/i", $item['title']);
-
-  if (preg_match("/".$query."/i", $item['title'])) {
+  if (preg_match("/".$query."/i", $item['title'])  > 0) {
     return true;
   }
 
