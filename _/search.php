@@ -4,14 +4,23 @@ require "shared.inc.php";
 
 $items = getData();
 
+$query = $_GET['q'];
+
 function filter($item) {
-  return true;
+  if (strpos($item['title'], $query) !== false) {
+    return true;
+  }
+
+  return false;
 }
 
-$result = array_filter($items, 'filter');
+if (strlen($query) <= 1) {
+  $result = new stdClass();
+} else {
+  $result = array_filter($items, 'filter');
+}
 
 echo json_encode($result);
-
 // echo levenshtein("harm","hans");
 // echo "\n";
 // echo levenshtein("xxxxx", "harm");
