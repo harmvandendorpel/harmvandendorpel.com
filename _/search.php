@@ -20,7 +20,7 @@ if (strlen($query) <= 1) {
   $result = array_filter($items, 'filter');
 }
 
-echo $query;
+echo "$query items.\n";
 echo count($result);
 // echo json_encode($result);
 // echo levenshtein("harm","hans");
