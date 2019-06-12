@@ -20,24 +20,24 @@ function main() {
 }
 
 function processItem(item) {
-  const newItem = {
+  const result = {
     ...item,
   }
 
-  if (missing('date',newItem)) {
-    newItem.date = new Date().toJSON()
+  if (missing('date', result)) {
+    result.date = new Date().toJSON()
   } else {
-    newItem.date = new Date(newItem.date).toJSON()
+    result.date = new Date(result.date).toJSON()
   }
 
-  if (missing('pubDate', newItem)) {
-    newItem.pubDate = new Date().toJSON()
+  if (missing('pubDate', result)) {
+    result.pubDate = new Date().toJSON()
   }
 
-  if (missing('perma',newItem) && exists('title', newItem)) {
-    newItem.perma = makePermalink(newItem.title)
-    console.log(`- create permalink for ${newItem.title}`)
+  if (missing('perma', result) && exists('title', result)) {
+    result.perma = makePermalink(result.title)
+    console.log(`- create permalink for ${result.title}`)
   }
   
-  return newItem
+  return result
 }
