@@ -7,8 +7,7 @@ $items = getData();
 $query = $_GET['q'];
 
 function filter($item) {
-  echo $item['title'];
-  if (strpos($item['title'], $query) !== false) {
+  if (preg_match("/$query/i", $item['title'])) {
     return true;
   }
 
