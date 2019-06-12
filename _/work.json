@@ -1605,6 +1605,7 @@
       "tags": "",
       "seeAlso": [],
       "cat": "",
+      "private": true,
       "images": {
         "path": "/",
         "filenames": [
