@@ -607,7 +607,7 @@
       "descr": "Generative software, infinite duration, no sound, 4K.<br><br><em>These specimen find their form by a process of exchanging information with each other. Two works are taken from a determined population and communicate - gossip if you will - by flipping a node of their nested structure. The direction in this process is geared towards the greatest diversity: each specimen wants to be as different from all the other as possible.<br /><br />As the total amount of information shared among all specimen in the population does not increase over time but is merely recombined towards an optimal diverse distribution, the linear history of state changes (snapshots) can be compared to a blockchain ledger.<br /><br />The chromosomes of the specimen are stored as nested recursive &quot;tree&quot; structures, similar to those used in linguistics.</em>",
       "perma": "nested-exchange",
       "tags": "software,blockchain,genetics",
-      "cat": "software,blockchain,genetics",
+      "cat": "software,blockchain,genetics,animation",
       "related": [
         "<a href='https://tokens.harmvandendorpel.com/series/nesting-fyi' target='_blank'>View work on Tokens website</a>"
       ],
@@ -1104,7 +1104,7 @@
     	"title":"Autobreeder (lite)",
 	"date":"2016-04-01",
 	"link":"https://left.gallery/autobreeder",
-	"cat":"store,genetics",
+	"cat":"store,genetics,animation",
 	"indexPic":true,
 	"images": {
 		"path":"/shifting-optics-4/",
