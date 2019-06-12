@@ -14,7 +14,8 @@
       "date": "2011-03-03T00:00:00.000Z",
       "link": "http://www.contemporaryartdaily.com/2011/03/rhododendron-at-w139/",
       "cat": "Netherlands,curatorial,exhibitions",
-      "pubDate": "2011-03-03T00:00:00.000Z"
+      "pubDate": "2011-03-03T00:00:00.000Z",
+      "perma": "rhododendron"
     },
     {
       "title": "Video Club: Artificial Scarcity",
@@ -309,7 +310,8 @@
       "link": "https://www.stroom.nl/",
       "date": "2019-09-07T00:00:00.000Z",
       "cat": "Netherlands,blockchain,curatorial",
-      "pubDate": "2019-09-07T00:00:00.000Z"
+      "pubDate": "2019-09-07T00:00:00.000Z",
+      "perma": "rite-of-access"
     },
     {
       "title": "Water Cooler Talks",
@@ -366,7 +368,8 @@
       "private": true,
       "date": "2019-11-01T00:00:00.000Z",
       "location": "Artissima, Turin",
-      "pubDate": "2019-11-01T00:00:00.000Z"
+      "pubDate": "2019-11-01T00:00:00.000Z",
+      "perma": "solo-presentation-with-narrative-projects"
     },
     {
       "title": "Uninnocent Bystander",
@@ -466,14 +469,16 @@
       "title": "Hyphenation .xyz",
       "link": "http://hyphenation.xyz/",
       "cat": "software,websites",
-      "pubDate": "2019-02-24T00:00:00.000Z"
+      "pubDate": "2019-02-24T00:00:00.000Z",
+      "perma": "hyphenation-xyz"
     },
     {
       "date": "2019-04-13T00:00:00.000Z",
       "title": "Temporality is",
       "link": "http://temporality.is/",
       "cat": "websites,software",
-      "pubDate": "2019-04-13T00:00:00.000Z"
+      "pubDate": "2019-04-13T00:00:00.000Z",
+      "perma": "temporality-is"
     },
     {
       "title": "Dark Calendar .com",
@@ -489,7 +494,8 @@
           }
         ]
       },
-      "pubDate": "2019-02-01T00:00:00.000Z"
+      "pubDate": "2019-02-01T00:00:00.000Z",
+      "perma": "dark-calendar-com"
     },
     {
       "title": "Art Rotterdam, with Upstream Gallery",
@@ -609,49 +615,56 @@
       "link": "https://www.artinamericamagazine.com/news-features/news/family-function-harm-van-den-dorpels-algorithmic-art/",
       "date": "2016-06-30T00:00:00.000Z",
       "cat": "writing",
-      "pubDate": "2016-06-30T00:00:00.000Z"
+      "pubDate": "2016-06-30T00:00:00.000Z",
+      "perma": "art-in-america-family-function-by-nora-n-khan"
     },
     {
       "title": "Artipoeus: \"Facebook, Fascism and the Aesthetics of Genetics\" by Susie Kahlich (podcast)",
       "link": "https://soundcloud.com/artipoeus/art-30-facebook-fascism-and-the-aesthetics-of-genetics",
       "cat": "writing",
       "date": "2017-02-02T00:00:00.000Z",
-      "pubDate": "2017-02-02T00:00:00.000Z"
+      "pubDate": "2017-02-02T00:00:00.000Z",
+      "perma": "artipoeus-facebook-fascism-and-the-aesthetics-of-genetics-by-susie-kahlich-podcast"
     },
     {
       "title": "\"Programming as Writing\", invited by Laurel Schwulst",
       "link": "https://www.youtube.com/watch?v=VOPuCzSg_xk&feature=youtu.be",
       "date": "2018-10-10T00:00:00.000Z",
       "location": "Interactive Concrete Poetry, Yale",
-      "pubDate": "2018-10-10T00:00:00.000Z"
+      "pubDate": "2018-10-10T00:00:00.000Z",
+      "perma": "programming-as-writing-invited-by-laurel-schwulst"
     },
     {
       "title": "Rhizome: Artist Profile by William Kherbek",
       "link": "https://rhizome.org/editorial/2016/feb/10/artist-profile-harm-van-den-dorpel/",
       "date": "2016-02-10T00:00:00.000Z",
       "cat": "writing",
-      "pubDate": "2016-02-10T00:00:00.000Z"
+      "pubDate": "2016-02-10T00:00:00.000Z",
+      "perma": "rhizome-artist-profile-by-william-kherbek"
     },
     {
       "title": "E-State Realisms catalogue with essay by Nora N. Khan",
       "date": "2018-07-30T00:00:00.000Z",
       "link": "https://harmvandendorpel.com/files/e-state_realisms_catalogue.pdf",
       "cat": "writing",
-      "pubDate": "2018-07-30T00:00:00.000Z"
+      "pubDate": "2018-07-30T00:00:00.000Z",
+      "perma": "e-state-realisms-catalogue-with-essay-by-nora-n-khan"
     },
     {
       "title": "Rhizome: \"left.gallery: Downloadable Objects, Blockchain, Bitcoin\" by Danni Shen",
       "link": "https://rhizome.org/editorial/2018/jan/02/leftgallery-downloadable-objects-blockchain-bitcoin/",
       "date": "2018-01-02T00:00:00.000Z",
       "cat": "writing,blockchain",
-      "pubDate": "2018-01-02T00:00:00.000Z"
+      "pubDate": "2018-01-02T00:00:00.000Z",
+      "perma": "rhizome-left-gallery-downloadable-objects-blockchain-bitcoin-by-danni-shen"
     },
     {
       "title": "Artforum: review by Eva Scharrer",
       "link": "https://www.artforum.com/print/reviews/201505/harm-van-den-dorpel-51611",
       "date": "2015-05-05T00:00:00.000Z",
       "cat": "writing",
-      "pubDate": "2015-05-05T00:00:00.000Z"
+      "pubDate": "2015-05-05T00:00:00.000Z",
+      "perma": "artforum-review-by-eva-scharrer"
     },
     {
       "title": "left gallery explainer by Harm van den Dorpel",
@@ -659,7 +672,8 @@
       "date": "2018-09-06T00:00:00.000Z",
       "cat": "writing,blockchain",
       "private": true,
-      "pubDate": "2018-09-06T00:00:00.000Z"
+      "pubDate": "2018-09-06T00:00:00.000Z",
+      "perma": "left-gallery-explainer-by-harm-van-den-dorpel"
     },
     {
       "title": "Berlin Zentrum der Netzkunst - Damals und Heute",
@@ -1335,7 +1349,8 @@
           }
         ]
       },
-      "pubDate": "2016-04-01T00:00:00.000Z"
+      "pubDate": "2016-04-01T00:00:00.000Z",
+      "perma": "autobreeder-lite"
     },
     {
       "title": "Immortalismus",
@@ -2292,7 +2307,8 @@
       "link": "https://rhizome.org/editorial/2015/dec/14/deli-near-info/",
       "cat": "writing",
       "tags": "Deli Near Info, website, platform, social media,rhizome,ché zara blomfield, editorial, front page",
-      "pubDate": "2015-12-14T00:00:00.000Z"
+      "pubDate": "2015-12-14T00:00:00.000Z",
+      "perma": "rhizome-dissociative-social-media-by-ch-zara-blomfield"
     },
     {
       "date": "2015-12-01T00:00:00.000Z",
@@ -2300,7 +2316,8 @@
       "cat": "writing,Netherlands",
       "link": "https://www.metropolism.com/nl/features/24054_harm_van_den_dorpel",
       "tags": "annet dekker, interview, metropolis m, Deli Near Info,dutch",
-      "pubDate": "2015-12-01T00:00:00.000Z"
+      "pubDate": "2015-12-01T00:00:00.000Z",
+      "perma": "metropolis-m-kiezen-voor-complexiteit-by-annet-dekker-dutch"
     },
     {
       "date": "2015-12-12T00:00:00.000Z",
@@ -2614,7 +2631,8 @@
       "title": "Kunstgespräche: \"Death Imitates Language\", interviewed by Nick Koppenhagen (podcast)",
       "cat": "writing",
       "link": "http://kunstgespraeche.com/harm-van-den-dorpel/",
-      "pubDate": "2017-12-01T00:00:00.000Z"
+      "pubDate": "2017-12-01T00:00:00.000Z",
+      "perma": "kunstgespr-che-death-imitates-language-interviewed-by-nick-koppenhagen-podcast"
     },
     {
       "date": "2014-06-15T00:00:00.000Z",
