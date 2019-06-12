@@ -20,13 +20,13 @@ function processItem(item) {
     ...item,
   }
 
-  if (!('date' in newItem)) {
+  if (!('date' in newItem) || newItem.date === null) {
     newItem.date = new Date().toJSON()
   } else {
     newItem.date = new Date(newItem.date).toJSON()
   }
 
-  if (!('pubDate' in newItem)) {
+  if (!('pubDate' in newItem) || newItem.pubDate === null) {
     newItem.pubDate = new Date().toJSON()
   }
   
