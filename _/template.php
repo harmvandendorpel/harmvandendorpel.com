@@ -97,7 +97,7 @@ function script() {
 }
 
 function upcomingString($dateString) {
-  $item_date = date_create($dateString);
+  $item_date = new DateTime($dateString);
   $item_year = date_format($item_date, 'Y');
   return date_format($item_date,'F').' '.$item_year;
 }

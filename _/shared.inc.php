@@ -8,7 +8,7 @@ date_default_timezone_set('Europe/Berlin');
 function isUpcoming($s) {
   $date = new DateTime($s); //DateTime::createFromFormat('Y-m-d', $s);
   $today = new DateTime();
-  return ($today < $date);
+  return $today < $date;
 }
 
 function getContent() {
@@ -17,7 +17,7 @@ function getContent() {
   }
 
   function sortAsc($a, $b) {
-    return strtotime($a['date']) > strtotime($b['date']);
+    return @strtotime($a['date']) > @strtotime($b['date']);
   }
 
   function filterUpcomingLambda($item) {
