@@ -10,24 +10,48 @@
 
     meta($title, $description, $imgUrl, 'https://harmvandendorpel.com/', $keywords);
 ?>
+
+<style>
+.index-index-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 36px;
+  float: left;
+  width: 100%;
+  display:block;
+}
+
+#list-search-results {
+  display: none;
+}
+</style>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
 <div class="content">
     <div class="index-index">
-        <ul style="margin:0;padding:0;list-style: none; margin-bottom: 36px;float:left;width:100%;">
-            <?php foreach($content as $item) indexItem($item, true, $cat, false); ?>
+        <input
+            type="text"
+            style="width: 100%; margin-bottom: 36px; padding: 5px; box-sizing: border-box;"
+            id="searchBox"
+            placeholder="Search"
+        />
+        <ul class="index-index-list" id="list-default">
+            <?php foreach($content as $item) echo indexItem($item, true, $cat, false); ?>
             
             <li class="item" style="margin-top: 100px;"><a href="/list/exhibitions">Exhibitions</a></li>
             <li class="item"><a href="/list/upcoming">Upcoming</a></li>
             <li class="item"><a href="/list/recent">Recent</a></li>
 
-            <li class="item"  style="margin-top: 100px;"><a href="/list/software">Software</a></li>
+            <li class="item" style="margin-top: 100px;"><a href="/list/software">Software</a></li>
             <li class="item"><a href="https://www.are.na/harm-van-den-dorpel/drawings-qkfaoxldau0" target="_blank">Drawings</a></li>
             <li class="item"><a href="/list/writing">Writing</a></li>
 
             <li class="item" style="margin-top: 100px;"><a href="/about">About</a></li>
             <li class="item"><a href="#" class="btn-mailinglist">Mailinglist</a></li>
+        </ul>
+        <ul class="index-index-list" id="list-search-results">            
         </ul>
     </div>
 
@@ -68,5 +92,50 @@
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
 <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <script src="_/js/index.js?nocache=a1xrieeruy23"></script>
+<script>
+
+const searchCache = {}
+
+function search(value) {  
+  const url = '/_/search.php?q=' + value
+  
+  return new Promise(resolve => {
+    if (value in searchCache) {
+        resolve(searchCache[value])
+    } else {
+        $.get(url, function (result) {            
+            searchCache[value] = result
+            resolve(result)
+        })
+    }
+  })
+}
+
+const input = document.getElementById('searchBox')
+
+function renderResults(result) {
+    const query = input.value  
+    if (query.length > 0) {
+        $searchResults = $("#list-search-results")
+        $searchResults.html(result.html)
+        $searchResults.show()
+        $("#list-default").hide();
+    } else {
+        $("#list-search-results").hide();
+        $("#list-default").show();
+    }
+}
+
+function updateSearch() {
+  const query = input.value  
+  search(query).then(() => {
+    renderResults(searchCache[query])
+  })
+}
+
+input.addEventListener('keyup', updateSearch)
+
+</script>
+
 </body>
 </html>

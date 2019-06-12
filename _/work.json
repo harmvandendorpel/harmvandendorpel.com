@@ -311,7 +311,8 @@
       "date": "2019-09-07T00:00:00.000Z",
       "cat": "Netherlands,blockchain,curatorial",
       "pubDate": "2019-09-07T00:00:00.000Z",
-      "perma": "rite-of-access"
+      "perma": "rite-of-access",
+      "descr": "A group exhibition at Stroom Den Haag, curated by Emer Grant and Harm van den Dorpel."
     },
     {
       "title": "Water Cooler Talks",
@@ -920,7 +921,7 @@
       "perma": "pattern-and-presence",
       "location": "Upstream Gallery, Amsterdam",
       "private": false,
-      "tags": "epistemology,complexity,systems,codes",
+      "tags": "epistemology,complexity,systems,codes,sculpture,spheres",
       "cat": "AI,exhibitions,Netherlands,solo,sculpture,genetics",
       "featured": true,
       "meta": "In this solo exhibition Harm van den Dorpel features works that react to different moments in the history of cybernetics. ",
@@ -3291,7 +3292,7 @@
         ]
       },
       "perma": "art-post-internet",
-      "cat": "exhibitions, Beijing",
+      "cat": "exhibitions, Beijing,sculpture,spheres",
       "pubDate": "2014-03-01T00:00:00.000Z"
     },
     {
@@ -3386,7 +3387,8 @@
           }
         ]
       },
-      "pubDate": "2013-04-19T00:00:00.000Z"
+      "pubDate": "2013-04-19T00:00:00.000Z",
+      "tags": "collage,sculpture,spheres"
     },
     {
       "date": "2012-09-16T00:00:00.000Z",

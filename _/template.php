@@ -65,7 +65,7 @@ function meta($title, $metaDescription, $metaImg=null, $thisPageUrl, $metaKeywor
 
     <meta name="keywords" content="<?php echo implode(', ', $keywordArr); ?>">
     <link rel="alternate" type="application/rss+xml" title="Harm van den Dorpel RSS Feed" href="https://harmvandendorpel.com/feed/" />
-    <link href="<?php echo ABSOLUTE_URL; ?>/_/css/harmvandendorpel.css?a=25483598<?php // echo mt_rand(0, 10000000000000); ?>" rel="stylesheet">
+    <link href="<?php echo ABSOLUTE_URL; ?>/_/css/harmvandendorpel.css?a=2522483598<?php // echo mt_rand(0, 10000000000000); ?>" rel="stylesheet">
     <?php
     if ($white) {
         echo "<style>body{background-color:white;} .back-button {background-color:white !important}  .floating-about a, .floating-top-left-nav a {background-color:white !important}</style>";
@@ -114,7 +114,7 @@ function do404($perma, $content) {
     asort($rating);
     reset($rating);
     $target = key($rating);
-    $redirect_url = "https://harmvandendorpel.com/$target";
+    $redirect_url = ABSOLUTE_URL.$target;
     // echo $redirect_url;
     header("Location: $redirect_url");
     die();
@@ -134,34 +134,32 @@ function indexItem($content, $textOnly = false, $cat=null, $forceImage=false) {
   $isUpcoming = isUpcoming($content['date']);
 
   $caption = $content['title'];
-//   if ($isUpcoming && false) {
-//     $caption .= ' ('.upcomingString($content['date']).')';
-//   }
 
   $asImage = $forceImage || $content['images'] && $content["indexPic"] == 'true' && !$textOnly;
-  ?>
-  <li class="item <?php echo $asImage ? 'index-item-image': ''; ?>" id="item-<?php echo $content['perma'];?>" style="width: 100%;">
-      <a href="<?php echo $url; ?>" rel="bookmark" <?php if ($targetBlank) {echo "target='_blank'";}?>><?php if ($asImage) {
-          indexImage($content, $isUpcoming);
-      } else {
-          echo $caption;
-      }
-      ?></a>
-      
-      <?php
-        $date = d($content['date']);
-        if (!$asImage && !$content['location']) {
-          echo "<div class='list-item-date'>$date</div>";
-        }
+  $result = '';
+  
+  $extraClass = $asImage ? 'index-item-image': '';
+  $id = 'item-'.$content['perma'];
+  $result .= "<li class='item $extraClass' id='$id' style='width: 100%;'>";
+  $target = $targetBlank ? "target='_blank'": '';
 
-        if ($content['location'] && !$asImage) {
-            $location = $content['location'];   
-            echo "<div class='list-item-date'>&nbsp;&nbsp;&mdash;&nbsp;&nbsp;$date</div>";
-            echo "<div style='float: right;' class='location'>$location</div>";
-        }
-      ?>
-  </li>
-<?php
+  $result .= "<a href='$url' rel='bookmark' '$target'>";
+  
+  $result .= $asImage ? indexImage($content, $isUpcoming) : $caption;
+  $result .='</a>';
+  $date = d($content['date']);
+
+  if (!$asImage && !$content['location']) {
+    $result .= "<div class='list-item-date'>$date</div>";
+  } 
+
+  if ($content['location'] && !$asImage) {
+    $location = $content['location'];   
+    $result .= "<div class='list-item-date'>&nbsp;&nbsp;&mdash;&nbsp;&nbsp;$date</div>";
+    $result .= "<div style='float: right;' class='location'>$location</div>";
+}  
+  $result .= '</li>';
+  return $result;
 }
 
 function footer($showMailinglist=true) {
@@ -213,12 +211,12 @@ function indexImage($content, $isUpcoming = false) {
         $figCaption = "<div>$caption</div>";
     }
     
-    ?>
-    <figure class='main-image <?php echo $class;?>'>
-        <img alt='<?php echo $caption;?>' src='<?php echo $url; ?>'>
-        <figcaption><?php echo $figCaption;?></figcaption>
-    </figure>
-<?php
+    $result = '';
+    $result .= "<figure class='main-image $class'>";
+    $result .= "<img alt='$caption>' src='$url'>";
+    $result .= "<figcaption>$figCaption</figcaption>";
+    $result .= "</figure>";
+    return $result;
 }
 
 function d($s) {

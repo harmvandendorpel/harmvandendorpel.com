@@ -1,19 +1,21 @@
 <?php
 
-include('/var/www/mysql.php');
+$log = false;
 
-$database = 'harmvandendorpel';
-$conn = new mysqli($servername, $username, $password, $database);
+if ($log) {
+  include('/var/www/mysql.php');
+  $database = 'harmvandendorpel';
 
-
-$referer = $_SERVER['HTTP_REFERER'];
-$hostname = $_SERVER['REMOTE_ADDR'];
-$url = $_SERVER['REQUEST_URI'];
-$sql = "INSERT INTO logging (host,referer, url) VALUES ('$hostname','$referer','$url')";
-
-$conn->query($sql);
+  $conn = new mysqli($servername, $username, $password, $database);
+  $referer = $_SERVER['HTTP_REFERER'];
+  $hostname = $_SERVER['REMOTE_ADDR'];
+  $url = $_SERVER['REQUEST_URI'];
+  $sql = "INSERT INTO logging (host,referer, url) VALUES ('$hostname','$referer','$url')";
+  $conn->query($sql);
+}
 
 function hits($url) {
+  if (!$log) return -1;
   global $conn;
   $sql = "SELECT COUNT(*) AS hits FROM logging WHERE url='$url' GROUP BY url;";
   $result = $conn->query($sql);
@@ -25,4 +27,3 @@ function hits($url) {
 function thisPageHits() {
   return hits($_SERVER['REQUEST_URI']);
 }
-

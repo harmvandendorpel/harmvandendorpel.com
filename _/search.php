@@ -1,6 +1,6 @@
 <?php
 header('Content-type: application/json');
-require "shared.inc.php";
+require "template.php";
 
 $items = getData();
 
@@ -46,29 +46,56 @@ function filter($item) {
 }
 
 function formatItem($item) {
-  if ($item['link']) {
-    $link = $item['link'];
-    $external = true;
-  } else {
-    $link = '/'.$item['perma'];
-    $external = false;
-  }
+  // if ($item['link']) {
+  //   $link = $item['link'];
+  //   $external = true;
+  // } else {
+  //   $link = '/'.$item['perma'];
+  //   $external = false;
+  // }
 
-  return array(
-    title => $item['title'],
-    link => $link,
-    external => $external
-  );
+  return $item;
+  // return array(
+  //   title => $item['title'],
+  //   link => $link,
+  //   external => $external,
+  //   date => $item['date'],
+  //   location => $item['location'],
+  //   type => 'item'
+  // );
 }
 
-if (strlen($query) <= 2) {
-  $result = array();
-} else {
-  $result = array_map(
-    'formatItem', array_filter(
-      $items, 'filter'
+function content($items) {
+  $result = '';
+  foreach($items as $item) $result .= indexItem($item, true, null, false);
+  return $result;
+}
+
+function main() {
+  global $query, $items;
+  if (strlen($query) < 1) {
+    $result = array();
+  } else {
+    $result_assoc = array_map(
+      'formatItem', 
+      array_filter(
+        $items, 'filter'
+      )
+    );
+    $result = array();
+    foreach ($result_assoc as $key => $value) {
+      $result[] = $value;
+    }
+
+    $result = array_slice($result, 0, 12);
+  }
+
+  echo json_encode(
+    array(
+      items => $result,
+      html => content($result)
     )
   );
 }
 
-echo json_encode($result);
+main();

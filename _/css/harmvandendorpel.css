@@ -1,13 +1,6 @@
 @charset "utf-8";
 
 @import url('https://rsms.me/inter/inter-ui.css');
-html {
-  font-family: 'Inter UI', sans-serif;
-}
-
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter UI var alt', sans-serif; }
-}
 
 * {
 	font-size: 16px;
@@ -16,6 +9,27 @@ html {
 	padding: 0;
 	letter-spacing: -0.002em;
   font-weight: 400;
+}
+
+html {
+	overflow-y: scroll;
+	margin-right: 0;
+  font-family: 'Inter UI', sans-serif;
+}
+
+body {
+	margin: 66px 24px 24px 24px;
+	background-color: #efefef;
+}
+
+@media only screen and (max-width: 360px) {
+  body {
+    margin: 66px 12px 12px 12px;
+  }
+}
+
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter UI var alt', sans-serif; }
 }
 
 .back-button:before {
@@ -50,11 +64,6 @@ img {
 	display: block;
 }
 
-body {
-	margin: 66px 24px 24px 24px;
-	background-color: #efefef;
-}
-
 .theme-dark {
   background-color: #222;
   color: white;
@@ -62,12 +71,6 @@ body {
 
 .theme-dark a {
   color: white;
-}
-
-@media only screen and (max-width: 360px) {
-  body {
-    margin: 66px 12px 12px 12px;
-  }
 }
 
 .description {
@@ -129,7 +132,6 @@ a {
 	background-color: #efefef;
 }
 
-
 .theme-dark .floating-about a,
 .theme-dark .floating-top-left-nav a {
   background-color: #222;
@@ -138,7 +140,6 @@ a {
 a:hover {
 	color: blue;
 	border-bottom-color: blue;
-	/*background-image: linear-gradient(to top,#efefef 0%,#efefef 49%,blue 50%,blue 100%);*/
 }
 
 .main-menu {
@@ -446,7 +447,6 @@ p+p {
 .floating-logo-dissociations {
 	background-image: url(../img/rope-ring.png);
 	mix-blend-mode: normal;
-
 }
 
 .floating-logo-tokens {

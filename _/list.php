@@ -29,7 +29,7 @@
     <ul style="list-style: none; padding:0; margin: 0; float:left;margin-bottom: 36px;width: 100%;"><?php
         
         foreach($content as $item) {
-            indexItem($item, $textOnly, $cat);
+            echo indexItem($item, $textOnly, $cat);
         }
 
     ?></ul>
