@@ -99,7 +99,8 @@ function script() {
 function upcomingString($dateString) {
   $item_date = new DateTime($dateString);
   $item_year = date_format($item_date, 'Y');
-  return date_format($item_date,'F').' '.$item_year;
+  $item_month = date_format($item_date, 'M');
+  return $item_month.' '.$item_year;
 }
 
 function do404($perma, $content) {
