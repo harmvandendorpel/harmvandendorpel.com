@@ -244,7 +244,7 @@ function d($s) {
     // $monthIndex = (int)trim($arr[1]);
 
     if (isUpcoming($s)) {
-        $result = $date->format('W'); //ltrim($arr[2], '0').' '.$m[$monthIndex].' '. $arr[0]. ' (upcoming)';
+        $result = $result = $date->format('d F Y'). ' (upcoming)';
     } else {
         $result = $result = $date->format('F Y'); // $m[$monthIndex].' '. $arr[0];
     }
