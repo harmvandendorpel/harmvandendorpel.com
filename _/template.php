@@ -104,7 +104,7 @@ function upcomingString($dateString) {
 }
 
 function do404($perma, $content) {
-    http_response_code(301);
+    http_response_code(302);
     $rating = array();
     foreach ($content as $item) {
       $b = strtolower($item['perma']);
