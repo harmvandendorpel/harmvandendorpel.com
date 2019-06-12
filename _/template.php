@@ -100,16 +100,16 @@ function upcomingString($dateString) {
   $item_date = new DateTime($dateString);
   $item_year = date_format($item_date, 'Y');
   $item_month = date_format($item_date, 'M');
-  return $item_month.' '.$item_year;
+  return $item_month; // .' '.$item_year;
 }
 
 function do404($perma, $content) {
     http_response_code(301);
     $rating = array();
     foreach ($content as $item) {
-        $b = strtolower($item['perma']);
-	$l = levenshtein($perma, $b);
-	$rating[$b] = $l;
+      $b = strtolower($item['perma']);
+	  $l = levenshtein($perma, $b);
+	  $rating[$b] = $l;
     }
     asort($rating);
     reset($rating);
