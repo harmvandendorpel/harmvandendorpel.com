@@ -1,12 +1,12 @@
 <?php
-header('Content-type: application/json');
+// header('Content-type: application/json');
 require "shared.inc.php";
 
 $items = getData();
 
 $query = $_GET['q'];
 
-function filter($item) {
+function filter($item) {  
   if (preg_match("/$query/i", $item['title'])) {
     return true;
   }
@@ -20,7 +20,9 @@ if (strlen($query) <= 1) {
   $result = array_filter($items, 'filter');
 }
 
-echo json_encode($result);
+echo $query;
+echo count($result);
+// echo json_encode($result);
 // echo levenshtein("harm","hans");
 // echo "\n";
 // echo levenshtein("xxxxx", "harm");
