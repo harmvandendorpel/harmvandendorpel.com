@@ -28,11 +28,14 @@ function hasImageCaption($query, $item) {
 function filter($item) {  
   global $query;
   if (
-    contains($query, $item['title']) ||
-    contains($query, $item['descr']) ||
-    contains($query, $item['cat']) ||
-    contains($query, $item['tags']) ||
-    hasImageCaption($query, $item) &&
+    (
+      contains($query, $item['title']) ||
+      contains($query, $item['descr']) ||
+      contains($query, $item['cat']) ||
+      contains($query, $item['tags']) ||
+      hasImageCaption($query, $item
+    )
+    ) &&
     $item['private'] !== true
   ) {
     return true;
