@@ -18,10 +18,20 @@ function filter($item) {
   return false;
 }
 
+function formatItem($item) {
+  return array(
+    $title => $item['title']
+  );
+}
+
 if (strlen($query) <= 2) {
   $result = array();
 } else {
-  $result = array_filter($items, 'filter');
+  $result = array_map(
+    'formatItem', array_filter(
+      $items, 'filter'
+    )
+  );
 }
 
 echo json_encode($result);
