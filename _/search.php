@@ -7,6 +7,7 @@ $items = getData();
 $query = $_GET['q'];
 
 function filter($item) {  
+  global $query;
   echo "\n";
   echo $query . " appears in " . $item['title'];
   echo " : ";
