@@ -32,7 +32,8 @@ function filter($item) {
     contains($query, $item['descr']) ||
     contains($query, $item['cat']) ||
     contains($query, $item['tags']) ||
-    hasImageCaption($query, $item)
+    hasImageCaption($query, $item) &&
+    $item['private'] !== true
   ) {
     return true;
   }
