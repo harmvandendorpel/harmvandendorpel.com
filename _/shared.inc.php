@@ -6,7 +6,7 @@ const ABSOLUTE_URL = 'https://harmvandendorpel.com';
 date_default_timezone_set('Europe/Berlin');
 
 function isUpcoming($s) {
-  $date = DateTime::createFromFormat('Y-m-d', $s);
+  $date = new DateTime($s); //DateTime::createFromFormat('Y-m-d', $s);
   $today = new DateTime();
   return ($today < $date);
 }

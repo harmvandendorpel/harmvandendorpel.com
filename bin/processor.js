@@ -21,6 +21,11 @@ function main() {
 }
 
 function processItem(item) {
+  if (missing('title', item)) {
+    console.warn('missing title, skipping 1...')
+    return item
+  }
+
   const result = {
     ...item,
   }
@@ -35,6 +40,7 @@ function processItem(item) {
     result.pubDate = now()
   }
 
+  
   if (missing('perma', result) && exists('title', result)) {
     result.perma = makePermalink(result.title)
     console.log(`- create permalink for ${result.title}`)
