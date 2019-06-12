@@ -7,9 +7,9 @@ $items = getData();
 $query = $_GET['q'];
 
 function filter($item) {  
-  echo $item['title'];
+  echo "\n\n$item['title'] : ";
   echo preg_match("/$query/i", $item['title']);
-   
+
   if (preg_match("/$query/i", $item['title'])) {
     return true;
   }
