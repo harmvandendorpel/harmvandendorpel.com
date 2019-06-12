@@ -24,7 +24,15 @@ function exists(key, array) {
 
 function missing(key, array) { return !exists(key, array) }
 
+function now() {
+  return new Date().toJSON()
+}
 
 module.exports = {
-  readItems, saveItems, makePermalink, missing, exists
+  readItems,
+  saveItems,
+  makePermalink,
+  missing,
+  exists,
+  now
 }

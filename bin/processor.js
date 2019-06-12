@@ -2,7 +2,8 @@ const {
   saveItems,
   readItems,
   missing,
-  exists
+  exists,
+  now,
 } = require('./shared')
 
 main()
@@ -25,13 +26,13 @@ function processItem(item) {
   }
 
   if (missing('date', result)) {
-    result.date = new Date().toJSON()
+    result.date = now()
   } else {
     result.date = new Date(result.date).toJSON()
   }
 
   if (missing('pubDate', result)) {
-    result.pubDate = new Date().toJSON()
+    result.pubDate = now()
   }
 
   if (missing('perma', result) && exists('title', result)) {
