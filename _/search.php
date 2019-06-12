@@ -41,8 +41,15 @@ function filter($item) {
 }
 
 function formatItem($item) {
+  if ($item['link']) {
+    $link = $item['link'];
+  } else {
+    $link = '/'.$items['perma'];
+  }
+  
   return array(
-    $title => $item['title']
+    $title => $item['title'],
+    $link => $link
   );
 }
 
@@ -57,9 +64,3 @@ if (strlen($query) <= 2) {
 }
 
 echo json_encode($result);
-
-// echo json_encode($result);
-// echo levenshtein("harm","hans");
-// echo "\n";
-// echo levenshtein("xxxxx", "harm");
-// echo "\n";
