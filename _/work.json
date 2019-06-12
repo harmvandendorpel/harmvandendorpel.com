@@ -27,6 +27,7 @@
       "title": "Algues Artificielles Prints",
       "perma": "algues-artificielles-2019",
       "date":"2019-06-01",
+      "indexPic":true,
       "cat":"software,genetics",
       "seeAlso": [
         "<a href='/talking-turtles'>Talking Turtles</a>",
@@ -35,9 +36,9 @@
       "images": {
         "path":"/algues-artificielles-2019/",
         "filenames": [
+          {"filename":"drawing-1481916821427-framed-web.jpg", "caption": "Unheard Estimator, 80&times;64cm, 2019"},
           {"filename":"1481915995217-mock-framed-web.jpg", "caption":"Profane Snout, 80&times;64cm, 2019"},
-          {"filename":"drawing-1481916029428-framed-mock.jpg", "caption":"Bloated Taunt, 80&times;64cm, 2019"},
-          {"filename":"drawing-1481916821427-framed-web.jpg", "caption": "Unheard Estimator, 80&times;64cm, 2019"}
+          {"filename":"drawing-1481916029428-framed-mock.jpg", "caption":"Bloated Taunt, 80&times;64cm, 2019"}
         ]
       }
     },
