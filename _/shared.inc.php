@@ -7,7 +7,6 @@ date_default_timezone_set('Europe/Berlin');
 
 function isUpcoming($s) {
   $date = new DateTime($s); //DateTime::createFromFormat('Y-m-d', $s);
-  var_dump($date);
   $today = new DateTime();
   return ($today < $date);
 }
