@@ -25,44 +25,109 @@ function hasImageCaption($query, $item) {
   return false;
 }
 
-function filter($item) {  
-  global $query;
-  if (
-    (
-      contains($query, $item['title']) ||
-      contains($query, $item['descr']) ||
-      contains($query, $item['cat']) ||
-      contains($query, $item['location']) ||
-      contains($query, $item['tags']) ||
-      hasImageCaption($query, $item
-    )
-    ) &&
-    $item['private'] !== true
-  ) {
+function makeLink($item) {
+  return $item['link'] ? $item['link'] : '/'.$item['perma'];
+}
+function searchTitle($query, $item, &$result) {  
+  $pos = stripos($item['title'], $query);
+  if ($pos !== FALSE) {
+    
+    $result[] = array(
+      title => $item['title'],
+      from => $pos,
+      to => $pos + strlen($query),
+      link => makeLink($item),
+      type => 'title'
+    );
     return true;
   }
-
   return false;
 }
 
-function formatItem($item) {
-  // if ($item['link']) {
-  //   $link = $item['link'];
-  //   $external = true;
-  // } else {
-  //   $link = '/'.$item['perma'];
-  //   $external = false;
-  // }
+function searchCategory($query, $item, &$result) {  
+  $categories = explode(',', $item['cat']);
+  for ($i = 0; $i < count($categories); $i++) {
+    $category = trim($categories[$i]);
+    $pos = stripos($category, $query);
+    if ($pos !== FALSE) {
+      $result[] = array(
+        title => $item['title'],
+        text => $category,
+        from => $pos,
+        to => $pos + strlen($query),
+        link => makeLink($item),
+        type => 'category'
+      );
+      return true;
+    }
+  }
+  return false;
+}
 
-  return $item;
-  // return array(
-  //   title => $item['title'],
-  //   link => $link,
-  //   external => $external,
-  //   date => $item['date'],
-  //   location => $item['location'],
-  //   type => 'item'
-  // );
+function searchTags($query, $item, &$result) {  
+  $categories = explode(',', $item['tags']);
+  for ($i = 0; $i < count($categories); $i++) {
+    $category = trim($categories[$i]);
+    $pos = stripos($category, $query);
+    if ($pos !== FALSE) {
+      $result[] = array(
+        title => $item['title'],
+        from => $pos,
+        to => $pos + strlen($query),
+        link => makeLink($item),
+        type => 'tag'
+      );
+      return true;
+    }
+  }
+  return false;
+}
+
+function searchImages($query, $item, &$result) {  
+  if ($item['images']) {
+    if ($item['images']['filenames']) {
+      $images = $item['images']['filenames'];
+      $path = $item['images']['path'];
+      for ($i = 0; $i < count($images); $i++) {
+        $image = $images[$i];
+        $caption = $image['caption'];
+        $pos = stripos($caption, $query);
+        if ($pos !== FALSE) {
+          $result[] = array(
+            title => $item['title'],
+            text => $caption,
+            from => $pos,
+            to => $pos + strlen($query),
+            link => makeLink($item),
+            type => 'image',
+            filename => '/img'.$path.$image['filename']
+          );
+          return true;
+        }
+      }
+    }
+  }
+  return false;
+}
+
+function searchDescr($query, $item, &$result) {  
+  $sentences = preg_split('/[.,?]+/', strip_tags($item['descr']));
+  for ($i = 0; $i < count($sentences); $i++) {
+    $sentence = trim($sentences[$i]);
+    $pos = stripos($sentence, $query);
+    if ($pos !== FALSE) {
+      $result[] = array(
+        title => $item['title'],
+        text => $sentence,
+        from => $pos,
+        to => $pos + strlen($query),
+        link => makeLink($item),
+        type => 'descr'
+      );
+      return true;
+    }
+  }  
+  return false;
 }
 
 function content($items) {
@@ -73,18 +138,17 @@ function content($items) {
 
 function main() {
   global $query, $items;
-  if (strlen($query) < 1) {
-    $result = array();
-  } else {
-    $result_assoc = array_map(
-      'formatItem', 
-      array_filter(
-        $items, 'filter'
-      )
-    );
-    $result = array();
-    foreach ($result_assoc as $key => $value) {
-      $result[] = $value;
+  $result = array();
+
+  if (strlen($query) > 1) {
+    for ($i = 0; $i < count($items); $i++) {
+      $item = $items[$i];
+      if ($item['private'] === TRUE) continue;
+      searchTitle($query, $item, $result) ||
+      searchImages($query, $item, $result) ||
+      searchDescr($query, $item, $result) ||
+      searchTags($query, $item, $result) ||
+      searchCategory($query, $item, $result);
     }
 
     $result = array_slice($result, 0, 12);
@@ -93,7 +157,7 @@ function main() {
   echo json_encode(
     array(
       items => $result,
-      html => content($result)
+      //html => content($result)
     )
   );
 }
