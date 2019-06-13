@@ -19,7 +19,7 @@
         }
     ?>
     <script>
-        window.category = '<?php echo $cat; ?>';
+        window.localStorage.setItem('category', "<?php echo $cat; ?>")
     </script>
 </head>
 
@@ -29,13 +29,13 @@
     <ul style="list-style: none; padding:0; margin: 0; float:left;margin-bottom: 36px;width: 100%;"><?php
         
         foreach($content as $item) {
-            echo indexItem($item, $textOnly, $cat);
+            echo indexItem($item, $textOnly);
         }
 
     ?></ul>
 </div>
 
-<?php backButton(); ?>
+<?php backButton(false); ?>
 <?php script(); ?>
 <?php footer(false); ?>
 

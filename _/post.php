@@ -102,7 +102,7 @@
         <?php endif ?>
     </div>
 </article>
-<?php backButton(); ?>
+<?php backButton(true); ?>
 <?php script(); ?>
 
 </body>

@@ -160,6 +160,7 @@ function renderResults(result) {
 function updateSearch() {
   const query = input.value
   const url = query.length ? "/search/" + query : "/";
+  window.localStorage.setItem('search', query)
   window.history.pushState({}, query, url);
   search(query).then(() => {
     renderResults(searchCache[query])
@@ -168,7 +169,7 @@ function updateSearch() {
 }
 
 input.addEventListener('keyup', updateSearch)
-
+window.localStorage.removeItem('category')
 </script>
 
 </body>

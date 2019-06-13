@@ -74,19 +74,29 @@ function meta($title, $metaDescription, $metaImg=null, $thisPageUrl, $metaKeywor
 <?php
 }
 
-function backButton() { ?>
+function backButton($useCategory) { ?>
     <div class="floating-top-left-nav">
         <a rel="nofollow" href="/" class="back-button" id='btn-back-button'>index</a>
     </div>
-
     <script>
-    if(window.location.hash && window.location.hash !== '#pics') {
-        var button = document.getElementById('btn-back-button');
-        var cat = window.location.hash.substring(1);
-        button.href = '/list/' + cat;
-        button.innerHTML = decodeURIComponent(cat);
-    }
+      if (window.localStorage.getItem('search')) {
+        const search = window.localStorage.getItem('search')
+        const button = document.getElementById('btn-back-button');
+        button.href = '/search/' + search
+        button.innerHTML = '"' + search + '"'
+      }
     </script>
+    <?php if ($useCategory) { ?>
+    <script>
+      if (window.localStorage && window.localStorage.getItem('category')) {
+        const button = document.getElementById('btn-back-button');
+        const cat = window.localStorage.getItem('category');
+        button.href = '/list/' + cat;
+        button.innerHTML = decodeURIComponent(cat);        
+      }
+    </script>
+    <?php } ?>
+    
 <?php
 }
 
@@ -126,9 +136,6 @@ function indexItem($content, $textOnly = false, $cat=null, $forceImage=false) {
     $targetBlank = true;
   } else {
     $url = ABSOLUTE_URL.'/'.$content['perma'];
-    if ($cat) {
-    $url .= '#' . $cat;
-    }
     $targetBlank = false;
   }
   $isUpcoming = isUpcoming($content['date']);
@@ -213,7 +220,7 @@ function indexImage($content, $isUpcoming = false) {
     
     $result = '';
     $result .= "<figure class='main-image $class'>";
-    $result .= "<img alt='$caption>' src='$url'>";
+    $result .= "<img alt='$caption' src='$url'>";
     $result .= "<figcaption>$figCaption</figcaption>";
     $result .= "</figure>";
     return $result;
