@@ -159,7 +159,8 @@ function renderResults(result) {
 
 function updateSearch() {
   const query = input.value
-  window.history.pushState({}, query, "/search/" + query);  
+  const url = query.length ? "/search/" + query : "/";
+  window.history.pushState({}, query, url);
   search(query).then(() => {
     renderResults(searchCache[query])
     $('.floating-logo').fadeOut()
