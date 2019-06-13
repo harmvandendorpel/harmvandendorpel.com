@@ -97,7 +97,7 @@
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
 <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-<script src="_/js/index.js?nocache=a1xrieeruy23"></script>
+<script src="_/js/index.js?nocache=a1xeeruy23"></script>
 <script>
 
 const searchCache = {}
@@ -136,6 +136,7 @@ function updateSearch() {
   const query = input.value  
   search(query).then(() => {
     renderResults(searchCache[query])
+    $('.floating-logo').fadeOut()
   })
 }
 
