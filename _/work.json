@@ -3085,6 +3085,7 @@
       "id": "loomer",
       "title": "Loomer",
       "location": "Young Projects, Los Angeles",
+      "tags": "sculpture,assemblage,hanging",
       "image": {
         "orientation": "portrait",
         "imageSource": "img/bag.jpg",
@@ -3191,6 +3192,7 @@
       "startDate": "2014-09-25",
       "endDate": "2014-01-06",
       "cat": "Warsaw, exhibitions",
+      "tags": "sculpture,assemblage",
       "related": [
         "<a itemprop='url' href='http://www.e-flux.com/announcements/maria-bartuszova-and-private-settings-art-after-the-internet/' target='_blank'>Press release on e-flux</a>",
         "<a itemprop='url' href='http://private.artmuseum.pl/pl/artist/harm-van-den-dorpel' target='_blank'>Documentation on museum website</a>"

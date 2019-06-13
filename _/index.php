@@ -2,6 +2,7 @@
 <html lang="en" class="index-index-index">
 <head>
 <?php
+    $searchQuery = $_GET['q'];
     echo "<!--".thisPageHits()." -->";
     $content = filterFeatured();
     $title = 'Harm van den Dorpel';
@@ -28,7 +29,7 @@
 }
 
 #list-default {
-    <?php if ($_GET['q']) { ?>
+    <?php if ($searchQuery) { ?>
         display: none;
     <?php } else { ?>
         display: block;
@@ -37,7 +38,7 @@
 
 
 #list-search-results {
-    <?php if ($_GET['q']) { ?>
+    <?php if ($searchQuery) { ?>
         display: block;
     <?php } else { ?>
         display: none;
@@ -57,7 +58,7 @@
             id="searchBox"
             placeholder="Search"
             autofocus
-            value="<?php echo $_GET['q'] ? htmlspecialchars($_GET['q']) : ""; ?>"
+            value="<?php echo $searchQuery ? htmlspecialchars($searchQuery) : ""; ?>"
         />
         <ul class="index-index-list" id="list-default">
             <?php foreach($content as $item) echo indexItem($item, true, $cat, false); ?>
@@ -75,8 +76,8 @@
         </ul>
         <ul class="index-index-list" id="list-search-results">
         <?php 
-            if ($_GET['q']) {
-                $query = htmlspecialchars($_GET['q']);
+            if ($searchQuery) {
+                $query = htmlspecialchars($searchQuery);
                 $items = getData();
                 $result = search($query, $items);
                 echo searchContent($result);
@@ -170,6 +171,10 @@ function updateSearch() {
 
 input.addEventListener('keyup', updateSearch)
 window.localStorage.removeItem('category')
+
+<?php if ($searchQuery) { ?>
+    window.localStorage.setItem('search', '<?php echo htmlspecialchars($searchQuery);?>')
+<?php } ?>
 </script>
 
 </body>
