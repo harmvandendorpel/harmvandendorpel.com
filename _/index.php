@@ -41,6 +41,7 @@
             style="width: 100%; margin-bottom: 36px; padding: 5px; box-sizing: border-box;"
             id="searchBox"
             placeholder="Search"
+            autofocus
         />
         <ul class="index-index-list" id="list-default">
             <?php foreach($content as $item) echo indexItem($item, true, $cat, false); ?>
@@ -56,7 +57,7 @@
             <li class="item" style="margin-top: 100px;"><a href="/about">About</a></li>
             <li class="item"><a href="#" class="btn-mailinglist">Mailinglist</a></li>
         </ul>
-        <ul class="index-index-list" id="list-search-results">            
+        <ul class="index-index-list" id="list-search-results">
         </ul>
     </div>
 

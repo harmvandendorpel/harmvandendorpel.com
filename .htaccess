@@ -4,6 +4,7 @@ Options -Indexes
 RewriteRule ^robots.txt$ /robots.txt [L]
 RewriteRule ^work/(.*)$ /_/work.php?perma=$1 [L]
 
+RewriteRule ^search/(.*)$ /_/index.php?q=$1 [L]
 RewriteRule ^$ /_/index.php [L]
 
 RewriteRule ^feed/?$ /_/rss.php [L]
