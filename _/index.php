@@ -22,14 +22,29 @@
   display:block;
 }
 
-#list-search-results {
-  display: none;
-}
-
 #list-search-results em {
   font-weight: 600;
   font-style: normal;
 }
+
+#list-default {
+    <?php if ($_GET['q']) { ?>
+        display: none;
+    <?php } else { ?>
+        display: block;
+    <?php } ?>
+}
+
+
+#list-search-results {
+    <?php if ($_GET['q']) { ?>
+        display: block;
+    <?php } else { ?>
+        display: none;
+    <?php } ?>
+}
+
+
 </style>
 </head>
 
@@ -61,10 +76,10 @@
         <ul class="index-index-list" id="list-search-results">
         <?php 
             if ($_GET['q']) {
-                // $query = htmlspecialchars($_GET['q']);
-                // $items = getData();
-                // $result = search($query, $items);
-                // echo searchContent($result);
+                $query = htmlspecialchars($_GET['q']);
+                $items = getData();
+                $result = search($query, $items);
+                echo searchContent($result);
             }
         
         ?>
