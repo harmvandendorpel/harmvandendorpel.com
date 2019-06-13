@@ -1147,6 +1147,7 @@
       "location": "Museum of Contemporary Art, Chicago",
       "descr": "Group exhibition at the Museum of Contemporary Art, Chicago.",
       "cat": "exhibitions,sculpture",
+      "tags": "assemblage,meta,recursion,hanging",
       "indexPic": false,
       "images": {
         "path": "/",
@@ -3606,7 +3607,7 @@
       "indexPic": true,
       "id": "about",
       "title": "About",
-      "tags": "spheres,sculpture,transparent,acrylic,hanging",
+      "tags": "spheres,sculpture,transparent,assemblage,acrylic,hanging",
       "location": "Wilkinson Gallery, London",
       "cat": "exhibitions,London,solo,sculpture",
       "descr": "Solo show at <span itemscope='' itemtype='http://schema.org/Place'>Wilkinson Gallery, London</span>",
