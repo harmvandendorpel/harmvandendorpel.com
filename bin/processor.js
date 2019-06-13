@@ -4,6 +4,7 @@ const {
   missing,
   exists,
   now,
+  makePermalink,
 } = require('./shared')
 
 main()
