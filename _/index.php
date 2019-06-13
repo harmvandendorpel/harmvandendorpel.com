@@ -56,8 +56,8 @@
             type="text"
             style="width: 100%; margin-bottom: 36px; padding: 5px; box-sizing: border-box;"
             id="searchBox"
-            placeholder="Search"
-            autofocus
+            placeholder="Search"    
+            autofocus    
             value="<?php echo $searchQuery ? htmlspecialchars($searchQuery) : ""; ?>"
         />
         <ul class="index-index-list" id="list-default">
@@ -175,6 +175,12 @@ window.localStorage.removeItem('category')
 <?php if ($searchQuery) { ?>
     window.localStorage.setItem('search', '<?php echo htmlspecialchars($searchQuery);?>')
 <?php } ?>
+
+
+const searchBox = document.getElementById('searchBox')
+const searchLength = searchBox.value.length
+searchBox.setSelectionRange(searchLength, searchLength)
+
 </script>
 
 </body>
