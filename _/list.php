@@ -19,7 +19,9 @@
         }
     ?>
     <script>
-        window.localStorage.setItem('category', "<?php echo $cat; ?>")
+        if (window.localStorage) {
+            window.localStorage.setItem('category', "<?php echo $cat; ?>")
+        }
     </script>
 </head>
 

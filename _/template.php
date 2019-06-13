@@ -79,7 +79,7 @@ function backButton($useCategory) { ?>
         <a rel="nofollow" href="/" class="back-button" id='btn-back-button'>index</a>
     </div>
     <script>
-      if (window.localStorage.getItem('search')) {
+      if (window.localStorage && window.localStorage.getItem('search')) {
         const search = window.localStorage.getItem('search')
         const button = document.getElementById('btn-back-button');
         button.href = '/search/' + search

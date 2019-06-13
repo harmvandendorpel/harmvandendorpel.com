@@ -161,7 +161,9 @@ function renderResults(result) {
 function updateSearch() {
   const query = input.value
   const url = query.length ? "/search/" + query : "/";
-  window.localStorage.setItem('search', query)
+  if (window.localStorage) {
+      window.localStorage.setItem('search', query)
+  }
   window.history.pushState({}, query, url);
   search(query).then(() => {
     renderResults(searchCache[query])
@@ -173,7 +175,9 @@ input.addEventListener('keyup', updateSearch)
 window.localStorage.removeItem('category')
 
 <?php if ($searchQuery) { ?>
-    window.localStorage.setItem('search', '<?php echo htmlspecialchars($searchQuery);?>')
+    if (window.localStorage) {
+        window.localStorage.setItem('search', '<?php echo htmlspecialchars($searchQuery);?>')
+    }
 <?php } ?>
 
 
