@@ -1,6 +1,6 @@
 <?php
 
-$log = false;
+$log = true;
 
 if ($log) {
   include('/var/www/mysql.php');
