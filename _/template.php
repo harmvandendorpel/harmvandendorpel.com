@@ -143,7 +143,7 @@ function indexItem($content, $textOnly = false, $cat=null, $forceImage=false) {
   $result .= "<li class='item $extraClass' id='$id' style='width: 100%;'>";
   $target = $targetBlank ? "target='_blank'": '';
 
-  $result .= "<a href='$url' rel='bookmark' '$target'>";
+  $result .= "<a href='$url' rel='bookmark' $target>";
   
   $result .= $asImage ? indexImage($content, $isUpcoming) : $caption;
   $result .='</a>';
@@ -157,7 +157,7 @@ function indexItem($content, $textOnly = false, $cat=null, $forceImage=false) {
     $location = $content['location'];   
     $result .= "<div class='list-item-date'>&nbsp;&nbsp;&mdash;&nbsp;&nbsp;$date</div>";
     $result .= "<div style='float: right;' class='location'>$location</div>";
-}  
+  }  
   $result .= '</li>';
   return $result;
 }
@@ -230,3 +230,21 @@ function d($s) {
     return $result;
 }
 
+
+function searchItem($item) {
+    $link = $item['link'];
+    $title = $item['title'];
+    $text = $item['text'];
+    $from = $item['from'];
+    $before = "<em>";
+    $to = $item['to'] + strlen($before);
+    $caption = substr_replace($text, "<em>", $from, 0);
+    $caption = substr_replace($caption, "</em>", $to, 0);
+    return "<li class='item'><a href='$link'>$title</a><div style='float:right;'>$caption</div></li>";
+  }
+  
+  function searchContent($items) {
+    $result = '';
+    foreach($items as $item) $result .= searchItem($item);
+    return $result;
+  }

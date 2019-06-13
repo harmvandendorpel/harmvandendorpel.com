@@ -3,8 +3,8 @@ header('Content-type: application/json');
 require "template.php";
 
 $items = getData();
-
 $query = $_GET['q'];
+main($query, $items);
 
 function contains($query, $field) {
   return preg_match("/".$query."/i", $field) > 0;
@@ -28,6 +28,7 @@ function hasImageCaption($query, $item) {
 function makeLink($item) {
   return $item['link'] ? $item['link'] : '/'.$item['perma'];
 }
+
 function searchTitle($query, $item, &$result) {  
   $pos = stripos($item['title'], $query);
   if ($pos !== FALSE) {
@@ -151,26 +152,7 @@ function searchDescr($query, $item, &$result) {
   return false;
 }
 
-function item($item) {
-  $link = $item['link'];
-  $title = $item['title'];
-  $text = $item['text'];
-  $from = $item['from'];
-  $before = "<em>";
-  $to = $item['to'] + strlen($before);
-  $caption = substr_replace($text, "<em>", $from, 0);
-  $caption = substr_replace($caption, "</em>", $to, 0);
-  return "<li class='item'><a href='$link'>$title</a><div style='float:right;'>$caption</div></li>";
-}
-
-function content($items) {
-  $result = '';
-  foreach($items as $item) $result .= item($item);
-  return $result;
-}
-
-function main() {
-  global $query, $items;
+function search($query, $items) {
   $result = array();
 
   if (strlen($query) > 0) {
@@ -184,16 +166,16 @@ function main() {
       searchLocation($query, $item, $result) ||
       searchCategory($query, $item, $result);
     }
-
-    // $result = array_slice($result, 0, 12);
   }
+  return $result;
+}
 
+function main($query, $items) { 
+  $result = search($query, $items);
   echo json_encode(
     array(
       items => $result,
-      html => content($result)
+      html => searchContent($result)
     )
   );
 }
-
-main();

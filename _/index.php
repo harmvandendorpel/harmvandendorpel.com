@@ -42,6 +42,7 @@
             id="searchBox"
             placeholder="Search"
             autofocus
+            value="<?php echo $_GET['q'] ? htmlspecialchars($_GET['q']) : ""; ?>"
         />
         <ul class="index-index-list" id="list-default">
             <?php foreach($content as $item) echo indexItem($item, true, $cat, false); ?>
@@ -58,6 +59,15 @@
             <li class="item"><a href="#" class="btn-mailinglist">Mailinglist</a></li>
         </ul>
         <ul class="index-index-list" id="list-search-results">
+        <?php 
+            if ($_GET['q']) {
+                // $query = htmlspecialchars($_GET['q']);
+                // $items = getData();
+                // $result = search($query, $items);
+                // echo searchContent($result);
+            }
+        
+        ?>
         </ul>
     </div>
 
@@ -97,7 +107,7 @@
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
 <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-<script src="_/js/index.js?nocache=a1xeeruy23"></script>
+<script src="/_/js/index.js?nocache=a1ruy23"></script>
 <script>
 
 const searchCache = {}
@@ -133,7 +143,8 @@ function renderResults(result) {
 }
 
 function updateSearch() {
-  const query = input.value  
+  const query = input.value
+  window.history.pushState({}, query, "/search/" + query);  
   search(query).then(() => {
     renderResults(searchCache[query])
     $('.floating-logo').fadeOut()
