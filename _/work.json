@@ -1,6 +1,14 @@
 {
   "content": [
     {
+
+      "title":"Machine Unlearning: An Interview with Harm van den Dorpel",
+      "link":"http://www.berlinartlink.com/2019/06/12/machine-unlearning-an-interview-with-harm-van-den-dorpel/",
+      "cat":"writing,Berlin",
+      "tags":"big data,algorithms,machine learning,ideology,generative,software",
+      "descr":"Interview by William Kherbek for Berlin Art Link"
+    },
+    {
       "title": "left gallery explainer",
       "link": "https://www.youtube.com/watch?v=vU5e_JN0jfs",
       "perma": "left-gallery-explainer",

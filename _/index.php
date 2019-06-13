@@ -25,6 +25,11 @@
 #list-search-results {
   display: none;
 }
+
+#list-search-results em {
+  font-weight: 600;
+  font-style: normal;
+}
 </style>
 </head>
 
