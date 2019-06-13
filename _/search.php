@@ -45,6 +45,25 @@ function searchTitle($query, $item, &$result) {
   return false;
 }
 
+function searchLocation($query, $item, &$result) {  
+  if ($item['location']) {
+    $pos = stripos($item['location'], $query);
+    if ($pos !== FALSE) {
+      
+      $result[] = array(
+        title => $item['title'],
+        text => $item['location'],
+        from => $pos,
+        to => $pos + strlen($query),
+        link => makeLink($item),
+        type => 'location'
+      );
+      return true;
+    }
+  }
+  return false;
+}
+
 function searchCategory($query, $item, &$result) {  
   $categories = explode(',', $item['cat']);
   for ($i = 0; $i < count($categories); $i++) {
@@ -162,6 +181,7 @@ function main() {
       searchImages($query, $item, $result) ||
       searchDescr($query, $item, $result) ||
       searchTags($query, $item, $result) ||
+      searchLocation($query, $item, $result) ||
       searchCategory($query, $item, $result);
     }
 
