@@ -16,7 +16,7 @@ function getData() {
     return $data;
 }
 
-function getContent($sortField = 'date') {
+function getContent($sortField) {
   function sortDesc($a, $b) {
     global $sortField;
     return @strtotime($a[$sortField]) < @strtotime($b[$sortField]);
@@ -141,7 +141,7 @@ function filterIndex($content, $cat) {
 }
 
 function filterFeatured() {
-    $content = getContent();
+    $content = getContent('date');
 
     $result = array();
     foreach($content as $item) {

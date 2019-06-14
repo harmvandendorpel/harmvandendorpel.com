@@ -1,7 +1,7 @@
 <?php
     require('template.php');
 
-    $content = getContent();
+    $content = getContent('date');
     $perma = $_GET['perma'];
     $item = findItem($content, $perma);
     if ($item == null) {
