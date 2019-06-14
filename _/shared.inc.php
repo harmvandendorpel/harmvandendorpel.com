@@ -18,6 +18,7 @@ function getData() {
 
 function getContent($sortField) {
   function sortDesc($a, $b) {
+    echo "<!-- ".$sortField."-->";
     global $sortField;
     return @strtotime($a[$sortField]) < @strtotime($b[$sortField]);
   }
