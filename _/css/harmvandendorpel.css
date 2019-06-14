@@ -25,7 +25,7 @@ body {
 @media only screen and (max-width: 360px) {
   body {
     margin: 66px 12px 12px 12px;
-  }
+	}
 }
 
 @supports (font-variation-settings: normal) {
@@ -46,6 +46,20 @@ body {
   float: left;
 }
 
+.list-columns {
+	float: left;
+	margin-top: 72px;
+	width: 50%;
+}
+
+.list-columns-right {
+	float: right;
+}
+
+.list-columns-right .item {
+	text-align:right;
+}
+
 @media only screen and (max-width: 480px) {
   .location {
     display: none;
@@ -57,7 +71,20 @@ body {
 
   .image-caption {
     float: none;
-  }
+	}
+	
+	.list-columns {
+		width: 100%;
+	}
+
+	.list-columns-right {
+		float: left;
+		clear: both;
+	}
+
+	.list-columns-right .item {
+		text-align: left;
+	}
 }
 
 img {

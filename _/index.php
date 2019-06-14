@@ -60,20 +60,25 @@
             autofocus    
             value="<?php echo $searchQuery ? htmlspecialchars($searchQuery) : ""; ?>"
         />
-        <ul class="index-index-list" id="list-default">
-            <?php foreach($content as $item) echo indexItem($item, true, $cat, false); ?>
+        <div class="index-index-list" id="list-default">
+            <ul style='float:left; width: 100%;'>
+                <?php foreach($content as $item) echo indexItem($item, true, $cat, false); ?>
+            </ul>
             
-            <li class="item" style="margin-top: 100px;"><a href="/list/exhibitions">Exhibitions</a></li>
-            <li class="item"><a href="/list/upcoming">Upcoming</a></li>
-            <li class="item"><a href="/list/recent">Recent</a></li>
+            <ul style="clear: both;" class='list-columns'>
+                <li class="item"><a href="/list/exhibitions">All exhibitions</a></li>
+                <li class="item"><a href="/list/upcoming">Upcoming</a></li>
+                <li class="item" style='margin-bottom:0;'><a href="/list/recent">Recent</a></li>
+                <li class="item" style="margin-top: 72px;" ><a href="/list/software">Software</a></li>
+                <li class="item" ><a href="https://www.are.na/harm-van-den-dorpel/drawings-qkfaoxldau0" target="_blank">Drawings</a></li>
+                <li class="item" ><a href="/list/writing">Writing</a></li>
+            </ul>
+            <ul class='list-columns list-columns-right'>
+                <li class="item" ><a href="#" class="btn-mailinglist">Mailinglist</a></li>
+                <li class="item" ><a href="/about">Contact</a></li>
+            </ul>
+        </div>
 
-            <li class="item" style="margin-top: 100px;"><a href="/list/software">Software</a></li>
-            <li class="item"><a href="https://www.are.na/harm-van-den-dorpel/drawings-qkfaoxldau0" target="_blank">Drawings</a></li>
-            <li class="item"><a href="/list/writing">Writing</a></li>
-
-            <li class="item" style="margin-top: 100px;"><a href="/about">About</a></li>
-            <li class="item"><a href="#" class="btn-mailinglist">Mailinglist</a></li>
-        </ul>
         <ul class="index-index-list" id="list-search-results">
         <?php 
             if ($searchQuery) {
