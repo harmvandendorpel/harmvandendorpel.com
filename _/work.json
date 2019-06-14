@@ -154,11 +154,6 @@
             "orientation": "portrait"
           },
           {
-            "filename": "cgp-1554148941503-framed.jpg",
-            "caption": "Bars, 100&times;100cm, 2019",
-            "orientation": "portrait"
-          },
-          {
             "filename": "run-2-cgp-1556373715343.jpg",
             "caption": "Run Too, 100&times;100cm, 2019",
             "orientation": "portrait"
@@ -211,6 +206,11 @@
           {
             "filename": "symbol-no-aggression-framed.jpg",
             "caption": "Symbol No Aggression, 100&times;100cm, 2019",
+            "orientation": "portrait"
+          },
+          {
+            "filename": "cgp-1554148941503-framed.jpg",
+            "caption": "Bars, 100&times;100cm, 2019",
             "orientation": "portrait"
           }
         ]
