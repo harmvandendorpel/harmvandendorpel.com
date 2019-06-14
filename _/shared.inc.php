@@ -16,23 +16,23 @@ function getData() {
     return $data;
 }
 
-function getContent() {
+function getContent($sortField = 'date') {
   function sortDesc($a, $b) {
-    return @strtotime($a['date']) < @strtotime($b['date']);
+    return @strtotime($a[$sortField]) < @strtotime($b[$sortField]);
   }
 
   function sortAsc($a, $b) {
-    return @strtotime($a['date']) > @strtotime($b['date']);
+    return @strtotime($a[$sortField]) > @strtotime($b[$sortField]);
   }
 
   function filterUpcomingLambda($item) {
-    if (!array_key_exists('date', $item)) return false;
-    return isUpcoming($item['date']);
+    if (!array_key_exists($sortField, $item)) return false;
+    return isUpcoming($item[$sortField]);
   }
 
   function filterArchive($item) {
-    if (!array_key_exists('date', $item)) return true;	
-    return !isUpcoming($item['date']);
+    if (!array_key_exists($sortField, $item)) return true;	
+    return !isUpcoming($item[$sortField]);
   }
 
   $data = getData();

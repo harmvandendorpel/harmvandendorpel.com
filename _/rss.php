@@ -4,7 +4,7 @@ require "shared.inc.php";
 header('Content-Type: application/rss+xml');
 date_default_timezone_set("Europe/London");
 
-$content = getContent();
+$content = getContent('pubDate');
 
 function rssDate($dateString=null) {
   if ($dateString != null) {
