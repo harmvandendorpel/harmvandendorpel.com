@@ -4,8 +4,13 @@ require "shared.inc.php";
 header('Content-Type: application/rss+xml');
 date_default_timezone_set("Europe/London");
 
-$content = getContent('pubDate');
+$content = getContent();
 
+function sortDesc($a, $b) {
+  return @strtotime($a['pubDate']) < @strtotime($b['pubDate']);
+}
+
+uasort($content, 'sortDesc');
 function rssDate($dateString = null) {
   if ($dateString != null) {
     $date = strtotime($dateString);

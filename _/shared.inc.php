@@ -16,28 +16,23 @@ function getData() {
     return $data;
 }
 
-function getContent($sortField) {
+function getContent() {
   function sortDesc($a, $b) {
-      global $sortField;
-      echo "<!-- ".$sortField."-->";
-    return @strtotime($a[$sortField]) < @strtotime($b[$sortField]);
+    return @strtotime($a['date']) < @strtotime($b['date']);
   }
 
   function sortAsc($a, $b) {
-    global $sortField;
-    return @strtotime($a[$sortField]) > @strtotime($b[$sortField]);
+    return @strtotime($a['date']) > @strtotime($b['date']);
   }
 
   function filterUpcomingLambda($item) {
-    global $sortField;
-    if (!array_key_exists($sortField, $item)) return false;
-    return isUpcoming($item[$sortField]);
+    if (!array_key_exists('date', $item)) return false;
+    return isUpcoming($item['date']);
   }
 
   function filterArchive($item) {
-    global $sortField;
-    if (!array_key_exists($sortField, $item)) return true;	
-    return !isUpcoming($item[$sortField]);
+    if (!array_key_exists('date', $item)) return true;	
+    return !isUpcoming($item['date']);
   }
 
   $data = getData();
@@ -142,7 +137,7 @@ function filterIndex($content, $cat) {
 }
 
 function filterFeatured() {
-    $content = getContent('date');
+    $content = getContent();
 
     $result = array();
     foreach($content as $item) {

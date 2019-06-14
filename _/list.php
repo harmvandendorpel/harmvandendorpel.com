@@ -3,7 +3,7 @@
 <head>
     <?php
         $cat = $_GET['cat'];
-        $content = filterIndex(getContent('date'), strtolower($cat));
+        $content = filterIndex(getContent(), strtolower($cat));
         $title = ucfirst($cat)." - Harm van den Dorpel";
         $description = ""; // 'pessimism is weak';
         $thisPageUrl = ABSOLUTE_URL."/list/$cat";
