@@ -6,6 +6,7 @@ $database = 'harmvandendorpel';
 $conn = new mysqli($servername, $username, $password, $database);
 
 function logPageView() {
+  global $conn;
   $referer = $_SERVER['HTTP_REFERER'];
   $hostname = $_SERVER['REMOTE_ADDR'];
   $url = $_SERVER['REQUEST_URI'];
@@ -14,6 +15,7 @@ function logPageView() {
 }
 
 function logSearch($query) {
+  global $conn;
   $referer = $_SERVER['HTTP_REFERER'];
   $hostname = $_SERVER['REMOTE_ADDR'];
   $sql = "INSERT INTO logging (host,referer, search) VALUES ('$hostname','$referer','$query')";
