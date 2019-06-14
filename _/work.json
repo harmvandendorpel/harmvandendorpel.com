@@ -1,6 +1,27 @@
 {
   "content": [
     {
+      "title": "Automat und Mensch",
+      "descr": "Group exhibition at Kate Vass Gallery, Zürich. With work by Herbert W. Franke, Gottfried Jäger, Desmond Paul Henry, Nicolas Schöffer, Manfred Mohr, Vera Molnàr, Frieder Nake, Harold Cohen, Gottfried Honegger, Cornelia Sollfrank, John Maeda, Casey Reas, Jared Tarbell, Memo Akten, Mario Klingemann, Benjamin Heidersberger, Alexander Mordvintsev, Manolo Gamboa Naon, Helena Sarin, David Young, Anna Ridler, Tom White, Sofia Crespo, Matt Hall &amp; John Watkinson, Primavera de Filippi,Robbie Barrat, Kevin Abosch, Harm van den Dorpel",
+      "location": "Kate Vass, Zürich",
+      "date": "2019-04-24T00:00:00.000Z",
+      "seeAlso": [
+        "<a href='https://www.katevassgalerie.com/usr/documents/exhibitions/press_release_url/26/kate_vass_press_release1_upd.pdf'>Press release...</a>"
+      ],
+      "images": {
+        "path": "/cartesian-genetic-programming/",
+        "filenames": [
+          {
+            "filename": "cgp-1556312769668-framed.jpg",
+            "caption": "Multi Dimensional Zoom, 50&times;50cm, 2019",
+            "orientation": "portrait"
+          }
+        ]
+      },
+      "pubDate": "2019-06-14T13:59:00.731Z",
+      "perma": "automat-und-mensch"
+    },
+    {
       "title": "Machine Unlearning: An Interview with Harm van den Dorpel",
       "link": "http://www.berlinartlink.com/2019/06/12/machine-unlearning-an-interview-with-harm-van-den-dorpel/",
       "cat": "writing,Berlin",
