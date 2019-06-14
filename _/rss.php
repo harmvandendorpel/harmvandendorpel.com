@@ -6,11 +6,11 @@ date_default_timezone_set("Europe/London");
 
 $content = getContent();
 
-function sortDesc($a, $b) {
+function sortByPubDate($a, $b) {
   return @strtotime($a['pubDate']) < @strtotime($b['pubDate']);
 }
 
-uasort($content, 'sortDesc');
+uasort($content, 'sortByPubDate');
 function rssDate($dateString = null) {
   if ($dateString != null) {
     $date = strtotime($dateString);
