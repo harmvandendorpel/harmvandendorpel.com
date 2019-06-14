@@ -18,11 +18,11 @@ function getData() {
 
 function getContent($sortField = 'date') {
   function sortDesc($a, $b) {
-    return @strtotime($a[$sortField]) < @strtotime($b[$sortField]);
+    return @strtotime($a[$sortField]) > @strtotime($b[$sortField]);
   }
 
   function sortAsc($a, $b) {
-    return @strtotime($a[$sortField]) > @strtotime($b[$sortField]);
+    return @strtotime($a[$sortField]) < @strtotime($b[$sortField]);
   }
 
   function filterUpcomingLambda($item) {
