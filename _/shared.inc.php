@@ -18,19 +18,23 @@ function getData() {
 
 function getContent($sortField = 'date') {
   function sortDesc($a, $b) {
-    return @strtotime($a[$sortField]) > @strtotime($b[$sortField]);
-  }
-
-  function sortAsc($a, $b) {
+    global $sortField;
     return @strtotime($a[$sortField]) < @strtotime($b[$sortField]);
   }
 
+  function sortAsc($a, $b) {
+    global $sortField;
+    return @strtotime($a[$sortField]) > @strtotime($b[$sortField]);
+  }
+
   function filterUpcomingLambda($item) {
+    global $sortField;
     if (!array_key_exists($sortField, $item)) return false;
     return isUpcoming($item[$sortField]);
   }
 
   function filterArchive($item) {
+    global $sortField;
     if (!array_key_exists($sortField, $item)) return true;	
     return !isUpcoming($item[$sortField]);
   }
