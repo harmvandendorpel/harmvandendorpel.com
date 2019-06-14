@@ -6,12 +6,11 @@ date_default_timezone_set("Europe/London");
 
 $content = getContent('pubDate');
 
-function rssDate($dateString=null) {
+function rssDate($dateString = null) {
   if ($dateString != null) {
-      $date = strtotime($dateString);
+    $date = strtotime($dateString);
   } else {
-      $date = time();
-
+    $date = time();
   }
   return date('r', $date);
 }
@@ -26,35 +25,35 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
   xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
   xmlns:media="http://search.yahoo.com/mrss/"
 >
-    <channel>
-        <title>Harm van den Dorpel</title>
-        <atom:link href="https://harmvandendorpel.com/feed/" rel="self" type="application/rss+xml" />
-        <link>https://harmvandendorpel.com/</link>
-        <description></description>
-        <lastBuildDate><?php echo rssDate(); ?></lastBuildDate>
-        <language>en-US</language>
-        <sy:updatePeriod>hourly</sy:updatePeriod>
-        <sy:updateFrequency>1</sy:updateFrequency>
-	<image>
-		<url>https://harmvandendorpel.com/_/favicon.png</url>
-		<title>Harm van den Dorpel</title>
-		<link>https://harmvandendorpel.com/</link>
-	</image>
+  <channel>
+    <title>Harm van den Dorpel</title>
+    <atom:link href="https://harmvandendorpel.com/feed/" rel="self" type="application/rss+xml" />
+    <link>https://harmvandendorpel.com/</link>
+    <description></description>
+    <lastBuildDate><?php echo rssDate(); ?></lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <image>
+      <url>https://harmvandendorpel.com/_/favicon.png</url>
+      <title>Harm van den Dorpel</title>
+      <link>https://harmvandendorpel.com/</link>
+    </image>
   <?php
-    $max = 20;
-    foreach($content as $item) {
-        if (@!$item['hideOnIndex'] && !isPrivate($item) && @!isUpcoming($item['date']) && $max > 0) {
-          item($item);
-          $max--;
-        }
+  $max = 20;
+  foreach($content as $item) {
+    if (@!$item['hideOnIndex'] && !isPrivate($item) && @!isUpcoming($item['date']) && $max > 0) {
+      item($item);
+      $max--;
     }
+  }
 
 	function getImageUrl($item) {
 		if (array_key_exists('images', $item) && count($item["images"]["filenames"])) {
 			$path = "/img";
 			if (array_key_exists('path', $item["images"])) {
 				$path .= $item["images"]["path"];
-	        	} else {
+      } else {
 				$path = $path."/";
 			}
 			$filename = str_replace(' ', '%20',$item["images"]["filenames"][0]["filename"]);
@@ -77,15 +76,15 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
       <item>
         <title><?php echo htmlspecialchars($data['title']) ?></title>
         <link><?php echo htmlspecialchars($url); ?></link>
-        <pubDate><?php echo rssDate($data['date']); ?></pubDate>
+        <pubDate><?php echo rssDate($data['pubDate']); ?></pubDate>
         <dc:creator><![CDATA[Harm van den Dorpel]]></dc:creator>
         <guid isPermaLink="true"><?php echo htmlspecialchars($url); ?></guid>
         <description><![CDATA[<?php echo array_key_exists('descr', $data) ? summary($data['descr']) : ""; ?>]]></description>
         <?php if ($image) { ?>
-        <media:thumbnail url="<?php echo $fullImageUrl; ?>" />
-        <media:content url="<?php echo $fullImageUrl;?>" medium="image">
-          <media:title type="html">image</media:title>
-        </media:content>
+          <media:thumbnail url="<?php echo $fullImageUrl; ?>" />
+          <media:content url="<?php echo $fullImageUrl;?>" medium="image">
+            <media:title type="html">image</media:title>
+          </media:content>
         <?php } ?>
 	    </item>
     <?php } ?>
