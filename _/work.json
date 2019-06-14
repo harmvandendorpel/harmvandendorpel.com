@@ -421,7 +421,8 @@
             "caption": "Structures of Redundancy (autobreeder), 2019"
           },
           {
-            "filename": "structures-of-redundancy-projection.jpg"
+            "filename": "structures-of-redundancy-projection.jpg",
+            "caption": "Structures of Redundancy (autobreeder), 2019"
           },
           {
             "filename": "uninnocent-bystander-02.jpg"
@@ -2252,6 +2253,7 @@
       "title": "Deli Near Info wins Net Based Prize",
       "descr": "Thanks go out to the House of Electronic Arts Basel, the jury, and all the users.",
       "perma": "net-based-prize",
+      "location": "Haus der elektronischen Künste Basel",
       "cat": "Switzerland",
       "seeAlso": [
         "<a href='http://www.hek.ch/nc/en/projects/net-based-2016.html' target='_blank'>The shortlist</a>",
