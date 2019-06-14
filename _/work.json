@@ -8,6 +8,10 @@
       "related": [
         "<a href='https://www.katevassgalerie.com/usr/documents/exhibitions/press_release_url/26/kate_vass_press_release1_upd.pdf'>Press release...</a>"
       ],
+      "seeAlso": [
+        "<a href='/structures-of-redundancy'>Structures of Redundancy (autobreeder)</a>",
+        "<a href='/structures-of-redundancy-prints'>Structures of Redundancy (prints)</a>"
+      ],
       "images": {
         "path": "/cartesian-genetic-programming/",
         "filenames": [
