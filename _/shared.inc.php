@@ -1,5 +1,4 @@
 <?php
-
 require 'log.inc.php';
 const ABSOLUTE_URL = 'https://harmvandendorpel.com';
 // const ABSOLUTE_URL = '';

@@ -4,11 +4,21 @@ include('/var/www/mysql.php');
 $database = 'harmvandendorpel';
 
 $conn = new mysqli($servername, $username, $password, $database);
-$referer = $_SERVER['HTTP_REFERER'];
-$hostname = $_SERVER['REMOTE_ADDR'];
-$url = $_SERVER['REQUEST_URI'];
-$sql = "INSERT INTO logging (host,referer, url) VALUES ('$hostname','$referer','$url')";
-$conn->query($sql);
+
+function logPageView() {
+  $referer = $_SERVER['HTTP_REFERER'];
+  $hostname = $_SERVER['REMOTE_ADDR'];
+  $url = $_SERVER['REQUEST_URI'];
+  $sql = "INSERT INTO logging (host,referer, url) VALUES ('$hostname','$referer','$url')";
+  $conn->query($sql);
+}
+
+function logSearch($query) {
+  $referer = $_SERVER['HTTP_REFERER'];
+  $hostname = $_SERVER['REMOTE_ADDR'];
+  $sql = "INSERT INTO logging (host,referer, search) VALUES ('$hostname','$referer','$query')";
+  $conn->query($sql);
+}
 
 function hits($url) {
   global $conn;

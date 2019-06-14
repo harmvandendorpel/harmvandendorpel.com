@@ -1,6 +1,6 @@
 <?php
 require 'shared.inc.php';
-
+logPageView();
 error_reporting(E_ERROR | E_PARSE);
 
 function meta($title, $metaDescription, $metaImg=null, $thisPageUrl, $metaKeywords, $white = false) { ?>

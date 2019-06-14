@@ -4,6 +4,8 @@ require "template.php";
 
 $items = getData();
 $query = $_GET['q'];
+
+logSearch($query);
 main($query, $items);
 
 function main($query, $items) { 
