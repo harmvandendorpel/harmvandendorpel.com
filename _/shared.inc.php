@@ -1,7 +1,8 @@
 <?php
 require 'log.inc.php';
-const ABSOLUTE_URL = 'https://harmvandendorpel.com';
-// const ABSOLUTE_URL = '';
+require 'env.php';
+const ABSOLUTE_URL = ENVIRONMENT === 'development' ? '' : 'https://harmvandendorpel.com';
+
 date_default_timezone_set('Europe/Berlin');
 
 function isUpcoming($s) {

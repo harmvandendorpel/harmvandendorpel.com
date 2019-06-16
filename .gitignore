@@ -12,6 +12,7 @@ _/downloads/*.zip
 _/bin/imagecache
 _/bin/imagecache/*
 _/img
+_/env.php
 strange-strangers
 rotoreliefs
 hair

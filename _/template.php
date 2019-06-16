@@ -61,11 +61,15 @@ function meta($title, $metaDescription, $metaImg=null, $thisPageUrl, $metaKeywor
     foreach($keywordArr  as $tag) {
         echo "<meta property=\"article:tag\" content=\"$tag\">\n";
     }
+
+    $cssCaching = ENVIRONMENT === 'development'
+      ? mt_rand(0, 10000000000000)
+      : '234234234';
     ?>
 
     <meta name="keywords" content="<?php echo implode(', ', $keywordArr); ?>">
     <link rel="alternate" type="application/rss+xml" title="Harm van den Dorpel RSS Feed" href="https://harmvandendorpel.com/feed/" />
-    <link href="<?php echo ABSOLUTE_URL; ?>/_/css/harmvandendorpel.css?a=28eeeeee398<?php // echo mt_rand(0, 10000000000000); ?>" rel="stylesheet">
+    <link href="<?php echo ABSOLUTE_URL; ?>/_/css/harmvandendorpel.css?cache=<?php echo $cssCaching ?>" rel="stylesheet">
     <?php
     if ($white) {
         echo "<style>body{background-color:white;} .back-button {background-color:white !important}  .floating-about a, .floating-top-left-nav a {background-color:white !important}</style>";

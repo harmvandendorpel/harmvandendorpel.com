@@ -1,11 +1,12 @@
 <?php
-
+include('./env.php');
 include('/var/www/mysql.php');
 $database = 'harmvandendorpel';
 
 $conn = new mysqli($servername, $username, $password, $database);
 
 function logPageView() {
+  if (ENVIRONMENT === 'development') return;
   global $conn;
   if (array_key_exists('HTTP_REFERER', $_SERVER)) {
     $referer = $_SERVER['HTTP_REFERER'];
@@ -19,6 +20,7 @@ function logPageView() {
 }
 
 function logSearch($query) {
+  if (ENVIRONMENT === 'development') return;
   global $conn;
   $referer = $_SERVER['HTTP_REFERER'];
   $hostname = $_SERVER['REMOTE_ADDR'];
@@ -27,6 +29,7 @@ function logSearch($query) {
 }
 
 function hits($url) {
+  if (ENVIRONMENT === 'development') return -1;
   global $conn;
   $sql = "SELECT COUNT(*) AS hits FROM logging WHERE url='$url' GROUP BY url;";
   $result = $conn->query($sql);
