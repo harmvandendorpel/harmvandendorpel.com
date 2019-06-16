@@ -270,6 +270,7 @@
     {
       "title": "Interfaces",
       "perma": "interfaces",
+      "tags": "tablet,led,light,usb,power,tracing",
       "descr": "Back lit LED panels, unique edition, 2019.",
       "images": {
         "path": "/interface-works/",
@@ -420,6 +421,7 @@
         "<a href='/structures-of-redundancy-prints'>Structures of Redundancy (prints)</a>",
         "<a href='/nested-exchange-prints'>Nested Exchange (prints)</a>"
       ],
+      "tags": "sculpture,acrylic,porto,tablet,led,light,usb,power,tracing,uv,prints",
       "date": "2019-05-11T00:00:00.000Z",
       "meta": "In this solo exhibition he presents the newest iteration of works that explore the dynamics of algorithmic architectures.",
       "images": {
