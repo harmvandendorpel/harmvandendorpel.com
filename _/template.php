@@ -256,7 +256,7 @@ function searchItem($item) {
       $imageHtml = '<div class="search-item-thumbs-container">';
       for ($i = 0; $i < count($images); $i++) {
         $image = $images[$i];
-        $imageHtml .= "<img onclick='location.href=\"".$link."\"' class='search-item-thumbnail' src='".$image."' />";
+        $imageHtml .= "<img onclick='location.href=\"".$link."\"' loading='lazy' class='search-item-thumbnail' src='".$image."' />";
       }
       $imageHtml .= '</div>';
     } else {
