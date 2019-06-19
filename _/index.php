@@ -154,7 +154,12 @@ function renderResults(result) {
     const query = input.value  
     if (query.length > 0) {
         $searchResults = $("#list-search-results")
-        $searchResults.html(result.html)
+        
+        if (result.items.length === 0) {
+            $searchResults.html('<li>Nothing found</li>')
+        } else {
+            $searchResults.html(result.html)
+        }
         $searchResults.show()
         $("#list-default").hide();
     } else {
@@ -172,7 +177,7 @@ function updateSearch() {
   window.history.pushState({}, query, url);
   if (query.length > 0) {
     $searchResults = $("#list-search-results")
-    $searchResults.html('')
+    $searchResults.html('<div style="background-color:#efefef;"><img src="/_/img/spinner.gif" style="mix-blend-mode: multiply; width: 32px;"  /></div>')
   }
   search(query).then(() => {
     renderResults(searchCache[query])
