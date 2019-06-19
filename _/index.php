@@ -170,6 +170,10 @@ function updateSearch() {
       window.localStorage.setItem('search', query)
   }
   window.history.pushState({}, query, url);
+  if (query.length > 0) {
+    $searchResults = $("#list-search-results")
+    $searchResults.html('')
+  }
   search(query).then(() => {
     renderResults(searchCache[query])
     $('.floating-logo').fadeOut()
