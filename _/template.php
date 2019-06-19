@@ -251,7 +251,23 @@ function searchItem($item) {
     $to = $item['to'] + strlen($before);
     $caption = substr_replace($text, "<em>", $from, 0);
     $caption = substr_replace($caption, "</em>", $to, 0);
-    return "<li class='item'><a href='$link'>$title</a><div style='float:right;'>$caption</div></li>";
+    if ($item['images']) {
+      $images = $item['images'];
+      $imageHtml = '<div class="search-item-thumbs-container">';
+      for ($i = 0; $i < count($images); $i++) {
+        $image = $images[$i];
+        $imageHtml .= "<img onclick='location.href=\"".$link."\"' class='search-item-thumbnail' src='".$image."' />";
+      }
+      $imageHtml .= '</div>';
+    } else {
+      $imageHtml = '';
+    }
+    return "
+      <li class='item'>
+        <a href='$link'>$title</a><div style='float:right;'>$caption</div>
+        $imageHtml
+      </li>
+    ";
   }
   
   function searchContent($items) {
@@ -271,8 +287,8 @@ function searchItem($item) {
   function searchTitle($query, $item, &$result) {  
     $pos = stripos($item['title'], $query);
     if ($pos !== FALSE) {
-      
-      $result[] = array(
+            
+      $searchItem = array(
         title => $item['title'],
         text => $item['title'],
         from => $pos,
@@ -280,6 +296,19 @@ function searchItem($item) {
         link => makeLink($item),
         type => 'title'
       );
+
+      if ($item['images']) {
+        $images = $item['images'];
+        $path = $images['path'] ? $images['path'] : '/';
+
+        for ($i = 0; $i < min(4, count($images['filenames'])); $i++) {
+          $firstImage = $images['filenames'][$i];
+          $imageUrl = '/img'.$path.$firstImage['filename'];
+          $searchItem['images'][] = $imageUrl;
+        }
+      }
+
+      $result[] = $searchItem;
       return true;
     }
     return false;
@@ -361,7 +390,7 @@ function searchItem($item) {
               to => $pos + strlen($query),
               link => makeLink($item),
               type => 'image',
-              filename => '/img'.$path.$image['filename']
+              images => array('/img'.$path.$image['filename'])
             );
             return true;
           }

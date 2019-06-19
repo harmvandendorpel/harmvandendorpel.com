@@ -32,11 +32,27 @@ body {
   html { font-family: 'Inter UI var alt', sans-serif; }
 }
 
-.back-button:before {
-  content: '↩';
-  font-size: 12px;
-  margin-right: 5px;
+/* .back-button {
+	transform: rotate(-90deg);
+} */
+
+@media only screen and (max-width: 720px) {
+	.search-item-thumbs-container {
+		display: none;
+	}
 }
+
+/* @media only screen and (max-width: 1120px) { */
+	.back-button {
+		transform: rotate(0deg);
+	}
+
+	.back-button:before {
+		content: '↩';
+		font-size: 12px;
+		margin-right: 5px;
+	}
+/* } */
 
 .list-item-date {
   float: right;
@@ -499,18 +515,33 @@ p+p {
 	margin-left: 10px;
 }
 
-.floating-top-left-nav {
+/* .floating-top-left-nav {
 	position: fixed;
 	top: 0;
-	left: 0;
-	padding: 12px 24px;
-}
+	left: 0;	
+	height: 100vh;
+	width: calc(50vw - 450px);
+	display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* @media only screen and (max-width: 1120px) { */
+	.floating-top-left-nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		padding: 12px 24px;
+		display: block;
+	}
+/* } */
 
 @media only screen and (max-width: 360px) {
   .floating-top-left-nav {
     padding: 12px 12px;
   }
 }
+
 
 .item-upcoming a:after {
 	content: ' 🕑';
@@ -589,4 +620,16 @@ input.email, #mc-embedded-subscribe {
 
 .index-item-image {
 	width: 100%;
+}
+
+.search-item-thumbnail {
+	width: calc(25% - 15px);
+	margin-top: 20px;
+	margin-right: 20px;
+	float: left;
+	cursor: pointer;
+}
+
+.search-item-thumbnail:last-child {
+	margin-right: 0;
 }
