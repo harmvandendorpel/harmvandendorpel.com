@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "publish": "npm run publish:timestamps && git add -A; git commit -m 'publish'; git push origin master",
+    "publish": "npmg run publish:thumbs && npm run publish:timestamps && git add -A; git commit -m 'publish'; git push origin master",
     "publish:timestamps": "node bin/processor.js",
     "publish:thumbs": "node ./thumbs.js"
   },
