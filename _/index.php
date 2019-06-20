@@ -54,7 +54,7 @@
     <div class="index-index">
         <input
             type="text"
-            style="width: 100%; margin-bottom: 36px; padding: 5px; box-sizing: border-box;"
+            style="margin-bottom: 36px; box-sizing: border-box;"
             id="searchBox"
             placeholder="Search"    
             autofocus    
@@ -151,21 +151,22 @@ function search(value) {
 const input = document.getElementById('searchBox')
 
 function renderResults(result) {
-    const query = input.value  
-    if (query.length > 0) {
-        $searchResults = $("#list-search-results")
+  const query = input.value  
+  if (query.length > 0) {
+    $searchResults = $("#list-search-results")
         
-        if (result.items.length === 0) {
-            $searchResults.html('<li>Nothing found</li>')
-        } else {
-            $searchResults.html(result.html)
-        }
-        $searchResults.show()
-        $("#list-default").hide();
+    if (result.items.length === 0) {
+      $searchResults.html('<li>Nothing found</li>')
     } else {
-        $("#list-search-results").hide();
-        $("#list-default").show();
+      $searchResults.html(result.html)
     }
+
+    $searchResults.show()
+    $("#list-default").hide();
+  } else {
+    $("#list-search-results").hide();
+    $("#list-default").show();
+  }
 }
 
 function updateSearch() {

@@ -64,7 +64,7 @@ function meta($title, $metaDescription, $metaImg=null, $thisPageUrl, $metaKeywor
 
     $cssCaching = ENVIRONMENT === 'development'
       ? mt_rand(0, 10000000000000)
-      : '234234234';
+      : '2e434234234';
     ?>
 
     <meta name="keywords" content="<?php echo implode(', ', $keywordArr); ?>">
