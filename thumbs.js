@@ -27,7 +27,7 @@ allFiles.forEach((f) => {
   const filename = parts.pop()
   const path = parts.join('/')
   const folder = parts.pop();
-  const targetFolder = `./_/thumbs/${folder}`
+  const targetFolder = `./_/thumb/${folder}`
   if (parts.length == 2) {
     if (!fs.existsSync(targetFolder)) {
       shell.mkdir('-p', targetFolder);
