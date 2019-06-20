@@ -303,7 +303,7 @@ function searchItem($item) {
 
         for ($i = 0; $i < min(4, count($images['filenames'])); $i++) {
           $firstImage = $images['filenames'][$i];
-          $imageUrl = '/img'.$path.$firstImage['filename'];
+          $imageUrl = '/thumb'.$path.$firstImage['filename'];
           $searchItem['images'][] = $imageUrl;
         }
       }
@@ -390,7 +390,7 @@ function searchItem($item) {
               to => $pos + strlen($query),
               link => makeLink($item),
               type => 'image',
-              images => array('/img'.$path.$image['filename'])
+              images => array('/thumb'.$path.$image['filename'])
             );
             return true;
           }
