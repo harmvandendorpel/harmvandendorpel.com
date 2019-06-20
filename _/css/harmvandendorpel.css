@@ -633,3 +633,7 @@ input.email, #mc-embedded-subscribe {
 .search-item-thumbnail:last-child {
 	margin-right: 0;
 }
+
+blockquote {
+	padding-left: 24px;	
+}
