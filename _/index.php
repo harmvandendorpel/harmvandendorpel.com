@@ -132,18 +132,26 @@
 <script>
 
 const searchCache = {}
+let timeoutId = null
 
 function search(value) {  
   const url = '/_/search.php?q=' + value
   
+  if (timeoutId) {
+    clearTimeout(timeoutId)
+  }
+
   return new Promise(resolve => {
     if (value in searchCache) {
-        resolve(searchCache[value])
+      resolve(searchCache[value])
     } else {
+      setSpinner()
+      timeoutId = setTimeout(() => {
         $.get(url, function (result) {            
-            searchCache[value] = result
-            resolve(result)
+          searchCache[value] = result        
+          resolve(result)        
         })
+      }, 250)
     }
   })
 }
@@ -151,37 +159,41 @@ function search(value) {
 const input = document.getElementById('searchBox')
 
 function renderResults(result) {
-    const query = input.value  
-    if (query.length > 0) {
-        $searchResults = $("#list-search-results")
+  const query = input.value  
+  if (query.length > 0) {
+    $searchResults = $("#list-search-results")
         
-        if (result.items.length === 0) {
-            $searchResults.html('<li>Nothing found</li>')
-        } else {
-            $searchResults.html(result.html)
-        }
-        $searchResults.show()
-        $("#list-default").hide();
+    if (result.items.length === 0) {
+      $searchResults.html('<li>Nothing found</li>')
     } else {
-        $("#list-search-results").hide();
-        $("#list-default").show();
+        $searchResults.html(result.html)
     }
+    $searchResults.show()
+    $("#list-default").hide();
+  } else {
+    $("#list-search-results").hide();
+    $("#list-default").show();
+  }
+}
+
+function setSpinner() {
+  $searchResults = $("#list-search-results")
+  $searchResults.html('<div style="background-color:#efefef;"><img src="/_/img/spinner.gif" style="mix-blend-mode: multiply; width: 32px;"  /></div>')
 }
 
 function updateSearch() {
   const query = input.value
   const url = query.length ? "/search/" + query : "/";
+  
+  $('.floating-logo').fadeOut()
+
   if (window.localStorage) {
       window.localStorage.setItem('search', query)
   }
   window.history.pushState({}, query, url);
-  if (query.length > 0) {
-    $searchResults = $("#list-search-results")
-    $searchResults.html('<div style="background-color:#efefef;"><img src="/_/img/spinner.gif" style="mix-blend-mode: multiply; width: 32px;"  /></div>')
-  }
+
   search(query).then(() => {
-    renderResults(searchCache[query])
-    $('.floating-logo').fadeOut()
+    renderResults(searchCache[query])    
   })
 }
 
