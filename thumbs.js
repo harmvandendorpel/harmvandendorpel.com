@@ -18,32 +18,39 @@ function traverse(directoryName) {
   });
 };
 
+const THUMBS = './_/thumb/'
 
 traverse('./_/img');
 
+
 allFiles.forEach((f) => {
   const parts = f.split('/')
+
+  return 
   const filename = parts.pop()
-  const path = parts.join('/')
-  const folder = parts.pop();
-  const targetFolder = `./_/thumb/${folder}`
+  
+  let targetFilename = null
   if (parts.length == 2) {
+    const folder = parts.pop();
+    const targetFolder = `${THUMBS}${folder}`
     if (!fs.existsSync(targetFolder)) {
       shell.mkdir('-p', targetFolder);
       console.log('create folder', targetFolder)
     }
-    const targetFilename = `${targetFolder}/${filename}`;
-    console.log(targetFilename)
-    if (!fs.existsSync(targetFilename)) {
-      sharp(f)
-        .resize(500)
-        .toFile(targetFilename, function(err) {
-          if(err) {
-            console.error('could not create thumbnail for', targetFilename)
-          } else {
-            console.log('Created thumbnail for', targetFilename)
-          }
-        });
-    }
+    targetFilename = `${targetFolder}/${filename}`;
+  } else {
+    targetFilename = `${THUMBS}/${filename}`;
+  }
+  console.log(targetFilename)
+  if (!fs.existsSync(targetFilename)) {
+    sharp(f)
+      .resize(500)
+      .toFile(targetFilename, function(err) {
+        if(err) {
+          console.error('could not create thumbnail for', targetFilename)
+        } else {
+          console.log('Created thumbnail for', targetFilename)
+        }
+      });
   }
 })
