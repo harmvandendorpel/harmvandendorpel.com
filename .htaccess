@@ -9,6 +9,7 @@ RewriteRule ^$ /_/index.php [L]
 
 RewriteRule ^feed/?$ /_/rss.php [L]
 
+RewriteRule ^thumb/(.*)$ /_/thumb/$1 [L]
 RewriteRule ^img/(.*)$ /_/img/$1 [L]
 RewriteRule ^list/(.*)$ /_/list.php?cat=$1 [L]
 RewriteRule ^([A-Za-z0-9\-_]*)$ /_/post.php?perma=$1 [L]

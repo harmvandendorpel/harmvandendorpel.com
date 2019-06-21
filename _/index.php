@@ -182,6 +182,7 @@ function setSpinner() {
 }
 
 function updateSearch() {
+  console.log('update')
   const query = input.value
   const url = query.length ? "/search/" + query : "/";
   
@@ -198,6 +199,7 @@ function updateSearch() {
 }
 
 input.addEventListener('keyup', updateSearch)
+input.addEventListener('search', updateSearch)
 window.localStorage.removeItem('category')
 
 <?php if ($searchQuery) { ?>
