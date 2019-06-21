@@ -53,7 +53,7 @@
 <div class="content">
     <div class="index-index">
         <input
-            type="text"
+            type="search"
             style="margin-bottom: 36px; box-sizing: border-box;"
             id="searchBox"
             placeholder="Search"    
