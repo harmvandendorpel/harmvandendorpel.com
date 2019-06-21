@@ -54,7 +54,7 @@
     <div class="index-index">
         <input
             type="search"
-            style="margin-bottom: 36px; box-sizing: border-box;"
+            style="margin-bottom: 36px; box-sizing: border-box; text-transform:lowercase;"
             id="searchBox"
             placeholder="Search"    
             autofocus    
