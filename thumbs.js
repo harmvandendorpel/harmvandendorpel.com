@@ -25,23 +25,26 @@ traverse('./_/img');
 
 allFiles.forEach((f) => {
   const parts = f.split('/')
-
-  return 
   const filename = parts.pop()
   
   let targetFilename = null
-  if (parts.length == 2) {
-    const folder = parts.pop();
+
+  // console.log(parts.length, f)
+  if (parts.length == 3) {
+    const folder = parts.pop()
     const targetFolder = `${THUMBS}${folder}`
     if (!fs.existsSync(targetFolder)) {
       shell.mkdir('-p', targetFolder);
       console.log('create folder', targetFolder)
     }
     targetFilename = `${targetFolder}/${filename}`;
+  } else if (parts.length == 2){
+    targetFilename = `${THUMBS}${filename}`;
   } else {
-    targetFilename = `${THUMBS}/${filename}`;
+    console.log('Do not know what to do with', f)
+    return
   }
-  console.log(targetFilename)
+
   if (!fs.existsSync(targetFilename)) {
     sharp(f)
       .resize(500)
