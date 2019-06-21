@@ -128,7 +128,7 @@ function do404($perma, $content) {
     asort($rating);
     reset($rating);
     $target = key($rating);
-    $redirect_url = ABSOLUTE_URL.$target;
+    $redirect_url = ABSOLUTE_URL.'/'.$target;
     // echo $redirect_url;
     header("Location: $redirect_url");
     die();
