@@ -2466,7 +2466,7 @@
       "descr": "An open social media network in which the distinctions between navigation and content are suspended.",
       "perma": "deli-near-info",
       "title": "Deli Near Info",
-      "tags": "programming,social media,platform, alternative, delinear,rhizome",
+      "tags": "programming,social media,platform, alternative, delinear,rhizome,archive",
       "seeAlso": [
         "<a href='/deli-near-info-on-rhizome'>Deli Near Info on Rhizome</a>"
       ],
@@ -3361,6 +3361,7 @@
     {
       "date": "2013-05-13T00:00:00.000Z",
       "indexPic": false,
+      "tags": "archive",
       "cat": "New York City,websites,software,exhibitions,solo",
       "title": "First Look: Dissociations",
       "location": "New Museum, New York City",
@@ -3837,6 +3838,7 @@
       },
       "cat": "websites,software",
       "perma": "dissociations",
+      "tags": "archive,Aby Warburg",
       "title": "Dissociations",
       "descr": "Algorithmic generative studio, predecessor of Deli Near Info.",
       "related": [
