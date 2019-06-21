@@ -195,6 +195,11 @@ a:hover {
 	border-bottom-color: blue;
 }
 
+.theme-dark a:hover {
+	color: rgb(100,100,255);
+	border-bottom-color:rgb(100,100,255);
+}
+
 .main-menu {
 	position: fixed;
 	left: 0;
