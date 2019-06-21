@@ -22,7 +22,6 @@ function traverse(directoryName) {
 traverse('./_/img');
 
 allFiles.forEach((f) => {
-
   const parts = f.split('/')
   const filename = parts.pop()
   const path = parts.join('/')
