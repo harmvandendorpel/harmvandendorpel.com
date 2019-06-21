@@ -637,3 +637,21 @@ input.email, #mc-embedded-subscribe {
 blockquote {
 	padding-left: 48px;	
 }
+
+#searchBox {
+  width: 100%;
+  margin-bottom: 36px;
+  padding: 5px;
+  box-sizing: border-box;
+  color: #222;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  outline: none;
+}
+
+#searchBox:focus {
+  border-color: #333;
+}
+

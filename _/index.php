@@ -54,7 +54,7 @@
     <div class="index-index">
         <input
             type="text"
-            style="width: 100%; margin-bottom: 36px; padding: 5px; box-sizing: border-box;"
+            style="margin-bottom: 36px; box-sizing: border-box;"
             id="searchBox"
             placeholder="Search"    
             autofocus    
@@ -166,7 +166,7 @@ function renderResults(result) {
     if (result.items.length === 0) {
       $searchResults.html('<li>Nothing found</li>')
     } else {
-        $searchResults.html(result.html)
+      $searchResults.html(result.html)
     }
     $searchResults.show()
     $("#list-default").hide();
