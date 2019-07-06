@@ -365,12 +365,12 @@
     {
       "location": "Stroom, Den Haag",
       "title": "left gallery: rite of access",
-      "link": "https://www.stroom.nl/", 
+      "link": "https://www.stroom.nl/",
       "images": {
         "path": "/",
         "filenames": [
           {
-            "filename":"lg-spinner-hq.gif"
+            "filename": "lg-spinner-hq.gif"
           }
         ]
       },
@@ -378,9 +378,9 @@
       "cat": "Netherlands,blockchain,curatorial",
       "pubDate": "2019-09-07T00:00:00.000Z",
       "perma": "rite-of-access",
-      "descr": "A group exhibition at Stroom Den Haag, curated by Emer Grant and Harm van den Dorpel."
+      "descr": "<p>In response to the invitation by Stroom Den Haag, left gallery will take residence in a brick and mortar public art institution.</p><p>left gallery is an online platform that produces and sells downloadable objects. Those objects are works of art, stored as digital files. They exist in limited editions. They are available for direct purchase by credit card, PayPal or cryptocurrencies. Once purchased, buyers receive a cryptographic ‘token’ that operates as proof of  ownership. </p><p>The position historically advocated by net.art, is that access to art and media should not be restricted, but free for all; this position seemingly persists across ad-driven online platforms such as YouTube and other social media sites. left gallery, however, guarantees artificial scarcity of the objects in their portfolio. As such, left gallery investigates the possibilities of the ‘post public’: there are levels of access to public spaces, both online and offline, that depend on locality, information, privilege and XXX. left seeks to uncover the conditions of the post public through the application of accessibility mechanisms.</p><p>The left gallery token mechanism will be translated into the architecture of Stroom Den Haag, by setting up conditions of access to the works on display. Engagement of visitors in the form of purchases and social media activity operate as currency and allow the space to remain accessible. As long as sufficient credit remains, visitors can access the project, which presents part of the catalogue of left gallery as well as a number of new works, produced for this residency. The Stroom gallery space here functions as a ‘serving suggestion’ showing how one could potentially install the artwork on sale in a domestic setting.</p><p>left gallery was founded by Harm van den Dorpel and Paloma Rodriguez Carrington in 2015. Its digital editions have been acquired by the Museum for Applied Arts in Vienna, the Center for Art and Media Karlsruhe, and many private collections. The gallery project has been presented at Art Basel Miami Beach, Museum for Modern and Contemporary Art Seoul, the Schinkel Pavillon Berlin, Art Brussels, and Spike Art Berlin.</p>"
     },
-    { 
+    {
       "title": "Water Cooler Talks",
       "date": "2019-02-16T00:00:00.000Z",
       "cat": "talks,Germany,blockchain",
