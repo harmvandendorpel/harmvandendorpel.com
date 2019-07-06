@@ -365,14 +365,22 @@
     {
       "location": "Stroom, Den Haag",
       "title": "left gallery: rite of access",
-      "link": "https://www.stroom.nl/",
+      "link": "https://www.stroom.nl/", 
+      "images": {
+        "path": "/",
+        "filenames": [
+          {
+            "filename":"lg-spinner-hq.gif"
+          }
+        ]
+      },
       "date": "2019-09-07T00:00:00.000Z",
       "cat": "Netherlands,blockchain,curatorial",
       "pubDate": "2019-09-07T00:00:00.000Z",
       "perma": "rite-of-access",
       "descr": "A group exhibition at Stroom Den Haag, curated by Emer Grant and Harm van den Dorpel."
     },
-    {
+    { 
       "title": "Water Cooler Talks",
       "date": "2019-02-16T00:00:00.000Z",
       "cat": "talks,Germany,blockchain",
