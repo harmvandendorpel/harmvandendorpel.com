@@ -375,7 +375,7 @@
         ]
       },
       "date": "2019-09-07T00:00:00.000Z",
-      "cat": "Netherlands,blockchain,curatorial",
+      "xcat": "Netherlands,blockchain,curatorial",
       "pubDate": "2019-09-07T00:00:00.000Z",
       "perma": "rite-of-access",
       "seeAlso": [
@@ -399,6 +399,7 @@
           }
         ]
       },
+      "private":true,
       "pubDate": "2019-02-16T00:00:00.000Z"
     },
     {
