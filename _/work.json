@@ -244,7 +244,7 @@
     {
       "private": true,
       "title": "Rite of access: artificial scarcity in software multiples",
-      "perma": "rite-of-access",
+      "xxxperma": "rite-of-access",
       "cat": "Netherlands,curatorial",
       "date": "2019-06-01T00:00:00.000Z",
       "descr": "A group exhibition at Stroom Den Haag, curated by Emer Grant and Harm van den Dorpel.<br><br><p>In 2015 Harm van den Dorpel sold 20 of 100 editions of a screensaver work to the Museum of Applied Arts Vienna. The ownership and provenance of this transaction was stored in the bitcoin blockchain, and the museum paid with bitcoin, making this the first cryptographic museum acquisition in history.</p><p>Realising the potentional of this transaction, Harm van den Dorpel and Paloma Rodriguez Carrington founded an online gallery: left gallery.</p><p>By employing blockchain technology - smart contracts - the amount of editions available for purchase can be restricted: this is called “artificial scarcity”. This seems to run counter to established net art narratives of democratization established in the 90ies (explain the difference between access and ownership).</p><p>There is a long history of artist multiples, most notable in the British socialist Arts and Crafts movement (William Morris, Walter Crane),  Fluxus (Wolf Vostells, Joseph Beuys), of course Marcel Duchamp, and more recently Sarah Lucas and Tracy Emin.</p><p>Realising that more and more galleries are closing doors because of increasing real estate prices, and the hyped necessity to participate in expensive art fairs, left gallery offers digital art as files that can be downloaded after online payment (over 40 cryptocurrencies, Creditcard and PayPal are accepted).</p><p>Left gallery has little overhead and monthly costs as it does not have a space and offers a slowly but gradually growing catalogue.</p><p>On the occasion of the exhibition, left gallery will issue 500 non-fungible tokens, which can be purchased in the space and on the internet. The tokens are designed by left gallery artists.</p><p>The tokens are round and can be spun fast or slow by swiping them. They can be exhibited on a variety of devices, illustrating their fluidity of manifestation. Each token has a number (QR tag?) by which they can be easily retrieved (scanned?) in space and on the left gallery website and bought.</p><p>The tokens themselves are basically useless and can be viewed and spun on a custom rotorelief app on mobile devices such as phones and tablets (see YouTube video).</p><p>After a token is bought, it disappears from the viewing devices. Meaning that when all 500 tokens would be sold, the work has literally “left the gallery”.</p><p>In the basement, a dark projecting room is installed, where a screening program is compiled with video works and screen captures of software pieces from the left gallery catalogue.<br><br><iframe src=\"https://www.youtube.com/embed/aKYBZKqunTM?loop=1&amp;rel=0&amp;modestbranding=1\" width=100% height=508 frameborder=0 allowfullscreen><script>function execute_YTvideo(){return youtube.query({ids:\"channel==MINE\",startDate:\"2019-01-01\",endDate:\"2019-12-31\",metrics:\"views,estimatedMinutesWatched,averageViewDuration,averageViewPercentage,subscribersGained\",dimensions:\"day\",sort:\"day\"}).then(function(e){},function(e){console.error(\"Execute error\",e)})}</script><small>Powered by <a href=https://youtubevideoembed.com/>Embed YouTube Video</a></small></iframe>",
@@ -365,25 +365,12 @@
     {
       "location": "Stroom, Den Haag",
       "title": "left gallery: rite of access",
-      "link": "https://www.stroom.nl/",
-      "private": true,
-      "images": {
-        "path": "/",
-        "filenames": [
-          {
-            "filename": "lg-spinner-hq.gif"
-          }
-        ]
-      },
+      "link": "https://left.gallery/collections/rite-of-access",
+      "private": false,
       "date": "2019-09-07T00:00:00.000Z",
-      "xcat": "Netherlands,blockchain,curatorial",
+      "cat": "Netherlands,blockchain,curatorial",
       "pubDate": "2019-09-07T00:00:00.000Z",
-      "perma": "rite-of-access",
-      "seeAlso": [
-        "<a href='https://left.gallery/' target='_blank'>left gallery website</a>",
-        "<a href='https://www.stroom.nl/' target='_blank'>Stroom Den Haag website</a>"
-      ],
-      "descr": "<p>In response to the invitation by Stroom Den Haag, left gallery will take residence in a brick and mortar public art institution.</p><p>left gallery is an online platform that produces and sells downloadable objects. Those objects are works of art, stored as digital files. They exist in limited editions and are available for direct purchase by credit card, PayPal or cryptocurrencies. Once purchased, buyers receive a cryptographic ‘token’ that operates as proof of  ownership. </p><p>The position historically advocated by net.art, is that access to art and media should not be restricted, but free for all; this position seemingly persists across ad-driven online platforms such as YouTube and other social media sites. left gallery, however, guarantees artificial scarcity of the objects in their portfolio. As such, left gallery investigates the possibilities of the ‘post public’: there are levels of access to public spaces, both online and offline, that depend on locality, information, privilege and XXX. left seeks to uncover the conditions of the post public through the application of accessibility mechanisms.</p><p>The left gallery token mechanism will be translated into the architecture of Stroom Den Haag, by setting up conditions of access to the works on display. Engagement of visitors in the form of purchases and social media activity operate as currency and allow the space to remain accessible. As long as sufficient credit remains, visitors can access the project, which presents part of the catalogue of left gallery as well as a number of new works, produced for this residency. The Stroom gallery space here functions as a ‘serving suggestion’ showing how one could potentially install the artwork on sale in a domestic setting.</p><p>Associated artists: Laurel Schwulst, Viktor timofeev, Adriana Ramić, Margarethe Kollmer, Ryan Kuo, Dorine van Meel, Micah Schippa, William Habib Kherbek and others. Curated by Emer M. Grant, Harm van den Dorpel (CTO), Lua Vollaard (Program Manager Stroom).</p><p>left gallery was founded by Harm van den Dorpel and Paloma Rodriguez Carrington in 2015. Its digital editions have been acquired by the Museum for Applied Arts in Vienna, the Center for Art and Media Karlsruhe, and many private collections. The gallery project has been presented at Art Basel Miami Beach, Museum for Modern and Contemporary Art Seoul, the Schinkel Pavillon Berlin, Art Brussels, and Spike Art Berlin.</p>"
+      "perma": "rite-of-access"
     },
     {
       "title": "Water Cooler Talks",
@@ -433,7 +420,8 @@
         ]
       },
       "location": "National Museum of Modern and Contemporary Art, Seoul",
-      "pubDate": "2019-03-21T00:00:00.000Z"
+      "pubDate": "2019-03-21T00:00:00.000Z",
+      "indexPic":true
     },
     {
       "title": "Solo Presentation with Narrative Projects",
