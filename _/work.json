@@ -75,13 +75,22 @@
       "perma": "rhododendron"
     },
     {
-      "title": "Video Club: Artificial Scarcity",
+      "title": "Artificial Scarcity",
       "location": "Stedelijk Museum Amsterdam",
       "perma": "video-club-artificial-scarcity",
       "date": "2019-09-06T00:00:00.000Z",
-      "link": "https://www.stedelijk.nl/",
-      "cat": "Netherlands,curatorial",
-      "pubDate": "2019-09-06T00:00:00.000Z"
+      "related":[
+        "<a href='https://www.stedelijk.nl/en/events/video-club-the-one-minutes' target='_blank'>Website Stedelijk Museum</a>"
+      ],
+      "cat": "Netherlands,curatorial,video,animation",
+      "pubDate": "2019-09-06T00:00:00.000Z",
+      "images": {
+        "path": "/",
+        "filenames": [
+          {"filename":"artificial-scarcity.png"}
+        ]
+      },
+      "descr":"I was asked to curate a screening program taking from the Stedelijk’s single channel video collection and new one-minute videos solicited via an open call. As a starting point I suggested to investigate the concept of <q>artificial scarcity</q> as we might encounter in economics, but also in language and artistic process. The works from the program will remain on view as part of the permanent collection exhibition, as well as on a video screen in the entrance hall.<br><br>Many thanks to Karen Archey and Henri Sandront of the Stedelijk Museum Amsterdam, and Julia van Mourik of the One Minutes Foundation."
     },
     {
       "title": "Algues Artificielles Prints",
