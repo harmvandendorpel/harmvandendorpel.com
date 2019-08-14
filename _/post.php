@@ -65,7 +65,7 @@
 
         <?php if ($description): ?>
             <section itemprop="articleBody">
-                <div class="description<?php if (strlen($description) > 700) { echo " description-columns";}?>">
+                <div class="description<?php if (strlen($description) > 750) { echo " description-columns";}?>">
                     <?php echo $description;?>
                 </div>
             </section>
