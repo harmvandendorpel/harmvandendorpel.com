@@ -1,0 +1,30 @@
+@font-face{
+  font-family:agipo-regular;
+  font-style:normal;
+  font-weight:400;
+  src:url(/_/fonts/agipo_regular.eot);
+  src:local("☺"),url(/_/fonts/agipo_regular.eot#iefix) format("embedded-opentype"),url(/_/fonts/agipo_regular.woff2) format("woff2"),url(/_/fonts/agipo_regular.woff) format("woff"),url(/_/fonts/agipo_regular.ttf) format("truetype"),url(/_/fonts/agipo_regular.svg) format("svg")
+}
+
+@font-face{
+  font-family:agipo-regular Extended;
+  font-style:normal;
+  font-weight:400;
+  font-stretch:expanded;
+  src:url(/_/fonts/agipo_regular_extended.eot);
+  src:local("☺"),url(/_/fonts/agipo_regular_extended.eot#iefix) format("embedded-opentype"),url(/_/fonts/agipo_regular_extended.woff2) format("woff2"),url(/_/fonts/agipo_regular_extended.woff) format("woff"),url(/_/fonts/agipo_regular_extended.ttf) format("truetype"),url(/_/fonts/agipo_regular_extended.svg) format("svg")
+}
+@font-face{
+  font-family:agipo-bold;
+  font-style:normal;
+  font-weight:700;
+  src:url(/_/fonts/agipo_bold.eot);
+  src:local("☺"),url(/_/fonts/agipo_bold.eot#iefix) format("embedded-opentype"),url(/_/fonts/agipo_bold.woff2) format("woff2"),url(/_/fonts/agipo_bold.woff) format("woff"),url(/_/fonts/agipo_bold.ttf) format("truetype"),url(/_/fonts/agipo_bold.svg) format("svg")
+}
+@font-face{
+  font-family:agipo-mono;
+  font-style:normal;
+  font-weight:400;
+  src:url(/_/fonts/agipo_mono.eot);
+  src:local("☺"),url(/_/fonts/agipo_mono.eot#iefix) format("embedded-opentype"),url(/_/fonts/agipo_mono.woff2) format("woff2"),url(/_/fonts/agipo_mono.woff) format("woff"),url(/_/fonts/agipo_mono.ttf) format("truetype"),url(/_/fonts/agipo_mono.svg) format("svg")
+}

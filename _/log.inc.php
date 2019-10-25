@@ -1,5 +1,5 @@
 <?php
-include('./env.php');
+// include('./env.php');
 include('/var/www/mysql.php');
 $database = 'harmvandendorpel';
 
