@@ -67,7 +67,7 @@
             
             <ul style="clear: both;" class='list-columns'>
                 <li class="item"><a href="/list/exhibitions">All exhibitions</a></li>
-                <li class="item"><a href="/list/upcoming">Upcoming</a></li>
+                <!-- li class="item"><a href="/list/upcoming">Upcoming</a></li -->
                 <li class="item" style='margin-bottom:0;'><a href="/list/recent">Recent</a></li>
                 <li class="item" style="margin-top: 72px;" ><a href="/list/software">Software</a></li>
                 <li class="item" ><a href="https://www.are.na/harm-van-den-dorpel/drawings-qkfaoxldau0" target="_blank">Drawings</a></li>

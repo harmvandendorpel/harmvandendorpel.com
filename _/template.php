@@ -69,6 +69,7 @@ function meta($title, $metaDescription, $metaImg=null, $thisPageUrl, $metaKeywor
 
     <meta name="keywords" content="<?php echo implode(', ', $keywordArr); ?>">
     <link rel="alternate" type="application/rss+xml" title="Harm van den Dorpel RSS Feed" href="https://harmvandendorpel.com/feed/" />
+    <link rel="stylesheet" href="<?php echo ABSOLUTE_URL?>/_/css/agipo.css" />
     <link href="<?php echo ABSOLUTE_URL; ?>/_/css/harmvandendorpel.css?cache=<?php echo $cssCaching ?>" rel="stylesheet">
     <?php
     if ($white) {

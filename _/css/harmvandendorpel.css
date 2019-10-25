@@ -3,18 +3,19 @@
 @import url('https://rsms.me/inter/inter-ui.css');
 
 * {
-	font-size: 16px;
-	line-height: 1.5;
-	margin: 0;
-	padding: 0;
-	letter-spacing: -0.002em;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  letter-spacing: -0.002em;
   font-weight: 400;
+  -webkit-font-smoothing: antialiased;
 }
 
 html {
-	overflow-y: scroll;
-	margin-right: 0;
-  font-family: 'Inter UI', sans-serif;
+  overflow-y: scroll;
+  margin-right: 0;
+  font-family: 'agipo-regular', 'Inter UI', sans-serif;
 }
 
 body {
@@ -22,14 +23,20 @@ body {
 	background-color: #efefef;
 }
 
+time, figcaption, figcaption > * {
+	font-size: 16px;
+}
+
 @media only screen and (max-width: 360px) {
   body {
     margin: 66px 12px 12px 12px;
-	}
+  }
 }
 
 @supports (font-variation-settings: normal) {
-  html { font-family: 'Inter UI var alt', sans-serif; }
+  html {
+    font-family: 'agipo-regular', 'Inter UI var alt', sans-serif; 
+  }
 }
 
 /* .back-button {
@@ -135,7 +142,8 @@ h1, .description {
 }
 
 h1 {
-	font-weight: 600;
+	font-size: 20px;
+	font-family: 'agipo-regular Extended';
 }
 
 .related {
