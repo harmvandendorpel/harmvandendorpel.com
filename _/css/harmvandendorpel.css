@@ -39,27 +39,15 @@ time, figcaption, figcaption > * {
   }
 }
 
-/* .back-button {
-	transform: rotate(-90deg);
-} */
-
-@media only screen and (max-width: 720px) {
-	.search-item-thumbs-container {
-		display: none;
-	}
+.back-button {
+	transform: rotate(0deg);
 }
 
-/* @media only screen and (max-width: 1120px) { */
-	.back-button {
-		transform: rotate(0deg);
-	}
-
-	.back-button:before {
-		content: '↩';
-		font-size: 12px;
-		margin-right: 5px;
-	}
-/* } */
+/* .back-button:before {
+	content: '↩';
+	font-size: 12px;
+	margin-right: 5px;
+} */
 
 .list-item-date {
   float: right;
@@ -190,7 +178,7 @@ a {
 .floating-about a,
 .floating-top-left-nav a {
 	text-shadow: none;	
-	background-color: #efefef;
+	background-color:#efefef;
 }
 
 .theme-dark .floating-about a,
@@ -231,7 +219,7 @@ a:hover {
 
 .main-menu ul, .content {
 	clear: both;
-	max-width: 900px;
+	max-width: 1024px;
 	margin: auto;
 }
 
@@ -275,7 +263,7 @@ sup a:hover {
 
 figure.main-image.landscape img{
 	width: 100%;
-	max-width: 900px;
+	max-width: 1024px;
 }
 
 .main-image {
@@ -676,4 +664,14 @@ blockquote {
 
 #searchBox:focus {
   border-color: #333;
+}
+
+.index-header-container {
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width:100%;
+	box-sizing: border-box;
+	padding: 3px 10px;
+	margin-bottom: 20px;
 }

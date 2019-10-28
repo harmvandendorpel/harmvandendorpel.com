@@ -18,11 +18,7 @@
             $textOnly = false;
         }
     ?>
-    <script>
-        if (window.localStorage) {
-            window.localStorage.setItem('category', "<?php echo $cat; ?>")
-        }
-    </script>
+   
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">

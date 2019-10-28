@@ -1,6 +1,6 @@
 <?php
 require 'shared.inc.php';
-logPageView();
+// logPageView();
 error_reporting(E_ERROR | E_PARSE);
 
 function meta($title, $metaDescription, $metaImg=null, $thisPageUrl, $metaKeywords, $white = false) { ?>
@@ -83,22 +83,15 @@ function backButton($useCategory) { ?>
     <div class="floating-top-left-nav">
         <a rel="nofollow" href="/" class="back-button" id='btn-back-button'>index</a>
     </div>
-    <script>
-      if (window.localStorage && window.localStorage.getItem('search')) {
-        const search = window.localStorage.getItem('search')
-        const button = document.getElementById('btn-back-button');
-        button.href = '/search/' + search
-        button.innerHTML = '"' + search + '"'
-      }
-    </script>
+    
     <?php if ($useCategory) { ?>
     <script>
-      if (window.localStorage && window.localStorage.getItem('category')) {
-        const button = document.getElementById('btn-back-button');
-        const cat = window.localStorage.getItem('category');
-        button.href = '/list/' + cat;
-        button.innerHTML = decodeURIComponent(cat);        
-      }
+      // if (window.localStorage && window.localStorage.getItem('category')) {
+      //   const button = document.getElementById('btn-back-button');
+      //   const cat = window.localStorage.getItem('category');
+      //   button.href = '/list/' + cat;
+      //   button.innerHTML = decodeURIComponent(cat);        
+      // }
     </script>
     <?php } ?>
     

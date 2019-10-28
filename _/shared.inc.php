@@ -1,8 +1,9 @@
 <?php
-require 'log.inc.php';
+// require 'log.inc.php';
 require 'env.php';
 const ABSOLUTE_URL = ENVIRONMENT === 'development' ? '' : 'https://harmvandendorpel.com';
 
+$json_data = json_decode(file_get_contents('work.json'), true);
 date_default_timezone_set('Europe/Berlin');
 
 function isUpcoming($s) {
@@ -11,9 +12,14 @@ function isUpcoming($s) {
   return $today < $date;
 }
 
-function getData() {
-    $data = json_decode(file_get_contents("work.json"), true)['content'];
-    return $data;
+function getData() {  
+  global $json_data;
+  return $json_data['content'];
+}
+
+function getIndexData() {
+  global $json_data;
+  return $json_data['index'];
 }
 
 function getContent() {

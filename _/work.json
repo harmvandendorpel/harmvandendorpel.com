@@ -1,4 +1,32 @@
 {
+  "index": [
+    {
+      "link": "",
+      "image": "/img/Sydgator-Zolim-Juancar.jpg",
+      "title": "Death Imitates Language"
+    },
+    {
+      "link": "",
+      "image": "/img/pattern-and-presence/0006.jpg",
+      "title": "Nested Exchange"
+    },
+    {
+      "link": "",
+      "image": "/img/cartesian-genetic-programming/cgp-1554306222667-framed.jpg",
+      "title": "Structures of Redundancy"
+    },
+    {
+      "link": "",
+      "image": "/_/thumb/fingerprinting.jpg",
+      "title": "Drawings"
+    },
+    {
+      "link": "",
+      "image": "/img/pattern-and-presence/0021.jpg",
+      "title": "Assemblages"
+    }
+  ],
+
   "content": [
     {
       "title": "Harm van den Dorpel Honors Hacktivists and Netizens in London",
@@ -25,6 +53,7 @@
       "descr": "Group exhibition at Kate Vass Gallery, Zürich. With work by Herbert W. Franke, Gottfried Jäger, Desmond Paul Henry, Nicolas Schöffer, Manfred Mohr, Vera Molnàr, Frieder Nake, Harold Cohen, Gottfried Honegger, Cornelia Sollfrank, John Maeda, Casey Reas, Jared Tarbell, Memo Akten, Mario Klingemann, Benjamin Heidersberger, Alexander Mordvintsev, Manolo Gamboa Naon, Helena Sarin, David Young, Anna Ridler, Tom White, Sofia Crespo, Matt Hall &amp; John Watkinson, Primavera de Filippi, Robbie Barrat, Kevin Abosch, Harm van den Dorpel. Curated by Georg Bak and Jason Bailey.",
       "location": "Kate Vass, Zürich",
       "date": "2019-04-24T00:00:00.000Z",
+      "series": "structures-of-redundancy",
       "related": [
         "<a target='_blank' href='https://www.katevassgalerie.com/usr/documents/exhibitions/press_release_url/26/kate_vass_press_release1_upd.pdf'>Press release...</a>"
       ],
@@ -63,7 +92,8 @@
       "perma": "left-gallery-explainer",
       "cat": "blockchain,animation",
       "date": "2018-09-02T00:00:00.000Z",
-      "pubDate": "2018-09-02T00:00:00.000Z"
+      "pubDate": "2018-09-02T00:00:00.000Z",
+      "series":"left-gallery"
     },
     {
       "title": "Rhododendron",
@@ -98,6 +128,7 @@
       "date": "2019-06-01T00:00:00.000Z",
       "indexPic": true,
       "cat": "software,genetics",
+      "series": "algues-artificielles",
       "seeAlso": [
         "<a href='/talking-turtles'>Talking Turtles</a>",
         "<a href='https://harmvandendorpel.com/pattern-and-presence#0022.jpg'>Pattern and Presence</a>"
@@ -129,6 +160,7 @@
     {
       "theme": "dark",
       "title": "Structures of Redundancy (autobreeder)",
+      "series":"structures-of-redundancy",
       "date": "2019-05-11T00:00:00.000Z",
       "cat": "AI,software,genetics",
       "descr": "<p>Generative software, generating compositions evolving from primitive Turing machines. The more I lose myself in coding, the more I encounter historical computer science and AI relics. The algorithm used here is my contemporary interpretation of Cartesian genetic programming, which was invented in 1999.</p>",
@@ -177,6 +209,7 @@
       "tags": "algorithms,genetics,programming,relics",
       "indexPic": true,
       "perma": "structures-of-redundancy-prints",
+      "series":"structures-of-redundancy",
       "seeAlso": [
         "<a href='/structures-of-redundancy'>Autobreeder</a>"
       ],
@@ -330,6 +363,7 @@
       "title": "Nested Exchange Prints",
       "cat": "AI,genetics",
       "perma": "nested-exchange-prints",
+      "series":"nested-exchange",
       "descr": "Ultrachrome print on Hahnemühle paper, each 100&times;100cm, framed, unique edition.",
       "date": "2019-02-17T00:00:00.000Z",
       "images": {
@@ -379,12 +413,21 @@
     {
       "location": "Stroom, Den Haag",
       "title": "left gallery: rite of access",
-      "link": "https://left.gallery/collections/rite-of-access",
+      "featured": true,
+      "series": "left-gallery",
       "private": false,
       "date": "2019-09-07T00:00:00.000Z",
       "cat": "Netherlands,blockchain,curatorial",
       "pubDate": "2019-09-07T00:00:00.000Z",
-      "perma": "rite-of-access"
+      "perma": "rite-of-access",
+      "images": {
+        "path": "/rite-of-access/",
+        "filenames": [
+          {
+            "filename": "rite-of-access-04.jpg"
+          }
+        ]
+      }
     },
     {
       "title": "Water Cooler Talks",
@@ -409,6 +452,7 @@
       "theme": "dark",
       "featured": true,
       "perma": "vertiginous-data",
+      "series":"nested-exchange",
       "descr": "Group exhibition at the National Museum of Modern and Contemporary Art, Seoul. With work by Forensic Architecture, Cao Fei, Rachel Ara, Zach Blas, Simon Denny, Chris Shen, Sylbee Kim, Woonghyun Kim and Harm van den Dorpel. Curated by Deoksun Park. ",
       "related": [
         "<a target='_blank' href='https://www.mmca.go.kr/eng/pr/pressDetail.do?menuId=6020000000&bdCId=201903210006717&searchBmCid=201011160000014'>Museum website&hellip;</a>"
@@ -437,21 +481,14 @@
       "pubDate": "2019-03-21T00:00:00.000Z",
       "indexPic":true
     },
-    {
-      "title": "Solo Presentation with Narrative Projects",
-      "link": "https://www.artissima.art/en/",
-      "private": true,
-      "date": "2019-11-01T00:00:00.000Z",
-      "location": "Artissima, Turin",
-      "pubDate": "2019-11-01T00:00:00.000Z",
-      "perma": "solo-presentation-with-narrative-projects"
-    },
+    
     {
       "title": "Uninnocent Bystander",
       "featured": true,
       "related": [
         "<a href='https://www.lehmannsilva.com/' target='_blank'>Lehmann + Silva gallery website</a>"
       ],
+      "series":"structures-of-redundancy",
       "seeAlso": [
         "<a href='/structures-of-redundancy'>Structures of Redundancy (autobreeder)</a>",
         "<a href='/structures-of-redundancy-prints'>Structures of Redundancy (prints)</a>",
@@ -476,7 +513,8 @@
             "caption": "Screenshot of Structures of Redundancy (autobreeder), 2019"
           },
           {
-            "filename": "uninnocent-bystander-02.jpg"
+            "filename": "uninnocent-bystander-02.jpg",
+            "indexPic": true
           },
           {
             "filename": "tablets.jpg"
@@ -530,6 +568,7 @@
     {
       "title": "Notes on Objects",
       "perma": "notes-on-objects",
+      "featured": true,
       "location": "Narrative Projects, London",
       "descr": "Group sculpture exhibition at Narrative Projects, London. Works by Teresa Braula Reis, Braco Dimitrijevic, Harm van den Dorpel, Marte Eknæs, Carlos Noronha Feio, and Anton Ginzburg.",
       "date": "2019-02-27T00:00:00.000Z",
@@ -1033,7 +1072,8 @@
           },
           {
             "filename": "0006.jpg",
-            "caption": "Hexamerisms, 2018. 100&times;100&times;3cm."
+            "caption": "Hexamerisms, 2018. 100&times;100&times;3cm.",
+            "series": "nested-exchange"
           },
           {
             "filename": "0007.jpg",
@@ -1041,27 +1081,32 @@
           },
           {
             "filename": "0008.jpg",
-            "caption": "Fissured Petrolling Mridangam, 2018. 100&times;100&times;3cm."
+            "caption": "Fissured Petrolling Mridangam, 2018. 100&times;100&times;3cm.",
+            "series": "nested-exchange"
           },
           {
             "filename": "0009.jpg",
             "caption": "Wyn (Generation Unknown), 2018. 100&times;100&times;3cm.",
-            "orientation": "portrait"
+            "orientation": "portrait",
+            "series": "nested-exchange"
           },
           {
             "filename": "0010.jpg",
-            "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm."
+            "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm.",
+            "series": "nested-exchange"
           },
           {
             "filename": "0011.jpg",
             "caption": "Lammer Asbestus (detail)"
+            
           },
           {
             "filename": "0012.jpg",
             "caption": "Lammer Asbestus (detail)"
           },
           {
-            "filename": "0013.jpg"
+            "filename": "0013.jpg",
+            "indexPic": true
           },
           {
             "filename": "0014.jpg",
@@ -1096,15 +1141,18 @@
           },
           {
             "filename": "0024.jpg",
-            "caption": "Eponymous Seedling, 2018. UltrachromeR print on Hahnemühle paper. 80&times;64cm. "
+            "caption": "Eponymous Seedling, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;64cm.",
+            "series": "algues-artificielles"
           },
           {
             "filename": "0023.jpg",
-            "caption": "Freeling Tristesse, 2018. UltrachromeR print on Hahnemühle paper. 80&times;64cm. "
+            "caption": "Freeling Tristesse, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;64cm.",
+            "series": "algues-artificielles"
           },
           {
             "filename": "0025b.jpg",
-            "caption": "Unscripted Relinings, 2018. UltrachromeR print on Hahnemühle paper. 80&times;64cm. "
+            "caption": "Unscripted Relinings, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;64cm.",
+            "series": "algues-artificielles"
           },
           {
             "filename": "0025c.jpg",
@@ -1112,7 +1160,8 @@
           },
           {
             "filename": "0025.jpg",
-            "caption": "Bemused Aversatility, 2018. UltrachromeR print on Hahnemühle paper. 80&times;64cm. "
+            "caption": "Bemused Aversatility, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;64cm.",
+            "series": "algues-artificielles"
           },
           {
             "filename": "0026.jpg"
@@ -1126,11 +1175,13 @@
           },
           {
             "filename": "0030.jpg",
-            "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+            "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+            "series": "drawings"
           },
           {
             "filename": "0031.jpg",
-            "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+            "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+            "series": "drawings"
           }
         ]
       },
@@ -1158,15 +1209,8 @@
         "filenames": [
           {
             "filename": "recursion.png",
-            "orientation": "landscape"
-          },
-          {
-            "filename": "h.png",
-            "orientation": "portrait"
-          },
-          {
-            "filename": "radical-software-buckminster-1-1.jpg",
-            "orientation": "portrait"
+            "orientation": "landscape",
+            "series": "nested-exchange"
           }
         ]
       },
@@ -1184,10 +1228,9 @@
         "path": "/",
         "filenames": [
           {
-            "filename": "22582028_1870739363240964_2452193796486594560_n.jpg",
-            "orientation": "portrait",
-            "caption": "Installation view (cell phone photo)",
-            "link": "https://www.instagram.com/p/BadsiPuFl53/?taken-by=baramsky"
+            "filename": "Sydgator-Zolim-Juancar.jpg",
+            "caption": "Sydgator Zolim Juancar, 2017. 100×100cm",
+            "series": "death-imitates-language"
           }
         ]
       },
@@ -1219,6 +1262,7 @@
       "descr": "Group exhibition at the Museum of Contemporary Art, Chicago.",
       "cat": "exhibitions,sculpture",
       "tags": "assemblage,meta,recursion,hanging",
+      "series": "assemblages",
       "indexPic": false,
       "images": {
         "path": "/",
@@ -1255,7 +1299,8 @@
         "filenames": [
           {
             "filename": "NBA_NewDawn_HvdD_PapaverSomniferum_Detail.jpg",
-            "caption": "Papaver Somniferum (detail). 46×34cm, 2017"
+            "caption": "Papaver Somniferum (detail). 46×34cm, 2017",
+            "series": "drawings"
           }
         ]
       },
@@ -1268,6 +1313,7 @@
       "title": "Post Fail",
       "perma": "post-fail",
       "location": "Fotomuseum Winterthur",
+      "series":"whiteboards",
       "date": "2017-12-01T00:00:00.000Z",
       "descr": "Group exhibition at the Fotomuseum Winterthur, Switzerland.<br><br>With work by Adam Basanta, Discipula, Peter Halley, Felicity Hammond, Joey Holder, Michael Mandiberg, Jon Rafman, Harm van den Dorpel, and others. Curated by Matteo Cremonesi in collaboration with Link Art Center.",
       "cat": "exhibitions,Switzerland",
@@ -1376,7 +1422,8 @@
             "filename": "juancar-zolim-juancar-photo.jpg",
             "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
             "orientation": "portrait",
-            "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
+            "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm.",
+            "series": "death-imitates-language"
           },
           {
             "filename": "juancar-zolim-juancar-photo-detail.jpg",
@@ -1386,7 +1433,8 @@
             "filename": "joa-dereck-pitcher-photo.jpg",
             "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
             "orientation": "portrait",
-            "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
+            "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm.",
+            "series": "death-imitates-language"
           },
           {
             "filename": "joa-dereck-pitcher-photo-detail.jpg",
@@ -1394,16 +1442,19 @@
           },
           {
             "filename": "asking-for-a-friend-06.png",
-            "caption": "Algues Artificielles, 2017 (screenshot)"
+            "caption": "Algues Artificielles, 2017 (screenshot)",
+            "series": "algues-artificielles"
           },
           {
             "filename": "algues-artificielles.jpg",
-            "caption": "Algues Artificielles, 2017. Software projection, edition 5+1AP."
+            "caption": "Algues Artificielles, 2017. Software projection, edition 5+1AP.",
+            "series": "algues-artificielles"
           },
           {
             "filename": "asking-for-a-friend-poster.jpg",
             "orientation": "portrait",
-            "caption": "Invitation poster image"
+            "caption": "Invitation poster image",
+            "series": "risograph"
           }
         ]
       },
@@ -1424,6 +1475,7 @@
       "date": "2016-04-01T00:00:00.000Z",
       "link": "https://left.gallery/autobreeder",
       "cat": "store,genetics,animation",
+      "series": "death-imitates-language",
       "indexPic": true,
       "images": {
         "path": "/shifting-optics-4/",
@@ -1443,6 +1495,7 @@
       "descr": "Group exhibition at the Kunstverein Freiburg, Germany. With Ivana Bašić, Harm van den Dorpel, Cécile B. Evans, Pakui Hardware, Lina Hermsdorf, Kitty Kraus, Oliver Laric, Dominik Sittig, Anton Vidokle, and Tchelet Weisstub. Curated by Heinrich Dietz.",
       "date": "2017-09-15T00:00:00.000Z",
       "cat": "exhibitions,Germany",
+      "series": "death-imitates-language",
       "indexPic": false,
       "images": {
         "path": "/immortalismus/",
@@ -1482,6 +1535,7 @@
     {
       "title": "Death Imitates Language: Promiscuity Index",
       "perma": "promiscuity-index",
+      "series": "death-imitates-language",
       "descr": "",
       "private": true,
       "date": "2017-12-25T00:00:00.000Z",
@@ -1529,6 +1583,7 @@
       "title": "recursion.fyi",
       "perma": "recursion-fyi",
       "descr": "",
+      "series": "nested-exchange",
       "date": "2017-10-10T00:00:00.000Z",
       "cat": "",
       "images": {
@@ -1577,6 +1632,7 @@
       "descr": "Group show at Narrative Projects, London.<br><br>With works by Mahmoud Bakhshi, Juliette Blightman, Lynn Chadwick, Ilya Dolgov, Harm van den Dorpel, Marte Eknæs, Marita Fraser, Neil Haas, Richard Hamilton, Mustafa Hulusi, Xiao-yang Li, Georgy Litichevsky, Gabriela Machado, Lulou Margarine, Carlos Noronha Feio, Alice Ronchi, Daniel van Straalen, Sigrid Viir. Curated by Carlos Noronha Feio.",
       "date": "2017-07-20T00:00:00.000Z",
       "indexPic": false,
+      "series": "drawings",
       "related": [
         "<a href='http://narrativeprojects.com/exhibitions/wild-flowers-wildness-is-contextual/' target='_blank'>Gallery website</a>"
       ],
@@ -1768,11 +1824,13 @@
           {
             "filename": "shifting-optics-4-02.jpg",
             "caption": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm",
+            "series": "death-imitates-language",
             "link": "https://deathimitateslanguage.harmvandendorpel.com/language/1b5d80aa090230ee38c3a7c6226df85ce4a604fa"
           },
           {
             "filename": "shifting-optics-4-03.jpg",
             "caption": "Hatter Epot Xgeubke, 2017, 100&times;100&times;3cm",
+            "series": "death-imitates-language",
             "link": "https://deathimitateslanguage.harmvandendorpel.com/language/e022fbb5c0cb7c6921e521f4b86d9225c151d91f"
           },
           {
@@ -1780,11 +1838,13 @@
           },
           {
             "filename": "shifting-optics-4-05.jpg",
+            "series": "death-imitates-language",
             "caption": "Autobreeder, 2016"
           },
           {
             "filename": "shifting-optics-4-04.jpg",
             "caption": "Automatic drawings, 2017",
+            "series": "drawings",
             "link": "https://harmvandendorpel.com/new-drawings-2017"
           }
         ]
@@ -1796,6 +1856,7 @@
       "perma": "hybrid-vigor",
       "date": "2017-01-12T00:00:00.000Z",
       "hideOnIndex": false,
+      "series": "algues-artificielles",
       "descr": "A series of <a href='https://en.wikipedia.org/wiki/Turtle_graphics' target='_blank'>turtle</a> drawings created with a custom <a href='https://www.youtube.com/watch?v=kHyNqSnzP8Y' target='_blank'>genetic algorithm</a>: a method to create variation (while maintaining improvements) by matching partners and selection of the 'fittest' offspring.<br><br><a href='http://hybrid.vigor.bio' target='_blank'>Launch hybrid.vigor.bio</a>",
       "indexPic": false,
       "tags": "genetics,generative,software,drawings",
@@ -1887,6 +1948,7 @@
       "title": "Death Imitates Language",
       "perma": "death-imitates-languange-nba",
       "location": "Neumeister Bar-Am, Berlin",
+      "series": "death-imitates-language",
       "descr": "Solo exhibition at gallery Neumeister Bar-Am, Berlin.",
       "cat": "exhibitions,Germany,solo",
       "date": "2016-11-26T00:00:00.000Z",
@@ -1920,27 +1982,32 @@
           {
             "filename": "GS-NBA-1926.jpg",
             "caption": "Acura Bigboobe Romcops, 2016. 100&times;100&times;4cm.",
-            "orientation": "portrait"
+            "orientation": "portrait",
+            "series": "death-imitates-language"
           },
           {
             "filename": "GS-NBA-1947.jpg",
             "caption": "Kennyk Lucius Zhabt, 2016. 100&times;100&times;2cm.",
-            "orientation": "portrait"
+            "orientation": "portrait",
+            "series": "death-imitates-language"
           },
           {
             "filename": "GS-NBA-1946.jpg",
             "caption": "Yaroslavalavrova Kochan Xutizekea, 2016. 100&times;100&times;2cm.",
-            "orientation": "portrait"
+            "orientation": "portrait",
+            "series": "death-imitates-language"
           },
           {
             "filename": "GS-NBA-1948.jpg",
             "caption": "Wsxzaq Mrjake Wadley, 2016. 100&times;100&times;2cm.",
-            "orientation": "portrait"
+            "orientation": "portrait",
+            "series": "death-imitates-language"
           },
           {
             "filename": "GS-NBA-1949.jpg",
             "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016. 100&times;100&times;2cm.",
-            "orientation": "portrait"
+            "orientation": "portrait",
+            "series": "death-imitates-language"
           }
         ]
       },
@@ -1973,6 +2040,7 @@
       "perma": "untitled-group-show-casco",
       "location": "Casco, Utrecht",
       "date": "2016-10-27T00:00:00.000Z",
+      "series": "death-imitates-language",
       "cat": "exhibitions",
       "images": {
         "path": "/",
@@ -2047,7 +2115,8 @@
         "<a href='http://www.unsound.pl/dislocation/profiles/amnesia-scanner-bill-kouligas' target='_blank'>Festival Profile</a>",
         "<a href='/lexachast'>Lexachast website</a>"
       ],
-      "pubDate": "2016-10-22T00:00:00.000Z"
+      "pubDate": "2016-10-22T00:00:00.000Z",
+      "series": "PAN"
     },
     {
       "date": "2016-09-23T00:00:00.000Z",
@@ -2055,6 +2124,7 @@
       "descr": "eAR is a location-based augmented reality sound and text piece in the form of first-person fiction. It presents a series of dramatized field recordings from our digitally mediated environment together with commentary inspired by the Let’s Play format. eAR allows the listeners to reimagine their immediate surroundings via augmented hearing, and to take the scenic route through sound.<br><br>Sound by Ville Haimala, text by Jenna Sutela, design and programming by Harm van den Dorpel.",
       "cat": "software,websites,PAN",
       "perma": "ear",
+      "series": "PAN",
       "images": {
         "path": "",
         "filenames": [
@@ -2079,6 +2149,7 @@
       "descr": "<em>Learning is especially felicitous in a context where the learner is consciously engaged in constructing a public entity, whether it’s a sand castle on the beach or a theory of the universe.</em><br><br>Turtle graphics are a drawing system described by Seymour Papert, in which an imaginary turtle moves around the computer screen drawing as it goes, all under the control of instructions given by a computer program. This sort of programming, and the results it produces, are easy to understand because they are so immediately visual. But it can go well beyond simple graphics, and provide a basis for fascinating and powerful programs that introduce fundamental concepts of software engineering and artificial intelligence. <br><br>The images below are generated by combining a custom turtle graphics implementation with a genetic algorithm, not unlike my earlier <q>Death Imitates Language</q>.<br><br>Thank you Laurel Schwulst for title suggestions.<style>.main-image{margin-bottom:200px;} </style>",
       "cat": "software, drawings",
       "perma": "talking-turtles",
+      "series":"algues-artificielles",
       "images": {
         "path": "/talking-turtles/",
         "filenames": [
@@ -2166,6 +2237,7 @@
       "descr": "Group exhibition at the <span itemscope='' itemtype='http://schema.org/Place'>Museum Kurhaus Kleve, Germany</span><br><br>With Olga Balema, Alice Channer, Thea Djordjadze, Harm van den Dorpel, Krištof Kintera, Martin Kippenberger, Hito Steyerl, Barthélémy Toguo and Erwin Wurm. Curated by Heinrich Dietz and Harald Kunde.<br><br>Presented are 6 wall pieces, multi layered UV prints with white channel between CNC-cut plexiglass, packing material, screw system, unique editions, each 100&times;100&times;4cm, and an animated software work, showing the entire genealogy.",
       "indexPic": true,
       "perma": "wer-nicht-denken-will-fliegt-raus",
+      "series":"death-imitates-language",
       "images": {
         "path": "/kleve/",
         "filenames": [
@@ -2212,7 +2284,8 @@
           },
           {
             "filename": "Doroark-Churu-Fexi.jpg",
-            "caption": "Doroark Churu Fexi, 2016"
+            "caption": "Doroark Churu Fexi, 2016",
+            "series": "death-imitates-language"
           },
           {
             "filename": "IMG_9318.jpg"
@@ -2306,6 +2379,7 @@
       "indexPic": true,
       "cat": "software,genetics",
       "perma": "death-imitates-language",
+      "series":"death-imitates-language",
       "descr": "<p>A series of works exploring the development of meaning in generative aesthetics using micro feedback and a genetic algorithm. It consists of a website and a series of printed and boxed collage works.</p><p>The public website contains an enormous population of speculative works. Each of these works are generated by inheriting sequences of information - a sort of DNA - from their ancestors. These ‘genetic’ codes determine which elements appear in the work and in what form or constellation. The population changes over time by means of subjective ('natural') selection by the artist: micro feedback or 'likes'. This feedback - combined with visitor statistics and simulated aging - causes the genetic program to mutate and (arguably) improve over time. </p><p>When creatures reach their optimal state they are 'frozen' and translated into physical objects. These objects are layered in construction, partly transparent and square. They can be hung and watched from all sides.</p><p>Unique pieces, each 100 &times; 100 cm.</p>",
       "images": {
         "path": "/dil/",
@@ -2365,6 +2439,7 @@
         "<a href='http://www.mixmag.net/read/amnesia-scanner-and-bill-kouligas-launch-lexachast-website-news' target='_blank'>Mixmag blogpost</a>"
       ],
       "perma": "lexachast",
+      "series": "PAN",
       "related": [
         "<a href='http://lexachast.com/' target='_blank'>http://lexachast.com/</a>"
       ],
@@ -2442,7 +2517,7 @@
       "title": "IOU",
       "descr": "Solo show at Narrative Projects, London. 12 paintings made by heating thermal paper, partially sprayed with water, mounted on canvas. Titles provided by the Wolfram Image Recognition Project.",
       "cat": "exhibitions,London,solo",
-      "tags": "aaron swartz,tribute,painting, thermopaper,ai, politics",
+      "tags": "aaron swartz,tribute,painting,thermopaper,ai,politics",
       "images": {
         "path": "/iou/",
         "filenames": [
@@ -4059,11 +4134,10 @@
       "hideOnIndex": true,
       "title": "Harm van den Dorpel",
       "perma": "about",
-      "private": true,
-      "tags": "contact,email,bio,about",
-      "descr": "Born 1981 in Zaandam, the Netherlands. Lives and works in Berlin.<br><br><a href='https://docs.google.com/document/d/1e3_Y-vZKyWIt-iRXt89vLXwpBHYYtJpHlWmm9B5hrb4/' target='_blank'>Curriculum vitae</a><br><br><a href='mailto:studio@harmvandendorpel.com'>studio@harmvandendorpel.com</a><br><br><a href='https://www.are.na/harm-van-den-dorpel/channels' target='_blank'>Are.na</a><br><a href='https://twitter.com/harmvddorpel'>Twitter</a><br><a href='https://www.instagram.com/harmvandendorpel/' target='_blank'>Instagram</a><br><a href='http://harmvandendorpel.com/feed' target='_blank'>RSS</a>",
-      "date": "2019-06-12T11:14:16.339Z",
-      "pubDate": "2019-06-12T11:14:46.367Z"
+      "tags": "contact,email,bio,about,cv",
+      "descr": "Born in Zaandam, the Netherlands. Lives and works in Berlin.<br><br><a href='https://docs.google.com/document/d/1e3_Y-vZKyWIt-iRXt89vLXwpBHYYtJpHlWmm9B5hrb4/' target='_blank'>Curriculum vitae</a><br><br><a href='mailto:studio@harmvandendorpel.com'>studio@harmvandendorpel.com</a><br><br><a href='https://www.are.na/harm-van-den-dorpel/channels' target='_blank'>Are.na</a><br><a href='https://twitter.com/harmvddorpel'>Twitter</a><br><a href='https://www.instagram.com/harmvandendorpel/' target='_blank'>Instagram</a><br><a href='http://harmvandendorpel.com/feed' target='_blank'>RSS</a>",
+      "date": "1981-02-09T11:14:16.339Z",
+      "pubDate": "1981-02-09T11:14:46.367Z"
     }
   ]
 }
