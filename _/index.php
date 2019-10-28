@@ -154,6 +154,9 @@ function item($data) {
   }
 
 </style>
+<div class="index-thumbs">
+  <?php main_thumbs(); ?>
+</div>
 <div class="index-content">
   <div class="index-index">
     <div class="index-index-list" id="list-default">
@@ -161,8 +164,20 @@ function item($data) {
     </div>
   </div>
 </div>
-<div class="index-thumbs">
+
+
+<div class="floating-logo floating-logo-deli" data-link="/deli-near-info"></div>
+<a href='https://left.gallery' target='_blank'><div class="floating-logo floating-logo-left"></div></a>
+<div class="floating-logo floating-logo-death" data-link="/death-imitates-language"></div>
+<div class="floating-logo floating-logo-dissociations" data-link="http://dissociations.com/804"></div>
+<div class="floating-logo floating-logo-tokens" data-link="https://tokens.harmvandendorpel.com/"></div>
+
+<?php script(); ?>
+<?php footer(); ?>
+
 <?php
+
+function main_thumbs () {
   $index_data = getIndexData();
   foreach($index_data as $item) {
     ?>
@@ -178,17 +193,8 @@ function item($data) {
     </div>
     <?php
   }
-?>
-</div>
-<div class="floating-logo floating-logo-deli" data-link="/deli-near-info"></div>
-<a href='https://left.gallery' target='_blank'><div class="floating-logo floating-logo-left"></div></a>
-<div class="floating-logo floating-logo-death" data-link="/death-imitates-language"></div>
-<div class="floating-logo floating-logo-dissociations" data-link="http://dissociations.com/804"></div>
-<div class="floating-logo floating-logo-tokens" data-link="https://tokens.harmvandendorpel.com/"></div>
-
-<?php script(); ?>
-<?php footer(); ?>
-
+  ?></div><?php
+} ?>
 
 <div class="mailing-list">
   <div id="mc_embed_signup">

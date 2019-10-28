@@ -10,11 +10,7 @@
       "image": "/img/pattern-and-presence/0006.jpg",
       "title": "Nested Exchange"
     },
-    {
-      "link": "/series/structures-of-redundancy",
-      "image": "/img/cartesian-genetic-programming/cgp-1554306222667-framed.jpg",
-      "title": "Structures of Redundancy"
-    },
+    
     {
       "link": "/series/drawings",
       "image": "/_/thumb/fingerprinting.jpg",
@@ -24,6 +20,11 @@
       "link": "/series/assemblages",
       "image": "/img/pattern-and-presence/0021.jpg",
       "title": "Assemblages"
+    },
+    {
+      "link": "/series/structures-of-redundancy",
+      "image": "/img/cartesian-genetic-programming/cgp-1554306222667-framed.jpg",
+      "title": "Structures of Redundancy"
     }
   ],
 
@@ -969,7 +970,7 @@
             "caption": "Screenshot"
           },
           {
-            "filename": "pattern-and-presence/0003.png",
+            "filename": "0003.png",
             "caption": "Screenshot"
           },
           {
