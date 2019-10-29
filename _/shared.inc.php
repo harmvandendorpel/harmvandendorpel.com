@@ -17,6 +17,18 @@ function getData() {
   return $json_data['content'];
 }
 
+function getSeries($perma) {
+  global $json_data;
+  $series = $json_data['content'];
+  for ($i = 0; $i < count($series); $i++) {
+    $item = $series[$i];
+    if ($item['perma'] === $perma) {
+      return $item;
+    }
+  }
+  return null;
+}
+
 function getIndexData() {
   global $json_data;
   return $json_data['index'];
@@ -73,10 +85,10 @@ function summary($input) {
 
 function getListMetaPic($content) {
     for ($i=0; $i < count($content); $i++) {
-        if (!array_key_exists($content[$i], 'images')) {
-            $images = $content[$i]['images'];
-            if (count($images['filenames']) > 0) {
-                return '/img'.$images['path'].$images['filenames'][0]['filename'];
+        if (!array_key_exists($content[$i], 'parts')) {
+            $images = $content[$i]['parts'];
+            if (count($images) > 0) {
+                return '/img'.$images[0]['filename'];
             }
         }
     }

@@ -111,6 +111,56 @@ function upcomingString($dateString) {
   return $item_month; // .' '.$item_year;
 }
 
+function thumb($item) {
+  ?>
+    <div class='thumb-container'>
+      <a href='<?php echo $item['link']; ?>' class='thumb-image-link'>
+        <div class='index-thumb-item'>
+          <div class='thumb-item-image' style='background-image: url(<?php echo $item['image'] ?>);'></div>
+        </div>
+        <div style='width: 100%; text-align:center;'><?php echo $item['title']; ?></div>
+      </a>
+    </div>
+  <?php
+}
+
+function item($data) {
+  $images = $data['parts'];
+  $path = $images['path'];
+  $filenames = $images;
+  $filename = $filenames[0]['filename'];
+
+  for ($i = 0; $i < count($filenames); $i++) {
+    $image = $filenames[$i];
+    if ($image['indexPic']) {
+      $filename = $image['filename'];
+    }
+  }
+
+  $imgUrl = "/img$path$filename";
+
+  // list($width, $height) = getimagesize('.' . $imgUrl);
+  
+  ?>
+    <div class="image-wide-index" style='position: relative;'>
+      <a href='/<?php echo $data['perma']; ?>'>
+
+        <div class='image-container-proportional'>
+          <div class='image-loading-watermark'>
+            <span class='image-inner-proportional'></span>
+          </div>
+          <div class='image-proportional' style='background-image: url(<?php echo $imgUrl; ?>);'>
+            <span class='image-inner-proportional'></span>
+          </div>
+        </div>
+
+        <div class='index-header-container'><h1 style='background-color: white; display: inline; padding: 10px 15px;'><?php echo $data['title']; ?></h1></div>
+      </a>
+    </div>
+  <?php
+}
+
+
 function do404($perma, $content) {
     http_response_code(307);
     $rating = array();
@@ -140,7 +190,7 @@ function indexItem($content, $textOnly = false, $cat=null, $forceImage=false) {
 
   $caption = $content['title'];
 
-  $asImage = $forceImage || $content['images'] && $content["indexPic"] == 'true' && !$textOnly;
+  $asImage = $forceImage || $content['parts'] && $content["indexPic"] == 'true' && !$textOnly;
   $result = '';
   
   $extraClass = $asImage ? 'index-item-image': '';
@@ -180,21 +230,21 @@ function footer($showMailinglist=true) {
 }
 
 function indexImage($content, $isUpcoming = false) {
-    $images = $content['images'];
+    $images = $content['parts'];
     $path = $images['path'];
     if (!$path) {
       $path = '/';
     }
 
-    for ($i=0; $i < count($images['filenames']);$i++) {
-      $image = $images['filenames'][$i];
+    for ($i=0; $i < count($images);$i++) {
+      $image = $images[$i];
       if ($image['index']) {
         $firstPic = $image;
       }
     }
 
     if (!$firstPic) {
-      $firstPic = $images['filenames'][0];
+      $firstPic = $images[0];
     }
 
     $fullFilename = '/img'.$path.$firstPic['filename'];
@@ -202,7 +252,7 @@ function indexImage($content, $isUpcoming = false) {
 
     $class = $width > $height ? 'landscape' : 'portrait';
 
-    $url = ABSOLUTE_URL.'/img'.$path.rawurlencode($firstPic['filename']);
+    $url = ABSOLUTE_URL.'/img'.$path.$firstPic['filename'];
     $caption = $content['title'];
     if ($isUpcoming) {
     	$caption .= ' (upcoming)';
@@ -245,8 +295,8 @@ function searchItem($item) {
     $to = $item['to'] + strlen($before);
     $caption = substr_replace($text, "<em>", $from, 0);
     $caption = substr_replace($caption, "</em>", $to, 0);
-    if ($item['images']) {
-      $images = $item['images'];
+    if ($item['parts']) {
+      $images = $item['parts'];
       $imageHtml = '<div class="search-item-thumbs-container">';
       for ($i = 0; $i < count($images); $i++) {
         $image = $images[$i];
@@ -291,14 +341,14 @@ function searchItem($item) {
         type => 'title'
       );
 
-      if ($item['images']) {
-        $images = $item['images'];
+      if ($item['parts']) {
+        $images = $item['parts'];
         $path = $images['path'] ? $images['path'] : '/';
 
-        for ($i = 0; $i < min(4, count($images['filenames'])); $i++) {
-          $firstImage = $images['filenames'][$i];
+        for ($i = 0; $i < min(4, count($images)); $i++) {
+          $firstImage = $images[$i];
           $imageUrl = '/thumb'.$path.$firstImage['filename'];
-          $searchItem['images'][] = $imageUrl;
+          $searchItem['parts'][] = $imageUrl;
         }
       }
 
@@ -368,10 +418,10 @@ function searchItem($item) {
   }
   
   function searchImages($query, $item, &$result) {  
-    if ($item['images']) {
-      if ($item['images']['filenames']) {
-        $images = $item['images']['filenames'];
-        $path = $item['images']['path'];
+    if ($item['parts']) {
+      if ($item['parts']) {
+        $images = $item['parts'];
+        $path = $item['parts']['path'];
         for ($i = 0; $i < count($images); $i++) {
           $image = $images[$i];
           $caption = $image['caption'];

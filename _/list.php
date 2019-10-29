@@ -23,14 +23,14 @@
 
 <body itemscope itemtype="http://schema.org/WebPage">
 <div class="content">
-    <h1><?php echo ucfirst($cat) ;?></h1>
-    <ul style="list-style: none; padding:0; margin: 0; float:left;margin-bottom: 36px;width: 100%;"><?php
+  <h1><?php echo ucfirst($cat) ;?></h1>
+  <ul style="list-style: none; padding:0; margin: 0; float:left;margin-bottom: 36px;width: 100%;"><?php
         
-        foreach($content as $item) {
-            echo indexItem($item, $textOnly);
-        }
+  foreach($content as $item) {
+    echo indexItem($item, $textOnly);
+  }
 
-    ?></ul>
+?></ul>
 </div>
 
 <?php backButton(false); ?>

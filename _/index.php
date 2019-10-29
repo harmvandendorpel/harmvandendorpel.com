@@ -26,132 +26,20 @@
   display: block;
 }
 
-.image-wide-index {
-  margin-bottom: 60px;
-}
 
-.image-wide-index img {
-  max-width: 100%
-}
-
-.index-thumbs {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.index-thumb-item {
-  width: 15vw;
-  height: 15vw;
-  box-sizing: border-box;
-  padding: calc(0.2vw + 10px);
-}
-
-.thumb-container {
-  position: relative;
-}
-
-.thumb-item-image {
-  background-size: contain;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
 
 </style>
 </head>
 <?php
 
-function item($data) {
-  $images = $data['images'];
-  $path = $images['path'];
-  $filenames = $images['filenames'];
-  $filename = $filenames[0]['filename'];
 
-  for ($i = 0; $i < count($filenames); $i++) {
-    $image = $filenames[$i];
-    if ($image['indexPic']) {
-      $filename = $image['filename'];
-    }
-  }
-
-  $imgUrl = "/img$path$filename";
-
-  // list($width, $height) = getimagesize('.' . $imgUrl);
-  
-  ?>
-    <div class="image-wide-index" style='position: relative;'>
-      <a href='/<?php echo $data['perma']; ?>'>
-
-        <div class='image-container-proportional'>
-          <div class='image-loading-watermark'>
-            <span class='image-inner-proportional'></span>
-          </div>
-          <div class='image-proportional' style='background-image: url(<?php echo $imgUrl; ?>);'>
-            <span class='image-inner-proportional'></span>
-          </div>
-        </div>
-
-        <div class='index-header-container'><h1 style='background-color: white; display: inline; padding: 10px 15px;'><?php echo $data['title']; ?></h1></div>
-      </a>
-    </div>
-  <?php
-}
 
 ?>
 <body itemscope itemtype="http://schema.org/WebPage">
 
 <style>
   
-  .image-loading-watermark {
-    background-image: url(/img/raster.png);
-    width: 100%;
-    background-size: cover;
-    position: absolute;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    padding-bottom: 58%;
-    left: 0;
-    top: 0;
-  }
-
-  .image-container-proportional {
-    width: 100%;
-    position:relative;
-  }
-
-  .image-proportional {    
-    left: 0;
-    width: 100%;
-    background-size: cover;
-    position: relative;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    padding-bottom: 58%;
-    top: 0;
-  }
-
-  .image-inner-proportional {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    display: block;
-  }
-
-  .index-content {
-    max-width: 1024px;
-    margin: auto;
-  }
-
-
-  .thumb-image-link {
-    border: none;
-  }
+  
 
 </style>
 <div class="index-thumbs">
@@ -176,24 +64,11 @@ function item($data) {
 <?php footer(); ?>
 
 <?php
-
 function main_thumbs () {
   $index_data = getIndexData();
   foreach($index_data as $item) {
-    ?>
-    <div class='thumb-container'>
-      <a href='<?php echo $item['link']; ?>' class='thumb-image-link'>
-        <div
-          class='index-thumb-item'      
-        >
-          <div class='thumb-item-image' style='background-image: url(<?php echo $item['image'] ?>);'></div>
-        </div>
-        <div style='width: 100%; text-align:center;'><?php echo $item['title']; ?></div>
-      </a>
-    </div>
-    <?php
+    thumb($item);
   }
-  ?></div><?php
 } ?>
 
 <div class="mailing-list">

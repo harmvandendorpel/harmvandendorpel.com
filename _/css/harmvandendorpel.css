@@ -675,3 +675,85 @@ blockquote {
 	padding: 3px 10px;
 	margin-bottom: 20px;
 }
+
+
+.image-loading-watermark {
+	background-image: url(/img/raster.png);
+	width: 100%;
+	position: absolute;
+	background-position: 50% 50%;
+	padding-bottom: 58%;
+	left: 0;
+	top: 0;
+}
+
+.image-container-proportional {
+	width: 100%;
+	position:relative;
+}
+
+.image-proportional {    
+	left: 0;
+	width: 100%;
+	background-size: cover;
+	position: relative;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	padding-bottom: 58%;
+	top: 0;
+}
+
+.image-inner-proportional {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	display: block;
+}
+
+.index-content {
+	max-width: 1024px;
+	margin: auto;
+}
+
+
+.thumb-image-link {
+	border: none;
+}
+
+.index-thumbs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+	margin-bottom: 100px;
+	flex-wrap: wrap;
+}
+
+.index-thumb-item {
+  width: 15vw;
+  height: 15vw;
+  box-sizing: border-box;
+  padding: calc(0.2vw + 10px);
+}
+
+.thumb-container {
+  position: relative;
+}
+
+.thumb-item-image {
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.image-wide-index {
+  margin-bottom: 60px;
+}
+
+.image-wide-index img {
+  max-width: 100%
+}
