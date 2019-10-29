@@ -52,6 +52,7 @@
       "descr": "Group exhibition at Kate Vass Gallery, Zürich. With work by Herbert W. Franke, Gottfried Jäger, Desmond Paul Henry, Nicolas Schöffer, Manfred Mohr, Vera Molnàr, Frieder Nake, Harold Cohen, Gottfried Honegger, Cornelia Sollfrank, John Maeda, Casey Reas, Jared Tarbell, Memo Akten, Mario Klingemann, Benjamin Heidersberger, Alexander Mordvintsev, Manolo Gamboa Naon, Helena Sarin, David Young, Anna Ridler, Tom White, Sofia Crespo, Matt Hall &amp; John Watkinson, Primavera de Filippi, Robbie Barrat, Kevin Abosch, Harm van den Dorpel. Curated by Georg Bak and Jason Bailey.",
       "location": "Kate Vass, Zürich",
       "date": "2019-04-24T00:00:00.000Z",
+      "series": "structures-of-redundancy",
       "related": [
         "<a target='_blank' href='https://www.katevassgalerie.com/usr/documents/exhibitions/press_release_url/26/kate_vass_press_release1_upd.pdf'>Press release...</a>"
       ],
@@ -64,7 +65,8 @@
           "filename": "/cartesian-genetic-programming/cgp-1556312769668-framed.jpg",
           "caption": "Multi Dimensional Zoom, 50&times;50cm, 2019",
           "orientation": "portrait"
-        }
+        },
+        {}
       ],
       "pubDate": "2019-06-14T13:59:00.731Z",
       "perma": "automat-und-mensch",
@@ -87,7 +89,11 @@
       "perma": "left-gallery-explainer",
       "cat": "blockchain,animation",
       "date": "2018-09-02T00:00:00.000Z",
-      "pubDate": "2018-09-02T00:00:00.000Z"
+      "pubDate": "2018-09-02T00:00:00.000Z",
+      "series": "left-gallery",
+      "parts": [
+        {}
+      ]
     },
     {
       "title": "Rhododendron",
@@ -116,11 +122,13 @@
       "descr": "I was asked to curate a screening program taking from the Stedelijk’s single channel video collection and new one-minute videos solicited via an open call. As a starting point I suggested to investigate the concept of <q>artificial scarcity</q> as we might encounter in economics, but also in language and artistic process. The works from the program will remain on view as part of the permanent collection exhibition, as well as on a video screen in the entrance hall.<br><br>With works by Samuel Beckett, Culturesport, Martha Rosler, Petra Cortright, and many more.<br><br>Thanks go out to Karen Archey and Henri Sandront of the Stedelijk Museum Amsterdam, and Julia van Mourik of The One Minutes Foundation."
     },
     {
+      "type": "series",
       "title": "Algues Artificielles Prints",
       "perma": "algues-artificielles",
       "date": "2019-06-01T00:00:00.000Z",
       "indexPic": true,
       "cat": "software,genetics",
+      "series": "algues-artificielles",
       "seeAlso": [
         "<a href='/talking-turtles'>Talking Turtles</a>",
         "<a href='https://harmvandendorpel.com/pattern-and-presence#0022.jpg'>Pattern and Presence</a>"
@@ -150,45 +158,54 @@
           "thumbs": [
             {
               "filename": "/pattern-and-presence/0024.jpg",
-              "caption": "Eponymous Seedling, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
+              "caption": "Eponymous Seedling, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm.",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/pattern-and-presence/0023.jpg",
-              "caption": "Freeling Tristesse, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
+              "caption": "Freeling Tristesse, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm.",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/pattern-and-presence/0025b.jpg",
-              "caption": "Unscripted Relinings, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
+              "caption": "Unscripted Relinings, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm.",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/pattern-and-presence/0025.jpg",
-              "caption": "Bemused Aversatility, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
+              "caption": "Bemused Aversatility, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm.",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/asking-for-a-friend/frouters.jpg",
               "link": "https://harmvandendorpel.com/hybrid-vigor",
               "caption": "Frouters, 2016. Digital archival print, unique, 100&times;80cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9677.jpg",
               "link": "https://harmvandendorpel.com/hybrid-vigor",
               "caption": "Availablesky, 2016. Digital archival print, unique, 100&times;80cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9654.jpg",
               "link": "https://harmvandendorpel.com/hybrid-vigor",
               "caption": "Adoreway, 2016. Digital archival print, unique, 100&times;80cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/asking-for-a-friend/asking-for-a-friend-06.png",
-              "caption": "Algues Artificielles, 2017 (screenshot)"
+              "caption": "Algues Artificielles, 2017 (screenshot)",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/asking-for-a-friend/algues-artificielles.jpg",
-              "caption": "Algues Artificielles, 2017. Software projection, edition 5+1AP."
+              "caption": "Algues Artificielles, 2017. Software projection, edition 5+1AP.",
+              "series": "algues-artificielles"
             }
           ]
         }
@@ -198,6 +215,7 @@
     {
       "theme": "dark",
       "title": "Structures of Redundancy (autobreeder)",
+      "series": "structures-of-redundancy",
       "date": "2019-05-11T00:00:00.000Z",
       "cat": "AI,software,genetics",
       "descr": "<p>Generative software, generating compositions evolving from primitive Turing machines. The more I lose myself in coding, the more I encounter historical computer science and AI relics. The algorithm used here is my contemporary interpretation of Cartesian genetic programming, which was invented in 1999.</p>",
@@ -233,16 +251,19 @@
         },
         {
           "filename": "/structures-of-redundancy/structures-of-redundancy-screenshot-08.jpg"
-        }
+        },
+        {}
       ],
       "pubDate": "2019-05-11T00:00:00.000Z"
     },
     {
+      "type": "series",
       "private": false,
       "cat": "AI,software,genetics",
       "tags": "algorithms,genetics,programming,relics",
       "indexPic": true,
       "perma": "structures-of-redundancy",
+      "series": "structures-of-redundancy",
       "seeAlso": [
         "<a href='/structures-of-redundancy'>Autobreeder</a>"
       ],
@@ -314,7 +335,8 @@
           "filename": "/cartesian-genetic-programming/cgp-1554148941503-framed.jpg",
           "caption": "Bars, 100&times;100cm, 2019",
           "orientation": "portrait"
-        }
+        },
+        {}
       ],
       "pubDate": "2019-05-02T00:00:00.000Z"
     },
@@ -362,17 +384,20 @@
       "title": "Nested Exchange Prints",
       "cat": "AI,genetics",
       "perma": "nested-exchange-prints",
+      "series": "nested-exchange",
       "descr": "Ultrachrome print on Hahnemühle paper, each 100&times;100cm, framed, unique edition.",
       "date": "2019-02-17T00:00:00.000Z",
       "parts": [
         {
           "orientation": "portrait",
           "filename": "/nested-exchange-prints/Peached-Renitencies-Mercer.jpg",
-          "caption": "Peached Renitencies Mercer, 2018"
+          "caption": "Peached Renitencies Mercer, 2018",
+          "series": "nested-exchange"
         },
         {
           "filename": "/nested-exchange-prints/unjust-nonderogatorily-ventriloquist-web.jpg",
-          "caption": "Unjust Nonderogatory Ventriloquist, 2018"
+          "caption": "Unjust Nonderogatory Ventriloquist, 2018",
+          "series": "nested-exchange"
         },
         {
           "filename": "/nested-exchange-prints/79dd9f8882b228d5decb84231c958a26cdb65218.jpg",
@@ -380,7 +405,8 @@
         },
         {
           "filename": "/nested-exchange-prints/1f320d3e7a9f5a63c61d1d9c9f08fe6d0c86e8d8-framed.jpg",
-          "caption": "Bellybuttons Stotinka Lesbic, 2018"
+          "caption": "Bellybuttons Stotinka Lesbic, 2018",
+          "series": "nested-exchange"
         },
         {
           "filename": "/nested-exchange-prints/817bbd064e1b182b0a4a458e22fa34a98d29b621-framed.jpg",
@@ -388,7 +414,8 @@
         },
         {
           "filename": "/nested-exchange-prints/50c2bc41558758e0897ba473e6feabdbfed9f67d-framed.jpg",
-          "caption": "Griper Matildas Badgers, 2018"
+          "caption": "Griper Matildas Badgers, 2018",
+          "series": "nested-exchange"
         },
         {
           "filename": "/nested-exchange-prints/d26bed11c6dafc622ec57177dbfe43e76a47051c-framed.jpg",
@@ -399,40 +426,49 @@
             {
               "orientation": "portrait",
               "filename": "/nested-exchange-prints/Peached-Renitencies-Mercer.jpg",
-              "caption": "Peached Renitencies Mercer, 2018"
+              "caption": "Peached Renitencies Mercer, 2018",
+              "series": "nested-exchange"
             },
             {
               "filename": "/nested-exchange-prints/unjust-nonderogatorily-ventriloquist-web.jpg",
-              "caption": "Unjust Nonderogatory Ventriloquist, 2018"
+              "caption": "Unjust Nonderogatory Ventriloquist, 2018",
+              "series": "nested-exchange"
             },
             {
               "filename": "/nested-exchange-prints/1f320d3e7a9f5a63c61d1d9c9f08fe6d0c86e8d8-framed.jpg",
-              "caption": "Bellybuttons Stotinka Lesbic, 2018"
+              "caption": "Bellybuttons Stotinka Lesbic, 2018",
+              "series": "nested-exchange"
             },
             {
               "filename": "/nested-exchange-prints/50c2bc41558758e0897ba473e6feabdbfed9f67d-framed.jpg",
-              "caption": "Griper Matildas Badgers, 2018"
+              "caption": "Griper Matildas Badgers, 2018",
+              "series": "nested-exchange"
             },
             {
               "filename": "/uninnocent-bystander/uninnocent-bystander-04.jpg",
-              "caption": "Cussos Unfence Thermographers,  100×100cm, 2019"
+              "caption": "Cussos Unfence Thermographers,  100×100cm, 2019",
+              "series": "nested-exchange"
             },
             {
               "filename": "/pattern-and-presence/0006.jpg",
-              "caption": "Hexamerisms, 2018. 100&times;100&times;3cm."
+              "caption": "Hexamerisms, 2018. 100&times;100&times;3cm.",
+              "series": "nested-exchange"
             },
             {
               "filename": "/pattern-and-presence/0008.jpg",
-              "caption": "Fissured Petrolling Mridangam, 2018. 100&times;100&times;3cm."
+              "caption": "Fissured Petrolling Mridangam, 2018. 100&times;100&times;3cm.",
+              "series": "nested-exchange"
             },
             {
               "filename": "/pattern-and-presence/0009.jpg",
               "caption": "Wyn (Generation Unknown), 2018. 100&times;100&times;3cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "nested-exchange"
             },
             {
               "filename": "/pattern-and-presence/0010.jpg",
-              "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm."
+              "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm.",
+              "series": "nested-exchange"
             }
           ]
         }
@@ -450,28 +486,47 @@
     {
       "title": "Assemblages",
       "perma": "assemblages",
+      "series": "assemblages",
+      "type": "series",
       "parts": [
         {
           "thumbs": [
             {
-              "filename": "/pattern-and-presence/0019.jpg"
+              "filename": "/pattern-and-presence/0019.jpg",
+              "series": "assemblages"
             },
             {
               "filename": "/pattern-and-presence/0021.jpg",
-              "caption": "Assemblage (New), 2018. Ø 85cm."
+              "caption": "Assemblage (New), 2018. Ø 85cm.",
+              "series": "assemblages"
             },
             {
               "filename": "/loomer/sculpture.jpg",
-              "caption": "Untitled Assemblage (shell), 2012. Hand cut printed PETG, spray paint, metal hardware. 1 x 1 x 1m."
+              "caption": "Untitled Assemblage (shell), 2012. Hand cut printed PETG, spray paint, metal hardware. 1 x 1 x 1m.",
+              "left": 46,
+              "top": 210,
+              "series": "assemblages"
             },
             {
-              "filename": "/about/assemblage_chain.jpg"
+              "filename": "/about/assemblage_chain.jpg",
+              "caption": "",
+              "left": 483,
+              "top": 174,
+              "series": "assemblages"
             },
             {
-              "filename": "/about/huh.jpg"
+              "filename": "/about/huh.jpg",
+              "caption": "",
+              "left": 370,
+              "top": 175,
+              "series": "assemblages"
             },
             {
-              "filename": "/about/WG-HVDD-00109-072.jpg"
+              "filename": "/about/WG-HVDD-00109-072.jpg",
+              "caption": "",
+              "left": 258,
+              "top": 174,
+              "series": "assemblages"
             }
           ]
         }
@@ -481,6 +536,7 @@
       "location": "Stroom, Den Haag",
       "title": "left gallery: rite of access",
       "featured": true,
+      "series": "left-gallery",
       "private": false,
       "date": "2019-09-07T00:00:00.000Z",
       "cat": "Netherlands,blockchain,curatorial",
@@ -498,7 +554,8 @@
         },
         {
           "filename": "/rite-of-access/rite-of-access-03.jpg"
-        }
+        },
+        {}
       ]
     },
     {
@@ -521,6 +578,7 @@
       "theme": "dark",
       "featured": true,
       "perma": "vertiginous-data",
+      "series": "nested-exchange",
       "descr": "Group exhibition at the National Museum of Modern and Contemporary Art, Seoul. With work by Forensic Architecture, Cao Fei, Rachel Ara, Zach Blas, Simon Denny, Chris Shen, Sylbee Kim, Woonghyun Kim and Harm van den Dorpel. Curated by Deoksun Park. ",
       "related": [
         "<a target='_blank' href='https://www.mmca.go.kr/eng/pr/pressDetail.do?menuId=6020000000&bdCId=201903210006717&searchBmCid=201011160000014'>Museum website&hellip;</a>"
@@ -546,40 +604,49 @@
             {
               "orientation": "portrait",
               "filename": "/nested-exchange-prints/Peached-Renitencies-Mercer.jpg",
-              "caption": "Peached Renitencies Mercer, 2018"
+              "caption": "Peached Renitencies Mercer, 2018",
+              "series": "nested-exchange"
             },
             {
               "filename": "/nested-exchange-prints/unjust-nonderogatorily-ventriloquist-web.jpg",
-              "caption": "Unjust Nonderogatory Ventriloquist, 2018"
+              "caption": "Unjust Nonderogatory Ventriloquist, 2018",
+              "series": "nested-exchange"
             },
             {
               "filename": "/nested-exchange-prints/1f320d3e7a9f5a63c61d1d9c9f08fe6d0c86e8d8-framed.jpg",
-              "caption": "Bellybuttons Stotinka Lesbic, 2018"
+              "caption": "Bellybuttons Stotinka Lesbic, 2018",
+              "series": "nested-exchange"
             },
             {
               "filename": "/nested-exchange-prints/50c2bc41558758e0897ba473e6feabdbfed9f67d-framed.jpg",
-              "caption": "Griper Matildas Badgers, 2018"
+              "caption": "Griper Matildas Badgers, 2018",
+              "series": "nested-exchange"
             },
             {
               "filename": "/uninnocent-bystander/uninnocent-bystander-04.jpg",
-              "caption": "Cussos Unfence Thermographers,  100×100cm, 2019"
+              "caption": "Cussos Unfence Thermographers,  100×100cm, 2019",
+              "series": "nested-exchange"
             },
             {
               "filename": "/pattern-and-presence/0006.jpg",
-              "caption": "Hexamerisms, 2018. 100&times;100&times;3cm."
+              "caption": "Hexamerisms, 2018. 100&times;100&times;3cm.",
+              "series": "nested-exchange"
             },
             {
               "filename": "/pattern-and-presence/0008.jpg",
-              "caption": "Fissured Petrolling Mridangam, 2018. 100&times;100&times;3cm."
+              "caption": "Fissured Petrolling Mridangam, 2018. 100&times;100&times;3cm.",
+              "series": "nested-exchange"
             },
             {
               "filename": "/pattern-and-presence/0009.jpg",
               "caption": "Wyn (Generation Unknown), 2018. 100&times;100&times;3cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "nested-exchange"
             },
             {
               "filename": "/pattern-and-presence/0010.jpg",
-              "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm."
+              "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm.",
+              "series": "nested-exchange"
             }
           ]
         }
@@ -594,6 +661,7 @@
       "related": [
         "<a href='https://www.lehmannsilva.com/' target='_blank'>Lehmann + Silva gallery website</a>"
       ],
+      "series": "structures-of-redundancy",
       "seeAlso": [
         "<a href='/structures-of-redundancy'>Structures of Redundancy (autobreeder)</a>",
         "<a href='/structures-of-redundancy-prints'>Structures of Redundancy (prints)</a>",
@@ -634,12 +702,14 @@
         },
         {
           "filename": "/uninnocent-bystander/uninnocent-bystander-04.jpg",
-          "caption": "Cussos Unfence Thermographers,  100×100cm, 2019"
+          "caption": "Cussos Unfence Thermographers,  100×100cm, 2019",
+          "series": "nested-exchange"
         },
         {
           "filename": "/uninnocent-bystander/uninnocent-bystander-03.jpg",
           "caption": "Bars, 100×100cm, 2019"
-        }
+        },
+        {}
       ],
       "perma": "uninnocent-bystander",
       "descr": "<p>For the solo exhibition Uninnocent Bystander, Harm van den Dorpel presents his newest iteration of works that explore the dynamics of algorithmic architectures.</p><p>In this extended work, initially labeled “<a href='/death-imitates-language'>Death Imitates Language</a>”, a set of originary images are combined and recombined via a genetic algorithm to generate new sets of “descendant” images. The latest “generation” of images were birthed as a result of tinkering by van den Dorpel with the underlying combinatorial algorithm. To overcome the size restrictions imposed by creating works using a linear chromosome as a primary reference point (which is how genetics function in nature), van den Dorpel turned to a <a href='/nested-exchange'>hierarchical form of organization</a> which he encountered in the analysis of natural human language. </p><p>To create the newest series the artist borrowed from what is known as “<a href='https://en.wikipedia.org/wiki/Cartesian_genetic_programming' target='_blank'>Cartesian Genetic Programming</a>”. CGP allows for programming code to mutate, in order to create a broad variation among many syntactically valid, and potentially meaningful, programmes. This technology from 1999 has mostly been superseded by neural networks, which power today’s most powerful artificial intelligence.</p><p>Van den Dorpel’s works concern themselves with the dynamics of progression and halting - one of the animating questions of early computational science. Whether or why a given process or programme ever completes underwrites inquiries that stretch beyond the realms of computing and penetrate every aspect of social and biological endeavour. Such processes are only partially understandable - indeed the famous Turing Machine provided a formalisation of the nature of undecidability with regard to the halting problem, demonstrating that it would never be possible to know the status of all potential computing programmes.</p><p>Despite the melancholic epistemological implications, such uncertainty provides considerable scope for growth and surprise. This lack of closure is something that van den Dorpel frequently celebrates in his work, arguing against the notion of the artwork as a finalised object subject to the sort of Groysean archiving that amounts to a kind of death sentence for a given piece.</p><p>Instead, van den Dorpel seeks to explore the tensions between creation and recognition. The artist may set certain processes in motion, but the motion has interests and consequences of its own. Thus, his works are environments as much as they are objects: evolving to produce specific states at specific moments, but they are never complete. The works are snapshots of a joint creative endeavour between van den Dorpel and the logics he engages, and which engage him.</p><p>Photos by Dinis Santos</p>",
@@ -891,6 +961,7 @@
       "title": "Art on Paper Fair",
       "location": "Art on Paper, Brussels",
       "date": "2018-09-05T00:00:00.000Z",
+      "series": "drawings",
       "descr": "I'll be showing a selection of old and new framed drawings at this art fair devoted to contemporary drawing. Solo booth presented by Narrative Projects at Bozar in Brussels.",
       "perma": "art-on-paper-fair-2018",
       "related": [
@@ -906,76 +977,93 @@
           "thumbs": [
             {
               "filename": "/pattern-and-presence/0030.jpg",
-              "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+              "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+              "series": "drawings"
             },
             {
               "filename": "/pattern-and-presence/0031.jpg",
-              "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+              "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+              "series": "drawings"
             },
             {
               "filename": "/new-dawn/NBA_NewDawn_HvdD_PapaverSomniferum_Detail.jpg",
-              "caption": "Papaver Somniferum (detail). 46×34cm, 2017"
+              "caption": "Papaver Somniferum (detail). 46×34cm, 2017",
+              "series": "drawings"
             },
             {
               "filename": "/asking-for-a-friend/thistle-01.jpg",
               "orientation": "portrait",
-              "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+              "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+              "series": "drawings"
             },
             {
               "filename": "/asking-for-a-friend/thistle-02.jpg",
               "orientation": "portrait",
-              "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+              "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+              "series": "drawings"
             },
             {
               "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9739.jpg",
               "orientation": "portrait",
-              "caption": "Metaballs (1), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+              "caption": "Metaballs (1), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+              "series": "drawings"
             },
             {
               "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9745.jpg",
               "orientation": "portrait",
-              "caption": "Metaballs (2), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+              "caption": "Metaballs (2), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+              "series": "drawings"
             },
             {
               "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9737.jpg",
               "orientation": "portrait",
-              "caption": "Papaver Somniferum, 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+              "caption": "Papaver Somniferum, 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+              "series": "drawings"
             },
             {
               "filename": "/automatic-drawings/002.jpg",
-              "caption": "21 &times; 30cm"
+              "caption": "21 &times; 30cm",
+              "series": "drawings"
             },
             {
               "filename": "/automatic-drawings/003.jpg",
-              "caption": "42 &times; 30cm"
+              "caption": "42 &times; 30cm",
+              "series": "drawings"
             },
             {
               "filename": "/automatic-drawings/004.jpg",
-              "caption": "42 &times; 30cm"
+              "caption": "42 &times; 30cm",
+              "series": "drawings"
             },
             {
               "filename": "/automatic-drawings/005.jpg",
-              "caption": "42 &times; 30cm"
+              "caption": "42 &times; 30cm",
+              "series": "drawings"
             },
             {
               "filename": "/automatic-drawings/006.jpg",
-              "caption": "42 &times; 30cm"
+              "caption": "42 &times; 30cm",
+              "series": "drawings"
             },
             {
               "filename": "/automatic-drawings/007.jpg",
-              "caption": "21 &times; 30cm"
+              "caption": "21 &times; 30cm",
+              "series": "drawings"
             },
             {
               "filename": "/automatic-drawings/008.jpg",
-              "caption": "42 &times; 30cm"
+              "caption": "42 &times; 30cm",
+              "series": "drawings"
             },
             {
               "filename": "/automatic-drawings/009.jpg",
-              "caption": "21 &times; 30cm"
+              "caption": "21 &times; 30cm",
+              "series": "drawings"
             },
             {
               "filename": "/automatic-drawings/010.jpg",
-              "caption": "42 &times; 30cm"
+              "caption": "42 &times; 30cm",
+              "series": "drawings"
             }
           ]
         }
@@ -1025,6 +1113,7 @@
       "indexPic": true,
       "tags": "real estate, Miami, software, dystopian",
       "featured": false,
+      "series": "nested-exchange",
       "parts": [
         {
           "filename": "/e-state/09-e-state-realisms-1-print.jpg",
@@ -1067,40 +1156,49 @@
             {
               "orientation": "portrait",
               "filename": "/nested-exchange-prints/Peached-Renitencies-Mercer.jpg",
-              "caption": "Peached Renitencies Mercer, 2018"
+              "caption": "Peached Renitencies Mercer, 2018",
+              "series": "nested-exchange"
             },
             {
               "filename": "/nested-exchange-prints/unjust-nonderogatorily-ventriloquist-web.jpg",
-              "caption": "Unjust Nonderogatory Ventriloquist, 2018"
+              "caption": "Unjust Nonderogatory Ventriloquist, 2018",
+              "series": "nested-exchange"
             },
             {
               "filename": "/nested-exchange-prints/1f320d3e7a9f5a63c61d1d9c9f08fe6d0c86e8d8-framed.jpg",
-              "caption": "Bellybuttons Stotinka Lesbic, 2018"
+              "caption": "Bellybuttons Stotinka Lesbic, 2018",
+              "series": "nested-exchange"
             },
             {
               "filename": "/nested-exchange-prints/50c2bc41558758e0897ba473e6feabdbfed9f67d-framed.jpg",
-              "caption": "Griper Matildas Badgers, 2018"
+              "caption": "Griper Matildas Badgers, 2018",
+              "series": "nested-exchange"
             },
             {
               "filename": "/uninnocent-bystander/uninnocent-bystander-04.jpg",
-              "caption": "Cussos Unfence Thermographers,  100×100cm, 2019"
+              "caption": "Cussos Unfence Thermographers,  100×100cm, 2019",
+              "series": "nested-exchange"
             },
             {
               "filename": "/pattern-and-presence/0006.jpg",
-              "caption": "Hexamerisms, 2018. 100&times;100&times;3cm."
+              "caption": "Hexamerisms, 2018. 100&times;100&times;3cm.",
+              "series": "nested-exchange"
             },
             {
               "filename": "/pattern-and-presence/0008.jpg",
-              "caption": "Fissured Petrolling Mridangam, 2018. 100&times;100&times;3cm."
+              "caption": "Fissured Petrolling Mridangam, 2018. 100&times;100&times;3cm.",
+              "series": "nested-exchange"
             },
             {
               "filename": "/pattern-and-presence/0009.jpg",
               "caption": "Wyn (Generation Unknown), 2018. 100&times;100&times;3cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "nested-exchange"
             },
             {
               "filename": "/pattern-and-presence/0010.jpg",
-              "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm."
+              "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm.",
+              "series": "nested-exchange"
             }
           ]
         }
@@ -1141,6 +1239,7 @@
       "pubDate": "2018-06-02T00:00:00.000Z"
     },
     {
+      "type": "series",
       "title": "Nested Exchange",
       "date": "2018-03-08T00:00:00.000Z",
       "descr": "Generative software, infinite duration, no sound, 4K.<br><br><em>These specimen find their form by a process of exchanging information with each other. Two works are taken from a determined population and communicate - gossip if you will - by flipping a node of their nested structure. The direction in this process is geared towards the greatest diversity: each specimen wants to be as different from all the other as possible.<br /><br />As the total amount of information shared among all specimen in the population does not increase over time but is merely recombined towards an optimal diverse distribution, the linear history of state changes (snapshots) can be compared to a blockchain ledger.<br /><br />The chromosomes of the specimen are stored as nested recursive &quot;tree&quot; structures, similar to those used in linguistics.</em>",
@@ -1237,7 +1336,8 @@
         },
         {
           "filename": "/pattern-and-presence/0006.jpg",
-          "caption": "Hexamerisms, 2018. 100&times;100&times;3cm."
+          "caption": "Hexamerisms, 2018. 100&times;100&times;3cm.",
+          "series": "nested-exchange"
         },
         {
           "filename": "/pattern-and-presence/0007.jpg",
@@ -1245,16 +1345,19 @@
         },
         {
           "filename": "/pattern-and-presence/0008.jpg",
-          "caption": "Fissured Petrolling Mridangam, 2018. 100&times;100&times;3cm."
+          "caption": "Fissured Petrolling Mridangam, 2018. 100&times;100&times;3cm.",
+          "series": "nested-exchange"
         },
         {
           "filename": "/pattern-and-presence/0009.jpg",
           "caption": "Wyn (Generation Unknown), 2018. 100&times;100&times;3cm.",
-          "orientation": "portrait"
+          "orientation": "portrait",
+          "series": "nested-exchange"
         },
         {
           "filename": "/pattern-and-presence/0010.jpg",
-          "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm."
+          "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm.",
+          "series": "nested-exchange"
         },
         {
           "filename": "/pattern-and-presence/0011.jpg",
@@ -1287,11 +1390,13 @@
           "caption": "Assemblage (About press, reviews, etc.), 2014. Ø 95cm."
         },
         {
-          "filename": "/pattern-and-presence/0019.jpg"
+          "filename": "/pattern-and-presence/0019.jpg",
+          "series": "assemblages"
         },
         {
           "filename": "/pattern-and-presence/0021.jpg",
-          "caption": "Assemblage (New), 2018. Ø 85cm."
+          "caption": "Assemblage (New), 2018. Ø 85cm.",
+          "series": "assemblages"
         },
         {
           "filename": "/pattern-and-presence/0020.jpg"
@@ -1301,15 +1406,18 @@
         },
         {
           "filename": "/pattern-and-presence/0024.jpg",
-          "caption": "Eponymous Seedling, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
+          "caption": "Eponymous Seedling, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm.",
+          "series": "algues-artificielles"
         },
         {
           "filename": "/pattern-and-presence/0023.jpg",
-          "caption": "Freeling Tristesse, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
+          "caption": "Freeling Tristesse, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm.",
+          "series": "algues-artificielles"
         },
         {
           "filename": "/pattern-and-presence/0025b.jpg",
-          "caption": "Unscripted Relinings, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
+          "caption": "Unscripted Relinings, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm.",
+          "series": "algues-artificielles"
         },
         {
           "filename": "/pattern-and-presence/0025c.jpg",
@@ -1317,7 +1425,8 @@
         },
         {
           "filename": "/pattern-and-presence/0025.jpg",
-          "caption": "Bemused Aversatility, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
+          "caption": "Bemused Aversatility, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm.",
+          "series": "algues-artificielles"
         },
         {
           "filename": "/pattern-and-presence/0026.jpg"
@@ -1331,11 +1440,13 @@
         },
         {
           "filename": "/pattern-and-presence/0030.jpg",
-          "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+          "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+          "series": "drawings"
         },
         {
           "filename": "/pattern-and-presence/0031.jpg",
-          "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+          "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+          "series": "drawings"
         }
       ],
       "related": [
@@ -1359,7 +1470,8 @@
       "parts": [
         {
           "filename": "/Sydgator-Zolim-Juancar.jpg",
-          "caption": "Sydgator Zolim Juancar, 2017. 100×100cm"
+          "caption": "Sydgator Zolim Juancar, 2017. 100×100cm",
+          "series": "death-imitates-language"
         }
       ],
       "related": [
@@ -1390,6 +1502,7 @@
       "descr": "Group exhibition at the Museum of Contemporary Art, Chicago.",
       "cat": "exhibitions,sculpture",
       "tags": "assemblage,meta,recursion,hanging",
+      "series": "assemblages",
       "indexPic": false,
       "parts": [
         {
@@ -1407,24 +1520,41 @@
         {
           "thumbs": [
             {
-              "filename": "/pattern-and-presence/0019.jpg"
+              "filename": "/pattern-and-presence/0019.jpg",
+              "series": "assemblages"
             },
             {
               "filename": "/pattern-and-presence/0021.jpg",
-              "caption": "Assemblage (New), 2018. Ø 85cm."
+              "caption": "Assemblage (New), 2018. Ø 85cm.",
+              "series": "assemblages"
             },
             {
               "filename": "/loomer/sculpture.jpg",
-              "caption": "Untitled Assemblage (shell), 2012. Hand cut printed PETG, spray paint, metal hardware. 1 x 1 x 1m."
+              "caption": "Untitled Assemblage (shell), 2012. Hand cut printed PETG, spray paint, metal hardware. 1 x 1 x 1m.",
+              "left": 46,
+              "top": 210,
+              "series": "assemblages"
             },
             {
-              "filename": "/about/assemblage_chain.jpg"
+              "filename": "/about/assemblage_chain.jpg",
+              "caption": "",
+              "left": 483,
+              "top": 174,
+              "series": "assemblages"
             },
             {
-              "filename": "/about/huh.jpg"
+              "filename": "/about/huh.jpg",
+              "caption": "",
+              "left": 370,
+              "top": 175,
+              "series": "assemblages"
             },
             {
-              "filename": "/about/WG-HVDD-00109-072.jpg"
+              "filename": "/about/WG-HVDD-00109-072.jpg",
+              "caption": "",
+              "left": 258,
+              "top": 174,
+              "series": "assemblages"
             }
           ]
         }
@@ -1445,7 +1575,8 @@
       "parts": [
         {
           "filename": "/new-dawn/NBA_NewDawn_HvdD_PapaverSomniferum_Detail.jpg",
-          "caption": "Papaver Somniferum (detail). 46×34cm, 2017"
+          "caption": "Papaver Somniferum (detail). 46×34cm, 2017",
+          "series": "drawings"
         }
       ],
       "related": [
@@ -1457,6 +1588,7 @@
       "title": "Post Fail",
       "perma": "post-fail",
       "location": "Fotomuseum Winterthur",
+      "series": "whiteboards",
       "date": "2017-12-01T00:00:00.000Z",
       "descr": "Group exhibition at the Fotomuseum Winterthur, Switzerland.<br><br>With work by Adam Basanta, Discipula, Peter Halley, Felicity Hammond, Joey Holder, Michael Mandiberg, Jon Rafman, Harm van den Dorpel, and others. Curated by Matteo Cremonesi in collaboration with Link Art Center.",
       "cat": "exhibitions,Switzerland",
@@ -1476,7 +1608,8 @@
         },
         {
           "filename": "IMG_20171201_153100770.jpg"
-        }
+        },
+        {}
       ],
       "pubDate": "2017-12-01T00:00:00.000Z"
     },
@@ -1518,50 +1651,59 @@
           "filename": "/asking-for-a-friend/frouters.jpg",
           "link": "https://harmvandendorpel.com/hybrid-vigor",
           "caption": "Frouters, 2016. Digital archival print, unique, 100&times;80cm.",
-          "orientation": "portrait"
+          "orientation": "portrait",
+          "series": "algues-artificielles"
         },
         {
           "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9677.jpg",
           "link": "https://harmvandendorpel.com/hybrid-vigor",
           "caption": "Availablesky, 2016. Digital archival print, unique, 100&times;80cm.",
-          "orientation": "portrait"
+          "orientation": "portrait",
+          "series": "algues-artificielles"
         },
         {
           "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9654.jpg",
           "link": "https://harmvandendorpel.com/hybrid-vigor",
           "caption": "Adoreway, 2016. Digital archival print, unique, 100&times;80cm.",
-          "orientation": "portrait"
+          "orientation": "portrait",
+          "series": "algues-artificielles"
         },
         {
           "filename": "/asking-for-a-friend/thistle-01.jpg",
           "orientation": "portrait",
-          "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+          "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+          "series": "drawings"
         },
         {
           "filename": "/asking-for-a-friend/thistle-02.jpg",
           "orientation": "portrait",
-          "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+          "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+          "series": "drawings"
         },
         {
           "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9739.jpg",
           "orientation": "portrait",
-          "caption": "Metaballs (1), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+          "caption": "Metaballs (1), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+          "series": "drawings"
         },
         {
           "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9745.jpg",
           "orientation": "portrait",
-          "caption": "Metaballs (2), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+          "caption": "Metaballs (2), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+          "series": "drawings"
         },
         {
           "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9737.jpg",
           "orientation": "portrait",
-          "caption": "Papaver Somniferum, 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+          "caption": "Papaver Somniferum, 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+          "series": "drawings"
         },
         {
           "filename": "/asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
           "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
           "orientation": "portrait",
-          "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
+          "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm.",
+          "series": "death-imitates-language"
         },
         {
           "filename": "/asking-for-a-friend/juancar-zolim-juancar-photo-detail.jpg",
@@ -1571,7 +1713,8 @@
           "filename": "/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
           "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
           "orientation": "portrait",
-          "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
+          "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm.",
+          "series": "death-imitates-language"
         },
         {
           "filename": "/asking-for-a-friend/joa-dereck-pitcher-photo-detail.jpg",
@@ -1579,16 +1722,19 @@
         },
         {
           "filename": "/asking-for-a-friend/asking-for-a-friend-06.png",
-          "caption": "Algues Artificielles, 2017 (screenshot)"
+          "caption": "Algues Artificielles, 2017 (screenshot)",
+          "series": "algues-artificielles"
         },
         {
           "filename": "/asking-for-a-friend/algues-artificielles.jpg",
-          "caption": "Algues Artificielles, 2017. Software projection, edition 5+1AP."
+          "caption": "Algues Artificielles, 2017. Software projection, edition 5+1AP.",
+          "series": "algues-artificielles"
         },
         {
           "filename": "/asking-for-a-friend/asking-for-a-friend-poster.jpg",
           "orientation": "portrait",
-          "caption": "Invitation poster image"
+          "caption": "Invitation poster image",
+          "series": "risograph"
         }
       ],
       "related": [
@@ -1608,6 +1754,7 @@
       "date": "2016-04-01T00:00:00.000Z",
       "link": "https://left.gallery/autobreeder",
       "cat": "store,genetics,animation",
+      "series": "death-imitates-language",
       "indexPic": true,
       "parts": [
         {
@@ -1617,62 +1764,74 @@
           "thumbs": [
             {
               "filename": "/Sydgator-Zolim-Juancar.jpg",
-              "caption": "Sydgator Zolim Juancar, 2017. 100×100cm"
+              "caption": "Sydgator Zolim Juancar, 2017. 100×100cm",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
               "orientation": "portrait",
-              "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
+              "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm.",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
               "orientation": "portrait",
-              "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
+              "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm.",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-02.jpg",
               "caption": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm",
+              "series": "death-imitates-language",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/1b5d80aa090230ee38c3a7c6226df85ce4a604fa"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-03.jpg",
               "caption": "Hatter Epot Xgeubke, 2017, 100&times;100&times;3cm",
+              "series": "death-imitates-language",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/e022fbb5c0cb7c6921e521f4b86d9225c151d91f"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-05.jpg",
+              "series": "death-imitates-language",
               "caption": "Autobreeder, 2016"
             },
             {
               "filename": "/dil-nba/GS-NBA-1926.jpg",
               "caption": "Acura Bigboobe Romcops, 2016. 100&times;100&times;4cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1947.jpg",
               "caption": "Kennyk Lucius Zhabt, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1946.jpg",
               "caption": "Yaroslavalavrova Kochan Xutizekea, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1948.jpg",
               "caption": "Wsxzaq Mrjake Wadley, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1949.jpg",
               "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/kleve/Doroark-Churu-Fexi.jpg",
-              "caption": "Doroark Churu Fexi, 2016"
+              "caption": "Doroark Churu Fexi, 2016",
+              "series": "death-imitates-language"
             }
           ]
         }
@@ -1687,6 +1846,7 @@
       "descr": "Group exhibition at the Kunstverein Freiburg, Germany. With Ivana Bašić, Harm van den Dorpel, Cécile B. Evans, Pakui Hardware, Lina Hermsdorf, Kitty Kraus, Oliver Laric, Dominik Sittig, Anton Vidokle, and Tchelet Weisstub. Curated by Heinrich Dietz.",
       "date": "2017-09-15T00:00:00.000Z",
       "cat": "exhibitions,Germany",
+      "series": "death-imitates-language",
       "indexPic": false,
       "parts": [
         {
@@ -1717,62 +1877,74 @@
           "thumbs": [
             {
               "filename": "/Sydgator-Zolim-Juancar.jpg",
-              "caption": "Sydgator Zolim Juancar, 2017. 100×100cm"
+              "caption": "Sydgator Zolim Juancar, 2017. 100×100cm",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
               "orientation": "portrait",
-              "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
+              "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm.",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
               "orientation": "portrait",
-              "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
+              "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm.",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-02.jpg",
               "caption": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm",
+              "series": "death-imitates-language",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/1b5d80aa090230ee38c3a7c6226df85ce4a604fa"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-03.jpg",
               "caption": "Hatter Epot Xgeubke, 2017, 100&times;100&times;3cm",
+              "series": "death-imitates-language",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/e022fbb5c0cb7c6921e521f4b86d9225c151d91f"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-05.jpg",
+              "series": "death-imitates-language",
               "caption": "Autobreeder, 2016"
             },
             {
               "filename": "/dil-nba/GS-NBA-1926.jpg",
               "caption": "Acura Bigboobe Romcops, 2016. 100&times;100&times;4cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1947.jpg",
               "caption": "Kennyk Lucius Zhabt, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1946.jpg",
               "caption": "Yaroslavalavrova Kochan Xutizekea, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1948.jpg",
               "caption": "Wsxzaq Mrjake Wadley, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1949.jpg",
               "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/kleve/Doroark-Churu-Fexi.jpg",
-              "caption": "Doroark Churu Fexi, 2016"
+              "caption": "Doroark Churu Fexi, 2016",
+              "series": "death-imitates-language"
             }
           ]
         }
@@ -1786,6 +1958,7 @@
     {
       "title": "Death Imitates Language: Promiscuity Index",
       "perma": "promiscuity-index",
+      "series": "death-imitates-language",
       "descr": "",
       "private": true,
       "date": "2017-12-25T00:00:00.000Z",
@@ -1827,62 +2000,74 @@
           "thumbs": [
             {
               "filename": "/Sydgator-Zolim-Juancar.jpg",
-              "caption": "Sydgator Zolim Juancar, 2017. 100×100cm"
+              "caption": "Sydgator Zolim Juancar, 2017. 100×100cm",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
               "orientation": "portrait",
-              "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
+              "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm.",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
               "orientation": "portrait",
-              "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
+              "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm.",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-02.jpg",
               "caption": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm",
+              "series": "death-imitates-language",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/1b5d80aa090230ee38c3a7c6226df85ce4a604fa"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-03.jpg",
               "caption": "Hatter Epot Xgeubke, 2017, 100&times;100&times;3cm",
+              "series": "death-imitates-language",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/e022fbb5c0cb7c6921e521f4b86d9225c151d91f"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-05.jpg",
+              "series": "death-imitates-language",
               "caption": "Autobreeder, 2016"
             },
             {
               "filename": "/dil-nba/GS-NBA-1926.jpg",
               "caption": "Acura Bigboobe Romcops, 2016. 100&times;100&times;4cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1947.jpg",
               "caption": "Kennyk Lucius Zhabt, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1946.jpg",
               "caption": "Yaroslavalavrova Kochan Xutizekea, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1948.jpg",
               "caption": "Wsxzaq Mrjake Wadley, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1949.jpg",
               "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/kleve/Doroark-Churu-Fexi.jpg",
-              "caption": "Doroark Churu Fexi, 2016"
+              "caption": "Doroark Churu Fexi, 2016",
+              "series": "death-imitates-language"
             }
           ]
         }
@@ -1892,7 +2077,10 @@
     {
       "title": "recursion.fyi",
       "perma": "recursion-fyi",
+      "descr": "",
+      "series": "nested-exchange",
       "date": "2017-10-10T00:00:00.000Z",
+      "cat": "",
       "parts": [
         {
           "filename": "/recursion.fyi/a.png"
@@ -1931,40 +2119,49 @@
             {
               "orientation": "portrait",
               "filename": "/nested-exchange-prints/Peached-Renitencies-Mercer.jpg",
-              "caption": "Peached Renitencies Mercer, 2018"
+              "caption": "Peached Renitencies Mercer, 2018",
+              "series": "nested-exchange"
             },
             {
               "filename": "/nested-exchange-prints/unjust-nonderogatorily-ventriloquist-web.jpg",
-              "caption": "Unjust Nonderogatory Ventriloquist, 2018"
+              "caption": "Unjust Nonderogatory Ventriloquist, 2018",
+              "series": "nested-exchange"
             },
             {
               "filename": "/nested-exchange-prints/1f320d3e7a9f5a63c61d1d9c9f08fe6d0c86e8d8-framed.jpg",
-              "caption": "Bellybuttons Stotinka Lesbic, 2018"
+              "caption": "Bellybuttons Stotinka Lesbic, 2018",
+              "series": "nested-exchange"
             },
             {
               "filename": "/nested-exchange-prints/50c2bc41558758e0897ba473e6feabdbfed9f67d-framed.jpg",
-              "caption": "Griper Matildas Badgers, 2018"
+              "caption": "Griper Matildas Badgers, 2018",
+              "series": "nested-exchange"
             },
             {
               "filename": "/uninnocent-bystander/uninnocent-bystander-04.jpg",
-              "caption": "Cussos Unfence Thermographers,  100×100cm, 2019"
+              "caption": "Cussos Unfence Thermographers,  100×100cm, 2019",
+              "series": "nested-exchange"
             },
             {
               "filename": "/pattern-and-presence/0006.jpg",
-              "caption": "Hexamerisms, 2018. 100&times;100&times;3cm."
+              "caption": "Hexamerisms, 2018. 100&times;100&times;3cm.",
+              "series": "nested-exchange"
             },
             {
               "filename": "/pattern-and-presence/0008.jpg",
-              "caption": "Fissured Petrolling Mridangam, 2018. 100&times;100&times;3cm."
+              "caption": "Fissured Petrolling Mridangam, 2018. 100&times;100&times;3cm.",
+              "series": "nested-exchange"
             },
             {
               "filename": "/pattern-and-presence/0009.jpg",
               "caption": "Wyn (Generation Unknown), 2018. 100&times;100&times;3cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "nested-exchange"
             },
             {
               "filename": "/pattern-and-presence/0010.jpg",
-              "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm."
+              "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm.",
+              "series": "nested-exchange"
             }
           ]
         }
@@ -1978,6 +2175,7 @@
       "descr": "Group show at Narrative Projects, London.<br><br>With works by Mahmoud Bakhshi, Juliette Blightman, Lynn Chadwick, Ilya Dolgov, Harm van den Dorpel, Marte Eknæs, Marita Fraser, Neil Haas, Richard Hamilton, Mustafa Hulusi, Xiao-yang Li, Georgy Litichevsky, Gabriela Machado, Lulou Margarine, Carlos Noronha Feio, Alice Ronchi, Daniel van Straalen, Sigrid Viir. Curated by Carlos Noronha Feio.",
       "date": "2017-07-20T00:00:00.000Z",
       "indexPic": false,
+      "series": "drawings",
       "related": [
         "<a href='http://narrativeprojects.com/exhibitions/wild-flowers-wildness-is-contextual/' target='_blank'>Gallery website</a>"
       ],
@@ -2002,82 +2200,100 @@
           "thumbs": [
             {
               "filename": "/pattern-and-presence/0030.jpg",
-              "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+              "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+              "series": "drawings"
             },
             {
               "filename": "/pattern-and-presence/0031.jpg",
-              "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+              "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+              "series": "drawings"
             },
             {
               "filename": "/new-dawn/NBA_NewDawn_HvdD_PapaverSomniferum_Detail.jpg",
-              "caption": "Papaver Somniferum (detail). 46×34cm, 2017"
+              "caption": "Papaver Somniferum (detail). 46×34cm, 2017",
+              "series": "drawings"
             },
             {
               "filename": "/asking-for-a-friend/thistle-01.jpg",
               "orientation": "portrait",
-              "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+              "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+              "series": "drawings"
             },
             {
               "filename": "/asking-for-a-friend/thistle-02.jpg",
               "orientation": "portrait",
-              "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+              "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+              "series": "drawings"
             },
             {
               "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9739.jpg",
               "orientation": "portrait",
-              "caption": "Metaballs (1), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+              "caption": "Metaballs (1), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+              "series": "drawings"
             },
             {
               "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9745.jpg",
               "orientation": "portrait",
-              "caption": "Metaballs (2), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+              "caption": "Metaballs (2), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+              "series": "drawings"
             },
             {
               "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9737.jpg",
               "orientation": "portrait",
-              "caption": "Papaver Somniferum, 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+              "caption": "Papaver Somniferum, 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm.",
+              "series": "drawings"
             },
             {
               "filename": "/automatic-drawings/002.jpg",
-              "caption": "21 &times; 30cm"
+              "caption": "21 &times; 30cm",
+              "series": "drawings"
             },
             {
               "filename": "/automatic-drawings/003.jpg",
-              "caption": "42 &times; 30cm"
+              "caption": "42 &times; 30cm",
+              "series": "drawings"
             },
             {
               "filename": "/automatic-drawings/004.jpg",
-              "caption": "42 &times; 30cm"
+              "caption": "42 &times; 30cm",
+              "series": "drawings"
             },
             {
               "filename": "/automatic-drawings/005.jpg",
-              "caption": "42 &times; 30cm"
+              "caption": "42 &times; 30cm",
+              "series": "drawings"
             },
             {
               "filename": "/automatic-drawings/006.jpg",
-              "caption": "42 &times; 30cm"
+              "caption": "42 &times; 30cm",
+              "series": "drawings"
             },
             {
               "filename": "/automatic-drawings/007.jpg",
-              "caption": "21 &times; 30cm"
+              "caption": "21 &times; 30cm",
+              "series": "drawings"
             },
             {
               "filename": "/automatic-drawings/008.jpg",
-              "caption": "42 &times; 30cm"
+              "caption": "42 &times; 30cm",
+              "series": "drawings"
             },
             {
               "filename": "/automatic-drawings/009.jpg",
-              "caption": "21 &times; 30cm"
+              "caption": "21 &times; 30cm",
+              "series": "drawings"
             },
             {
               "filename": "/automatic-drawings/010.jpg",
-              "caption": "42 &times; 30cm"
+              "caption": "42 &times; 30cm",
+              "series": "drawings"
             }
           ]
         }
       ]
     },
     {
+      "type": "series",
       "title": "Automatic Drawings",
       "perma": "drawings",
       "date": "2017-05-11T00:00:00.000Z",
@@ -2111,39 +2327,48 @@
         },
         {
           "filename": "/automatic-drawings/002.jpg",
-          "caption": "21 &times; 30cm"
+          "caption": "21 &times; 30cm",
+          "series": "drawings"
         },
         {
           "filename": "/automatic-drawings/003.jpg",
-          "caption": "42 &times; 30cm"
+          "caption": "42 &times; 30cm",
+          "series": "drawings"
         },
         {
           "filename": "/automatic-drawings/004.jpg",
-          "caption": "42 &times; 30cm"
+          "caption": "42 &times; 30cm",
+          "series": "drawings"
         },
         {
           "filename": "/automatic-drawings/005.jpg",
-          "caption": "42 &times; 30cm"
+          "caption": "42 &times; 30cm",
+          "series": "drawings"
         },
         {
           "filename": "/automatic-drawings/006.jpg",
-          "caption": "42 &times; 30cm"
+          "caption": "42 &times; 30cm",
+          "series": "drawings"
         },
         {
           "filename": "/automatic-drawings/007.jpg",
-          "caption": "21 &times; 30cm"
+          "caption": "21 &times; 30cm",
+          "series": "drawings"
         },
         {
           "filename": "/automatic-drawings/008.jpg",
-          "caption": "42 &times; 30cm"
+          "caption": "42 &times; 30cm",
+          "series": "drawings"
         },
         {
           "filename": "/automatic-drawings/009.jpg",
-          "caption": "21 &times; 30cm"
+          "caption": "21 &times; 30cm",
+          "series": "drawings"
         },
         {
           "filename": "/automatic-drawings/010.jpg",
-          "caption": "42 &times; 30cm"
+          "caption": "42 &times; 30cm",
+          "series": "drawings"
         },
         {
           "filename": "/automatic-drawings/012.jpg",
@@ -2243,11 +2468,13 @@
         {
           "filename": "/shifting-optics-4/shifting-optics-4-02.jpg",
           "caption": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm",
+          "series": "death-imitates-language",
           "link": "https://deathimitateslanguage.harmvandendorpel.com/language/1b5d80aa090230ee38c3a7c6226df85ce4a604fa"
         },
         {
           "filename": "/shifting-optics-4/shifting-optics-4-03.jpg",
           "caption": "Hatter Epot Xgeubke, 2017, 100&times;100&times;3cm",
+          "series": "death-imitates-language",
           "link": "https://deathimitateslanguage.harmvandendorpel.com/language/e022fbb5c0cb7c6921e521f4b86d9225c151d91f"
         },
         {
@@ -2255,6 +2482,7 @@
         },
         {
           "filename": "/shifting-optics-4/shifting-optics-4-05.jpg",
+          "series": "death-imitates-language",
           "caption": "Autobreeder, 2016"
         },
         {
@@ -2270,6 +2498,7 @@
       "perma": "hybrid-vigor",
       "date": "2017-01-12T00:00:00.000Z",
       "hideOnIndex": false,
+      "series": "algues-artificielles",
       "descr": "A series of <a href='https://en.wikipedia.org/wiki/Turtle_graphics' target='_blank'>turtle</a> drawings created with a custom <a href='https://www.youtube.com/watch?v=kHyNqSnzP8Y' target='_blank'>genetic algorithm</a>: a method to create variation (while maintaining improvements) by matching partners and selection of the 'fittest' offspring.<br><br><a href='http://hybrid.vigor.bio' target='_blank'>Launch hybrid.vigor.bio</a>",
       "indexPic": false,
       "tags": "genetics,generative,software,drawings",
@@ -2307,45 +2536,54 @@
           "thumbs": [
             {
               "filename": "/pattern-and-presence/0024.jpg",
-              "caption": "Eponymous Seedling, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
+              "caption": "Eponymous Seedling, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm.",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/pattern-and-presence/0023.jpg",
-              "caption": "Freeling Tristesse, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
+              "caption": "Freeling Tristesse, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm.",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/pattern-and-presence/0025b.jpg",
-              "caption": "Unscripted Relinings, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
+              "caption": "Unscripted Relinings, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm.",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/pattern-and-presence/0025.jpg",
-              "caption": "Bemused Aversatility, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
+              "caption": "Bemused Aversatility, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm.",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/asking-for-a-friend/frouters.jpg",
               "link": "https://harmvandendorpel.com/hybrid-vigor",
               "caption": "Frouters, 2016. Digital archival print, unique, 100&times;80cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9677.jpg",
               "link": "https://harmvandendorpel.com/hybrid-vigor",
               "caption": "Availablesky, 2016. Digital archival print, unique, 100&times;80cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9654.jpg",
               "link": "https://harmvandendorpel.com/hybrid-vigor",
               "caption": "Adoreway, 2016. Digital archival print, unique, 100&times;80cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/asking-for-a-friend/asking-for-a-friend-06.png",
-              "caption": "Algues Artificielles, 2017 (screenshot)"
+              "caption": "Algues Artificielles, 2017 (screenshot)",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/asking-for-a-friend/algues-artificielles.jpg",
-              "caption": "Algues Artificielles, 2017. Software projection, edition 5+1AP."
+              "caption": "Algues Artificielles, 2017. Software projection, edition 5+1AP.",
+              "series": "algues-artificielles"
             }
           ]
         }
@@ -2373,9 +2611,11 @@
         },
         {
           "filename": "/transplant/Screenshot 2015-12-12 12.48.41.jpg"
-        }
+        },
+        {}
       ],
-      "pubDate": "2015-11-19T00:00:00.000Z"
+      "pubDate": "2015-11-19T00:00:00.000Z",
+      "series": "PAN"
     },
     {
       "title": "PAN × ICA",
@@ -2398,6 +2638,7 @@
       "title": "Death Imitates Language",
       "perma": "death-imitates-languange-nba",
       "location": "Neumeister Bar-Am, Berlin",
+      "series": "death-imitates-language",
       "descr": "Solo exhibition at gallery Neumeister Bar-Am, Berlin.",
       "cat": "exhibitions,Germany,solo",
       "date": "2016-11-26T00:00:00.000Z",
@@ -2429,88 +2670,105 @@
         {
           "filename": "/dil-nba/GS-NBA-1926.jpg",
           "caption": "Acura Bigboobe Romcops, 2016. 100&times;100&times;4cm.",
-          "orientation": "portrait"
+          "orientation": "portrait",
+          "series": "death-imitates-language"
         },
         {
           "filename": "/dil-nba/GS-NBA-1947.jpg",
           "caption": "Kennyk Lucius Zhabt, 2016. 100&times;100&times;2cm.",
-          "orientation": "portrait"
+          "orientation": "portrait",
+          "series": "death-imitates-language"
         },
         {
           "filename": "/dil-nba/GS-NBA-1946.jpg",
           "caption": "Yaroslavalavrova Kochan Xutizekea, 2016. 100&times;100&times;2cm.",
-          "orientation": "portrait"
+          "orientation": "portrait",
+          "series": "death-imitates-language"
         },
         {
           "filename": "/dil-nba/GS-NBA-1948.jpg",
           "caption": "Wsxzaq Mrjake Wadley, 2016. 100&times;100&times;2cm.",
-          "orientation": "portrait"
+          "orientation": "portrait",
+          "series": "death-imitates-language"
         },
         {
           "filename": "/dil-nba/GS-NBA-1949.jpg",
           "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016. 100&times;100&times;2cm.",
-          "orientation": "portrait"
+          "orientation": "portrait",
+          "series": "death-imitates-language"
         },
         {
           "thumbs": [
             {
               "filename": "/Sydgator-Zolim-Juancar.jpg",
-              "caption": "Sydgator Zolim Juancar, 2017. 100×100cm"
+              "caption": "Sydgator Zolim Juancar, 2017. 100×100cm",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
               "orientation": "portrait",
-              "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
+              "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm.",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
               "orientation": "portrait",
-              "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
+              "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm.",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-02.jpg",
               "caption": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm",
+              "series": "death-imitates-language",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/1b5d80aa090230ee38c3a7c6226df85ce4a604fa"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-03.jpg",
               "caption": "Hatter Epot Xgeubke, 2017, 100&times;100&times;3cm",
+              "series": "death-imitates-language",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/e022fbb5c0cb7c6921e521f4b86d9225c151d91f"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-05.jpg",
+              "series": "death-imitates-language",
               "caption": "Autobreeder, 2016"
             },
             {
               "filename": "/dil-nba/GS-NBA-1926.jpg",
               "caption": "Acura Bigboobe Romcops, 2016. 100&times;100&times;4cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1947.jpg",
               "caption": "Kennyk Lucius Zhabt, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1946.jpg",
               "caption": "Yaroslavalavrova Kochan Xutizekea, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1948.jpg",
               "caption": "Wsxzaq Mrjake Wadley, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1949.jpg",
               "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/kleve/Doroark-Churu-Fexi.jpg",
-              "caption": "Doroark Churu Fexi, 2016"
+              "caption": "Doroark Churu Fexi, 2016",
+              "series": "death-imitates-language"
             }
           ]
         }
@@ -2541,6 +2799,7 @@
       "perma": "untitled-group-show-casco",
       "location": "Casco, Utrecht",
       "date": "2016-10-27T00:00:00.000Z",
+      "series": "death-imitates-language",
       "cat": "exhibitions",
       "parts": [
         {
@@ -2552,62 +2811,74 @@
           "thumbs": [
             {
               "filename": "/Sydgator-Zolim-Juancar.jpg",
-              "caption": "Sydgator Zolim Juancar, 2017. 100×100cm"
+              "caption": "Sydgator Zolim Juancar, 2017. 100×100cm",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
               "orientation": "portrait",
-              "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
+              "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm.",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
               "orientation": "portrait",
-              "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
+              "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm.",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-02.jpg",
               "caption": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm",
+              "series": "death-imitates-language",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/1b5d80aa090230ee38c3a7c6226df85ce4a604fa"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-03.jpg",
               "caption": "Hatter Epot Xgeubke, 2017, 100&times;100&times;3cm",
+              "series": "death-imitates-language",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/e022fbb5c0cb7c6921e521f4b86d9225c151d91f"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-05.jpg",
+              "series": "death-imitates-language",
               "caption": "Autobreeder, 2016"
             },
             {
               "filename": "/dil-nba/GS-NBA-1926.jpg",
               "caption": "Acura Bigboobe Romcops, 2016. 100&times;100&times;4cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1947.jpg",
               "caption": "Kennyk Lucius Zhabt, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1946.jpg",
               "caption": "Yaroslavalavrova Kochan Xutizekea, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1948.jpg",
               "caption": "Wsxzaq Mrjake Wadley, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1949.jpg",
               "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/kleve/Doroark-Churu-Fexi.jpg",
-              "caption": "Doroark Churu Fexi, 2016"
+              "caption": "Doroark Churu Fexi, 2016",
+              "series": "death-imitates-language"
             }
           ]
         }
@@ -2662,14 +2933,16 @@
         },
         {
           "filename": "lexachast-krakow-07.jpg"
-        }
+        },
+        {}
       ],
       "xrelated": [],
       "related": [
         "<a href='http://www.unsound.pl/dislocation/profiles/amnesia-scanner-bill-kouligas' target='_blank'>Festival Profile</a>",
         "<a href='/lexachast'>Lexachast website</a>"
       ],
-      "pubDate": "2016-10-22T00:00:00.000Z"
+      "pubDate": "2016-10-22T00:00:00.000Z",
+      "series": "PAN"
     },
     {
       "date": "2016-09-23T00:00:00.000Z",
@@ -2677,10 +2950,12 @@
       "descr": "eAR is a location-based augmented reality sound and text piece in the form of first-person fiction. It presents a series of dramatized field recordings from our digitally mediated environment together with commentary inspired by the Let’s Play format. eAR allows the listeners to reimagine their immediate surroundings via augmented hearing, and to take the scenic route through sound.<br><br>Sound by Ville Haimala, text by Jenna Sutela, design and programming by Harm van den Dorpel.",
       "cat": "software,websites,PAN",
       "perma": "ear",
+      "series": "PAN",
       "parts": [
         {
           "filename": "ear.png"
-        }
+        },
+        {}
       ],
       "related": [
         "<a href='http://ear.p-a-n.org/' target='_blank'>Launch website</a>"
@@ -2698,6 +2973,7 @@
       "descr": "<em>Learning is especially felicitous in a context where the learner is consciously engaged in constructing a public entity, whether it’s a sand castle on the beach or a theory of the universe.</em><br><br>Turtle graphics are a drawing system described by Seymour Papert, in which an imaginary turtle moves around the computer screen drawing as it goes, all under the control of instructions given by a computer program. This sort of programming, and the results it produces, are easy to understand because they are so immediately visual. But it can go well beyond simple graphics, and provide a basis for fascinating and powerful programs that introduce fundamental concepts of software engineering and artificial intelligence. <br><br>The images below are generated by combining a custom turtle graphics implementation with a genetic algorithm, not unlike my earlier <q>Death Imitates Language</q>.<br><br>Thank you Laurel Schwulst for title suggestions.<style>.main-image{margin-bottom:200px;} </style>",
       "cat": "software, drawings",
       "perma": "talking-turtles",
+      "series": "algues-artificielles",
       "parts": [
         {
           "filename": "/talking-turtles/talking-turtles-01.png",
@@ -2767,45 +3043,54 @@
           "thumbs": [
             {
               "filename": "/pattern-and-presence/0024.jpg",
-              "caption": "Eponymous Seedling, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
+              "caption": "Eponymous Seedling, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm.",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/pattern-and-presence/0023.jpg",
-              "caption": "Freeling Tristesse, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
+              "caption": "Freeling Tristesse, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm.",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/pattern-and-presence/0025b.jpg",
-              "caption": "Unscripted Relinings, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
+              "caption": "Unscripted Relinings, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm.",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/pattern-and-presence/0025.jpg",
-              "caption": "Bemused Aversatility, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
+              "caption": "Bemused Aversatility, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm.",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/asking-for-a-friend/frouters.jpg",
               "link": "https://harmvandendorpel.com/hybrid-vigor",
               "caption": "Frouters, 2016. Digital archival print, unique, 100&times;80cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9677.jpg",
               "link": "https://harmvandendorpel.com/hybrid-vigor",
               "caption": "Availablesky, 2016. Digital archival print, unique, 100&times;80cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9654.jpg",
               "link": "https://harmvandendorpel.com/hybrid-vigor",
               "caption": "Adoreway, 2016. Digital archival print, unique, 100&times;80cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/asking-for-a-friend/asking-for-a-friend-06.png",
-              "caption": "Algues Artificielles, 2017 (screenshot)"
+              "caption": "Algues Artificielles, 2017 (screenshot)",
+              "series": "algues-artificielles"
             },
             {
               "filename": "/asking-for-a-friend/algues-artificielles.jpg",
-              "caption": "Algues Artificielles, 2017. Software projection, edition 5+1AP."
+              "caption": "Algues Artificielles, 2017. Software projection, edition 5+1AP.",
+              "series": "algues-artificielles"
             }
           ]
         }
@@ -2828,6 +3113,7 @@
       "descr": "Group exhibition at the <span itemscope='' itemtype='http://schema.org/Place'>Museum Kurhaus Kleve, Germany</span><br><br>With Olga Balema, Alice Channer, Thea Djordjadze, Harm van den Dorpel, Krištof Kintera, Martin Kippenberger, Hito Steyerl, Barthélémy Toguo and Erwin Wurm. Curated by Heinrich Dietz and Harald Kunde.<br><br>Presented are 6 wall pieces, multi layered UV prints with white channel between CNC-cut plexiglass, packing material, screw system, unique editions, each 100&times;100&times;4cm, and an animated software work, showing the entire genealogy.",
       "indexPic": true,
       "perma": "wer-nicht-denken-will-fliegt-raus",
+      "series": "death-imitates-language",
       "parts": [
         {
           "filename": "/kleve/Shtonk-Vtejuwoh-Bonifac-02.jpg",
@@ -2872,7 +3158,8 @@
         },
         {
           "filename": "/kleve/Doroark-Churu-Fexi.jpg",
-          "caption": "Doroark Churu Fexi, 2016"
+          "caption": "Doroark Churu Fexi, 2016",
+          "series": "death-imitates-language"
         },
         {
           "filename": "/kleve/IMG_9318.jpg"
@@ -2881,62 +3168,74 @@
           "thumbs": [
             {
               "filename": "/Sydgator-Zolim-Juancar.jpg",
-              "caption": "Sydgator Zolim Juancar, 2017. 100×100cm"
+              "caption": "Sydgator Zolim Juancar, 2017. 100×100cm",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
               "orientation": "portrait",
-              "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
+              "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm.",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
               "orientation": "portrait",
-              "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
+              "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm.",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-02.jpg",
               "caption": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm",
+              "series": "death-imitates-language",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/1b5d80aa090230ee38c3a7c6226df85ce4a604fa"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-03.jpg",
               "caption": "Hatter Epot Xgeubke, 2017, 100&times;100&times;3cm",
+              "series": "death-imitates-language",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/e022fbb5c0cb7c6921e521f4b86d9225c151d91f"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-05.jpg",
+              "series": "death-imitates-language",
               "caption": "Autobreeder, 2016"
             },
             {
               "filename": "/dil-nba/GS-NBA-1926.jpg",
               "caption": "Acura Bigboobe Romcops, 2016. 100&times;100&times;4cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1947.jpg",
               "caption": "Kennyk Lucius Zhabt, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1946.jpg",
               "caption": "Yaroslavalavrova Kochan Xutizekea, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1948.jpg",
               "caption": "Wsxzaq Mrjake Wadley, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1949.jpg",
               "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/kleve/Doroark-Churu-Fexi.jpg",
-              "caption": "Doroark Churu Fexi, 2016"
+              "caption": "Doroark Churu Fexi, 2016",
+              "series": "death-imitates-language"
             }
           ]
         }
@@ -3017,73 +3316,87 @@
       "pubDate": "2016-03-15T00:00:00.000Z"
     },
     {
+      "type": "series",
       "date": "2016-04-15T00:00:00.000Z",
       "title": "Death Imitates Language",
       "indexPic": true,
       "cat": "software,genetics",
       "perma": "death-imitates-language",
+      "series": "death-imitates-language",
       "descr": "<p>A series of works exploring the development of meaning in generative aesthetics using micro feedback and a genetic algorithm. It consists of a website and a series of printed and boxed collage works.</p><p>The public website contains an enormous population of speculative works. Each of these works are generated by inheriting sequences of information - a sort of DNA - from their ancestors. These ‘genetic’ codes determine which elements appear in the work and in what form or constellation. The population changes over time by means of subjective ('natural') selection by the artist: micro feedback or 'likes'. This feedback - combined with visitor statistics and simulated aging - causes the genetic program to mutate and (arguably) improve over time. </p><p>When creatures reach their optimal state they are 'frozen' and translated into physical objects. These objects are layered in construction, partly transparent and square. They can be hung and watched from all sides.</p><p>Unique pieces, each 100 &times; 100 cm.</p>",
       "parts": [
         {
           "thumbs": [
             {
               "filename": "/Sydgator-Zolim-Juancar.jpg",
-              "caption": "Sydgator Zolim Juancar, 2017. 100×100cm"
+              "caption": "Sydgator Zolim Juancar, 2017. 100×100cm",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
               "orientation": "portrait",
-              "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
+              "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm.",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
               "orientation": "portrait",
-              "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
+              "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm.",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-02.jpg",
               "caption": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm",
+              "series": "death-imitates-language",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/1b5d80aa090230ee38c3a7c6226df85ce4a604fa"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-03.jpg",
               "caption": "Hatter Epot Xgeubke, 2017, 100&times;100&times;3cm",
+              "series": "death-imitates-language",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/e022fbb5c0cb7c6921e521f4b86d9225c151d91f"
             },
             {
               "filename": "/shifting-optics-4/shifting-optics-4-05.jpg",
+              "series": "death-imitates-language",
               "caption": "Autobreeder, 2016"
             },
             {
               "filename": "/dil-nba/GS-NBA-1926.jpg",
               "caption": "Acura Bigboobe Romcops, 2016. 100&times;100&times;4cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1947.jpg",
               "caption": "Kennyk Lucius Zhabt, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1946.jpg",
               "caption": "Yaroslavalavrova Kochan Xutizekea, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1948.jpg",
               "caption": "Wsxzaq Mrjake Wadley, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/dil-nba/GS-NBA-1949.jpg",
               "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "orientation": "portrait",
+              "series": "death-imitates-language"
             },
             {
               "filename": "/kleve/Doroark-Churu-Fexi.jpg",
-              "caption": "Doroark Churu Fexi, 2016"
+              "caption": "Doroark Churu Fexi, 2016",
+              "series": "death-imitates-language"
             }
           ]
         }
@@ -3129,6 +3442,7 @@
         "<a href='http://www.mixmag.net/read/amnesia-scanner-and-bill-kouligas-launch-lexachast-website-news' target='_blank'>Mixmag blogpost</a>"
       ],
       "perma": "lexachast",
+      "series": "PAN",
       "related": [
         "<a href='http://lexachast.com/' target='_blank'>http://lexachast.com/</a>"
       ],
@@ -3145,7 +3459,8 @@
         {
           "filename": "lexachast-02.jpg",
           "caption": "screenshot"
-        }
+        },
+        {}
       ],
       "pubDate": "2016-01-05T00:00:00.000Z"
     },
@@ -3507,6 +3822,7 @@
       "title": "Vienna Biennale 2015: Ideas For Change",
       "location": "Museum for Applied Arts, Vienna",
       "descr": "Group show at the MAK, Vienna<br>Curated by Marlies Wirth",
+      "image": {},
       "cat": "exhibitions, Vienna",
       "related": [
         "<a href='http://www.mak.at/jart/prj3/mak/main.jart?content-id=1343388632770&rel=en&article_id=1427617290522&event_id=1427617290524' target='_blank'>MAK Website</a>",
@@ -3529,6 +3845,7 @@
       "location": "Swiss Institute, Milan",
       "descr": "Group show at the Swiss Institute, Milan<br>Curated by Melanie Bühler and Valerio Mannucci",
       "title": "Inflected Objects - Rising Automated Reasoning",
+      "image": {},
       "cat": "Milan, exhibitions",
       "related": [
         "<a href='http://www.inflected-objects.com/' target='_blank'>Exhibition series website</a>",
@@ -3559,6 +3876,7 @@
       "indexPic": false,
       "location": "Upstream Gallery, Amsterdam",
       "title": "Shifting Optics II",
+      "image": {},
       "related": [
         "<a href='http://www.upstreamgallery.nl/exhibitions/128/shifting-optics-ii' target='_blank'>Press Release</a>"
       ],
@@ -3902,40 +4220,80 @@
       "parts": [
         {
           "filename": "/loomer/sculpture.jpg",
-          "caption": "Untitled Assemblage (shell), 2012. Hand cut printed PETG, spray paint, metal hardware. 1 x 1 x 1m."
+          "caption": "Untitled Assemblage (shell), 2012. Hand cut printed PETG, spray paint, metal hardware. 1 x 1 x 1m.",
+          "left": 46,
+          "top": 210,
+          "series": "assemblages"
         },
         {
-          "filename": "/loomer/wrap-02.jpg"
+          "filename": "/loomer/wrap-02.jpg",
+          "caption": "",
+          "left": 41,
+          "top": 51
         },
         {
-          "filename": "/loomer/wall-01.jpg"
+          "filename": "/loomer/wall-01.jpg",
+          "caption": "",
+          "scale": "cover",
+          "left": 396,
+          "top": -124
         },
         {
-          "filename": "/loomer/IMG_7695.jpg"
+          "filename": "/loomer/IMG_7695.jpg",
+          "caption": "",
+          "left": 166,
+          "top": 53
         },
         {
-          "filename": "/loomer/wrap.jpg"
+          "filename": "/loomer/wrap.jpg",
+          "caption": "",
+          "left": -66,
+          "top": 112
         },
         {
-          "filename": "/loomer/butterfly-02.jpg"
+          "filename": "/loomer/butterfly-02.jpg",
+          "caption": "",
+          "left": 278,
+          "top": 125
         },
         {
-          "filename": "/loomer/butterfly.jpg"
+          "filename": "/loomer/butterfly.jpg",
+          "caption": "",
+          "left": 273,
+          "top": 258
         },
         {
-          "filename": "/loomer/set2b.jpg"
+          "filename": "/loomer/set2b.jpg",
+          "caption": "",
+          "scale": "cover",
+          "left": 455,
+          "top": -6
         },
         {
-          "filename": "d/loomer/etail-01.jpg"
+          "filename": "d/loomer/etail-01.jpg",
+          "caption": "",
+          "left": 570,
+          "top": -46
         },
         {
-          "filename": "/loomer/set.jpg"
+          "filename": "/loomer/set.jpg",
+          "caption": "",
+          "scale": "cover",
+          "left": 404,
+          "top": 205
         },
         {
-          "filename": "/loomer/set2.jpg"
+          "filename": "/loomer/set2.jpg",
+          "caption": "",
+          "scale": "cover",
+          "left": 408,
+          "top": 119
         },
         {
-          "filename": "/loomer/bag.jpg"
+          "filename": "/loomer/bag.jpg",
+          "caption": "",
+          "left": 264,
+          "top": -21
         }
       ],
       "pubDate": "2015-01-23T00:00:00.000Z"
@@ -3955,6 +4313,7 @@
         "<a itemprop='url' href='http://www.e-flux.com/announcements/maria-bartuszova-and-private-settings-art-after-the-internet/' target='_blank'>Press release on e-flux</a>",
         "<a itemprop='url' href='http://private.artmuseum.pl/pl/artist/harm-van-den-dorpel' target='_blank'>Documentation on museum website</a>"
       ],
+      "image": {},
       "perma": "private-settings",
       "parts": [
         {
@@ -4351,6 +4710,7 @@
       "date": "2012-03-02T00:00:00.000Z",
       "indexPic": true,
       "id": "about",
+      "series": "assemblages",
       "title": "About",
       "tags": "spheres,sculpture,transparent,assemblage,acrylic,hanging",
       "location": "Wilkinson Gallery, London",
@@ -4393,58 +4753,75 @@
           "filename": "/about/assemblage_chain.jpg",
           "caption": "",
           "left": 483,
-          "top": 174
+          "top": 174,
+          "series": "assemblages"
         },
         {
           "filename": "/about/WG_HVDD-INST12-05-x.jpg",
           "caption": "",
-          "scale": "cover"
+          "scale": "cover",
+          "left": 65,
+          "top": 120
         },
         {
           "filename": "/about/2012_03_01-14.jpg",
           "caption": "",
-          "scale": "cover"
+          "scale": "cover",
+          "left": 22,
+          "top": 238
         },
         {
           "filename": "/about/huh.jpg",
-          "caption": ""
+          "caption": "",
+          "left": 370,
+          "top": 175,
+          "series": "assemblages"
         },
         {
           "filename": "/about/WG-HVDD-00109-072.jpg",
-          "caption": ""
+          "caption": "",
+          "left": 258,
+          "top": 174,
+          "series": "assemblages"
         },
         {
           "thumbs": [
             {
-              "filename": "/pattern-and-presence/0019.jpg"
+              "filename": "/pattern-and-presence/0019.jpg",
+              "series": "assemblages"
             },
             {
               "filename": "/pattern-and-presence/0021.jpg",
-              "caption": "Assemblage (New), 2018. Ø 85cm."
+              "caption": "Assemblage (New), 2018. Ø 85cm.",
+              "series": "assemblages"
             },
             {
               "filename": "/loomer/sculpture.jpg",
               "caption": "Untitled Assemblage (shell), 2012. Hand cut printed PETG, spray paint, metal hardware. 1 x 1 x 1m.",
               "left": 46,
-              "top": 210
+              "top": 210,
+              "series": "assemblages"
             },
             {
               "filename": "/about/assemblage_chain.jpg",
               "caption": "",
               "left": 483,
-              "top": 174
+              "top": 174,
+              "series": "assemblages"
             },
             {
               "filename": "/about/huh.jpg",
               "caption": "",
               "left": 370,
-              "top": 175
+              "top": 175,
+              "series": "assemblages"
             },
             {
               "filename": "/about/WG-HVDD-00109-072.jpg",
               "caption": "",
               "left": 258,
-              "top": 174
+              "top": 174,
+              "series": "assemblages"
             }
           ]
         }
