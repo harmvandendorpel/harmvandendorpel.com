@@ -13,9 +13,8 @@
 ?><!doctype html>
 <html lang="en">
 <head><?php
-    $title = $item['title'];
-    $type = $item['type'] || 'page';
-    $isSeries = $item['type'] === 'series';
+    $type = $item['kind'] ? $item['kind'].': ' : '';
+    $title = $type.$item['title'];
 
     $thisPageUrl = "http://harmvandendorpel.com/$perma";
 
@@ -101,7 +100,7 @@
         </div>
     </div>
 
-    <?php if ($item['cat']): ?>
+    <?php if (false && $item['cat']): ?>
             <footer>
                 <div class="categories">
                     <?php cats($item['cat'], $isUpcoming); ?>
