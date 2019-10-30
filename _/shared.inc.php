@@ -88,7 +88,7 @@ function getListMetaPic($content) {
         if (!array_key_exists($content[$i], 'parts')) {
             $images = $content[$i]['parts'];
             if (count($images) > 0) {
-                return '/img'.$images[0]['filename'];
+                return '/img/'.$images[0]['filename'];
             }
         }
     }

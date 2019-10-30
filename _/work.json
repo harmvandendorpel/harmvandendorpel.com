@@ -61,7 +61,7 @@
       ],
       "parts": [
         {
-          "filename": "/cartesian-genetic-programming/cgp-1556312769668-framed.jpg",
+          "filename": "cartesian-genetic-programming/cgp-1556312769668-framed.jpg",
           "caption": "Multi Dimensional Zoom, 50&times;50cm, 2019",
           "orientation": "portrait"
         }
@@ -127,67 +127,67 @@
       ],
       "parts": [
         {
-          "filename": "/algues-artificielles-2019/drawing-1481916821427-framed-web.jpg",
+          "filename": "algues-artificielles-2019/drawing-1481916821427-framed-web.jpg",
           "caption": "Unheard Estimator, 80&times;65cm, 2019"
         },
         {
-          "filename": "/algues-artificielles-2019/1481915995217-mock-framed-web.jpg",
+          "filename": "algues-artificielles-2019/1481915995217-mock-framed-web.jpg",
           "caption": "Profane Snout, 80&times;65cm, 2019"
         },
         {
-          "filename": "/algues-artificielles-2019/drawing-1481916029428-framed-mock.jpg",
+          "filename": "algues-artificielles-2019/drawing-1481916029428-framed-mock.jpg",
           "caption": "Bloated Taunt, 80&times;65cm, 2019"
         },
         {
-          "filename": "/algues-artificielles-2019/drawing-1481896544168-framed.jpg",
+          "filename": "algues-artificielles-2019/drawing-1481896544168-framed.jpg",
           "caption": "Audit Myth Buzz, 80&times;65cm"
         },
         {
-          "filename": "/algues-artificielles-2019/drawing-1481916803778-framed.jpg",
+          "filename": "algues-artificielles-2019/drawing-1481916803778-framed.jpg",
           "caption": "Muted Shine Synonym, 80&times;65cm"
         },
         {
           "thumbs": [
             {
-              "filename": "/pattern-and-presence/0024.jpg",
+              "filename": "pattern-and-presence/0024.jpg",
               "caption": "Eponymous Seedling, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
             },
             {
-              "filename": "/pattern-and-presence/0023.jpg",
+              "filename": "pattern-and-presence/0023.jpg",
               "caption": "Freeling Tristesse, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
             },
             {
-              "filename": "/pattern-and-presence/0025b.jpg",
+              "filename": "pattern-and-presence/0025b.jpg",
               "caption": "Unscripted Relinings, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
             },
             {
-              "filename": "/pattern-and-presence/0025.jpg",
+              "filename": "pattern-and-presence/0025.jpg",
               "caption": "Bemused Aversatility, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
             },
             {
-              "filename": "/asking-for-a-friend/frouters.jpg",
+              "filename": "asking-for-a-friend/frouters.jpg",
               "link": "https://harmvandendorpel.com/hybrid-vigor",
               "caption": "Frouters, 2016. Digital archival print, unique, 100&times;80cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9677.jpg",
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9677.jpg",
               "link": "https://harmvandendorpel.com/hybrid-vigor",
               "caption": "Availablesky, 2016. Digital archival print, unique, 100&times;80cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9654.jpg",
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9654.jpg",
               "link": "https://harmvandendorpel.com/hybrid-vigor",
               "caption": "Adoreway, 2016. Digital archival print, unique, 100&times;80cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/asking-for-a-friend/asking-for-a-friend-06.png",
+              "filename": "asking-for-a-friend/asking-for-a-friend-06.png",
               "caption": "Algues Artificielles, 2017 (screenshot)"
             },
             {
-              "filename": "/asking-for-a-friend/algues-artificielles.jpg",
+              "filename": "asking-for-a-friend/algues-artificielles.jpg",
               "caption": "Algues Artificielles, 2017. Software projection, edition 5+1AP."
             }
           ]
@@ -206,34 +206,7 @@
         "<a href='/structures-of-redundancy-prints'>Prints</a>"
       ],
       "parts": [
-        {
-          "filename": "/structures-of-redundancy/structures-of-redundancy-screenshot-09.jpg"
-        },
-        {
-          "filename": "/structures-of-redundancy/structures-of-redundancy-screenshot-10.jpg"
-        },
-        {
-          "filename": "/structures-of-redundancy/structures-of-redundancy-screenshot-01.jpg"
-        },
-        {
-          "filename": "/structures-of-redundancy/structures-of-redundancy-screenshot-03.jpg"
-        },
-        {
-          "filename": "/structures-of-redundancy/structures-of-redundancy-screenshot-04.jpg"
-        },
-        {
-          "filename": "/structures-of-redundancy/structures-of-redundancy-screenshot-05.jpg"
-        },
-        {
-          "filename": "/structures-of-redundancy/structures-of-redundancy-screenshot-06.jpg",
-          "orientation": "portrait"
-        },
-        {
-          "filename": "/structures-of-redundancy/structures-of-redundancy-screenshot-07.jpg"
-        },
-        {
-          "filename": "/structures-of-redundancy/structures-of-redundancy-screenshot-08.jpg"
-        }
+        
       ],
       "pubDate": "2019-05-11T00:00:00.000Z"
     },
@@ -251,69 +224,106 @@
       "date": "2019-05-02T00:00:00.000Z",
       "parts": [
         {
-          "filename": "/cartesian-genetic-programming/trebles-framed.jpg",
-          "caption": "Trebles, 100&times;100cm, 2019",
-          "orientation": "portrait"
-        },
+          "type": "thumbs",
+          "content": [
+          {
+            "filename": "structures-of-redundancy/structures-of-redundancy-screenshot-09.jpg"
+          },
+          {
+            "filename": "structures-of-redundancy/structures-of-redundancy-screenshot-10.jpg"
+          },
+          {
+            "filename": "structures-of-redundancy/structures-of-redundancy-screenshot-01.jpg"
+          },
+          {
+            "filename": "structures-of-redundancy/structures-of-redundancy-screenshot-03.jpg"
+          },
+          {
+            "filename": "structures-of-redundancy/structures-of-redundancy-screenshot-04.jpg"
+          },
+          {
+            "filename": "structures-of-redundancy/structures-of-redundancy-screenshot-05.jpg"
+          },
+          {
+            "filename": "structures-of-redundancy/structures-of-redundancy-screenshot-06.jpg",
+            "orientation": "portrait"
+          },
+          {
+            "filename": "structures-of-redundancy/structures-of-redundancy-screenshot-07.jpg"
+          },
+          {
+            "filename": "structures-of-redundancy/structures-of-redundancy-screenshot-08.jpg"
+          }
+        ]},
         {
-          "filename": "/cartesian-genetic-programming/run-2-cgp-1556373715343.jpg",
-          "caption": "Run Too, 100&times;100cm, 2019",
-          "orientation": "portrait"
-        },
-        {
-          "filename": "/cartesian-genetic-programming/cgp-1554306222667-framed.jpg",
-          "caption": "Untitled, 100&times;100cm, 2019",
-          "orientation": "portrait"
-        },
-        {
-          "filename": "/cartesian-genetic-programming/notem.jpg",
-          "caption": "Notem, 100&times;100cm, 2019",
-          "orientation": "portrait"
-        },
-        {
-          "filename": "/cartesian-genetic-programming/alternating-routines.jpg",
-          "caption": "Untitled, 100&times;100cm, 2019",
-          "orientation": "portrait"
-        },
-        {
-          "filename": "/cartesian-genetic-programming/cgp-1554993052565-framed.jpg",
-          "caption": "Untitled, 100&times;100cm, 2019",
-          "orientation": "portrait"
-        },
-        {
-          "filename": "/cartesian-genetic-programming/cgp-1554994948963-framed.jpg",
-          "caption": "Diluente, 50&times;50cm, 2019",
-          "orientation": "portrait"
-        },
-        {
-          "filename": "/cartesian-genetic-programming/cgp-1556102404101-framed.jpg",
-          "caption": "Daisies, 100&times;100cm, 2019",
-          "orientation": "portrait"
-        },
-        {
-          "filename": "/cartesian-genetic-programming/cgp-1556312769668-framed.jpg",
-          "caption": "Multi Dimensional Zoom, 50&times;50cm, 2019",
-          "orientation": "portrait"
-        },
-        {
-          "filename": "/cartesian-genetic-programming/cgp-1556398426760-framed.jpg",
-          "caption": "Decompress / Embrace, 100&times;100cm, 2019",
-          "orientation": "portrait"
-        },
-        {
-          "filename": "/cartesian-genetic-programming/push-forth-spector-framed.jpg",
-          "caption": "Push Forth Spectre, 100&times;100cm, 2019",
-          "orientation": "portrait"
-        },
-        {
-          "filename": "/cartesian-genetic-programming/symbol-no-aggression-framed.jpg",
-          "caption": "Symbol No Aggression, 100&times;100cm, 2019",
-          "orientation": "portrait"
-        },
-        {
-          "filename": "/cartesian-genetic-programming/cgp-1554148941503-framed.jpg",
-          "caption": "Bars, 100&times;100cm, 2019",
-          "orientation": "portrait"
+          "type": "thumbs",
+          "content": [
+            {
+              "filename": "cartesian-genetic-programming/trebles-framed.jpg",
+              "caption": "Trebles, 100&times;100cm, 2019",
+              "orientation": "portrait"
+            },
+            {
+              "filename": "cartesian-genetic-programming/run-2-cgp-1556373715343.jpg",
+              "caption": "Run Too, 100&times;100cm, 2019",
+              "orientation": "portrait"
+            },
+            {
+              "filename": "cartesian-genetic-programming/cgp-1554306222667-framed.jpg",
+              "caption": "Untitled, 100&times;100cm, 2019",
+              "orientation": "portrait"
+            },
+            {
+              "filename": "cartesian-genetic-programming/notem.jpg",
+              "caption": "Notem, 100&times;100cm, 2019",
+              "orientation": "portrait"
+            },
+            {
+              "filename": "cartesian-genetic-programming/alternating-routines.jpg",
+              "caption": "Untitled, 100&times;100cm, 2019",
+              "orientation": "portrait"
+            },
+            {
+              "filename": "cartesian-genetic-programming/cgp-1554993052565-framed.jpg",
+              "caption": "Untitled, 100&times;100cm, 2019",
+              "orientation": "portrait"
+            },
+            {
+              "filename": "cartesian-genetic-programming/cgp-1554994948963-framed.jpg",
+              "caption": "Diluente, 50&times;50cm, 2019",
+              "orientation": "portrait"
+            },
+            {
+              "filename": "cartesian-genetic-programming/cgp-1556102404101-framed.jpg",
+              "caption": "Daisies, 100&times;100cm, 2019",
+              "orientation": "portrait"
+            },
+            {
+              "filename": "cartesian-genetic-programming/cgp-1556312769668-framed.jpg",
+              "caption": "Multi Dimensional Zoom, 50&times;50cm, 2019",
+              "orientation": "portrait"
+            },
+            {
+              "filename": "cartesian-genetic-programming/cgp-1556398426760-framed.jpg",
+              "caption": "Decompress / Embrace, 100&times;100cm, 2019",
+              "orientation": "portrait"
+            },
+            {
+              "filename": "cartesian-genetic-programming/push-forth-spector-framed.jpg",
+              "caption": "Push Forth Spectre, 100&times;100cm, 2019",
+              "orientation": "portrait"
+            },
+            {
+              "filename": "cartesian-genetic-programming/symbol-no-aggression-framed.jpg",
+              "caption": "Symbol No Aggression, 100&times;100cm, 2019",
+              "orientation": "portrait"
+            },
+            {
+              "filename": "cartesian-genetic-programming/cgp-1554148941503-framed.jpg",
+              "caption": "Bars, 100&times;100cm, 2019",
+              "orientation": "portrait"
+            }
+          ]
         }
       ],
       "pubDate": "2019-05-02T00:00:00.000Z"
@@ -324,13 +334,13 @@
       "perma": "abmb2019",
       "parts": [
         {
-          "filename": "/abmb2019/abmb2019-01.jpg"
+          "filename": "abmb2019/abmb2019-01.jpg"
         },
         {
-          "filename": "/abmb2019/abmb2019-03.jpg"
+          "filename": "abmb2019/abmb2019-03.jpg"
         },
         {
-          "filename": "/abmb2019/abmb2019-02.jpg"
+          "filename": "abmb2019/abmb2019-02.jpg"
         }
       ],
       "date": "2019-06-12T11:14:16.339Z",
@@ -343,16 +353,16 @@
       "descr": "Back lit LED panels, unique edition, 2019.",
       "parts": [
         {
-          "filename": "/interface-works/w3.jpg"
+          "filename": "interface-works/w3.jpg"
         },
         {
-          "filename": "/interface-works/interface-web.jpg"
+          "filename": "interface-works/interface-web.jpg"
         },
         {
-          "filename": "/interface-works/HD-2019-Subprioress-web.jpg"
+          "filename": "interface-works/HD-2019-Subprioress-web.jpg"
         },
         {
-          "filename": "/interface-works/w4web.jpg"
+          "filename": "interface-works/w4web.jpg"
         }
       ],
       "date": "2019-03-10T00:00:00.000Z",
@@ -361,81 +371,11 @@
     {
       "title": "Nested Exchange Prints",
       "cat": "AI,genetics",
-      "perma": "nested-exchange-prints",
+      "perma": "nested-exchange-old",
       "descr": "Ultrachrome print on Hahnemühle paper, each 100&times;100cm, framed, unique edition.",
       "date": "2019-02-17T00:00:00.000Z",
       "parts": [
-        {
-          "orientation": "portrait",
-          "filename": "/nested-exchange-prints/Peached-Renitencies-Mercer.jpg",
-          "caption": "Peached Renitencies Mercer, 2018"
-        },
-        {
-          "filename": "/nested-exchange-prints/unjust-nonderogatorily-ventriloquist-web.jpg",
-          "caption": "Unjust Nonderogatory Ventriloquist, 2018"
-        },
-        {
-          "filename": "/nested-exchange-prints/79dd9f8882b228d5decb84231c958a26cdb65218.jpg",
-          "caption": "Cussos Unfence Thermographers, 2019"
-        },
-        {
-          "filename": "/nested-exchange-prints/1f320d3e7a9f5a63c61d1d9c9f08fe6d0c86e8d8-framed.jpg",
-          "caption": "Bellybuttons Stotinka Lesbic, 2018"
-        },
-        {
-          "filename": "/nested-exchange-prints/817bbd064e1b182b0a4a458e22fa34a98d29b621-framed.jpg",
-          "caption": "Unfenced Dispensation, 2018"
-        },
-        {
-          "filename": "/nested-exchange-prints/50c2bc41558758e0897ba473e6feabdbfed9f67d-framed.jpg",
-          "caption": "Griper Matildas Badgers, 2018"
-        },
-        {
-          "filename": "/nested-exchange-prints/d26bed11c6dafc622ec57177dbfe43e76a47051c-framed.jpg",
-          "caption": "Badgers Matildas Bejant, 2018"
-        },
-        {
-          "thumbs": [
-            {
-              "orientation": "portrait",
-              "filename": "/nested-exchange-prints/Peached-Renitencies-Mercer.jpg",
-              "caption": "Peached Renitencies Mercer, 2018"
-            },
-            {
-              "filename": "/nested-exchange-prints/unjust-nonderogatorily-ventriloquist-web.jpg",
-              "caption": "Unjust Nonderogatory Ventriloquist, 2018"
-            },
-            {
-              "filename": "/nested-exchange-prints/1f320d3e7a9f5a63c61d1d9c9f08fe6d0c86e8d8-framed.jpg",
-              "caption": "Bellybuttons Stotinka Lesbic, 2018"
-            },
-            {
-              "filename": "/nested-exchange-prints/50c2bc41558758e0897ba473e6feabdbfed9f67d-framed.jpg",
-              "caption": "Griper Matildas Badgers, 2018"
-            },
-            {
-              "filename": "/uninnocent-bystander/uninnocent-bystander-04.jpg",
-              "caption": "Cussos Unfence Thermographers,  100×100cm, 2019"
-            },
-            {
-              "filename": "/pattern-and-presence/0006.jpg",
-              "caption": "Hexamerisms, 2018. 100&times;100&times;3cm."
-            },
-            {
-              "filename": "/pattern-and-presence/0008.jpg",
-              "caption": "Fissured Petrolling Mridangam, 2018. 100&times;100&times;3cm."
-            },
-            {
-              "filename": "/pattern-and-presence/0009.jpg",
-              "caption": "Wyn (Generation Unknown), 2018. 100&times;100&times;3cm.",
-              "orientation": "portrait"
-            },
-            {
-              "filename": "/pattern-and-presence/0010.jpg",
-              "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm."
-            }
-          ]
-        }
+        
       ],
       "pubDate": "2019-02-17T00:00:00.000Z"
     },
@@ -452,26 +392,27 @@
       "perma": "assemblages",
       "parts": [
         {
-          "thumbs": [
+          "type": "thumbs",
+          "content": [
             {
-              "filename": "/pattern-and-presence/0019.jpg"
+              "filename": "pattern-and-presence/0019.jpg"
             },
             {
-              "filename": "/pattern-and-presence/0021.jpg",
+              "filename": "pattern-and-presence/0021.jpg",
               "caption": "Assemblage (New), 2018. Ø 85cm."
             },
             {
-              "filename": "/loomer/sculpture.jpg",
+              "filename": "loomer/sculpture.jpg",
               "caption": "Untitled Assemblage (shell), 2012. Hand cut printed PETG, spray paint, metal hardware. 1 x 1 x 1m."
             },
             {
-              "filename": "/about/assemblage_chain.jpg"
+              "filename": "about/assemblage_chain.jpg"
             },
             {
-              "filename": "/about/huh.jpg"
+              "filename": "about/huh.jpg"
             },
             {
-              "filename": "/about/WG-HVDD-00109-072.jpg"
+              "filename": "about/WG-HVDD-00109-072.jpg"
             }
           ]
         }
@@ -488,16 +429,16 @@
       "perma": "rite-of-access",
       "parts": [
         {
-          "filename": "/rite-of-access/rite-of-access-04.jpg"
+          "filename": "rite-of-access/rite-of-access-04.jpg"
         },
         {
-          "filename": "/rite-of-access/rite-of-access-01.jpg"
+          "filename": "rite-of-access/rite-of-access-01.jpg"
         },
         {
-          "filename": "/rite-of-access/rite-of-access-02.jpg"
+          "filename": "rite-of-access/rite-of-access-02.jpg"
         },
         {
-          "filename": "/rite-of-access/rite-of-access-03.jpg"
+          "filename": "rite-of-access/rite-of-access-03.jpg"
         }
       ]
     },
@@ -533,52 +474,52 @@
       "cat": "exhibitions,blockchain",
       "parts": [
         {
-          "filename": "/vertiginous-data/vertiginous-data-01.jpg"
+          "filename": "vertiginous-data/vertiginous-data-01.jpg"
         },
         {
-          "filename": "/vertiginous-data/vertiginous-data-02.jpg"
+          "filename": "vertiginous-data/vertiginous-data-02.jpg"
         },
         {
-          "filename": "/vertiginous-data/left-gallery-explainer-mmca.png"
+          "filename": "vertiginous-data/left-gallery-explainer-mmca.png"
         },
         {
           "thumbs": [
             {
               "orientation": "portrait",
-              "filename": "/nested-exchange-prints/Peached-Renitencies-Mercer.jpg",
+              "filename": "nested-exchange-prints/Peached-Renitencies-Mercer.jpg",
               "caption": "Peached Renitencies Mercer, 2018"
             },
             {
-              "filename": "/nested-exchange-prints/unjust-nonderogatorily-ventriloquist-web.jpg",
+              "filename": "nested-exchange-prints/unjust-nonderogatorily-ventriloquist-web.jpg",
               "caption": "Unjust Nonderogatory Ventriloquist, 2018"
             },
             {
-              "filename": "/nested-exchange-prints/1f320d3e7a9f5a63c61d1d9c9f08fe6d0c86e8d8-framed.jpg",
+              "filename": "nested-exchange-prints/1f320d3e7a9f5a63c61d1d9c9f08fe6d0c86e8d8-framed.jpg",
               "caption": "Bellybuttons Stotinka Lesbic, 2018"
             },
             {
-              "filename": "/nested-exchange-prints/50c2bc41558758e0897ba473e6feabdbfed9f67d-framed.jpg",
+              "filename": "nested-exchange-prints/50c2bc41558758e0897ba473e6feabdbfed9f67d-framed.jpg",
               "caption": "Griper Matildas Badgers, 2018"
             },
             {
-              "filename": "/uninnocent-bystander/uninnocent-bystander-04.jpg",
+              "filename": "uninnocent-bystander/uninnocent-bystander-04.jpg",
               "caption": "Cussos Unfence Thermographers,  100×100cm, 2019"
             },
             {
-              "filename": "/pattern-and-presence/0006.jpg",
+              "filename": "pattern-and-presence/0006.jpg",
               "caption": "Hexamerisms, 2018. 100&times;100&times;3cm."
             },
             {
-              "filename": "/pattern-and-presence/0008.jpg",
+              "filename": "pattern-and-presence/0008.jpg",
               "caption": "Fissured Petrolling Mridangam, 2018. 100&times;100&times;3cm."
             },
             {
-              "filename": "/pattern-and-presence/0009.jpg",
+              "filename": "pattern-and-presence/0009.jpg",
               "caption": "Wyn (Generation Unknown), 2018. 100&times;100&times;3cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/pattern-and-presence/0010.jpg",
+              "filename": "pattern-and-presence/0010.jpg",
               "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm."
             }
           ]
@@ -604,42 +545,46 @@
       "meta": "In this solo exhibition he presents the newest iteration of works that explore the dynamics of algorithmic architectures.",
       "parts": [
         {
-          "filename": "/uninnocent-bystander/uninnocent-bystander-01.jpg",
+          "type": "list",
+          "content":[
+        {
+          "filename": "uninnocent-bystander/uninnocent-bystander-01.jpg",
           "caption": "Structures of Redundancy (autobreeder), 2019"
         },
         {
-          "filename": "/uninnocent-bystander/structures-of-redundancy-projection.jpg",
+          "filename": "uninnocent-bystander/structures-of-redundancy-projection.jpg",
           "caption": "Structures of Redundancy (autobreeder), 2019"
         },
         {
-          "filename": "/uninnocent-bystander/s-of-r.jpg",
+          "filename": "uninnocent-bystander/s-of-r.jpg",
           "caption": "Screenshot of Structures of Redundancy (autobreeder), 2019"
         },
         {
-          "filename": "/uninnocent-bystander/uninnocent-bystander-02.jpg",
+          "filename": "uninnocent-bystander/uninnocent-bystander-02.jpg",
           "indexPic": true
         },
         {
-          "filename": "/uninnocent-bystander/tablets.jpg"
+          "filename": "uninnocent-bystander/tablets.jpg"
         },
         {
-          "filename": "/uninnocent-bystander/tablet.jpg"
+          "filename": "uninnocent-bystander/tablet.jpg"
         },
         {
-          "filename": "/uninnocent-bystander/1669705_449931868473046_1330732952_o.jpg"
+          "filename": "uninnocent-bystander/1669705_449931868473046_1330732952_o.jpg"
         },
         {
-          "filename": "/uninnocent-bystander/cgp-1554993052565-framed.jpg",
+          "filename": "uninnocent-bystander/cgp-1554993052565-framed.jpg",
           "caption": "Untitled, 100×100cm, 2019"
         },
         {
-          "filename": "/uninnocent-bystander/uninnocent-bystander-04.jpg",
+          "filename": "uninnocent-bystander/uninnocent-bystander-04.jpg",
           "caption": "Cussos Unfence Thermographers,  100×100cm, 2019"
         },
         {
-          "filename": "/uninnocent-bystander/uninnocent-bystander-03.jpg",
+          "filename": "uninnocent-bystander/uninnocent-bystander-03.jpg",
           "caption": "Bars, 100×100cm, 2019"
         }
+      ]}
       ],
       "perma": "uninnocent-bystander",
       "descr": "<p>For the solo exhibition Uninnocent Bystander, Harm van den Dorpel presents his newest iteration of works that explore the dynamics of algorithmic architectures.</p><p>In this extended work, initially labeled “<a href='/death-imitates-language'>Death Imitates Language</a>”, a set of originary images are combined and recombined via a genetic algorithm to generate new sets of “descendant” images. The latest “generation” of images were birthed as a result of tinkering by van den Dorpel with the underlying combinatorial algorithm. To overcome the size restrictions imposed by creating works using a linear chromosome as a primary reference point (which is how genetics function in nature), van den Dorpel turned to a <a href='/nested-exchange'>hierarchical form of organization</a> which he encountered in the analysis of natural human language. </p><p>To create the newest series the artist borrowed from what is known as “<a href='https://en.wikipedia.org/wiki/Cartesian_genetic_programming' target='_blank'>Cartesian Genetic Programming</a>”. CGP allows for programming code to mutate, in order to create a broad variation among many syntactically valid, and potentially meaningful, programmes. This technology from 1999 has mostly been superseded by neural networks, which power today’s most powerful artificial intelligence.</p><p>Van den Dorpel’s works concern themselves with the dynamics of progression and halting - one of the animating questions of early computational science. Whether or why a given process or programme ever completes underwrites inquiries that stretch beyond the realms of computing and penetrate every aspect of social and biological endeavour. Such processes are only partially understandable - indeed the famous Turing Machine provided a formalisation of the nature of undecidability with regard to the halting problem, demonstrating that it would never be possible to know the status of all potential computing programmes.</p><p>Despite the melancholic epistemological implications, such uncertainty provides considerable scope for growth and surprise. This lack of closure is something that van den Dorpel frequently celebrates in his work, arguing against the notion of the artwork as a finalised object subject to the sort of Groysean archiving that amounts to a kind of death sentence for a given piece.</p><p>Instead, van den Dorpel seeks to explore the tensions between creation and recognition. The artist may set certain processes in motion, but the motion has interests and consequences of its own. Thus, his works are environments as much as they are objects: evolving to produce specific states at specific moments, but they are never complete. The works are snapshots of a joint creative endeavour between van den Dorpel and the logics he engages, and which engage him.</p><p>Photos by Dinis Santos</p>",
@@ -677,14 +622,14 @@
       "cat": "exhibitions,London,sculpture",
       "parts": [
         {
-          "filename": "/notes-on-objects/Notes-on-Objects-install-6.jpg",
+          "filename": "notes-on-objects/Notes-on-Objects-install-6.jpg",
           "caption": "Installation view (wall pieces by Anton Ginzburg and Carlos Noronha Feio)"
         },
         {
-          "filename": "/notes-on-objects/Notes-on-Objects-install-13.jpg"
+          "filename": "notes-on-objects/Notes-on-Objects-install-13.jpg"
         },
         {
-          "filename": "/notes-on-objects/Notes-on-Objects-install-14.jpg"
+          "filename": "notes-on-objects/Notes-on-Objects-install-14.jpg"
         }
       ],
       "pubDate": "2019-02-27T00:00:00.000Z"
@@ -747,38 +692,65 @@
       "pubDate": "2019-02-06T00:00:00.000Z"
     },
     {
-      "descr": "",
-      "private": true,
       "title": "Nested Exchange",
-      "perma": "nested-exchange-2018",
+      "descr": "These specimen find their form by a process of exchanging information with each other. Two works are taken from a determined population and communicate - gossip if you will - by flipping a node of their nested structure. The direction in this process is geared towards the greatest diversity: each specimen wants to be as different from all the other as possible. As the total amount of information shared among all specimen in the population does not increase over time but is merely recombined towards an optimal diverse distribution, the linear history of state changes (snapshots) can be compared to a blockchain ledger. The chromosomes of the specimen are stored as nested recursive <q>tree</q> structures, similar to those used in linguistics.",
+      "perma": "nested-exchange",
       "parts": [
+       
+
         {
-          "caption": "W. D. Sensualist, 2018. 112×112cm. Ultrachrome print on Hahnemühle paper. Unique edition.",
-          "filename": "WDSensualist-framed.jpg"
+          "type": "thumbs",
+          "captions": false,
+          "content": [
+            {
+              "filename": "pattern-and-presence/0006.jpg",
+              "caption": "Hexamerisms, 2018. 100&times;100&times;3cm."
+            },
+            {
+              "filename": "pattern-and-presence/0008.jpg",
+              "caption": "Fissured Petrolling Mridangam, 2018. 100&times;100&times;3cm."
+            },
+            {
+              "filename": "pattern-and-presence/0009.jpg",
+              "caption": "Wyn (Generation Unknown), 2018. 100&times;100&times;3cm.",
+              "orientation": "portrait"
+            },
+            {
+              "filename": "pattern-and-presence/0010.jpg",
+              "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm."
+            }
+          ]
         },
         {
-          "caption": "P. R. Mercer, 2018. 112×112cm. Ultrachrome print on Hahnemühle paper. Unique edition.",
-          "filename": "PRMercer-framed.jpg"
-        },
-        {
-          "caption": "C. C. Rashes, 2018. 112×112cm. Ultrachrome print on Hahnemühle paper. Unique edition.",
-          "filename": "CCRashes-framed.jpg"
-        },
-        {
-          "caption": "Wyn (Generation Unknown), 2018. UV print on multilayered CNC arylic glass, polished. 100×100×3cm.",
-          "filename": "0009.jpg"
-        },
-        {
-          "caption": "Juancar Zolim Juancar, 2017. UV print on multilayered CNC arylic glass, polished. 100×100×3cm.",
-          "filename": "juancar-zolim-juancar-photo.jpg"
-        },
-        {
-          "caption": "Wsxzaq Mrjake Wadley, 2016. UV print on multilayered CNC arylic glass, polished. 100×100×3cm.",
-          "filename": "GS-NBA-1948.jpg"
-        },
-        {
-          "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016. UV print on multilayered CNC arylic glass, polished. 100×100×3cm.",
-          "filename": "GS-NBA-1949.jpg"
+          "type": "thumbs",
+          "content": [
+            {
+              "orientation": "portrait",
+              "filename": "nested-exchange-prints/Peached-Renitencies-Mercer.jpg",
+              "caption": "Peached Renitencies Mercer, 2018"
+            },
+            {
+              "filename": "nested-exchange-prints/unjust-nonderogatorily-ventriloquist-web.jpg",
+              "caption": "Unjust Nonderogatory Ventriloquist, 2018"
+            },
+            {
+              "filename": "nested-exchange-prints/1f320d3e7a9f5a63c61d1d9c9f08fe6d0c86e8d8-framed.jpg",
+              "caption": "Bellybuttons Stotinka Lesbic, 2018"
+            },
+            {
+              "filename": "uninnocent-bystander/uninnocent-bystander-04.jpg",
+              "caption": "Cussos Unfence Thermographers,  100×100cm, 2019"
+            },
+            {
+              "caption": "W. D. Sensualist, 2018. 112×112cm. Ultrachrome print on Hahnemühle paper. Unique edition.",
+              "filename": "WDSensualist-framed.jpg"
+            },
+            {
+              "caption": "C. C. Rashes, 2018. 112×112cm. Ultrachrome print on Hahnemühle paper. Unique edition.",
+              "filename": "CCRashes-framed.jpg"
+            }
+            
+          ]
         }
       ],
       "date": "2019-06-12T11:14:16.339Z",
@@ -900,81 +872,81 @@
       "cat": "Brussels,fairs,drawings",
       "parts": [
         {
-          "filename": "/automatic-drawings/006.jpg"
+          "filename": "automatic-drawings/006.jpg"
         },
         {
           "thumbs": [
             {
-              "filename": "/pattern-and-presence/0030.jpg",
+              "filename": "pattern-and-presence/0030.jpg",
               "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
             },
             {
-              "filename": "/pattern-and-presence/0031.jpg",
+              "filename": "pattern-and-presence/0031.jpg",
               "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
             },
             {
-              "filename": "/new-dawn/NBA_NewDawn_HvdD_PapaverSomniferum_Detail.jpg",
+              "filename": "new-dawn/NBA_NewDawn_HvdD_PapaverSomniferum_Detail.jpg",
               "caption": "Papaver Somniferum (detail). 46×34cm, 2017"
             },
             {
-              "filename": "/asking-for-a-friend/thistle-01.jpg",
+              "filename": "asking-for-a-friend/thistle-01.jpg",
               "orientation": "portrait",
               "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
             },
             {
-              "filename": "/asking-for-a-friend/thistle-02.jpg",
+              "filename": "asking-for-a-friend/thistle-02.jpg",
               "orientation": "portrait",
               "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
             },
             {
-              "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9739.jpg",
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9739.jpg",
               "orientation": "portrait",
               "caption": "Metaballs (1), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
             },
             {
-              "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9745.jpg",
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9745.jpg",
               "orientation": "portrait",
               "caption": "Metaballs (2), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
             },
             {
-              "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9737.jpg",
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9737.jpg",
               "orientation": "portrait",
               "caption": "Papaver Somniferum, 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
             },
             {
-              "filename": "/automatic-drawings/002.jpg",
+              "filename": "automatic-drawings/002.jpg",
               "caption": "21 &times; 30cm"
             },
             {
-              "filename": "/automatic-drawings/003.jpg",
+              "filename": "automatic-drawings/003.jpg",
               "caption": "42 &times; 30cm"
             },
             {
-              "filename": "/automatic-drawings/004.jpg",
+              "filename": "automatic-drawings/004.jpg",
               "caption": "42 &times; 30cm"
             },
             {
-              "filename": "/automatic-drawings/005.jpg",
+              "filename": "automatic-drawings/005.jpg",
               "caption": "42 &times; 30cm"
             },
             {
-              "filename": "/automatic-drawings/006.jpg",
+              "filename": "automatic-drawings/006.jpg",
               "caption": "42 &times; 30cm"
             },
             {
-              "filename": "/automatic-drawings/007.jpg",
+              "filename": "automatic-drawings/007.jpg",
               "caption": "21 &times; 30cm"
             },
             {
-              "filename": "/automatic-drawings/008.jpg",
+              "filename": "automatic-drawings/008.jpg",
               "caption": "42 &times; 30cm"
             },
             {
-              "filename": "/automatic-drawings/009.jpg",
+              "filename": "automatic-drawings/009.jpg",
               "caption": "21 &times; 30cm"
             },
             {
-              "filename": "/automatic-drawings/010.jpg",
+              "filename": "automatic-drawings/010.jpg",
               "caption": "42 &times; 30cm"
             }
           ]
@@ -994,18 +966,18 @@
       "tags": "software,blockchain,genetics,proof of work, crypto, cryptocurrencies, decentralization",
       "parts": [
         {
-          "filename": "/pow/proof-of-work-installation-view.jpg"
+          "filename": "pow/proof-of-work-installation-view.jpg"
         },
         {
-          "filename": "/pow/proof-of-work-installation-view-02.jpg",
+          "filename": "pow/proof-of-work-installation-view-02.jpg",
           "caption": "Wyn (Generation Unknown), 2018. 100×100×3cm."
         },
         {
-          "filename": "/pow/proof-of-work-installation-view-03.jpg",
+          "filename": "pow/proof-of-work-installation-view-03.jpg",
           "caption": "Lammer Asbestus, 2018. 100×100×3cm."
         },
         {
-          "filename": "/pow/left-gallery-explainer-02.png",
+          "filename": "pow/left-gallery-explainer-02.png",
           "caption": "left gallery explainer, 2018. Animated lecture, 33min."
         }
       ],
@@ -1027,79 +999,79 @@
       "featured": false,
       "parts": [
         {
-          "filename": "/e-state/09-e-state-realisms-1-print.jpg",
+          "filename": "e-state/09-e-state-realisms-1-print.jpg",
           "caption": "S. G. Literators in conversation with C. A. Uxoriously"
         },
         {
-          "filename": "/e-state/01-e-state-realisms-installation-view-01.jpg",
+          "filename": "e-state/01-e-state-realisms-installation-view-01.jpg",
           "caption": "Installation view, sculpture by Nick Lobo"
         },
         {
-          "filename": "/e-state/02-e-state-realisms-4-prints.jpg",
+          "filename": "e-state/02-e-state-realisms-4-prints.jpg",
           "caption": "Left to right: P. R. Mercer, C. C. Rashes, R. Electrotype, W. D. Sensualist"
         },
         {
-          "filename": "/e-state/03-e-state-realisms-installation-view-02.jpg",
+          "filename": "e-state/03-e-state-realisms-installation-view-02.jpg",
           "caption": "Installation view"
         },
         {
-          "filename": "/e-state/04-e-state-realisms-installation-view-03.jpg",
+          "filename": "e-state/04-e-state-realisms-installation-view-03.jpg",
           "caption": "Installation view"
         },
         {
-          "filename": "/e-state/05-e-state-realisms-installation-view-2018-right.jpg",
+          "filename": "e-state/05-e-state-realisms-installation-view-2018-right.jpg",
           "caption": "Site Specific Installation View, 2018"
         },
         {
-          "filename": "/e-state/06-e-state-realisms-installation-view-2018-left.jpg",
+          "filename": "e-state/06-e-state-realisms-installation-view-2018-left.jpg",
           "caption": "Site Specific Installation View, 2018"
         },
         {
-          "filename": "/e-state/07-e-state-realisms-installation-view-2018-middle.jpg",
+          "filename": "e-state/07-e-state-realisms-installation-view-2018-middle.jpg",
           "caption": "Site Specific Installation View, 2018"
         },
         {
-          "filename": "/e-state/08-e-state-realisms-nested-exchange.jpg",
+          "filename": "e-state/08-e-state-realisms-nested-exchange.jpg",
           "caption": "Nested Exchange, 2018"
         },
         {
           "thumbs": [
             {
               "orientation": "portrait",
-              "filename": "/nested-exchange-prints/Peached-Renitencies-Mercer.jpg",
+              "filename": "nested-exchange-prints/Peached-Renitencies-Mercer.jpg",
               "caption": "Peached Renitencies Mercer, 2018"
             },
             {
-              "filename": "/nested-exchange-prints/unjust-nonderogatorily-ventriloquist-web.jpg",
+              "filename": "nested-exchange-prints/unjust-nonderogatorily-ventriloquist-web.jpg",
               "caption": "Unjust Nonderogatory Ventriloquist, 2018"
             },
             {
-              "filename": "/nested-exchange-prints/1f320d3e7a9f5a63c61d1d9c9f08fe6d0c86e8d8-framed.jpg",
+              "filename": "nested-exchange-prints/1f320d3e7a9f5a63c61d1d9c9f08fe6d0c86e8d8-framed.jpg",
               "caption": "Bellybuttons Stotinka Lesbic, 2018"
             },
             {
-              "filename": "/nested-exchange-prints/50c2bc41558758e0897ba473e6feabdbfed9f67d-framed.jpg",
+              "filename": "nested-exchange-prints/50c2bc41558758e0897ba473e6feabdbfed9f67d-framed.jpg",
               "caption": "Griper Matildas Badgers, 2018"
             },
             {
-              "filename": "/uninnocent-bystander/uninnocent-bystander-04.jpg",
+              "filename": "uninnocent-bystander/uninnocent-bystander-04.jpg",
               "caption": "Cussos Unfence Thermographers,  100×100cm, 2019"
             },
             {
-              "filename": "/pattern-and-presence/0006.jpg",
+              "filename": "pattern-and-presence/0006.jpg",
               "caption": "Hexamerisms, 2018. 100&times;100&times;3cm."
             },
             {
-              "filename": "/pattern-and-presence/0008.jpg",
+              "filename": "pattern-and-presence/0008.jpg",
               "caption": "Fissured Petrolling Mridangam, 2018. 100&times;100&times;3cm."
             },
             {
-              "filename": "/pattern-and-presence/0009.jpg",
+              "filename": "pattern-and-presence/0009.jpg",
               "caption": "Wyn (Generation Unknown), 2018. 100&times;100&times;3cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/pattern-and-presence/0010.jpg",
+              "filename": "pattern-and-presence/0010.jpg",
               "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm."
             }
           ]
@@ -1128,13 +1100,13 @@
       ],
       "parts": [
         {
-          "filename": "/live-and-let-live/HD-2004-2018-MarkovsWindow-cropped.jpg"
+          "filename": "live-and-let-live/HD-2004-2018-MarkovsWindow-cropped.jpg"
         },
         {
-          "filename": "/live-and-let-live/HD-2004-2018-MarkovsWindow-5.jpg"
+          "filename": "live-and-let-live/HD-2004-2018-MarkovsWindow-5.jpg"
         },
         {
-          "filename": "/live-and-let-live/Markovs-Window.gif",
+          "filename": "live-and-let-live/Markovs-Window.gif",
           "orientation": "portrait"
         }
       ],
@@ -1144,7 +1116,7 @@
       "title": "Nested Exchange",
       "date": "2018-03-08T00:00:00.000Z",
       "descr": "Generative software, infinite duration, no sound, 4K.<br><br><em>These specimen find their form by a process of exchanging information with each other. Two works are taken from a determined population and communicate - gossip if you will - by flipping a node of their nested structure. The direction in this process is geared towards the greatest diversity: each specimen wants to be as different from all the other as possible.<br /><br />As the total amount of information shared among all specimen in the population does not increase over time but is merely recombined towards an optimal diverse distribution, the linear history of state changes (snapshots) can be compared to a blockchain ledger.<br /><br />The chromosomes of the specimen are stored as nested recursive &quot;tree&quot; structures, similar to those used in linguistics.</em>",
-      "perma": "nested-exchange",
+      "perma": "nested-exchange-old",
       "tags": "software,blockchain,genetics",
       "cat": "software,blockchain,genetics,animation",
       "related": [
@@ -1161,13 +1133,13 @@
       "perma": "pattern-and-presence-risograph-posters",
       "parts": [
         {
-          "filename": "/recursion.fyi/f72873ef1b1a489dad60f27bef79f03902d3b5fe-01.jpg"
+          "filename": "recursion.fyi/f72873ef1b1a489dad60f27bef79f03902d3b5fe-01.jpg"
         },
         {
-          "filename": "/recursion.fyi/8c9029491714fcbe69e28d4458803b1f2dda9419.jpg"
+          "filename": "recursion.fyi/8c9029491714fcbe69e28d4458803b1f2dda9419.jpg"
         },
         {
-          "filename": "/recursion.fyi/nonsense-01-web.jpg"
+          "filename": "recursion.fyi/nonsense-01-web.jpg"
         }
       ],
       "pubDate": "2018-02-24T00:00:00.000Z"
@@ -1179,25 +1151,25 @@
       "perma": "hybrid-vigor-prints",
       "parts": [
         {
-          "filename": "/recursion.fyi/drawing-1481896077059.jpg"
+          "filename": "recursion.fyi/drawing-1481896077059.jpg"
         },
         {
-          "filename": "/recursion.fyi/drawing-1481915991871.jpg"
+          "filename": "recursion.fyi/drawing-1481915991871.jpg"
         },
         {
-          "filename": "/recursion.fyi/drawing-1481916649116.jpg"
+          "filename": "recursion.fyi/drawing-1481916649116.jpg"
         },
         {
-          "filename": "/recursion.fyi/drawing-1481916651842.jpg"
+          "filename": "recursion.fyi/drawing-1481916651842.jpg"
         },
         {
-          "filename": "/recursion.fyi/drawing-1481916801927.jpg"
+          "filename": "recursion.fyi/drawing-1481916801927.jpg"
         },
         {
-          "filename": "/recursion.fyi/drawing-1481916937940.jpg"
+          "filename": "recursion.fyi/drawing-1481916937940.jpg"
         },
         {
-          "filename": "/recursion.fyi/drawing-1481896447986.jpg"
+          "filename": "recursion.fyi/drawing-1481896447986.jpg"
         }
       ],
       "date": "2019-06-12T11:14:16.339Z",
@@ -1215,129 +1187,131 @@
       "indexPic": true,
       "date": "2018-02-24T00:00:00.000Z",
       "descr": "<div style='font-size:16px; padding:3vh; background-color:white;'>We can understand the complexity of the outer world only because our codes for constructing the inner world are similarly diverse and complex. In this sense, we are a metaphor not only for ourselves but also for the larger system in which we are embedded. This leads her into a subtly nuanced analysis of couplings between inner world and outer world, including the insight that because the worlds are coupled, they must in the (last) analysis be regarded as a single system.</div><br>In his first solo exhibition with Upstream Gallery, Harm van den Dorpel features works from multiple series’ that react to different moments in the history of cybernetics. <br><br>Pattern and Presence, the title of the show, is taken from the book <a href='https://monoskop.org/images/5/50/Hayles_N_Katherine_How_We_Became_Posthuman_Virtual_Bodies_in_Cybernetics_Literature_and_Informatics.pdf' target='_blank'>‘How we became posthuman’</a> by N. Katherine Hayles (1999), in which she describes the historical development of cybernetics and politics of disembodiment.<br><br>Van den Dorpel employs various information technologies from this history of cybernetics in his artistic practice. He wants to demystify both the romantic notion of the ‘artistic genius’ as well as the ‘black box’ of computer algorithms, which increasingly influence our personal lives and forecast our political future. Where other traditional artistic mediums require the artist to create the work with their own hand, Van den Dorpel rather programs software and trains it by looping continuous feedback through its output in order to produce works with unpredictable aesthetic outcomes. In this hybrid process, genetic properties are ascribed to the elements and composition that make up his artworks. By selecting and crossbreeding across many generations, “optimal” artworks emerge.<br><br>For this new series of printed transparent work (which is a continuation of his earlier series “Death Imitates Language”) Van den Dorpel focuses on the structure of ‘nesting’: a strong organizing principle found in architecture, software development and human language. The artist draws on this system in order to compare the construction of language to the construction of artworks, and in doing so, refers to the painterly question of how to fill the two-dimensional plane using composition and layering. The genetic algorithms he uses, originate from developments in computer science which emerged in the 1960s through to the 1980s and include: ‘Turtle graphics’ by Seymour Papert (late 1960s); research of feedback, reflexivity, nesting and recursion (Autopoiesis, Varela & Maturana, 1972); and Artificial Life (Christopher Langton, 1986).<br><br>Van den Dorpel also draws on recent developments in blockchain technology, specifically the Ethereum blockchain, in order to assign each work a unique identifier (a hash or fingerprint). This functions as a token which can be traded on the Ethereum blockchain and changes the status of the artwork to a form of currency – or a representation of itself – which circles back to the initial question of embodiment: are the works in fact the works? Or, are they representations of an external, less material essence? Do we <i>have</i> a body or <i>are</i> we a body?",
-      "parts": [
+      "parts": [{
+        "type": "list",
+        "content": [
         {
-          "filename": "/pattern-and-presence/0005.jpg"
+          "filename": "pattern-and-presence/0005.jpg"
         },
         {
-          "filename": "/pattern-and-presence/0001.jpg",
+          "filename": "pattern-and-presence/0001.jpg",
           "caption": "Exchange, 2018"
         },
         {
-          "filename": "/pattern-and-presence/0002.jpg",
+          "filename": "pattern-and-presence/0002.jpg",
           "caption": "Exchange, 2018"
         },
         {
-          "filename": "/pattern-and-presence/0003.png",
+          "filename": "pattern-and-presence/0003.png",
           "caption": "Exchange (screenshot)"
         },
         {
-          "filename": "/pattern-and-presence/0004.jpg",
+          "filename": "pattern-and-presence/0004.jpg",
           "caption": "Exchange (screenshot)"
         },
         {
-          "filename": "/pattern-and-presence/0006.jpg",
+          "filename": "pattern-and-presence/0006.jpg",
           "caption": "Hexamerisms, 2018. 100&times;100&times;3cm."
         },
         {
-          "filename": "/pattern-and-presence/0007.jpg",
+          "filename": "pattern-and-presence/0007.jpg",
           "caption": "Hexamerisms (detail)"
         },
         {
-          "filename": "/pattern-and-presence/0008.jpg",
+          "filename": "pattern-and-presence/0008.jpg",
           "caption": "Fissured Petrolling Mridangam, 2018. 100&times;100&times;3cm."
         },
         {
-          "filename": "/pattern-and-presence/0009.jpg",
+          "filename": "pattern-and-presence/0009.jpg",
           "caption": "Wyn (Generation Unknown), 2018. 100&times;100&times;3cm.",
           "orientation": "portrait"
         },
         {
-          "filename": "/pattern-and-presence/0010.jpg",
+          "filename": "pattern-and-presence/0010.jpg",
           "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm."
         },
         {
-          "filename": "/pattern-and-presence/0011.jpg",
+          "filename": "pattern-and-presence/0011.jpg",
           "caption": "Lammer Asbestus (detail)"
         },
         {
-          "filename": "/pattern-and-presence/0012.jpg",
+          "filename": "pattern-and-presence/0012.jpg",
           "caption": "Lammer Asbestus (detail)"
         },
         {
-          "filename": "/pattern-and-presence/0013.jpg",
+          "filename": "pattern-and-presence/0013.jpg",
           "indexPic": true
         },
         {
-          "filename": "/pattern-and-presence/0014.jpg",
+          "filename": "pattern-and-presence/0014.jpg",
           "caption": "Array of risograph posters (Intimate Fear, Sensu Strictu), 2018. 90&times;336cm."
         },
         {
-          "filename": "/pattern-and-presence/0015.jpg"
+          "filename": "pattern-and-presence/0015.jpg"
         },
         {
-          "filename": "/pattern-and-presence/0016.jpg",
+          "filename": "pattern-and-presence/0016.jpg",
           "caption": "Array of risograph posters (Intimate Fear, Rational Mind), 2018. 150&times;252cm."
         },
         {
-          "filename": "/pattern-and-presence/0017.jpg"
+          "filename": "pattern-and-presence/0017.jpg"
         },
         {
-          "filename": "/pattern-and-presence/0018.jpg",
+          "filename": "pattern-and-presence/0018.jpg",
           "caption": "Assemblage (About press, reviews, etc.), 2014. Ø 95cm."
         },
         {
-          "filename": "/pattern-and-presence/0019.jpg"
+          "filename": "pattern-and-presence/0019.jpg"
         },
         {
-          "filename": "/pattern-and-presence/0021.jpg",
+          "filename": "pattern-and-presence/0021.jpg",
           "caption": "Assemblage (New), 2018. Ø 85cm."
         },
         {
-          "filename": "/pattern-and-presence/0020.jpg"
+          "filename": "pattern-and-presence/0020.jpg"
         },
         {
-          "filename": "/pattern-and-presence/0022.jpg"
+          "filename": "pattern-and-presence/0022.jpg"
         },
         {
-          "filename": "/pattern-and-presence/0024.jpg",
+          "filename": "pattern-and-presence/0024.jpg",
           "caption": "Eponymous Seedling, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
         },
         {
-          "filename": "/pattern-and-presence/0023.jpg",
+          "filename": "pattern-and-presence/0023.jpg",
           "caption": "Freeling Tristesse, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
         },
         {
-          "filename": "/pattern-and-presence/0025b.jpg",
+          "filename": "pattern-and-presence/0025b.jpg",
           "caption": "Unscripted Relinings, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
         },
         {
-          "filename": "/pattern-and-presence/0025c.jpg",
+          "filename": "pattern-and-presence/0025c.jpg",
           "caption": "Unscripted Relinings (detail)"
         },
         {
-          "filename": "/pattern-and-presence/0025.jpg",
+          "filename": "pattern-and-presence/0025.jpg",
           "caption": "Bemused Aversatility, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
         },
         {
-          "filename": "/pattern-and-presence/0026.jpg"
+          "filename": "pattern-and-presence/0026.jpg"
         },
         {
-          "filename": "/pattern-and-presence/0027.jpg",
+          "filename": "pattern-and-presence/0027.jpg",
           "caption": "Algues Artificielles, 2017"
         },
         {
-          "filename": "/pattern-and-presence/0029.jpg"
+          "filename": "pattern-and-presence/0029.jpg"
         },
         {
-          "filename": "/pattern-and-presence/0030.jpg",
+          "filename": "pattern-and-presence/0030.jpg",
           "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
         },
         {
-          "filename": "/pattern-and-presence/0031.jpg",
+          "filename": "pattern-and-presence/0031.jpg",
           "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
         }
-      ],
+      ]}],
       "related": [
         "<a href='https://tokens.harmvandendorpel.com/' target='_blank'>Tokens Website (ÐApp)</a>",
         "<a href='http://www.upstreamgallery.nl/exhibitions/148/pattern-and-presences' target='_blank'>Website Upstream Gallery</a>",
@@ -1358,7 +1332,7 @@
       "cat": "exhibitions,Germany",
       "parts": [
         {
-          "filename": "/Sydgator-Zolim-Juancar.jpg",
+          "filename": "Sydgator-Zolim-Juancar.jpg",
           "caption": "Sydgator Zolim Juancar, 2017. 100×100cm"
         }
       ],
@@ -1393,38 +1367,38 @@
       "indexPic": false,
       "parts": [
         {
-          "filename": "/Screenshot_20180925-121039.png"
+          "filename": "Screenshot_20180925-121039.png"
         },
         {
-          "filename": "/Screenshot_20180701-130418.png"
+          "filename": "Screenshot_20180701-130418.png"
         },
         {
-          "filename": "/Screenshot_20180630-144122.png"
+          "filename": "Screenshot_20180630-144122.png"
         },
         {
-          "filename": "/Screenshot_20180624-185757.png"
+          "filename": "Screenshot_20180624-185757.png"
         },
         {
           "thumbs": [
             {
-              "filename": "/pattern-and-presence/0019.jpg"
+              "filename": "pattern-and-presence/0019.jpg"
             },
             {
-              "filename": "/pattern-and-presence/0021.jpg",
+              "filename": "pattern-and-presence/0021.jpg",
               "caption": "Assemblage (New), 2018. Ø 85cm."
             },
             {
-              "filename": "/loomer/sculpture.jpg",
+              "filename": "loomer/sculpture.jpg",
               "caption": "Untitled Assemblage (shell), 2012. Hand cut printed PETG, spray paint, metal hardware. 1 x 1 x 1m."
             },
             {
-              "filename": "/about/assemblage_chain.jpg"
+              "filename": "about/assemblage_chain.jpg"
             },
             {
-              "filename": "/about/huh.jpg"
+              "filename": "about/huh.jpg"
             },
             {
-              "filename": "/about/WG-HVDD-00109-072.jpg"
+              "filename": "about/WG-HVDD-00109-072.jpg"
             }
           ]
         }
@@ -1444,7 +1418,7 @@
       "indexPic": false,
       "parts": [
         {
-          "filename": "/new-dawn/NBA_NewDawn_HvdD_PapaverSomniferum_Detail.jpg",
+          "filename": "new-dawn/NBA_NewDawn_HvdD_PapaverSomniferum_Detail.jpg",
           "caption": "Papaver Somniferum (detail). 46×34cm, 2017"
         }
       ],
@@ -1491,102 +1465,102 @@
       "featured": false,
       "parts": [
         {
-          "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9810.jpg"
+          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9810.jpg"
         },
         {
-          "filename": "/asking-for-a-friend/017-11-24-Narrative-Projects-IMG_9826.jpg"
+          "filename": "asking-for-a-friend/017-11-24-Narrative-Projects-IMG_9826.jpg"
         },
         {
-          "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9795A.jpg"
+          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9795A.jpg"
         },
         {
-          "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9789.jpg"
+          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9789.jpg"
         },
         {
-          "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9788.jpg"
+          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9788.jpg"
         },
         {
-          "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9813.jpg"
+          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9813.jpg"
         },
         {
-          "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9816.jpg"
+          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9816.jpg"
         },
         {
-          "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9824.jpg"
+          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9824.jpg"
         },
         {
-          "filename": "/asking-for-a-friend/frouters.jpg",
+          "filename": "asking-for-a-friend/frouters.jpg",
           "link": "https://harmvandendorpel.com/hybrid-vigor",
           "caption": "Frouters, 2016. Digital archival print, unique, 100&times;80cm.",
           "orientation": "portrait"
         },
         {
-          "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9677.jpg",
+          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9677.jpg",
           "link": "https://harmvandendorpel.com/hybrid-vigor",
           "caption": "Availablesky, 2016. Digital archival print, unique, 100&times;80cm.",
           "orientation": "portrait"
         },
         {
-          "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9654.jpg",
+          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9654.jpg",
           "link": "https://harmvandendorpel.com/hybrid-vigor",
           "caption": "Adoreway, 2016. Digital archival print, unique, 100&times;80cm.",
           "orientation": "portrait"
         },
         {
-          "filename": "/asking-for-a-friend/thistle-01.jpg",
+          "filename": "asking-for-a-friend/thistle-01.jpg",
           "orientation": "portrait",
           "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
         },
         {
-          "filename": "/asking-for-a-friend/thistle-02.jpg",
+          "filename": "asking-for-a-friend/thistle-02.jpg",
           "orientation": "portrait",
           "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
         },
         {
-          "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9739.jpg",
+          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9739.jpg",
           "orientation": "portrait",
           "caption": "Metaballs (1), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
         },
         {
-          "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9745.jpg",
+          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9745.jpg",
           "orientation": "portrait",
           "caption": "Metaballs (2), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
         },
         {
-          "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9737.jpg",
+          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9737.jpg",
           "orientation": "portrait",
           "caption": "Papaver Somniferum, 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
         },
         {
-          "filename": "/asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
+          "filename": "asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
           "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
           "orientation": "portrait",
           "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
         },
         {
-          "filename": "/asking-for-a-friend/juancar-zolim-juancar-photo-detail.jpg",
+          "filename": "asking-for-a-friend/juancar-zolim-juancar-photo-detail.jpg",
           "caption": "Juancar Zolim Juancar (detail), 2017. 100&times100&times4cm."
         },
         {
-          "filename": "/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
+          "filename": "asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
           "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
           "orientation": "portrait",
           "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
         },
         {
-          "filename": "/asking-for-a-friend/joa-dereck-pitcher-photo-detail.jpg",
+          "filename": "asking-for-a-friend/joa-dereck-pitcher-photo-detail.jpg",
           "caption": "Joa Dereck Pitcher (detail), 2017. 100&times100&times4cm."
         },
         {
-          "filename": "/asking-for-a-friend/asking-for-a-friend-06.png",
+          "filename": "asking-for-a-friend/asking-for-a-friend-06.png",
           "caption": "Algues Artificielles, 2017 (screenshot)"
         },
         {
-          "filename": "/asking-for-a-friend/algues-artificielles.jpg",
+          "filename": "asking-for-a-friend/algues-artificielles.jpg",
           "caption": "Algues Artificielles, 2017. Software projection, edition 5+1AP."
         },
         {
-          "filename": "/asking-for-a-friend/asking-for-a-friend-poster.jpg",
+          "filename": "asking-for-a-friend/asking-for-a-friend-poster.jpg",
           "orientation": "portrait",
           "caption": "Invitation poster image"
         }
@@ -1611,67 +1585,67 @@
       "indexPic": true,
       "parts": [
         {
-          "filename": "/shifting-optics-4/shifting-optics-4-05.jpg"
+          "filename": "shifting-optics-4/shifting-optics-4-05.jpg"
         },
         {
           "thumbs": [
             {
-              "filename": "/Sydgator-Zolim-Juancar.jpg",
+              "filename": "Sydgator-Zolim-Juancar.jpg",
               "caption": "Sydgator Zolim Juancar, 2017. 100×100cm"
             },
             {
-              "filename": "/asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
+              "filename": "asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
               "orientation": "portrait",
               "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
             },
             {
-              "filename": "/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
+              "filename": "asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
               "orientation": "portrait",
               "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
             },
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-02.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-02.jpg",
               "caption": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/1b5d80aa090230ee38c3a7c6226df85ce4a604fa"
             },
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-03.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-03.jpg",
               "caption": "Hatter Epot Xgeubke, 2017, 100&times;100&times;3cm",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/e022fbb5c0cb7c6921e521f4b86d9225c151d91f"
             },
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-05.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-05.jpg",
               "caption": "Autobreeder, 2016"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1926.jpg",
+              "filename": "dil-nba/GS-NBA-1926.jpg",
               "caption": "Acura Bigboobe Romcops, 2016. 100&times;100&times;4cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1947.jpg",
+              "filename": "dil-nba/GS-NBA-1947.jpg",
               "caption": "Kennyk Lucius Zhabt, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1946.jpg",
+              "filename": "dil-nba/GS-NBA-1946.jpg",
               "caption": "Yaroslavalavrova Kochan Xutizekea, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1948.jpg",
+              "filename": "dil-nba/GS-NBA-1948.jpg",
               "caption": "Wsxzaq Mrjake Wadley, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1949.jpg",
+              "filename": "dil-nba/GS-NBA-1949.jpg",
               "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/kleve/Doroark-Churu-Fexi.jpg",
+              "filename": "kleve/Doroark-Churu-Fexi.jpg",
               "caption": "Doroark Churu Fexi, 2016"
             }
           ]
@@ -1690,88 +1664,88 @@
       "indexPic": false,
       "parts": [
         {
-          "filename": "/immortalismus/immortalismus-02.jpg",
+          "filename": "immortalismus/immortalismus-02.jpg",
           "caption": "4 works from the Death Imitates Language series"
         },
         {
-          "filename": "/immortalismus/immortalismus-01.jpg",
+          "filename": "immortalismus/immortalismus-01.jpg",
           "caption": "Autobreeder, 2016"
         },
         {
-          "filename": "/immortalismus/immortalismus-06.jpg",
+          "filename": "immortalismus/immortalismus-06.jpg",
           "caption": "Installation view (sculpture by Pakui Hardware)"
         },
         {
-          "filename": "/immortalismus/immortalismus-04.jpg",
+          "filename": "immortalismus/immortalismus-04.jpg",
           "caption": "Installation view"
         },
         {
-          "filename": "/immortalismus/immortalismus-05.jpg",
+          "filename": "immortalismus/immortalismus-05.jpg",
           "caption": "Installation view"
         },
         {
-          "filename": "/immortalismus/immortalismus-07.jpg",
+          "filename": "immortalismus/immortalismus-07.jpg",
           "caption": "Installation view (sculpture left by Pakui Hardware)"
         },
         {
           "thumbs": [
             {
-              "filename": "/Sydgator-Zolim-Juancar.jpg",
+              "filename": "Sydgator-Zolim-Juancar.jpg",
               "caption": "Sydgator Zolim Juancar, 2017. 100×100cm"
             },
             {
-              "filename": "/asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
+              "filename": "asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
               "orientation": "portrait",
               "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
             },
             {
-              "filename": "/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
+              "filename": "asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
               "orientation": "portrait",
               "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
             },
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-02.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-02.jpg",
               "caption": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/1b5d80aa090230ee38c3a7c6226df85ce4a604fa"
             },
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-03.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-03.jpg",
               "caption": "Hatter Epot Xgeubke, 2017, 100&times;100&times;3cm",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/e022fbb5c0cb7c6921e521f4b86d9225c151d91f"
             },
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-05.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-05.jpg",
               "caption": "Autobreeder, 2016"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1926.jpg",
+              "filename": "dil-nba/GS-NBA-1926.jpg",
               "caption": "Acura Bigboobe Romcops, 2016. 100&times;100&times;4cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1947.jpg",
+              "filename": "dil-nba/GS-NBA-1947.jpg",
               "caption": "Kennyk Lucius Zhabt, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1946.jpg",
+              "filename": "dil-nba/GS-NBA-1946.jpg",
               "caption": "Yaroslavalavrova Kochan Xutizekea, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1948.jpg",
+              "filename": "dil-nba/GS-NBA-1948.jpg",
               "caption": "Wsxzaq Mrjake Wadley, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1949.jpg",
+              "filename": "dil-nba/GS-NBA-1949.jpg",
               "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/kleve/Doroark-Churu-Fexi.jpg",
+              "filename": "kleve/Doroark-Churu-Fexi.jpg",
               "caption": "Doroark Churu Fexi, 2016"
             }
           ]
@@ -1792,31 +1766,31 @@
       "cat": "",
       "parts": [
         {
-          "filename": "/dil-book/d2.jpg",
+          "filename": "dil-book/d2.jpg",
           "caption": "Cover 1"
         },
         {
-          "filename": "/dil-book/d1.png",
+          "filename": "dil-book/d1.png",
           "caption": "Cover 2"
         },
         {
-          "filename": "/dil-book/d3.jpg",
+          "filename": "dil-book/d3.jpg",
           "caption": "Cover 3"
         },
         {
-          "filename": "/dil-book/d5.jpg",
+          "filename": "dil-book/d5.jpg",
           "caption": "Cover 4"
         },
         {
-          "filename": "/dil-book/d7.png",
+          "filename": "dil-book/d7.png",
           "caption": "Cover 5"
         },
         {
-          "filename": "/dil-book/d9.jpg",
+          "filename": "dil-book/d9.jpg",
           "caption": "Cover 6"
         },
         {
-          "filename": "/dil-book/d11.jpg",
+          "filename": "dil-book/d11.jpg",
           "caption": "Cover 7"
         },
         {
@@ -1826,62 +1800,62 @@
         {
           "thumbs": [
             {
-              "filename": "/Sydgator-Zolim-Juancar.jpg",
+              "filename": "Sydgator-Zolim-Juancar.jpg",
               "caption": "Sydgator Zolim Juancar, 2017. 100×100cm"
             },
             {
-              "filename": "/asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
+              "filename": "asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
               "orientation": "portrait",
               "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
             },
             {
-              "filename": "/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
+              "filename": "asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
               "orientation": "portrait",
               "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
             },
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-02.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-02.jpg",
               "caption": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/1b5d80aa090230ee38c3a7c6226df85ce4a604fa"
             },
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-03.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-03.jpg",
               "caption": "Hatter Epot Xgeubke, 2017, 100&times;100&times;3cm",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/e022fbb5c0cb7c6921e521f4b86d9225c151d91f"
             },
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-05.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-05.jpg",
               "caption": "Autobreeder, 2016"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1926.jpg",
+              "filename": "dil-nba/GS-NBA-1926.jpg",
               "caption": "Acura Bigboobe Romcops, 2016. 100&times;100&times;4cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1947.jpg",
+              "filename": "dil-nba/GS-NBA-1947.jpg",
               "caption": "Kennyk Lucius Zhabt, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1946.jpg",
+              "filename": "dil-nba/GS-NBA-1946.jpg",
               "caption": "Yaroslavalavrova Kochan Xutizekea, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1948.jpg",
+              "filename": "dil-nba/GS-NBA-1948.jpg",
               "caption": "Wsxzaq Mrjake Wadley, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1949.jpg",
+              "filename": "dil-nba/GS-NBA-1949.jpg",
               "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/kleve/Doroark-Churu-Fexi.jpg",
+              "filename": "kleve/Doroark-Churu-Fexi.jpg",
               "caption": "Doroark Churu Fexi, 2016"
             }
           ]
@@ -1895,75 +1869,75 @@
       "date": "2017-10-10T00:00:00.000Z",
       "parts": [
         {
-          "filename": "/recursion.fyi/a.png"
+          "filename": "recursion.fyi/a.png"
         },
         {
-          "filename": "/recursion.fyi/b.png"
+          "filename": "recursion.fyi/b.png"
         },
         {
-          "filename": "/recursion.fyi/j.png"
+          "filename": "recursion.fyi/j.png"
         },
         {
-          "filename": "/recursion.fyi/k.png"
+          "filename": "recursion.fyi/k.png"
         },
         {
           "filename": "c/recursion.fyi/.png"
         },
         {
-          "filename": "/recursion.fyi/f.png"
+          "filename": "recursion.fyi/f.png"
         },
         {
-          "filename": "/recursion.fyi/g.png"
+          "filename": "recursion.fyi/g.png"
         },
         {
-          "filename": "/recursion.fyi/i.png"
+          "filename": "recursion.fyi/i.png"
         },
         {
-          "filename": "/recursion.fyi/m.png",
+          "filename": "recursion.fyi/m.png",
           "orientation": "portrait"
         },
         {
-          "filename": "/recursion.fyi/h.png",
+          "filename": "recursion.fyi/h.png",
           "orientation": "portrait"
         },
         {
           "thumbs": [
             {
               "orientation": "portrait",
-              "filename": "/nested-exchange-prints/Peached-Renitencies-Mercer.jpg",
+              "filename": "nested-exchange-prints/Peached-Renitencies-Mercer.jpg",
               "caption": "Peached Renitencies Mercer, 2018"
             },
             {
-              "filename": "/nested-exchange-prints/unjust-nonderogatorily-ventriloquist-web.jpg",
+              "filename": "nested-exchange-prints/unjust-nonderogatorily-ventriloquist-web.jpg",
               "caption": "Unjust Nonderogatory Ventriloquist, 2018"
             },
             {
-              "filename": "/nested-exchange-prints/1f320d3e7a9f5a63c61d1d9c9f08fe6d0c86e8d8-framed.jpg",
+              "filename": "nested-exchange-prints/1f320d3e7a9f5a63c61d1d9c9f08fe6d0c86e8d8-framed.jpg",
               "caption": "Bellybuttons Stotinka Lesbic, 2018"
             },
             {
-              "filename": "/nested-exchange-prints/50c2bc41558758e0897ba473e6feabdbfed9f67d-framed.jpg",
+              "filename": "nested-exchange-prints/50c2bc41558758e0897ba473e6feabdbfed9f67d-framed.jpg",
               "caption": "Griper Matildas Badgers, 2018"
             },
             {
-              "filename": "/uninnocent-bystander/uninnocent-bystander-04.jpg",
+              "filename": "uninnocent-bystander/uninnocent-bystander-04.jpg",
               "caption": "Cussos Unfence Thermographers,  100×100cm, 2019"
             },
             {
-              "filename": "/pattern-and-presence/0006.jpg",
+              "filename": "pattern-and-presence/0006.jpg",
               "caption": "Hexamerisms, 2018. 100&times;100&times;3cm."
             },
             {
-              "filename": "/pattern-and-presence/0008.jpg",
+              "filename": "pattern-and-presence/0008.jpg",
               "caption": "Fissured Petrolling Mridangam, 2018. 100&times;100&times;3cm."
             },
             {
-              "filename": "/pattern-and-presence/0009.jpg",
+              "filename": "pattern-and-presence/0009.jpg",
               "caption": "Wyn (Generation Unknown), 2018. 100&times;100&times;3cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/pattern-and-presence/0010.jpg",
+              "filename": "pattern-and-presence/0010.jpg",
               "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm."
             }
           ]
@@ -1987,13 +1961,13 @@
       "cat": "drawings,exhibitions,London",
       "ximages": [
         {
-          "filename": "/new-drawings-2017/new-turtle-01.jpg"
+          "filename": "new-drawings-2017/new-turtle-01.jpg"
         },
         {
-          "filename": "/new-drawings-2017/new-turtle-02.jpg"
+          "filename": "new-drawings-2017/new-turtle-02.jpg"
         },
         {
-          "filename": "/new-drawings-2017/new-turtle-03.jpg"
+          "filename": "new-drawings-2017/new-turtle-03.jpg"
         }
       ],
       "pubDate": "2017-07-20T00:00:00.000Z",
@@ -2001,76 +1975,76 @@
         {
           "thumbs": [
             {
-              "filename": "/pattern-and-presence/0030.jpg",
+              "filename": "pattern-and-presence/0030.jpg",
               "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
             },
             {
-              "filename": "/pattern-and-presence/0031.jpg",
+              "filename": "pattern-and-presence/0031.jpg",
               "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
             },
             {
-              "filename": "/new-dawn/NBA_NewDawn_HvdD_PapaverSomniferum_Detail.jpg",
+              "filename": "new-dawn/NBA_NewDawn_HvdD_PapaverSomniferum_Detail.jpg",
               "caption": "Papaver Somniferum (detail). 46×34cm, 2017"
             },
             {
-              "filename": "/asking-for-a-friend/thistle-01.jpg",
+              "filename": "asking-for-a-friend/thistle-01.jpg",
               "orientation": "portrait",
               "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
             },
             {
-              "filename": "/asking-for-a-friend/thistle-02.jpg",
+              "filename": "asking-for-a-friend/thistle-02.jpg",
               "orientation": "portrait",
               "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
             },
             {
-              "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9739.jpg",
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9739.jpg",
               "orientation": "portrait",
               "caption": "Metaballs (1), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
             },
             {
-              "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9745.jpg",
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9745.jpg",
               "orientation": "portrait",
               "caption": "Metaballs (2), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
             },
             {
-              "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9737.jpg",
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9737.jpg",
               "orientation": "portrait",
               "caption": "Papaver Somniferum, 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
             },
             {
-              "filename": "/automatic-drawings/002.jpg",
+              "filename": "automatic-drawings/002.jpg",
               "caption": "21 &times; 30cm"
             },
             {
-              "filename": "/automatic-drawings/003.jpg",
+              "filename": "automatic-drawings/003.jpg",
               "caption": "42 &times; 30cm"
             },
             {
-              "filename": "/automatic-drawings/004.jpg",
+              "filename": "automatic-drawings/004.jpg",
               "caption": "42 &times; 30cm"
             },
             {
-              "filename": "/automatic-drawings/005.jpg",
+              "filename": "automatic-drawings/005.jpg",
               "caption": "42 &times; 30cm"
             },
             {
-              "filename": "/automatic-drawings/006.jpg",
+              "filename": "automatic-drawings/006.jpg",
               "caption": "42 &times; 30cm"
             },
             {
-              "filename": "/automatic-drawings/007.jpg",
+              "filename": "automatic-drawings/007.jpg",
               "caption": "21 &times; 30cm"
             },
             {
-              "filename": "/automatic-drawings/008.jpg",
+              "filename": "automatic-drawings/008.jpg",
               "caption": "42 &times; 30cm"
             },
             {
-              "filename": "/automatic-drawings/009.jpg",
+              "filename": "automatic-drawings/009.jpg",
               "caption": "21 &times; 30cm"
             },
             {
-              "filename": "/automatic-drawings/010.jpg",
+              "filename": "automatic-drawings/010.jpg",
               "caption": "42 &times; 30cm"
             }
           ]
@@ -2090,76 +2064,86 @@
       "cat": "drawings,software",
       "parts": [
         {
-          "filename": "/automatic-drawings/eager.jpg"
+          "type": "thumbs",
+          "content": [
+            {
+              "filename": "automatic-drawings/fingerprinting.jpg",
+              "caption": "Fingerprinting"
+            },
+            {
+              "filename":"automatic-drawings/original_e0071aa879470b5aa6b6dff7959ca7b9.jpg"
+            }
+          ]
         },
         {
-          "filename": "/automatic-drawings/last.jpg"
+          "type": "list",
+          "content": [
+            {
+              "filename": "automatic-drawings/eager.jpg",
+              "caption": "Lazy, Eager, Last, Final, 2018. Ballpoint on paper, 40&times;30cm"
+            }
+          ]
         },
         {
-          "filename": "/automatic-drawings/original_7a6426f3f9bf6c161ff83ca34777300f.jpg"
+          "type": "thumbs",
+          "content": [
+           
+        
+
+            {
+              "filename": "automatic-drawings/001.jpg",
+              "caption": "21 &times; 30cm"
+            },
+            {
+              "filename": "automatic-drawings/002.jpg",
+              "caption": "21 &times; 30cm"
+            },
+            
+           
+            
+            {
+              "filename": "automatic-drawings/007.jpg",
+              "caption": "21 &times; 30cm"
+            },
+           
+            {
+              "filename": "automatic-drawings/009.jpg",
+              "caption": "21 &times; 30cm"
+            },
+           
+            
+           
+            {
+              "filename": "automatic-drawings/014.jpg",
+              "caption": "21 &times; 30cm"
+            }
+          ]
         },
         {
-          "filename": "/automatic-drawings/original_54ad5755ec19f00161a9710de0634283.jpg"
+          "type":"list",
+          "content": [
+            {
+              "filename": "automatic-drawings/last.jpg",
+              "caption": "Uttered Modality, 2018. Ballpoint on paper, 40&times;30cm"
+            }
+          ]
         },
         {
-          "filename": "/automatic-drawings/fingerprinting.jpg",
-          "caption": "Fingerprinting"
-        },
-        {
-          "filename": "/automatic-drawings/001.jpg",
-          "caption": "21 &times; 30cm"
-        },
-        {
-          "filename": "/automatic-drawings/002.jpg",
-          "caption": "21 &times; 30cm"
-        },
-        {
-          "filename": "/automatic-drawings/003.jpg",
-          "caption": "42 &times; 30cm"
-        },
-        {
-          "filename": "/automatic-drawings/004.jpg",
-          "caption": "42 &times; 30cm"
-        },
-        {
-          "filename": "/automatic-drawings/005.jpg",
-          "caption": "42 &times; 30cm"
-        },
-        {
-          "filename": "/automatic-drawings/006.jpg",
-          "caption": "42 &times; 30cm"
-        },
-        {
-          "filename": "/automatic-drawings/007.jpg",
-          "caption": "21 &times; 30cm"
-        },
-        {
-          "filename": "/automatic-drawings/008.jpg",
-          "caption": "42 &times; 30cm"
-        },
-        {
-          "filename": "/automatic-drawings/009.jpg",
-          "caption": "21 &times; 30cm"
-        },
-        {
-          "filename": "/automatic-drawings/010.jpg",
-          "caption": "42 &times; 30cm"
-        },
-        {
-          "filename": "/automatic-drawings/012.jpg",
-          "caption": "42 &times; 30cm"
-        },
-        {
-          "filename": "/automatic-drawings/013.jpg",
-          "caption": "42 &times; 30cm"
-        },
-        {
-          "filename": "/automatic-drawings/014.jpg",
-          "caption": "21 &times; 30cm"
-        },
-        {
-          "filename": "/automatic-drawings/015.jpg",
-          "caption": "21 &times; 30cm"
+          "type": "thumbs",
+          "content": [
+            {
+              "filename": "automatic-drawings/010.jpg",
+              "caption": "42 &times; 30cm"
+            },
+            {
+              "filename": "automatic-drawings/013.jpg",
+              "caption": "42 &times; 30cm"
+            },
+            {
+              "filename": "automatic-drawings/008.jpg",
+              "caption": "42 &times; 30cm"
+            }
+          ]
         }
       ],
       "pubDate": "2017-05-11T00:00:00.000Z"
@@ -2198,7 +2182,7 @@
       "link": "https://p-a-n.org/product/amnesia-scanner-bill-kouligas-lexachast-pan83/",
       "parts": [
         {
-          "filename": "/lexachast-ep/trash-34678608355.jpg"
+          "filename": "lexachast-ep/trash-34678608355.jpg"
         }
       ],
       "pubDate": "2019-03-25T00:00:00.000Z"
@@ -2241,24 +2225,24 @@
       ],
       "parts": [
         {
-          "filename": "/shifting-optics-4/shifting-optics-4-02.jpg",
+          "filename": "shifting-optics-4/shifting-optics-4-02.jpg",
           "caption": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm",
           "link": "https://deathimitateslanguage.harmvandendorpel.com/language/1b5d80aa090230ee38c3a7c6226df85ce4a604fa"
         },
         {
-          "filename": "/shifting-optics-4/shifting-optics-4-03.jpg",
+          "filename": "shifting-optics-4/shifting-optics-4-03.jpg",
           "caption": "Hatter Epot Xgeubke, 2017, 100&times;100&times;3cm",
           "link": "https://deathimitateslanguage.harmvandendorpel.com/language/e022fbb5c0cb7c6921e521f4b86d9225c151d91f"
         },
         {
-          "filename": "/shifting-optics-4/shifting-optics-4-01.jpg"
+          "filename": "shifting-optics-4/shifting-optics-4-01.jpg"
         },
         {
-          "filename": "/shifting-optics-4/shifting-optics-4-05.jpg",
+          "filename": "shifting-optics-4/shifting-optics-4-05.jpg",
           "caption": "Autobreeder, 2016"
         },
         {
-          "filename": "/shifting-optics-4/shifting-optics-4-04.jpg",
+          "filename": "shifting-optics-4/shifting-optics-4-04.jpg",
           "caption": "Automatic drawings, 2017",
           "link": "https://harmvandendorpel.com/new-drawings-2017"
         }
@@ -2280,71 +2264,71 @@
       "cat": "websites,software,animation",
       "parts": [
         {
-          "filename": "/untitled-sf/drawing-5.jpg",
+          "filename": "untitled-sf/drawing-5.jpg",
           "caption": "Frouters, 2016, digital print, 80&times;100cm"
         },
         {
-          "filename": "/untitled-sf/drawing-1.jpg",
+          "filename": "untitled-sf/drawing-1.jpg",
           "caption": "Bluena, 2016, digital print, 80&times;100cm"
         },
         {
-          "filename": "/untitled-sf/drawing-2.jpg",
+          "filename": "untitled-sf/drawing-2.jpg",
           "caption": "Availablesky, 2016, digital print, 80&times;100cm"
         },
         {
-          "filename": "/untitled-sf/drawing-3.jpg",
+          "filename": "untitled-sf/drawing-3.jpg",
           "caption": "Dechayotic, 2016, digital print, 80&times;100cm"
         },
         {
-          "filename": "/untitled-sf/drawing-4.jpg",
+          "filename": "untitled-sf/drawing-4.jpg",
           "caption": "Adoreway, 2016, digital print, 80&times;100cm"
         },
         {
-          "filename": "/untitled-sf/gen.png",
+          "filename": "untitled-sf/gen.png",
           "caption": "Software screenshot"
         },
         {
           "thumbs": [
             {
-              "filename": "/pattern-and-presence/0024.jpg",
+              "filename": "pattern-and-presence/0024.jpg",
               "caption": "Eponymous Seedling, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
             },
             {
-              "filename": "/pattern-and-presence/0023.jpg",
+              "filename": "pattern-and-presence/0023.jpg",
               "caption": "Freeling Tristesse, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
             },
             {
-              "filename": "/pattern-and-presence/0025b.jpg",
+              "filename": "pattern-and-presence/0025b.jpg",
               "caption": "Unscripted Relinings, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
             },
             {
-              "filename": "/pattern-and-presence/0025.jpg",
+              "filename": "pattern-and-presence/0025.jpg",
               "caption": "Bemused Aversatility, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
             },
             {
-              "filename": "/asking-for-a-friend/frouters.jpg",
+              "filename": "asking-for-a-friend/frouters.jpg",
               "link": "https://harmvandendorpel.com/hybrid-vigor",
               "caption": "Frouters, 2016. Digital archival print, unique, 100&times;80cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9677.jpg",
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9677.jpg",
               "link": "https://harmvandendorpel.com/hybrid-vigor",
               "caption": "Availablesky, 2016. Digital archival print, unique, 100&times;80cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9654.jpg",
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9654.jpg",
               "link": "https://harmvandendorpel.com/hybrid-vigor",
               "caption": "Adoreway, 2016. Digital archival print, unique, 100&times;80cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/asking-for-a-friend/asking-for-a-friend-06.png",
+              "filename": "asking-for-a-friend/asking-for-a-friend-06.png",
               "caption": "Algues Artificielles, 2017 (screenshot)"
             },
             {
-              "filename": "/asking-for-a-friend/algues-artificielles.jpg",
+              "filename": "asking-for-a-friend/algues-artificielles.jpg",
               "caption": "Algues Artificielles, 2017. Software projection, edition 5+1AP."
             }
           ]
@@ -2363,16 +2347,16 @@
       ],
       "parts": [
         {
-          "filename": "/transplant/transplant.jpg"
+          "filename": "transplant/transplant.jpg"
         },
         {
-          "filename": "/transplant/Screenshot 2015-12-12 12.51.33 copy.jpg"
+          "filename": "transplant/Screenshot 2015-12-12 12.51.33 copy.jpg"
         },
         {
-          "filename": "/transplant/screenshot-pan.jpg"
+          "filename": "transplant/screenshot-pan.jpg"
         },
         {
-          "filename": "/transplant/Screenshot 2015-12-12 12.48.41.jpg"
+          "filename": "transplant/Screenshot 2015-12-12 12.48.41.jpg"
         }
       ],
       "pubDate": "2015-11-19T00:00:00.000Z"
@@ -2413,103 +2397,103 @@
       ],
       "parts": [
         {
-          "filename": "/dil-nba/GS-NBA-1829.jpg"
+          "filename": "dil-nba/GS-NBA-1829.jpg"
         },
         {
-          "filename": "/dil-nba/GS-NBA-1866.jpg"
+          "filename": "dil-nba/GS-NBA-1866.jpg"
         },
         {
-          "filename": "/dil-nba/GS-NBA-1690.jpg"
+          "filename": "dil-nba/GS-NBA-1690.jpg"
         },
         {
-          "filename": "/dil-nba/GS-NBA-1840.jpg",
+          "filename": "dil-nba/GS-NBA-1840.jpg",
           "caption": "Autobreeder, 2016",
           "orientation": "portrait"
         },
         {
-          "filename": "/dil-nba/GS-NBA-1926.jpg",
+          "filename": "dil-nba/GS-NBA-1926.jpg",
           "caption": "Acura Bigboobe Romcops, 2016. 100&times;100&times;4cm.",
           "orientation": "portrait"
         },
         {
-          "filename": "/dil-nba/GS-NBA-1947.jpg",
+          "filename": "dil-nba/GS-NBA-1947.jpg",
           "caption": "Kennyk Lucius Zhabt, 2016. 100&times;100&times;2cm.",
           "orientation": "portrait"
         },
         {
-          "filename": "/dil-nba/GS-NBA-1946.jpg",
+          "filename": "dil-nba/GS-NBA-1946.jpg",
           "caption": "Yaroslavalavrova Kochan Xutizekea, 2016. 100&times;100&times;2cm.",
           "orientation": "portrait"
         },
         {
-          "filename": "/dil-nba/GS-NBA-1948.jpg",
+          "filename": "dil-nba/GS-NBA-1948.jpg",
           "caption": "Wsxzaq Mrjake Wadley, 2016. 100&times;100&times;2cm.",
           "orientation": "portrait"
         },
         {
-          "filename": "/dil-nba/GS-NBA-1949.jpg",
+          "filename": "dil-nba/GS-NBA-1949.jpg",
           "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016. 100&times;100&times;2cm.",
           "orientation": "portrait"
         },
         {
           "thumbs": [
             {
-              "filename": "/Sydgator-Zolim-Juancar.jpg",
+              "filename": "Sydgator-Zolim-Juancar.jpg",
               "caption": "Sydgator Zolim Juancar, 2017. 100×100cm"
             },
             {
-              "filename": "/asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
+              "filename": "asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
               "orientation": "portrait",
               "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
             },
             {
-              "filename": "/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
+              "filename": "asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
               "orientation": "portrait",
               "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
             },
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-02.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-02.jpg",
               "caption": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/1b5d80aa090230ee38c3a7c6226df85ce4a604fa"
             },
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-03.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-03.jpg",
               "caption": "Hatter Epot Xgeubke, 2017, 100&times;100&times;3cm",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/e022fbb5c0cb7c6921e521f4b86d9225c151d91f"
             },
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-05.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-05.jpg",
               "caption": "Autobreeder, 2016"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1926.jpg",
+              "filename": "dil-nba/GS-NBA-1926.jpg",
               "caption": "Acura Bigboobe Romcops, 2016. 100&times;100&times;4cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1947.jpg",
+              "filename": "dil-nba/GS-NBA-1947.jpg",
               "caption": "Kennyk Lucius Zhabt, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1946.jpg",
+              "filename": "dil-nba/GS-NBA-1946.jpg",
               "caption": "Yaroslavalavrova Kochan Xutizekea, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1948.jpg",
+              "filename": "dil-nba/GS-NBA-1948.jpg",
               "caption": "Wsxzaq Mrjake Wadley, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1949.jpg",
+              "filename": "dil-nba/GS-NBA-1949.jpg",
               "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/kleve/Doroark-Churu-Fexi.jpg",
+              "filename": "kleve/Doroark-Churu-Fexi.jpg",
               "caption": "Doroark Churu Fexi, 2016"
             }
           ]
@@ -2544,69 +2528,69 @@
       "cat": "exhibitions",
       "parts": [
         {
-          "filename": "/83082bb2d9d5510624efef866c91c770ddd37554.jpg",
+          "filename": "83082bb2d9d5510624efef866c91c770ddd37554.jpg",
           "caption": "Iwillwin Waleriy Bertus, 2016",
           "orientation": "portrait"
         },
         {
           "thumbs": [
             {
-              "filename": "/Sydgator-Zolim-Juancar.jpg",
+              "filename": "Sydgator-Zolim-Juancar.jpg",
               "caption": "Sydgator Zolim Juancar, 2017. 100×100cm"
             },
             {
-              "filename": "/asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
+              "filename": "asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
               "orientation": "portrait",
               "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
             },
             {
-              "filename": "/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
+              "filename": "asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
               "orientation": "portrait",
               "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
             },
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-02.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-02.jpg",
               "caption": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/1b5d80aa090230ee38c3a7c6226df85ce4a604fa"
             },
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-03.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-03.jpg",
               "caption": "Hatter Epot Xgeubke, 2017, 100&times;100&times;3cm",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/e022fbb5c0cb7c6921e521f4b86d9225c151d91f"
             },
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-05.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-05.jpg",
               "caption": "Autobreeder, 2016"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1926.jpg",
+              "filename": "dil-nba/GS-NBA-1926.jpg",
               "caption": "Acura Bigboobe Romcops, 2016. 100&times;100&times;4cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1947.jpg",
+              "filename": "dil-nba/GS-NBA-1947.jpg",
               "caption": "Kennyk Lucius Zhabt, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1946.jpg",
+              "filename": "dil-nba/GS-NBA-1946.jpg",
               "caption": "Yaroslavalavrova Kochan Xutizekea, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1948.jpg",
+              "filename": "dil-nba/GS-NBA-1948.jpg",
               "caption": "Wsxzaq Mrjake Wadley, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1949.jpg",
+              "filename": "dil-nba/GS-NBA-1949.jpg",
               "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/kleve/Doroark-Churu-Fexi.jpg",
+              "filename": "kleve/Doroark-Churu-Fexi.jpg",
               "caption": "Doroark Churu Fexi, 2016"
             }
           ]
@@ -2700,59 +2684,59 @@
       "perma": "talking-turtles",
       "parts": [
         {
-          "filename": "/talking-turtles/talking-turtles-01.png",
+          "filename": "talking-turtles/talking-turtles-01.png",
           "caption": "Cleanup Inbox"
         },
         {
-          "filename": "/talking-turtles/talking-turtles-03.png",
+          "filename": "talking-turtles/talking-turtles-03.png",
           "caption": "Cancel Gym Membership"
         },
         {
-          "filename": "/talking-turtles/talking-turtles-04.png",
+          "filename": "talking-turtles/talking-turtles-04.png",
           "caption": "Learn Japanese"
         },
         {
-          "filename": "/talking-turtles/talking-turtles-05.png",
+          "filename": "talking-turtles/talking-turtles-05.png",
           "caption": "Vacuum the corner"
         },
         {
-          "filename": "/talking-turtles/talking-turtles-07.png",
+          "filename": "talking-turtles/talking-turtles-07.png",
           "caption": "Sell Minidisc Player"
         },
         {
-          "filename": "/talking-turtles/talking-turtles-08.png",
+          "filename": "talking-turtles/talking-turtles-08.png",
           "caption": "..."
         },
         {
-          "filename": "/talking-turtles/talking-turtles-09.png",
+          "filename": "talking-turtles/talking-turtles-09.png",
           "caption": "..."
         },
         {
-          "filename": "/talking-turtles/talking-turtles-10.png",
+          "filename": "talking-turtles/talking-turtles-10.png",
           "caption": "..."
         },
         {
-          "filename": "/talking-turtles/talking-turtles-11.png",
+          "filename": "talking-turtles/talking-turtles-11.png",
           "caption": "..."
         },
         {
-          "filename": "/talking-turtles/talking-turtles-12.png",
+          "filename": "talking-turtles/talking-turtles-12.png",
           "caption": "..."
         },
         {
-          "filename": "/talking-turtles/talking-turtles-13.png",
+          "filename": "talking-turtles/talking-turtles-13.png",
           "caption": "..."
         },
         {
-          "filename": "/talking-turtles/talking-turtles-14.png",
+          "filename": "talking-turtles/talking-turtles-14.png",
           "caption": "..."
         },
         {
-          "filename": "/talking-turtles/talking-turtles-15.png",
+          "filename": "talking-turtles/talking-turtles-15.png",
           "caption": "..."
         },
         {
-          "filename": "/talking-turtles/talking-turtles-16.png",
+          "filename": "talking-turtles/talking-turtles-16.png",
           "caption": "..."
         },
         {
@@ -2760,51 +2744,51 @@
           "caption": "..."
         },
         {
-          "filename": "/talking-turtles/talking-turtles-18.png",
+          "filename": "talking-turtles/talking-turtles-18.png",
           "caption": "..."
         },
         {
           "thumbs": [
             {
-              "filename": "/pattern-and-presence/0024.jpg",
+              "filename": "pattern-and-presence/0024.jpg",
               "caption": "Eponymous Seedling, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
             },
             {
-              "filename": "/pattern-and-presence/0023.jpg",
+              "filename": "pattern-and-presence/0023.jpg",
               "caption": "Freeling Tristesse, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
             },
             {
-              "filename": "/pattern-and-presence/0025b.jpg",
+              "filename": "pattern-and-presence/0025b.jpg",
               "caption": "Unscripted Relinings, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
             },
             {
-              "filename": "/pattern-and-presence/0025.jpg",
+              "filename": "pattern-and-presence/0025.jpg",
               "caption": "Bemused Aversatility, 2018. Ultrachrome HDR print on Hahnemühle paper. 80&times;65cm."
             },
             {
-              "filename": "/asking-for-a-friend/frouters.jpg",
+              "filename": "asking-for-a-friend/frouters.jpg",
               "link": "https://harmvandendorpel.com/hybrid-vigor",
               "caption": "Frouters, 2016. Digital archival print, unique, 100&times;80cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9677.jpg",
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9677.jpg",
               "link": "https://harmvandendorpel.com/hybrid-vigor",
               "caption": "Availablesky, 2016. Digital archival print, unique, 100&times;80cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9654.jpg",
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9654.jpg",
               "link": "https://harmvandendorpel.com/hybrid-vigor",
               "caption": "Adoreway, 2016. Digital archival print, unique, 100&times;80cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/asking-for-a-friend/asking-for-a-friend-06.png",
+              "filename": "asking-for-a-friend/asking-for-a-friend-06.png",
               "caption": "Algues Artificielles, 2017 (screenshot)"
             },
             {
-              "filename": "/asking-for-a-friend/algues-artificielles.jpg",
+              "filename": "asking-for-a-friend/algues-artificielles.jpg",
               "caption": "Algues Artificielles, 2017. Software projection, edition 5+1AP."
             }
           ]
@@ -2830,112 +2814,112 @@
       "perma": "wer-nicht-denken-will-fliegt-raus",
       "parts": [
         {
-          "filename": "/kleve/Shtonk-Vtejuwoh-Bonifac-02.jpg",
+          "filename": "kleve/Shtonk-Vtejuwoh-Bonifac-02.jpg",
           "caption": "Shtonk Vtejuwoh Bonifac, 2016"
         },
         {
-          "filename": "/kleve/room.jpg"
+          "filename": "kleve/room.jpg"
         },
         {
-          "filename": "/kleve/WNDWFRaus_DSC03041.jpg",
+          "filename": "kleve/WNDWFRaus_DSC03041.jpg",
           "caption": "Wsxzaq Mrjake Wadley (detail), 2016"
         },
         {
-          "filename": "/kleve/WNDWFRaus_DSC02997_2998_2999_3000_3001_3002.jpg",
+          "filename": "kleve/WNDWFRaus_DSC02997_2998_2999_3000_3001_3002.jpg",
           "index": true
         },
         {
-          "filename": "/kleve/WNDWFRaus_DSC02982_3_4_5_6_7.jpg"
+          "filename": "kleve/WNDWFRaus_DSC02982_3_4_5_6_7.jpg"
         },
         {
-          "filename": "/kleve/Shtonk-Vtejuwoh-Bonifac.jpg",
+          "filename": "kleve/Shtonk-Vtejuwoh-Bonifac.jpg",
           "caption": "Shtonk Vtejuwoh Bonifac, 2016"
         },
         {
-          "filename": "/kleve/IMG_9294.jpg"
+          "filename": "kleve/IMG_9294.jpg"
         },
         {
-          "filename": "/kleve/Kennyk-Lucius-Zhabt.jpg",
+          "filename": "kleve/Kennyk-Lucius-Zhabt.jpg",
           "caption": "Kennyk Lucius Zhabt, 2016"
         },
         {
-          "filename": "/kleve/death-imitates-language-autosurf-breeder.jpg",
+          "filename": "kleve/death-imitates-language-autosurf-breeder.jpg",
           "caption": "Death Imitates Language Autosurf Breeder, 2016. Software / infinite duration"
         },
         {
-          "filename": "/kleve/Vuwtvvyft-Zcuviey-Dayssuck.jpg",
+          "filename": "kleve/Vuwtvvyft-Zcuviey-Dayssuck.jpg",
           "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016"
         },
         {
-          "filename": "/kleve/Wsxzaq-Mrjake-Wadley.jpg",
+          "filename": "kleve/Wsxzaq-Mrjake-Wadley.jpg",
           "caption": "Wsxzaq Mrjake Wadley, 2016"
         },
         {
-          "filename": "/kleve/Doroark-Churu-Fexi.jpg",
+          "filename": "kleve/Doroark-Churu-Fexi.jpg",
           "caption": "Doroark Churu Fexi, 2016"
         },
         {
-          "filename": "/kleve/IMG_9318.jpg"
+          "filename": "kleve/IMG_9318.jpg"
         },
         {
           "thumbs": [
             {
-              "filename": "/Sydgator-Zolim-Juancar.jpg",
+              "filename": "Sydgator-Zolim-Juancar.jpg",
               "caption": "Sydgator Zolim Juancar, 2017. 100×100cm"
             },
             {
-              "filename": "/asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
+              "filename": "asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
               "orientation": "portrait",
               "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
             },
             {
-              "filename": "/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
+              "filename": "asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
               "orientation": "portrait",
               "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
             },
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-02.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-02.jpg",
               "caption": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/1b5d80aa090230ee38c3a7c6226df85ce4a604fa"
             },
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-03.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-03.jpg",
               "caption": "Hatter Epot Xgeubke, 2017, 100&times;100&times;3cm",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/e022fbb5c0cb7c6921e521f4b86d9225c151d91f"
             },
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-05.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-05.jpg",
               "caption": "Autobreeder, 2016"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1926.jpg",
+              "filename": "dil-nba/GS-NBA-1926.jpg",
               "caption": "Acura Bigboobe Romcops, 2016. 100&times;100&times;4cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1947.jpg",
+              "filename": "dil-nba/GS-NBA-1947.jpg",
               "caption": "Kennyk Lucius Zhabt, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1946.jpg",
+              "filename": "dil-nba/GS-NBA-1946.jpg",
               "caption": "Yaroslavalavrova Kochan Xutizekea, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1948.jpg",
+              "filename": "dil-nba/GS-NBA-1948.jpg",
               "caption": "Wsxzaq Mrjake Wadley, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/dil-nba/GS-NBA-1949.jpg",
+              "filename": "dil-nba/GS-NBA-1949.jpg",
               "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
             },
             {
-              "filename": "/kleve/Doroark-Churu-Fexi.jpg",
+              "filename": "kleve/Doroark-Churu-Fexi.jpg",
               "caption": "Doroark Churu Fexi, 2016"
             }
           ]
@@ -2960,22 +2944,22 @@
       "cat": "drawings",
       "parts": [
         {
-          "filename": "/drawings/Familie-Nr-1-2013.jpg"
+          "filename": "drawings/Familie-Nr-1-2013.jpg"
         },
         {
-          "filename": "/drawings/Untitled-2013.jpg"
+          "filename": "drawings/Untitled-2013.jpg"
         },
         {
-          "filename": "/drawings/Zeuchnung-nr-3-2012.jpg"
+          "filename": "drawings/Zeuchnung-nr-3-2012.jpg"
         },
         {
-          "filename": "/drawings/Chimp-2014.jpg"
+          "filename": "drawings/Chimp-2014.jpg"
         },
         {
-          "filename": "/drawings/Zeuchnung-Nr-5-2012.jpg"
+          "filename": "drawings/Zeuchnung-Nr-5-2012.jpg"
         },
         {
-          "filename": "/drawings/Real-Collage-2012.jpg"
+          "filename": "drawings/Real-Collage-2012.jpg"
         }
       ],
       "pubDate": "2014-05-05T00:00:00.000Z"
@@ -3025,65 +3009,58 @@
       "descr": "<p>A series of works exploring the development of meaning in generative aesthetics using micro feedback and a genetic algorithm. It consists of a website and a series of printed and boxed collage works.</p><p>The public website contains an enormous population of speculative works. Each of these works are generated by inheriting sequences of information - a sort of DNA - from their ancestors. These ‘genetic’ codes determine which elements appear in the work and in what form or constellation. The population changes over time by means of subjective ('natural') selection by the artist: micro feedback or 'likes'. This feedback - combined with visitor statistics and simulated aging - causes the genetic program to mutate and (arguably) improve over time. </p><p>When creatures reach their optimal state they are 'frozen' and translated into physical objects. These objects are layered in construction, partly transparent and square. They can be hung and watched from all sides.</p><p>Unique pieces, each 100 &times; 100 cm.</p>",
       "parts": [
         {
-          "thumbs": [
+          "type": "list",
+          "content": [
             {
-              "filename": "/Sydgator-Zolim-Juancar.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-05.jpg",
+              "caption": "Autobreeder, 2016"
+            }
+          ]
+        },
+        {
+          "type": "thumbs",
+          "content": [
+            {
+              "filename": "Sydgator-Zolim-Juancar.jpg",
               "caption": "Sydgator Zolim Juancar, 2017. 100×100cm"
             },
             {
-              "filename": "/asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
+              "filename": "asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
               "orientation": "portrait",
               "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
             },
             {
-              "filename": "/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
+              "filename": "asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
               "orientation": "portrait",
               "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
             },
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-02.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-02.jpg",
               "caption": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/1b5d80aa090230ee38c3a7c6226df85ce4a604fa"
-            },
+            }
+          ]
+        }, {
+          "type": "thumbs",
+          "content": [
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-03.jpg",
+              "filename": "shifting-optics-4/shifting-optics-4-03.jpg",
               "caption": "Hatter Epot Xgeubke, 2017, 100&times;100&times;3cm",
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/e022fbb5c0cb7c6921e521f4b86d9225c151d91f"
             },
+            
             {
-              "filename": "/shifting-optics-4/shifting-optics-4-05.jpg",
-              "caption": "Autobreeder, 2016"
-            },
-            {
-              "filename": "/dil-nba/GS-NBA-1926.jpg",
+              "filename": "dil-nba/GS-NBA-1926.jpg",
               "caption": "Acura Bigboobe Romcops, 2016. 100&times;100&times;4cm.",
               "orientation": "portrait"
             },
+          
             {
-              "filename": "/dil-nba/GS-NBA-1947.jpg",
-              "caption": "Kennyk Lucius Zhabt, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
-            },
-            {
-              "filename": "/dil-nba/GS-NBA-1946.jpg",
-              "caption": "Yaroslavalavrova Kochan Xutizekea, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
-            },
-            {
-              "filename": "/dil-nba/GS-NBA-1948.jpg",
-              "caption": "Wsxzaq Mrjake Wadley, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
-            },
-            {
-              "filename": "/dil-nba/GS-NBA-1949.jpg",
+              "filename": "dil-nba/GS-NBA-1949.jpg",
               "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016. 100&times;100&times;2cm.",
               "orientation": "portrait"
-            },
-            {
-              "filename": "/kleve/Doroark-Churu-Fexi.jpg",
-              "caption": "Doroark Churu Fexi, 2016"
             }
           ]
         }
@@ -3203,35 +3180,35 @@
       "tags": "aaron swartz,tribute,painting,thermopaper,ai,politics",
       "parts": [
         {
-          "filename": "/iou/iou2.jpg",
+          "filename": "iou/iou2.jpg",
           "caption": "Installation view"
         },
         {
-          "filename": "/iou/agent.jpg",
+          "filename": "iou/agent.jpg",
           "caption": "Agent, 80 &times; 120cm,  thermopaper mounted on canvas, 2015"
         },
         {
-          "filename": "/iou/leucocyte.jpg",
+          "filename": "iou/leucocyte.jpg",
           "caption": "Leucocyte, 80 &times; 120cm,  thermopaper mounted on canvas, 2015"
         },
         {
-          "filename": "/iou/sonogram.jpg",
+          "filename": "iou/sonogram.jpg",
           "caption": "Sonogram, 80 &times; 120cm,  thermopaper mounted on canvas, 2015"
         },
         {
-          "filename": "/iou/fastener.jpg",
+          "filename": "iou/fastener.jpg",
           "caption": "Fastener, 80 &times; 120cm,  thermopaper mounted on canvas, 2015"
         },
         {
-          "filename": "/iou/nail.jpg",
+          "filename": "iou/nail.jpg",
           "caption": "Nail, 80 &times; 120cm,  thermopaper mounted on canvas, 2015"
         },
         {
-          "filename": "/iou/instrumentation.jpg",
+          "filename": "iou/instrumentation.jpg",
           "caption": "Instrumentation, 80 &times; 120cm,  thermopaper mounted on canvas, 2015"
         },
         {
-          "filename": "/iou/ant.jpg",
+          "filename": "iou/ant.jpg",
           "caption": "Ant, 80 &times; 120cm,  thermopaper mounted on canvas, 2015"
         }
       ],
@@ -3355,13 +3332,13 @@
       ],
       "parts": [
         {
-          "filename": "/ideas-for-change/1433261077347.jpg",
+          "filename": "ideas-for-change/1433261077347.jpg",
           "scale": "cover",
           "left": 53,
           "top": 59
         },
         {
-          "filename": "/ideas-for-change/1433261077344.jpg",
+          "filename": "ideas-for-change/1433261077344.jpg",
           "scale": "cover",
           "left": 53,
           "top": 59
@@ -3540,15 +3517,15 @@
       "perma": "inflected-objects",
       "parts": [
         {
-          "filename": "/inflected-objects/IMG_7818-web.jpg",
+          "filename": "inflected-objects/IMG_7818-web.jpg",
           "caption": "Incompatibility Representation (detail), 2015"
         },
         {
-          "filename": "/inflected-objects/Room-IO-02.jpg",
+          "filename": "inflected-objects/Room-IO-02.jpg",
           "caption": "Installation view"
         },
         {
-          "filename": "/inflected-objects/Room-IO-01.jpg",
+          "filename": "inflected-objects/Room-IO-01.jpg",
           "caption": "Installation view"
         }
       ],
@@ -3569,22 +3546,22 @@
       "cat": "exhibitions,Netherlands",
       "parts": [
         {
-          "filename": "/upstream/2015-Shifting Optics II-HIGH-Harm-van-den-Dorpel-2.jpg",
-          "caption": "",
+          "filename": "upstream/2015-Shifting Optics II-HIGH-Harm-van-den-Dorpel-2.jpg",
+          
           "scale": "cover",
           "left": 25,
           "top": 36
         },
         {
-          "filename": "/upstream/2015-Shifting-Optics-II-HIGH-1.jpg",
+          "filename": "upstream/2015-Shifting-Optics-II-HIGH-1.jpg",
           "caption": "Work on the right by Peter Struycken",
           "scale": "cover",
           "left": 256,
           "top": 43
         },
         {
-          "filename": "/upstream/2015-Shifting-Optics-II-HIGH-Harm-van-den-Dorpel.jpg",
-          "caption": "",
+          "filename": "upstream/2015-Shifting-Optics-II-HIGH-Harm-van-den-Dorpel.jpg",
+          
           "scale": "cover",
           "left": 506,
           "top": 38
@@ -3614,124 +3591,124 @@
       "perma": "just-in-time",
       "parts": [
         {
-          "filename": "/jit/Just-in-Time - Installation-view-03.jpg",
-          "caption": "",
+          "filename": "jit/Just-in-Time - Installation-view-03.jpg",
+          
           "scale": "cover",
           "left": 46,
           "top": 32
         },
         {
-          "filename": "/jit/Just-in-Time - Aureool (scrum kanban).jpg",
+          "filename": "jit/Just-in-Time - Aureool (scrum kanban).jpg",
           "caption": "Aureool (Scrum Kanban), 2015. UV print on whiteboard, custom magnets, marker. 60 x 40\"",
           "left": 655,
           "top": 94
         },
         {
-          "filename": "/jit/Just-in-Time - Chrysalis (green) MK III.jpg",
-          "caption": "",
+          "filename": "jit/Just-in-Time - Chrysalis (green) MK III.jpg",
+          
           "left": -80,
           "top": 155
         },
         {
-          "filename": "/jit/Just-in-Time - Installation-view-01.jpg",
-          "caption": "",
+          "filename": "jit/Just-in-Time - Installation-view-01.jpg",
+          
           "scale": "cover",
           "left": 340,
           "top": 40
         },
         {
-          "filename": "/jit/Just-in-Time - Installation-view-02.jpg",
-          "caption": "",
+          "filename": "jit/Just-in-Time - Installation-view-02.jpg",
+          
           "scale": "cover",
           "left": 275,
           "top": 152
         },
         {
-          "filename": "/jit/Just-in-Time - Oyster (scrum kanban).jpg",
+          "filename": "jit/Just-in-Time - Oyster (scrum kanban).jpg",
           "caption": "Oyster (Scrum Kanban), 2015, UV print on whiteboard, custom magnets, marker. 60 x 40\"",
           "left": 568,
           "top": 95
         },
         {
-          "filename": "/jit/Just-in-Time - Installation-view-04.jpg",
-          "caption": "",
+          "filename": "jit/Just-in-Time - Installation-view-04.jpg",
+          
           "scale": "cover",
           "left": 478,
           "top": 272
         },
         {
-          "filename": "/jit/Just-in-Time - Installation-view-05.jpg",
-          "caption": "",
+          "filename": "jit/Just-in-Time - Installation-view-05.jpg",
+          
           "scale": "cover",
           "left": 37,
           "top": 258
         },
         {
-          "filename": "/jit/Just-in-Time - Installation-view-07.jpg",
-          "caption": "",
+          "filename": "jit/Just-in-Time - Installation-view-07.jpg",
+          
           "scale": "cover",
           "left": 104,
           "top": 152
         },
         {
-          "filename": "/jit/Just-in-Time - Installation-view-08.jpg",
-          "caption": "",
+          "filename": "jit/Just-in-Time - Installation-view-08.jpg",
+          
           "scale": "cover",
           "left": 209,
           "top": 277
         },
         {
-          "filename": "/jit/Just-in-Time - Time Management (scrum kanban).jpg",
+          "filename": "jit/Just-in-Time - Time Management (scrum kanban).jpg",
           "caption": "Time Management (Scrum Kanban), 2015. UV print on whiteboard, custom magnets. 60 x 40\"",
           "left": 481,
           "top": 94
         },
         {
-          "filename": "/jit/Just-in-Time - Macro Intimacy (a).jpg",
-          "caption": "",
+          "filename": "jit/Just-in-Time - Macro Intimacy (a).jpg",
+          
           "left": 475,
           "top": -71
         },
         {
-          "filename": "/jit/Just-in-Time - Macro Intimacy (b).jpg",
-          "caption": ""
+          "filename": "jit/Just-in-Time - Macro Intimacy (b).jpg"
+          
         },
         {
-          "filename": "/jit/Just-in-Time - Painting with lens flare.jpg",
+          "filename": "jit/Just-in-Time - Painting with lens flare.jpg",
           "caption": "Painting with Lens Flare, 2015. Printed heat shrink foil, packaging materials. 40 x 27.5\""
         },
         {
-          "filename": "/jit/Just-in-Time - Painting with lens flare (detail).jpg",
-          "caption": ""
+          "filename": "jit/Just-in-Time - Painting with lens flare (detail).jpg"
+          
         },
         {
-          "filename": "/jit/Just-in-Time - Chrysalis (mint).jpg",
-          "caption": ""
+          "filename": "jit/Just-in-Time - Chrysalis (mint).jpg"
+          
         },
         {
-          "filename": "/jit/Just-in-Time - Very Beta Still (break fast) (a).jpg",
-          "caption": ""
+          "filename": "jit/Just-in-Time - Very Beta Still (break fast) (a).jpg"
+          
         },
         {
-          "filename": "/jit/Just-in-Time - Very Beta Still (break fast) (b).jpg",
-          "caption": ""
+          "filename": "jit/Just-in-Time - Very Beta Still (break fast) (b).jpg"
+          
         },
         {
-          "filename": "/jit/Just-in-Time - Very Beta Still (break fast) (detail 2).jpg",
-          "caption": ""
+          "filename": "jit/Just-in-Time - Very Beta Still (break fast) (detail 2).jpg"
+          
         },
         {
-          "filename": "/jit/Just-in-Time - Very Beta Still (break fast) (detail).jpg",
-          "caption": ""
+          "filename": "jit/Just-in-Time - Very Beta Still (break fast) (detail).jpg"
+          
         },
         {
-          "filename": "/jit/Just-in-Time - delinearinfo.jpg",
+          "filename": "jit/Just-in-Time - delinearinfo.jpg",
           "caption": "Deli Near .info, 2014 - ongoing. Artist developed social network.",
           "scale": "cover"
         },
         {
-          "filename": "/jit/Just-in-Time - delinearinfo (detail).jpg",
-          "caption": ""
+          "filename": "jit/Just-in-Time - delinearinfo (detail).jpg"
+          
         }
       ],
       "pubDate": "2015-02-20T00:00:00.000Z"
@@ -3758,122 +3735,122 @@
       "perma": "ambiguity-points-to-the-mystery-of-all-revealing",
       "parts": [
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView05.jpg",
-          "caption": "",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView05.jpg",
+          
           "scale": "xxxcover",
           "left": 522,
           "top": 147
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView04.jpg",
-          "caption": "",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView04.jpg",
+          
           "scale": "xxxcover",
           "left": 522,
           "top": 147
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_Trauma_Scrum.jpg",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_Trauma_Scrum.jpg",
           "caption": "Trauma (Scrum), 2015. Digital print on whiteboard, custom magnets. 150 x 100 x 2cm",
           "left": 140,
           "top": 79
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_BabyTrashFractal.jpg",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_BabyTrashFractal.jpg",
           "caption": "babyTrashFractal, 2015. Digital print on paper, printed heat shrink foil. 100 x 70 x 3cm",
           "left": -64,
           "top": 44
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_Encapsulation.jpg",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_Encapsulation.jpg",
           "caption": "Encapsulation (shmuck), 2015. Digital print on paper, printed heat shrink foil. 100 x 70 x 3cm",
           "left": 644,
           "top": -5
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_EncapsulationDigest.jpg",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_EncapsulationDigest.jpg",
           "caption": "Encapsulation (digest), 2015. Digital print on paper, printed heat shrink foil. 100 x 70 x 3cm",
           "left": 471,
           "top": -6
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_Filter69.jpg",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_Filter69.jpg",
           "caption": "Filter69, 2014. Vitrea and acrylic paint on acryl glass, rivets. 105 x 75 x 6cm",
           "left": 557,
           "top": -7
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_InclusionExclusion.jpg",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InclusionExclusion.jpg",
           "caption": "Exclusion (Scrum), 2015. Digital print on whiteboard, custom magnets. 150 x 100 x 2cm",
           "left": 231,
           "top": 80
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView01a.jpg",
-          "caption": "",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView01a.jpg",
+          
           "scale": "cover",
           "left": -46,
           "top": 250
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_FaradyCage.jpg",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_FaradyCage.jpg",
           "caption": "Isolation (Scrum), 2014. Digital print on whiteboard, custom magnets, marker. 80 x 120 x 2cm",
           "left": 363,
           "top": 210
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView01b.jpg",
-          "caption": "",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView01b.jpg",
+          
           "scale": "cover",
           "left": 183,
           "top": 250
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView02.jpg",
-          "caption": "",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView02.jpg",
+          
           "scale": "cover",
           "left": 71,
           "top": 250
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_VeryBetaStill.jpg",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_VeryBetaStill.jpg",
           "caption": "Very Beta Still (Scrum), 2015. Digital print on whiteboard, custom magnets. 150 x 100 x 2cm",
           "left": 319,
           "top": 79
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView03.jpg",
-          "caption": "",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView03.jpg",
+          
           "scale": "cover"
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView05.jpg",
-          "caption": "",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView05.jpg",
+          
           "scale": "cover"
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_Chrysails_Blue.jpg",
-          "caption": ""
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_Chrysails_Blue.jpg"
+          
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView06.jpg",
-          "caption": "",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView06.jpg",
+          
           "scale": "cover"
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_ScannedSpiritualDrawing.jpg",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_ScannedSpiritualDrawing.jpg",
           "caption": "Scanned Spiritual Drawing, 2014. Digital print on paper. 100 x 70 x 3cm"
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView07.jpg",
-          "caption": "",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView07.jpg",
+          
           "scale": "cover"
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_UntitledDistributionCorpse.jpg",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_UntitledDistributionCorpse.jpg",
           "caption": "Untitled Distribution (corpse), 2014 - 2015. UV print on acrylic glass, paint, rivets, MDF. 85 x 65 x 5cm"
         },
         {
-          "filename": "/ApttMoaR/NBA_HvdD_ApttMoaR_speedbrain.jpg",
+          "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_speedbrain.jpg",
           "caption": "#speedbrain, 2015. printed heat shrink foil. 30 x 20 x 13cm"
         }
       ],
@@ -3901,41 +3878,41 @@
       "perma": "loomer",
       "parts": [
         {
-          "filename": "/loomer/sculpture.jpg",
+          "filename": "loomer/sculpture.jpg",
           "caption": "Untitled Assemblage (shell), 2012. Hand cut printed PETG, spray paint, metal hardware. 1 x 1 x 1m."
         },
         {
-          "filename": "/loomer/wrap-02.jpg"
+          "filename": "loomer/wrap-02.jpg"
         },
         {
-          "filename": "/loomer/wall-01.jpg"
+          "filename": "loomer/wall-01.jpg"
         },
         {
-          "filename": "/loomer/IMG_7695.jpg"
+          "filename": "loomer/IMG_7695.jpg"
         },
         {
-          "filename": "/loomer/wrap.jpg"
+          "filename": "loomer/wrap.jpg"
         },
         {
-          "filename": "/loomer/butterfly-02.jpg"
+          "filename": "loomer/butterfly-02.jpg"
         },
         {
-          "filename": "/loomer/butterfly.jpg"
+          "filename": "loomer/butterfly.jpg"
         },
         {
-          "filename": "/loomer/set2b.jpg"
+          "filename": "loomer/set2b.jpg"
         },
         {
           "filename": "d/loomer/etail-01.jpg"
         },
         {
-          "filename": "/loomer/set.jpg"
+          "filename": "loomer/set.jpg"
         },
         {
-          "filename": "/loomer/set2.jpg"
+          "filename": "loomer/set2.jpg"
         },
         {
-          "filename": "/loomer/bag.jpg"
+          "filename": "loomer/bag.jpg"
         }
       ],
       "pubDate": "2015-01-23T00:00:00.000Z"
@@ -3958,14 +3935,14 @@
       "perma": "private-settings",
       "parts": [
         {
-          "filename": "/private-settings/5429363935ca8.jpg",
-          "caption": "",
+          "filename": "private-settings/5429363935ca8.jpg",
+          
           "left": 1,
           "top": 30
         },
         {
-          "filename": "/private-settings/542443e7ae386.jpg",
-          "caption": "",
+          "filename": "private-settings/542443e7ae386.jpg",
+          
           "scale": "cover",
           "left": 3,
           "top": 190
@@ -3994,20 +3971,20 @@
       "perma": "in-its-image",
       "parts": [
         {
-          "filename": "/in-its-image/3135706.jpg",
+          "filename": "in-its-image/3135706.jpg",
           "caption": "Reverse Engineered Consent (shared), 2014. Sculpture by Hayley Aviva Silverman.",
           "left": 511,
           "top": 14
         },
         {
-          "filename": "/in-its-image/2582561_orig.jpg",
-          "caption": "",
+          "filename": "in-its-image/2582561_orig.jpg",
+          
           "left": 236,
           "top": 85
         },
         {
-          "filename": "/in-its-image/8283800_orig.jpg",
-          "caption": "",
+          "filename": "in-its-image/8283800_orig.jpg",
+          
           "left": 56,
           "top": 84
         }
@@ -4032,23 +4009,23 @@
       ],
       "parts": [
         {
-          "filename": "/art-post-internet/UCCA_Post_Internet_PRESS_14-cropped.jpg",
+          "filename": "art-post-internet/UCCA_Post_Internet_PRESS_14-cropped.jpg",
           "left": -80,
           "top": 100,
           "caption": "Anything vs. Everything, 2014. Background left: Aids-3D, right: Calla Henkel, Max Pitegoff"
         },
         {
-          "filename": "/art-post-internet/harmvandendorpel-assemblage-2013-web.jpg",
+          "filename": "art-post-internet/harmvandendorpel-assemblage-2013-web.jpg",
           "left": 191,
           "top": 39
         },
         {
-          "filename": "/art-post-internet/UCCA_Post_Internet_PRESS_13-2-webcropped.jpg",
+          "filename": "art-post-internet/UCCA_Post_Internet_PRESS_13-2-webcropped.jpg",
           "left": 456,
           "top": 80
         },
         {
-          "filename": "/art-post-internet/API-installantion-view-2-lg.jpg",
+          "filename": "art-post-internet/API-installantion-view-2-lg.jpg",
           "left": 403,
           "top": -94
         }
@@ -4099,48 +4076,48 @@
       "perma": "release-early-release-often",
       "parts": [
         {
-          "filename": "/release/ReleaseEarlyAbrons_08.jpg",
+          "filename": "release/ReleaseEarlyAbrons_08.jpg",
           "left": -45,
           "top": 24
         },
         {
-          "filename": "/release/ReleaseEarlyAbrons_01.jpg",
+          "filename": "release/ReleaseEarlyAbrons_01.jpg",
           "left": 541,
           "top": 43
         },
         {
-          "filename": "/release/ReleaseEarlyAbrons_03.jpg",
+          "filename": "release/ReleaseEarlyAbrons_03.jpg",
           "scale": "cover",
           "left": 84,
           "top": 110
         },
         {
-          "filename": "/release/ReleaseEarlyAbrons_10.jpg",
+          "filename": "release/ReleaseEarlyAbrons_10.jpg",
           "left": 523,
           "top": -98
         },
         {
-          "filename": "/release/ReleaseEarlyAbrons_02.jpg",
+          "filename": "release/ReleaseEarlyAbrons_02.jpg",
           "left": 319,
           "top": -148
         },
         {
-          "filename": "/release/ReleaseEarlyAbrons_04.jpg",
+          "filename": "release/ReleaseEarlyAbrons_04.jpg",
           "left": -59,
           "top": 150
         },
         {
-          "filename": "/release/ReleaseEarlyAbrons_11.jpg",
+          "filename": "release/ReleaseEarlyAbrons_11.jpg",
           "left": 352,
           "top": 170
         },
         {
-          "filename": "/release/ReleaseEarlyAbrons_14.jpg",
+          "filename": "release/ReleaseEarlyAbrons_14.jpg",
           "left": 381,
           "top": -25
         },
         {
-          "filename": "/release/ReleaseEarlyAbrons_15.jpg",
+          "filename": "release/ReleaseEarlyAbrons_15.jpg",
           "left": 233,
           "top": 57
         }
@@ -4165,184 +4142,184 @@
       "perma": "watch-the-throne",
       "parts": [
         {
-          "filename": "/watch-the-throne/131382_275364085915090_692802396_o.jpg",
+          "filename": "watch-the-throne/131382_275364085915090_692802396_o.jpg",
           "left": 274,
           "top": 47
         },
         {
-          "filename": "/watch-the-throne/132184_275363885915110_1342258350_o.jpg",
+          "filename": "watch-the-throne/132184_275363885915110_1342258350_o.jpg",
           "left": -1,
           "top": 54
         },
         {
-          "filename": "/watch-the-throne/132880_275363119248520_2039332442_o.jpg",
+          "filename": "watch-the-throne/132880_275363119248520_2039332442_o.jpg",
           "left": 44,
           "top": 45
         },
         {
-          "filename": "/watch-the-throne/133611_275363769248455_1466310403_o.jpg",
+          "filename": "watch-the-throne/133611_275363769248455_1466310403_o.jpg",
           "left": 220,
           "top": -78
         },
         {
-          "filename": "/watch-the-throne/133658_275362709248561_990547115_o.jpg",
+          "filename": "watch-the-throne/133658_275362709248561_990547115_o.jpg",
           "left": 318,
           "top": 118
         },
         {
-          "filename": "/watch-the-throne/133815_275363389248493_27221285_o.jpg",
+          "filename": "watch-the-throne/133815_275363389248493_27221285_o.jpg",
           "left": 61,
           "top": 213
         },
         {
-          "filename": "/watch-the-throne/133824_275363522581813_1305678323_o.jpg",
+          "filename": "watch-the-throne/133824_275363522581813_1305678323_o.jpg",
           "left": 157,
           "top": 174
         },
         {
-          "filename": "/watch-the-throne/133929_275363429248489_327427273_o.jpg",
+          "filename": "watch-the-throne/133929_275363429248489_327427273_o.jpg",
           "left": 31,
           "top": 125
         },
         {
-          "filename": "/watch-the-throne/134450_275363845915114_146261733_o.jpg",
+          "filename": "watch-the-throne/134450_275363845915114_146261733_o.jpg",
           "left": 258,
           "top": 172
         },
         {
-          "filename": "/watch-the-throne/169535_275364109248421_1612406891_o.jpg",
+          "filename": "watch-the-throne/169535_275364109248421_1612406891_o.jpg",
           "left": 168,
           "top": 37
         },
         {
-          "filename": "/watch-the-throne/190848_275362989248533_1846941909_o.jpg",
+          "filename": "watch-the-throne/190848_275362989248533_1846941909_o.jpg",
           "left": 133,
           "top": 95
         },
         {
-          "filename": "/watch-the-throne/190848_275363565915142_1374364789_o.jpg",
+          "filename": "watch-the-throne/190848_275363565915142_1374364789_o.jpg",
           "left": 325,
           "top": -19
         },
         {
-          "filename": "/watch-the-throne/191572_275363369248495_1972132359_o.jpg"
+          "filename": "watch-the-throne/191572_275363369248495_1972132359_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/201039_275363959248436_1825249655_o.jpg"
+          "filename": "watch-the-throne/201039_275363959248436_1825249655_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/201308_275363245915174_988889089_o.jpg"
+          "filename": "watch-the-throne/201308_275363245915174_988889089_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/202729_275364125915086_1880604946_o.jpg"
+          "filename": "watch-the-throne/202729_275364125915086_1880604946_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/218410_275363035915195_1544909502_o.jpg"
+          "filename": "watch-the-throne/218410_275363035915195_1544909502_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/219049_275363079248524_882650087_o.jpg"
+          "filename": "watch-the-throne/219049_275363079248524_882650087_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/242234_275363609248471_722818865_o.jpg"
+          "filename": "watch-the-throne/242234_275363609248471_722818865_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/244045_275364055915093_179843138_o.jpg"
+          "filename": "watch-the-throne/244045_275364055915093_179843138_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/265747_275363939248438_2106085257_o.jpg"
+          "filename": "watch-the-throne/265747_275363939248438_2106085257_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/266228_275362629248569_1809078465_o.jpg"
+          "filename": "watch-the-throne/266228_275362629248569_1809078465_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/266633_275363662581799_547232508_o.jpg"
+          "filename": "watch-the-throne/266633_275363662581799_547232508_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/272056_275363342581831_294194623_o.jpg"
+          "filename": "watch-the-throne/272056_275363342581831_294194623_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/272095_275362915915207_1946819559_o.jpg"
+          "filename": "watch-the-throne/272095_275362915915207_1946819559_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/277633_275362792581886_2077057468_o.jpg"
+          "filename": "watch-the-throne/277633_275362792581886_2077057468_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/322544_275363175915181_1088304819_o.jpg"
+          "filename": "watch-the-throne/322544_275363175915181_1088304819_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/325577_275363465915152_824068218_o.jpg"
+          "filename": "watch-the-throne/325577_275363465915152_824068218_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/325580_275362819248550_1089486976_o.jpg"
+          "filename": "watch-the-throne/325580_275362819248550_1089486976_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/327323_275362855915213_710444916_o.jpg"
+          "filename": "watch-the-throne/327323_275362855915213_710444916_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/327476_275363489248483_27619627_o.jpg"
+          "filename": "watch-the-throne/327476_275363489248483_27619627_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/330549_275363269248505_1034546355_o.jpg"
+          "filename": "watch-the-throne/330549_275363269248505_1034546355_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/333803_275362649248567_1581843997_o.jpg"
+          "filename": "watch-the-throne/333803_275362649248567_1581843997_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/335168_275363292581836_596762729_o.jpg"
+          "filename": "watch-the-throne/335168_275363292581836_596762729_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/335535_275362872581878_77221105_o.jpg"
+          "filename": "watch-the-throne/335535_275362872581878_77221105_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/335843_275362932581872_629159005_o.jpg"
+          "filename": "watch-the-throne/335843_275362932581872_629159005_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/336604_275363872581778_232826757_o.jpg"
+          "filename": "watch-the-throne/336604_275363872581778_232826757_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/340170_275363645915134_1900427539_o.jpg"
+          "filename": "watch-the-throne/340170_275363645915134_1900427539_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/340779_275363629248469_1156170986_o.jpg"
+          "filename": "watch-the-throne/340779_275363629248469_1156170986_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/340955_275363142581851_1931089327_o.jpg"
+          "filename": "watch-the-throne/340955_275363142581851_1931089327_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/458728_275363549248477_764842390_o.jpg"
+          "filename": "watch-the-throne/458728_275363549248477_764842390_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/458759_275362895915209_867045609_o.jpg"
+          "filename": "watch-the-throne/458759_275362895915209_867045609_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/470598_275363739248458_248696903_o.jpg"
+          "filename": "watch-the-throne/470598_275363739248458_248696903_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/470759_275363692581796_313519288_o.jpg"
+          "filename": "watch-the-throne/470759_275363692581796_313519288_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/54083_275363409248491_1803373294_o.jpg"
+          "filename": "watch-the-throne/54083_275363409248491_1803373294_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/615884_275363815915117_1772805224_o.jpg"
+          "filename": "watch-the-throne/615884_275363815915117_1772805224_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/615932_275362955915203_847746074_o.jpg"
+          "filename": "watch-the-throne/615932_275362955915203_847746074_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/616039_275363582581807_1114530712_o.jpg"
+          "filename": "watch-the-throne/616039_275363582581807_1114530712_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/620765_275364025915096_406170412_o.jpg"
+          "filename": "watch-the-throne/620765_275364025915096_406170412_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/621460_275362742581891_1876899421_o.jpg"
+          "filename": "watch-the-throne/621460_275362742581891_1876899421_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/622827_275363505915148_689927090_o.jpg"
+          "filename": "watch-the-throne/622827_275363505915148_689927090_o.jpg"
         },
         {
-          "filename": "/watch-the-throne/77777_275363439248488_1154382137_o.jpg"
+          "filename": "watch-the-throne/77777_275363439248488_1154382137_o.jpg"
         }
       ],
       "pubDate": "2012-09-16T00:00:00.000Z"
@@ -4370,81 +4347,70 @@
       "perma": "about-exhibition",
       "parts": [
         {
-          "filename": "/about/WG-HVDD-INST12-01.jpg",
-          "caption": "",
+          "filename": "about/WG-HVDD-INST12-01.jpg",
+          
           "scale": "cover",
           "left": -34,
           "top": 22
         },
         {
-          "filename": "/about/2012_03_01-09.jpg",
-          "caption": "",
+          "filename": "about/2012_03_01-09.jpg",
+          
           "left": -135,
           "top": 120
         },
         {
-          "filename": "/about/WG_HVDD-INST12-04.jpg",
-          "caption": "",
+          "filename": "about/WG_HVDD-INST12-04.jpg",
+          
           "scale": "cover",
           "left": 218,
           "top": 29
         },
         {
-          "filename": "/about/assemblage_chain.jpg",
-          "caption": "",
+          "filename": "about/assemblage_chain.jpg",
+          
           "left": 483,
           "top": 174
         },
         {
-          "filename": "/about/WG_HVDD-INST12-05-x.jpg",
-          "caption": "",
+          "filename": "about/WG_HVDD-INST12-05-x.jpg",
+          
           "scale": "cover"
         },
         {
-          "filename": "/about/2012_03_01-14.jpg",
-          "caption": "",
+          "filename": "about/2012_03_01-14.jpg",
+          
           "scale": "cover"
         },
         {
-          "filename": "/about/huh.jpg",
-          "caption": ""
+          "filename": "about/huh.jpg"
+          
         },
         {
-          "filename": "/about/WG-HVDD-00109-072.jpg",
-          "caption": ""
+          "filename": "about/WG-HVDD-00109-072.jpg"
+          
         },
         {
           "thumbs": [
             {
-              "filename": "/pattern-and-presence/0019.jpg"
+              "filename": "pattern-and-presence/0019.jpg"
             },
             {
-              "filename": "/pattern-and-presence/0021.jpg",
+              "filename": "pattern-and-presence/0021.jpg",
               "caption": "Assemblage (New), 2018. Ø 85cm."
             },
             {
-              "filename": "/loomer/sculpture.jpg",
-              "caption": "Untitled Assemblage (shell), 2012. Hand cut printed PETG, spray paint, metal hardware. 1 x 1 x 1m.",
-              "left": 46,
-              "top": 210
+              "filename": "loomer/sculpture.jpg",
+              "caption": "Untitled Assemblage (shell), 2012. Hand cut printed PETG, spray paint, metal hardware. 1 x 1 x 1m."
             },
             {
-              "filename": "/about/assemblage_chain.jpg",
-              "caption": "",
-              "left": 483,
-              "top": 174
+              "filename": "about/assemblage_chain.jpg"
             },
             {
-              "filename": "/about/huh.jpg",
-              "caption": "",
-              "left": 370,
-              "top": 175
+              "filename": "about/huh.jpg"
             },
             {
-              "filename": "/about/WG-HVDD-00109-072.jpg",
-              "caption": "",
-              "left": 258,
-              "top": 174
+              "filename": "about/WG-HVDD-00109-072.jpg"
             }
           ]
         }

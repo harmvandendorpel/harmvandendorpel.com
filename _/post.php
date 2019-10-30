@@ -76,49 +76,36 @@
             </section>
         <?php endif; ?>
         
-        <?php if (!$isSeries): ?>
-            <?php if ($item['parts']): ?>
-                <div class="images" id='pics'>
-                    <?php images($item); ?>
+       
+
+        <?php if ($item['seeAlso']): ?>
+            <aside>
+                <div class="categories">
+                    <?php seeAlso($item['seeAlso']); ?>
                 </div>
-            <?php endif; ?>
-
-            <?php if ($item['seeAlso']): ?>
-                <aside>
-                    <div class="categories">
-                        <?php seeAlso($item['seeAlso']); ?>
-                    </div>
-                </aside>
-            <?php endif ?>
-
-            <?php if ($item['cat']): ?>
-                <footer>
-                    <div class="categories">
-                        <?php cats($item['cat'], $isUpcoming); ?>
-                    </div>
-                </footer>
-            <?php endif ?>
+            </aside>
         <?php endif ?>
+        
     </div>
-    <?php if ($isSeries): ?>
-        <div class='index-thumbs'>
-            <?php
-              $series_works = gatherSeriesWorks($perma);
-              $series_items = gatherSeriesItems($perma);
+    <?php foreach ($item['parts'] as $part): ?>
+        <?php process_part($part); ?>
+    <?php endforeach; ?>
 
-              foreach ($series_works as $item) thumb($item);
-            ?>
-        </div>
-
-        <div class="index-content">
-            <div class="index-index">
-                <div class="index-index-list" id="list-default">
-                <?php foreach($series_items as $item) item($item); ?>
-                </div>
+    <div class="index-content">
+        <div class="index-index">
+            <div class="index-index-list" id="list-default">
+            <?php // foreach($series_items as $item) item($item); ?>
             </div>
         </div>
+    </div>
 
-    <?php endif; ?>
+    <?php if ($item['cat']): ?>
+            <footer>
+                <div class="categories">
+                    <?php cats($item['cat'], $isUpcoming); ?>
+                </div>
+            </footer>
+    <?php endif ?>
 </article>
 <?php backButton(true); ?>
 <?php script(); ?>
@@ -154,62 +141,65 @@ function findItem($content, $perma) {
     return null;
 }
 
-function gatherSeriesItems($perma) {
-    global $content;
-    $result = [];
+// function gatherSeriesItems($perma) {
+//     global $content;
+//     $result = [];
     
-    for ($i = 0; $i < count($content); $i++) {
-      $item = $content[$i];
+//     for ($i = 0; $i < count($content); $i++) {
+//       $item = $content[$i];
 
-      if ($item['series'] === $perma && !isPrivate($item) && $item['type'] !== 'series') {
-        $result[] = $item;
-      }
-    }
+//       if ($item['series'] === $perma && !isPrivate($item) && $item['type'] !== 'series') {
+//         $result[] = $item;
+//       }
+//     }
 
-    return $result;
-  }
+//     return $result;
+//   }
 
-  function gatherSeriesWorks($perma) {
-    global $content;
-    $result = [];
+//   function gatherSeriesWorks($perma) {
+//     global $content;
+//     $result = [];
     
-    for ($i = 0; $i < count($content); $i++) {
-      $item = $content[$i];
-      $imagesData = $item['parts'];
-      $images = $imagesData;
-      for ($j = 0; $j < count($images); $j++) {
-        $image = $images[$j];
-        $filename = $image['filename'];
-        if ($image['series'] === $perma || $item['perma'] === $perma) {
-          $result[] = array(
-            'perma' => $item['perma'],
-            'type' => 'work',
-            'image' => "/img$filename",
-            'caption' => $image['caption']
-          );
-        }
-      }
-    }
+//     for ($i = 0; $i < count($content); $i++) {
+//       $item = $content[$i];
+//       $imagesData = $item['parts'];
+//       $images = $imagesData;
+//       for ($j = 0; $j < count($images); $j++) {
+//         $image = $images[$j];
+//         $filename = $image['filename'];
+//         if ($image['series'] === $perma || $item['perma'] === $perma) {
+//           $result[] = array(
+//             'perma' => $item['perma'],
+//             'type' => 'work',
+//             'image' => "/img$filename",
+//             'caption' => $image['caption']
+//           );
+//         }
+//       }
+//     }
 
-    return $result;
+//     return $result;
+//   }
+
+function images($content) {
+  echo '<div class="images" id="pics">';
+    
+  if (count($content)) {
+    foreach ($content as $image) {
+        if ($image['caption']) {
+            $alt = $image['caption'];
+        } else {
+            $alt = $item['title'];
+        }
+        if ($image['link']) {
+            $link = $image['link'];
+        } else {
+            $link = null;
+        }
+        image($image, $alt, $link);
+    }
   }
-
-function images($item) {
-    if (count($item['parts'])) {
-        foreach ($item['parts'] as $image) {
-            if ($image['caption']) {
-                $alt = $image['caption'];
-            } else {
-                $alt = $item['title'];
-            }
-            if ($image['link']) {
-                $link = $image['link'];
-            } else {
-                $link = null;
-            }
-            image($image, $alt, $link);
-        }
-    }
+  echo "</div>";
 }
 
 function related($related) {
@@ -231,10 +221,10 @@ function seeAlso($seeAlso) {
 }
 
 function image($image, $alt, $link) {
-    $fullFilename = '/img' . $image['filename'];
+    $fullFilename = '/img/' . $image['filename'];
     list($width, $height) = getimagesize('.' . $fullFilename);
 
-    $url = ABSOLUTE_URL . '/img' . $image['filename'];
+    $url = ABSOLUTE_URL . $fullFilename;
     if ($image['orientation']) {
         $class = $image['orientation'];
     } else {
@@ -248,4 +238,36 @@ function image($image, $alt, $link) {
     <?php if ($link) { ?></a><?php } ?>
     <figcaption><?php echo $image['caption']; ?></figcaption>
     </figure><?php
+}
+
+
+function process_part($part) {
+  switch ($part['type']) {
+    case 'thumbs':
+      show_thumbs($part);
+      break;
+
+    case 'list':      
+      images($part['content']);
+      break;
+  }
+}
+
+function show_thumbs($thumbs) {
+  $content = $thumbs['content'];
+  $show_captions = $thumbs['captions'];
+  echo '<div class="index-thumbs">';
+  
+  foreach ($content as $thumb)  {
+    $filename = $thumb['filename'];
+    $link = "/img/$filename";
+    $data = array(
+      title => $thumb['caption'],
+      link => '',
+      image => $link
+    );
+    thumb($data, $show_captions);
+  }
+
+  echo '</div>';
 }

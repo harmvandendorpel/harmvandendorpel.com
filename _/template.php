@@ -111,14 +111,16 @@ function upcomingString($dateString) {
   return $item_month; // .' '.$item_year;
 }
 
-function thumb($item) {
+function thumb($item, $show_captions = false) {
   ?>
     <div class='thumb-container'>
       <a href='<?php echo $item['link']; ?>' class='thumb-image-link'>
         <div class='index-thumb-item'>
           <div class='thumb-item-image' style='background-image: url(<?php echo $item['image'] ?>);'></div>
         </div>
-        <div style='width: 100%; text-align:center;'><?php echo $item['title']; ?></div>
+        <?php if ($show_captions): ?>
+          <div style='width: 100%; text-align:center;'><?php echo $item['title']; ?></div>
+        <?php endif; ?>
       </a>
     </div>
   <?php
@@ -137,7 +139,7 @@ function item($data) {
     }
   }
 
-  $imgUrl = "/img$path$filename";
+  $imgUrl = "/img/$path$filename";
 
   // list($width, $height) = getimagesize('.' . $imgUrl);
   

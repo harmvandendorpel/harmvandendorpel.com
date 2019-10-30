@@ -67,7 +67,7 @@
 function main_thumbs () {
   $index_data = getIndexData();
   foreach($index_data as $item) {
-    thumb($item);
+    thumb($item, true);
   }
 } ?>
 

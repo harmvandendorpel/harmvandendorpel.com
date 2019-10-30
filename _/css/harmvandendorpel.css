@@ -261,7 +261,7 @@ sup a:hover {
 	background: none;
 }
 
-figure.main-image.landscape img{
+figure.main-image.landscape img {
 	width: 100%;
 	max-width: 1024px;
 }
@@ -270,9 +270,13 @@ figure.main-image.landscape img{
 	text-align: center;
 }
 
+figure.main-image img {
+	margin: auto;
+}
+
 figure.main-image.portrait img {
 	max-width: 100%;
-	margin: auto;
+	
 	max-height: calc(100vh - 48px);
 }
 
