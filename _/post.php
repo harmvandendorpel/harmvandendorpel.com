@@ -52,8 +52,11 @@
     <div class="content">
         <?php if ($item['date']): ?>
             <div class="date">
-                <time datetime="<?php echo $item['date']; ?>T00:00+00:00"><?php echo d($item['date']);?></time>
-                <?php if ($item['ongoing']) { ?>– ongoing<?php } ?>
+                <time datetime="<?php echo $item['date']; ?>T00:00+00:00">
+                  <?php echo d($item['date']);?>
+                  <?php if ($item['ongoing']) { ?>– ongoing<?php } ?>
+                </time>
+                
             </div>
             <br>
         <?php endif; ?>
@@ -77,11 +80,9 @@
             </section>
         <?php endif; ?>
         
-       
-
         <?php if ($item['seeAlso']): ?>
             <aside>
-                <div class="categories">
+                <div class="categories" style='margin-bottom: 50px;'>
                     <?php seeAlso($item['seeAlso']); ?>
                 </div>
             </aside>

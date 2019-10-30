@@ -216,96 +216,21 @@
       "tags": "algorithms,genetics,programming,relics",
       "indexPic": true,
       "perma": "structures-of-redundancy",
-      "seeAlso": [
-        "<a href='/structures-of-redundancy'>Autobreeder</a>"
-      ],
-      "title": "Structures of Redundancy (prints)",
-      "descr": "Compositions evolving from primitive Turing machines. The more I lose myself in coding, the more I encounter historical computer science and AI relics. The algorithm used here is my contemporary interpretation of Cartesian genetic programming, which was invented in 1999.<br><br>Ultrachrome print on Hahnemühle paper. Each work unique edition.",
+      "title": "Structures of Redundancy",
+      "descr": "Compositions evolving from primitive Turing machines. The more I lose myself in coding, the more I encounter historical computer science and AI relics. The algorithm used here is my contemporary interpretation of Cartesian genetic programming, which was invented in 1999.<br><br>UltraChrome HDR print on Hahnemühle paper. Each work unique edition.",
       "date": "2019-05-02T00:00:00.000Z",
       "parts": [
         {
           "type": "thumbs",
           "content": [
-          {
-            "filename": "structures-of-redundancy/structures-of-redundancy-screenshot-09.jpg"
-          },
-          {
-            "filename": "structures-of-redundancy/structures-of-redundancy-screenshot-10.jpg"
-          },
-          {
-            "filename": "structures-of-redundancy/structures-of-redundancy-screenshot-01.jpg"
-          },
-          {
-            "filename": "structures-of-redundancy/structures-of-redundancy-screenshot-03.jpg"
-          },
-          {
-            "filename": "structures-of-redundancy/structures-of-redundancy-screenshot-04.jpg"
-          },
-          {
-            "filename": "structures-of-redundancy/structures-of-redundancy-screenshot-05.jpg"
-          },
-          {
-            "filename": "structures-of-redundancy/structures-of-redundancy-screenshot-06.jpg",
-            "orientation": "portrait"
-          },
-          {
-            "filename": "structures-of-redundancy/structures-of-redundancy-screenshot-07.jpg"
-          },
-          {
-            "filename": "structures-of-redundancy/structures-of-redundancy-screenshot-08.jpg"
-          }
-        ]},
-        {
-          "type": "thumbs",
-          "content": [
-            {
-              "filename": "cartesian-genetic-programming/trebles-framed.jpg",
-              "caption": "Trebles, 100&times;100cm, 2019",
-              "orientation": "portrait"
-            },
-            {
-              "filename": "cartesian-genetic-programming/run-2-cgp-1556373715343.jpg",
-              "caption": "Run Too, 100&times;100cm, 2019",
-              "orientation": "portrait"
-            },
             {
               "filename": "cartesian-genetic-programming/cgp-1554306222667-framed.jpg",
               "caption": "Untitled, 100&times;100cm, 2019",
               "orientation": "portrait"
             },
             {
-              "filename": "cartesian-genetic-programming/notem.jpg",
-              "caption": "Notem, 100&times;100cm, 2019",
-              "orientation": "portrait"
-            },
-            {
-              "filename": "cartesian-genetic-programming/alternating-routines.jpg",
-              "caption": "Untitled, 100&times;100cm, 2019",
-              "orientation": "portrait"
-            },
-            {
-              "filename": "cartesian-genetic-programming/cgp-1554993052565-framed.jpg",
-              "caption": "Untitled, 100&times;100cm, 2019",
-              "orientation": "portrait"
-            },
-            {
-              "filename": "cartesian-genetic-programming/cgp-1554994948963-framed.jpg",
-              "caption": "Diluente, 50&times;50cm, 2019",
-              "orientation": "portrait"
-            },
-            {
-              "filename": "cartesian-genetic-programming/cgp-1556102404101-framed.jpg",
-              "caption": "Daisies, 100&times;100cm, 2019",
-              "orientation": "portrait"
-            },
-            {
-              "filename": "cartesian-genetic-programming/cgp-1556312769668-framed.jpg",
-              "caption": "Multi Dimensional Zoom, 50&times;50cm, 2019",
-              "orientation": "portrait"
-            },
-            {
-              "filename": "cartesian-genetic-programming/cgp-1556398426760-framed.jpg",
-              "caption": "Decompress / Embrace, 100&times;100cm, 2019",
+              "filename": "cartesian-genetic-programming/trebles-framed.jpg",
+              "caption": "Trebles, 100&times;100cm, 2019",
               "orientation": "portrait"
             },
             {
@@ -323,6 +248,49 @@
               "caption": "Bars, 100&times;100cm, 2019",
               "orientation": "portrait"
             }
+          ]
+        },
+        {
+          "type": "list",
+          "content": [
+          {
+            "filename": "uninnocent-bystander/uninnocent-bystander-01.jpg",
+            "caption":"Structures of Redundancy (autobreeder), 2019"
+          }
+        ]},
+        {
+          "type": "thumbs",
+          "content": [
+          
+          
+           
+         
+            {
+              "filename": "cartesian-genetic-programming/cgp-1554993052565-framed.jpg",
+              "caption": "Untitled, 100&times;100cm, 2019",
+              "orientation": "portrait"
+            },  {
+              "filename": "cartesian-genetic-programming/run-2-cgp-1556373715343.jpg",
+              "caption": "Run Too, 100&times;100cm, 2019",
+              "orientation": "portrait"
+            },
+            {
+              "filename": "cartesian-genetic-programming/cgp-1554994948963-framed.jpg",
+              "caption": "Diluente, 50&times;50cm, 2019",
+              "orientation": "portrait"
+            },
+           
+           
+            {
+              "filename": "cartesian-genetic-programming/cgp-1556398426760-framed.jpg",
+              "caption": "Decompress / Embrace, 100&times;100cm, 2019",
+              "orientation": "portrait"
+            }, {
+              "filename": "cartesian-genetic-programming/cgp-1556312769668-framed.jpg",
+              "caption": "Multi Dimensional Zoom, 50&times;50cm, 2019",
+              "orientation": "portrait"
+            }
+           
           ]
         }
       ],
@@ -657,8 +625,6 @@
       "descr": "These specimen find their form by a process of exchanging information with each other. Two works are taken from a determined population and communicate - gossip if you will - by flipping a node of their nested structure. The direction in this process is geared towards the greatest diversity: each specimen wants to be as different from all the other as possible. As the total amount of information shared among all specimen in the population does not increase over time but is merely recombined towards an optimal diverse distribution, the linear history of state changes (snapshots) can be compared to a blockchain ledger. The chromosomes of the specimen are stored as nested recursive <q>tree</q> structures, similar to those used in linguistics.",
       "perma": "nested-exchange",
       "parts": [
-       
-
         {
           "type": "thumbs",
           "captions": false,
@@ -679,6 +645,15 @@
             {
               "filename": "pattern-and-presence/0010.jpg",
               "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "pattern-and-presence/0001.jpg",
+              "caption": "Nested Exchange Autobreeder, 2017"
             }
           ]
         },
@@ -714,8 +689,9 @@
           ]
         }
       ],
-      "date": "2019-06-12T11:14:16.339Z",
-      "pubDate": "2019-06-12T11:14:46.366Z"
+      "date": "2018-02-12T11:14:16.339Z",
+      "ongoing":true,
+      "pubDate": "2018-02-12T11:14:46.366Z"
     },
     {
       "perma": "perfect-and-priceless",
@@ -2971,15 +2947,7 @@
       "perma": "death-imitates-language",
       "descr": "<p>A series of works exploring the development of meaning in generative aesthetics using micro feedback and a genetic algorithm. It consists of a website and a series of printed and boxed collage works.</p><p>The public website contains an enormous population of speculative works. Each of these works are generated by inheriting sequences of information - a sort of DNA - from their ancestors. These ‘genetic’ codes determine which elements appear in the work and in what form or constellation. The population changes over time by means of subjective ('natural') selection by the artist: micro feedback or 'likes'. This feedback - combined with visitor statistics and simulated aging - causes the genetic program to mutate and (arguably) improve over time. </p><p>When creatures reach their optimal state they are 'frozen' and translated into physical objects. These objects are layered in construction, partly transparent and square. They can be hung and watched from all sides.</p><p>Unique pieces, each 100 &times; 100 cm.</p>",
       "parts": [
-        {
-          "type": "list",
-          "content": [
-            {
-              "filename": "shifting-optics-4/shifting-optics-4-05.jpg",
-              "caption": "Autobreeder, 2016"
-            }
-          ]
-        },
+       
         {
           "type": "thumbs",
           "content": [
@@ -3005,7 +2973,17 @@
               "link": "https://deathimitateslanguage.harmvandendorpel.com/language/1b5d80aa090230ee38c3a7c6226df85ce4a604fa"
             }
           ]
-        }, {
+        },
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "shifting-optics-4/shifting-optics-4-05.jpg",
+              "caption": "Autobreeder, 2016"
+            }
+          ]
+        },
+        {
           "type": "thumbs",
           "content": [
             {

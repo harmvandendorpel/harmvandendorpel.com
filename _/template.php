@@ -81,7 +81,7 @@ function meta($title, $metaDescription, $metaImg=null, $thisPageUrl, $metaKeywor
 
 function backButton($useCategory) { ?>
     <div class="floating-top-left-nav">
-        <a rel="nofollow" href="/" class="back-button" id='btn-back-button'>index</a>
+        <a rel="nofollow" href="/" class="back-button" id='btn-back-button'>home</a>
     </div>
     
     <?php if ($useCategory) { ?>
