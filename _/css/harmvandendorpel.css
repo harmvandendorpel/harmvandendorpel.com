@@ -804,6 +804,10 @@ blockquote {
 	display:none;
 }
 
+.mobile-thumb-image > img {
+	width: 100%;
+}
+
 @media only screen and (max-width: 767px) {
 	.index-thumb-item {
 		display: none;
@@ -813,9 +817,7 @@ blockquote {
 		display: flex;		
 	}
 
-	.mobile-thumb-image > img {
-		width: 100%;
-	}
+
 
 	.thumb-container {
 		width: 100%;

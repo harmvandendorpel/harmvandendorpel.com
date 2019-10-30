@@ -107,6 +107,9 @@ function nav_thumb($item, $show_captions = false) {
         <div class='index-thumb-item' style='padding-bottom: <?php echo $padding_bottom; ?>;background-image: url(<?php echo $item['image'] ?>);'>
           <span class='thumb-item-image' ></span>
         </div>
+        <div class='mobile-thumb-image'>
+          <img src='<?php echo $item['image'] ?>' />
+        </div>
         <?php if ($show_captions): ?>
           <div style='font-size: 16px; line-height:22px;'><?php echo $item['title'];?></div>
         <?php endif; ?>
@@ -127,6 +130,9 @@ function thumb($item, $show_captions = false) {
     <div class='thumb-container'>
         <div class='index-thumb-item' style='padding-bottom: <?php echo $padding_bottom; ?>;background-image: url(<?php echo $item['image'] ?>);'>
           <span class='thumb-item-image' ></span>
+        </div>
+        <div class='mobile-thumb-image'>
+          <img src='<?php echo $item['image'] ?>' />
         </div>
         <?php if ($show_captions): ?>
           <div style='font-size: 16px; line-height:22px;'><?php echo $item['title'];?></div>
