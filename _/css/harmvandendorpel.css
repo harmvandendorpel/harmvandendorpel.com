@@ -725,6 +725,10 @@ blockquote {
   margin-bottom: 60px;
 }
 
+.image-wide-index:last-child {
+	margin-bottom: 0;
+}
+
 .image-wide-index img {
   max-width: 100%
 }
@@ -742,7 +746,7 @@ blockquote {
 
 .related-item {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
 	justify-content:center;
 	flex-wrap: wrap;
@@ -750,6 +754,23 @@ blockquote {
 	border: 1px solid #ccc;
 	margin: 10px;
 	font-size: 16px;
+	max-width:250px;
+}
+
+.related-item-title {
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin:0;
+}
+
+.related-item-location {
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin:0;
 }
 
 .related-item:hover {
@@ -767,7 +788,7 @@ blockquote {
   margin: 0;
   padding: 0;
   list-style: none;
-  margin-bottom: 36px;
+  /* margin-bottom: 36px; */
   width: 100%;
   display:block;
 }

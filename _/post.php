@@ -51,6 +51,9 @@
     <div class="content">
         <?php if ($item['date']): ?>
             <div class="date">
+                <?php if ($item['location']): ?>
+                    <span style='font-size:16px;'><?php echo $item['location'];?>, </span>
+                <?php endif; ?>
                 <time datetime="<?php echo $item['date']; ?>T00:00+00:00">
                   <?php echo d($item['date']);?>
                   <?php if ($item['ongoing']) { ?>– ongoing<?php } ?>
@@ -92,11 +95,7 @@
         </div>
     </div>
 
-    
-    <style>
 
-        
-    </style>
 
     <?php if ($item['related']): ?>
     <div class="related-items-container">
@@ -104,8 +103,12 @@
             <?php echo $item['related']['caption']; ?>
         </div>
         <?php foreach ($item['related']['content'] as $related): ?>
+            <?php $related_item = findItem($content, $related['perma']); ?>
             <a class='related-item' href='/<?php echo $related['perma']; ?>'>
-                <?php echo $related['caption']; ?>
+                <h1 style='margin:0' class='related-item-title'><?php echo $related_item['title']; ?></h1>
+                <?php if($related_item['location']): ?>
+                    <span class='related-item-location' style='font-size:16px;'><?php echo $related_item['location']; ?></span>
+                <?php endif; ?>
             </a>
         <?php endforeach; ?>
     </div>
