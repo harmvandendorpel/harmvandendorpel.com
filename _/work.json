@@ -404,16 +404,14 @@
         ]
       },
       "parts": [
+       
         {
           "type": "thumbs",
           "content": [
             {
               "filename": "pattern-and-presence/0019.jpg"
             },
-            {
-              "filename": "pattern-and-presence/0021.jpg",
-              "caption": "Assemblage (New), 2018. Ø 85cm."
-            },
+            
             {
               "filename": "loomer/sculpture.jpg",
               "caption": "Untitled Assemblage (shell), 2012. Hand cut printed PETG, spray paint, metal hardware. 1 x 1 x 1m."
@@ -426,6 +424,15 @@
             },
             {
               "filename": "about/WG-HVDD-00109-072.jpg"
+            }
+          ]
+        },
+        {
+          "type":"list",
+          "content": [
+            {
+              "filename": "pattern-and-presence/0021.jpg",
+              "caption": "Assemblage (New), 2018. Ø 85cm."
             }
           ]
         }
