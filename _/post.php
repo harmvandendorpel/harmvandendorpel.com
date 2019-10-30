@@ -65,20 +65,12 @@
 
         <?php if ($description): ?>
             <section itemprop="articleBody">
-                <div class="description<?php if (strlen($description) > 850) { echo " description-columns";}?>">
+                <div class="description<?php if (strlen($description) > 680) { echo " description-columns";}?>">
                     <?php echo $description;?>
                 </div>
             </section>
         <?php endif; ?>
 
-        <?php if ($item['related']): ?>
-            <section>
-                <div class="related">
-                    <?php related($item['related']); ?>
-                </div>
-            </section>
-        <?php endif; ?>
-        
         <?php if ($item['seeAlso']): ?>
             <aside>
                 <div class="categories" style='margin-bottom: 50px;'>
@@ -99,6 +91,58 @@
             </div>
         </div>
     </div>
+
+    
+    <style>
+
+        .related-items-container {
+            margin-top:400px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content:center;
+            flex-wrap: wrap;
+            margin-bottom:50px;
+
+        }
+
+        .related-item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content:center;
+            flex-wrap: wrap;
+            padding: 10px 20px;
+            border: 1px solid #ccc;
+            margin: 10px;
+            font-size: 16px;
+        }
+
+        .related-item:hover {
+            border-color: blue;
+
+        }
+
+        .related-item-intro {
+            font-size: 16px;
+            padding: 10px 20px;
+            margin: 10px;
+        }
+
+    </style>
+
+    <?php if ($item['related']): ?>
+    <div class="related-items-container">
+        <div class='related-item-intro'>
+            <?php echo $item['related']['caption']; ?>
+        </div>
+        <?php foreach ($item['related']['content'] as $related): ?>
+            <a class='related-item' href='/<?php echo $related['perma']; ?>'>
+                <?php echo $related['caption']; ?>
+            </a>
+        <?php endforeach; ?>
+    </div>
+    <?php endif; ?>
 
     <?php if (false && $item['cat']): ?>
             <footer>
