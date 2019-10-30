@@ -112,17 +112,25 @@ function upcomingString($dateString) {
 }
 
 function thumb($item, $show_captions = false) {
+  $filename = '.'.$item['image'];
+  list($width, $height) = getimagesize($filename);
+  
+  $bottomPadding = $height / $width * 100;
+  // echo $bottomPadding;
+  $padding_bottom = '100%';
   ?>
+  <a href='<?php echo $item['link'];?>' class='thumb-link'>
     <div class='thumb-container'>
-      <a href='<?php echo $item['link']; ?>' class='thumb-image-link'>
-        <div class='index-thumb-item'>
-          <div class='thumb-item-image' style='background-image: url(<?php echo $item['image'] ?>);'></div>
+      
+        <div class='index-thumb-item' style='padding-bottom: <?php echo $padding_bottom; ?>;background-image: url(<?php echo $item['image'] ?>);'>
+          <span class='thumb-item-image' ></span>
         </div>
         <?php if ($show_captions): ?>
-          <div style='width: 100%; text-align:center;'><?php echo $item['title']; ?></div>
+          <div style='font-size: 16px;'><?php echo $item['title'];?></div>
         <?php endif; ?>
-      </a>
+      
     </div>
+    </a>
   <?php
 }
 

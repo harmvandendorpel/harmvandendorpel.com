@@ -10,38 +10,8 @@
 
   meta($title, $description, $imgUrl, 'https://harmvandendorpel.com/', $keywords);
 ?>
-
-<style>
-
-.index-index-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  margin-bottom: 36px;
-  width: 100%;
-  display:block;
-}
-
-#list-default {
-  display: block;
-}
-
-
-
-</style>
 </head>
-<?php
-
-
-
-?>
 <body itemscope itemtype="http://schema.org/WebPage">
-
-<style>
-  
-  
-
-</style>
 <div class="index-thumbs">
   <?php main_thumbs(); ?>
 </div>

@@ -12,7 +12,7 @@
     },
     {
       "link": "/drawings",
-      "image": "/_/thumb/fingerprinting.jpg",
+      "image": "/img/automatic-drawings/fingerprinting.jpg",
       "title": "Drawings"
     },
     {
@@ -743,10 +743,6 @@
               "caption": "Unjust Nonderogatory Ventriloquist, 2018"
             },
             {
-              "filename": "nested-exchange-prints/1f320d3e7a9f5a63c61d1d9c9f08fe6d0c86e8d8-framed.jpg",
-              "caption": "Bellybuttons Stotinka Lesbic, 2018"
-            },
-            {
               "filename": "uninnocent-bystander/uninnocent-bystander-04.jpg",
               "caption": "Cussos Unfence Thermographers,  100×100cm, 2019"
             },
@@ -1011,6 +1007,9 @@
       "featured": false,
       "parts": [
         {
+          "type":"list",
+          "content": [
+        {
           "filename": "e-state/09-e-state-realisms-1-print.jpg",
           "caption": "S. G. Literators in conversation with C. A. Uxoriously"
         },
@@ -1045,49 +1044,7 @@
         {
           "filename": "e-state/08-e-state-realisms-nested-exchange.jpg",
           "caption": "Nested Exchange, 2018"
-        },
-        {
-          "thumbs": [
-            {
-              "orientation": "portrait",
-              "filename": "nested-exchange-prints/Peached-Renitencies-Mercer.jpg",
-              "caption": "Peached Renitencies Mercer, 2018"
-            },
-            {
-              "filename": "nested-exchange-prints/unjust-nonderogatorily-ventriloquist-web.jpg",
-              "caption": "Unjust Nonderogatory Ventriloquist, 2018"
-            },
-            {
-              "filename": "nested-exchange-prints/1f320d3e7a9f5a63c61d1d9c9f08fe6d0c86e8d8-framed.jpg",
-              "caption": "Bellybuttons Stotinka Lesbic, 2018"
-            },
-            {
-              "filename": "nested-exchange-prints/50c2bc41558758e0897ba473e6feabdbfed9f67d-framed.jpg",
-              "caption": "Griper Matildas Badgers, 2018"
-            },
-            {
-              "filename": "uninnocent-bystander/uninnocent-bystander-04.jpg",
-              "caption": "Cussos Unfence Thermographers,  100×100cm, 2019"
-            },
-            {
-              "filename": "pattern-and-presence/0006.jpg",
-              "caption": "Hexamerisms, 2018. 100&times;100&times;3cm."
-            },
-            {
-              "filename": "pattern-and-presence/0008.jpg",
-              "caption": "Fissured Petrolling Mridangam, 2018. 100&times;100&times;3cm."
-            },
-            {
-              "filename": "pattern-and-presence/0009.jpg",
-              "caption": "Wyn (Generation Unknown), 2018. 100&times;100&times;3cm.",
-              "orientation": "portrait"
-            },
-            {
-              "filename": "pattern-and-presence/0010.jpg",
-              "caption": "Lammer Asbestus, 2018. 100&times;100&times;3cm."
-            }
-          ]
-        }
+        }]}
       ],
       "cat": "exhibitions,blockchain",
       "old-related": [
@@ -1429,8 +1386,13 @@
       "indexPic": false,
       "parts": [
         {
-          "filename": "new-dawn/NBA_NewDawn_HvdD_PapaverSomniferum_Detail.jpg",
-          "caption": "Papaver Somniferum (detail). 46×34cm, 2017"
+          "type": "list",
+          "content": [
+            {
+              "filename": "new-dawn/NBA_NewDawn_HvdD_PapaverSomniferum_Detail.jpg",
+              "caption": "Papaver Somniferum (detail). 46×34cm, 2017"
+            }
+          ]
         }
       ],
       "old-related": [
@@ -1675,92 +1637,33 @@
       "indexPic": false,
       "parts": [
         {
-          "filename": "immortalismus/immortalismus-02.jpg",
-          "caption": "4 works from the Death Imitates Language series"
-        },
-        {
-          "filename": "immortalismus/immortalismus-01.jpg",
-          "caption": "Autobreeder, 2016"
-        },
-        {
-          "filename": "immortalismus/immortalismus-06.jpg",
-          "caption": "Installation view (sculpture by Pakui Hardware)"
-        },
-        {
-          "filename": "immortalismus/immortalismus-04.jpg",
-          "caption": "Installation view"
-        },
-        {
-          "filename": "immortalismus/immortalismus-05.jpg",
-          "caption": "Installation view"
-        },
-        {
-          "filename": "immortalismus/immortalismus-07.jpg",
-          "caption": "Installation view (sculpture left by Pakui Hardware)"
-        },
-        {
-          "thumbs": [
+          "type": "list",
+          "content":[
             {
-              "filename": "Sydgator-Zolim-Juancar.jpg",
-              "caption": "Sydgator Zolim Juancar, 2017. 100×100cm"
+              "filename": "immortalismus/immortalismus-02.jpg",
+              "caption": "4 works from the Death Imitates Language series"
             },
             {
-              "filename": "asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
-              "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
-              "orientation": "portrait",
-              "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
-            },
-            {
-              "filename": "asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
-              "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
-              "orientation": "portrait",
-              "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
-            },
-            {
-              "filename": "shifting-optics-4/shifting-optics-4-02.jpg",
-              "caption": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm",
-              "link": "https://deathimitateslanguage.harmvandendorpel.com/language/1b5d80aa090230ee38c3a7c6226df85ce4a604fa"
-            },
-            {
-              "filename": "shifting-optics-4/shifting-optics-4-03.jpg",
-              "caption": "Hatter Epot Xgeubke, 2017, 100&times;100&times;3cm",
-              "link": "https://deathimitateslanguage.harmvandendorpel.com/language/e022fbb5c0cb7c6921e521f4b86d9225c151d91f"
-            },
-            {
-              "filename": "shifting-optics-4/shifting-optics-4-05.jpg",
+              "filename": "immortalismus/immortalismus-01.jpg",
               "caption": "Autobreeder, 2016"
             },
             {
-              "filename": "dil-nba/GS-NBA-1926.jpg",
-              "caption": "Acura Bigboobe Romcops, 2016. 100&times;100&times;4cm.",
-              "orientation": "portrait"
+              "filename": "immortalismus/immortalismus-06.jpg",
+              "caption": "Installation view (sculpture by Pakui Hardware)"
             },
             {
-              "filename": "dil-nba/GS-NBA-1947.jpg",
-              "caption": "Kennyk Lucius Zhabt, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "filename": "immortalismus/immortalismus-04.jpg",
+              "caption": "Installation view"
             },
             {
-              "filename": "dil-nba/GS-NBA-1946.jpg",
-              "caption": "Yaroslavalavrova Kochan Xutizekea, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
+              "filename": "immortalismus/immortalismus-05.jpg",
+              "caption": "Installation view"
             },
             {
-              "filename": "dil-nba/GS-NBA-1948.jpg",
-              "caption": "Wsxzaq Mrjake Wadley, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
-            },
-            {
-              "filename": "dil-nba/GS-NBA-1949.jpg",
-              "caption": "Vuwtvvyft Zcuviey Dayssuck, 2016. 100&times;100&times;2cm.",
-              "orientation": "portrait"
-            },
-            {
-              "filename": "kleve/Doroark-Churu-Fexi.jpg",
-              "caption": "Doroark Churu Fexi, 2016"
+              "filename": "immortalismus/immortalismus-07.jpg",
+              "caption": "Installation view (sculpture left by Pakui Hardware)"
             }
-          ]
-        }
+          ]}
       ],
       "old-related": [
         "<a href='http://www.kunstvereinfreiburg.de/htmldocs_e/archive.html' target='_blank'>Website Kunstverein Freiburg</a>",

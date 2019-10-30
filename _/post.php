@@ -95,40 +95,7 @@
     
     <style>
 
-        .related-items-container {
-            margin-top:400px;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content:center;
-            flex-wrap: wrap;
-            margin-bottom:50px;
-
-        }
-
-        .related-item {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content:center;
-            flex-wrap: wrap;
-            padding: 10px 20px;
-            border: 1px solid #ccc;
-            margin: 10px;
-            font-size: 16px;
-        }
-
-        .related-item:hover {
-            border-color: blue;
-
-        }
-
-        .related-item-intro {
-            font-size: 16px;
-            padding: 10px 20px;
-            margin: 10px;
-        }
-
+        
     </style>
 
     <?php if ($item['related']): ?>
