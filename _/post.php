@@ -53,6 +53,7 @@
         <?php if ($item['date']): ?>
             <div class="date">
                 <time datetime="<?php echo $item['date']; ?>T00:00+00:00"><?php echo d($item['date']);?></time>
+                <?php if ($item['ongoing']) { ?>– ongoing<?php } ?>
             </div>
             <br>
         <?php endif; ?>

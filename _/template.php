@@ -127,21 +127,9 @@ function thumb($item, $show_captions = false) {
 }
 
 function item($data) {
-  $images = $data['parts'];
-  $path = $images['path'];
-  $filenames = $images;
-  $filename = $filenames[0]['filename'];
+  $filename = $data['indexPic'];
 
-  for ($i = 0; $i < count($filenames); $i++) {
-    $image = $filenames[$i];
-    if ($image['indexPic']) {
-      $filename = $image['filename'];
-    }
-  }
-
-  $imgUrl = "/img/$path$filename";
-
-  // list($width, $height) = getimagesize('.' . $imgUrl);
+  $imgUrl = "/img/$filename";
   
   ?>
     <div class="image-wide-index" style='position: relative;'>
