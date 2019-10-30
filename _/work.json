@@ -1424,111 +1424,116 @@
       "title": "Asking for a friend",
       "perma": "asking-for-a-friend",
       "location": "Narrative Projects London",
-      "descr": "Solo exhibition at Narrative Projects, London.",
+      "descr": "Solo exhibition",
       "date": "2017-11-23T00:00:00.000Z",
       "cat": "exhibitions,London,solo",
       "indexPic": true,
       "featured": false,
       "parts": [
         {
-          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9810.jpg"
-        },
-        {
-          "filename": "asking-for-a-friend/017-11-24-Narrative-Projects-IMG_9826.jpg"
-        },
-        {
-          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9795A.jpg"
-        },
-        {
-          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9789.jpg"
-        },
-        {
-          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9788.jpg"
-        },
-        {
-          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9813.jpg"
-        },
-        {
-          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9816.jpg"
-        },
-        {
-          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9824.jpg"
-        },
-        {
-          "filename": "asking-for-a-friend/frouters.jpg",
-          "link": "https://harmvandendorpel.com/hybrid-vigor",
-          "caption": "Frouters, 2016. Digital archival print, unique, 100&times;80cm.",
-          "orientation": "portrait"
-        },
-        {
-          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9677.jpg",
-          "link": "https://harmvandendorpel.com/hybrid-vigor",
-          "caption": "Availablesky, 2016. Digital archival print, unique, 100&times;80cm.",
-          "orientation": "portrait"
-        },
-        {
-          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9654.jpg",
-          "link": "https://harmvandendorpel.com/hybrid-vigor",
-          "caption": "Adoreway, 2016. Digital archival print, unique, 100&times;80cm.",
-          "orientation": "portrait"
-        },
-        {
-          "filename": "asking-for-a-friend/thistle-01.jpg",
-          "orientation": "portrait",
-          "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
-        },
-        {
-          "filename": "asking-for-a-friend/thistle-02.jpg",
-          "orientation": "portrait",
-          "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
-        },
-        {
-          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9739.jpg",
-          "orientation": "portrait",
-          "caption": "Metaballs (1), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
-        },
-        {
-          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9745.jpg",
-          "orientation": "portrait",
-          "caption": "Metaballs (2), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
-        },
-        {
-          "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9737.jpg",
-          "orientation": "portrait",
-          "caption": "Papaver Somniferum, 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
-        },
-        {
-          "filename": "asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
-          "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
-          "orientation": "portrait",
-          "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
-        },
-        {
-          "filename": "asking-for-a-friend/juancar-zolim-juancar-photo-detail.jpg",
-          "caption": "Juancar Zolim Juancar (detail), 2017. 100&times100&times4cm."
-        },
-        {
-          "filename": "asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
-          "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
-          "orientation": "portrait",
-          "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
-        },
-        {
-          "filename": "asking-for-a-friend/joa-dereck-pitcher-photo-detail.jpg",
-          "caption": "Joa Dereck Pitcher (detail), 2017. 100&times100&times4cm."
-        },
-        {
-          "filename": "asking-for-a-friend/asking-for-a-friend-06.png",
-          "caption": "Algues Artificielles, 2017 (screenshot)"
-        },
-        {
-          "filename": "asking-for-a-friend/algues-artificielles.jpg",
-          "caption": "Algues Artificielles, 2017. Software projection, edition 5+1AP."
-        },
-        {
-          "filename": "asking-for-a-friend/asking-for-a-friend-poster.jpg",
-          "orientation": "portrait",
-          "caption": "Invitation poster image"
+          "type": "list",
+          "content": [
+            {
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9810.jpg"
+            },
+            {
+              "filename": "asking-for-a-friend/017-11-24-Narrative-Projects-IMG_9826.jpg"
+            },
+            {
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9795A.jpg"
+            },
+            {
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9789.jpg"
+            },
+            {
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9788.jpg"
+            },
+            {
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9813.jpg"
+            },
+            {
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9816.jpg"
+            },
+            {
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9824.jpg"
+            },
+            {
+              "filename": "asking-for-a-friend/frouters.jpg",
+              "link": "https://harmvandendorpel.com/hybrid-vigor",
+              "caption": "Frouters, 2016. Digital archival print, unique, 100&times;80cm.",
+              "orientation": "portrait"
+            },
+            {
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9677.jpg",
+              "link": "https://harmvandendorpel.com/hybrid-vigor",
+              "caption": "Availablesky, 2016. Digital archival print, unique, 100&times;80cm.",
+              "orientation": "portrait"
+            },
+            {
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9654.jpg",
+              "link": "https://harmvandendorpel.com/hybrid-vigor",
+              "caption": "Adoreway, 2016. Digital archival print, unique, 100&times;80cm.",
+              "orientation": "portrait"
+            },
+            {
+              "filename": "asking-for-a-friend/thistle-01.jpg",
+              "orientation": "portrait",
+              "caption": "Thistle (right), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+            },
+            {
+              "filename": "asking-for-a-friend/thistle-02.jpg",
+              "orientation": "portrait",
+              "caption": "Thistle (left), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+            },
+            {
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9739.jpg",
+              "orientation": "portrait",
+              "caption": "Metaballs (1), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+            },
+            {
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9745.jpg",
+              "orientation": "portrait",
+              "caption": "Metaballs (2), 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+            },
+            {
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9737.jpg",
+              "orientation": "portrait",
+              "caption": "Papaver Somniferum, 2017. Ballpoint on Hahnemühle paper, unique, 46×34cm."
+            },
+            {
+              "filename": "asking-for-a-friend/juancar-zolim-juancar-photo.jpg",
+              "link": "https://deathimitateslanguage.harmvandendorpel.com/language/b73a6607116627e7c3ca58c21e7223ec3b190247",
+              "orientation": "portrait",
+              "caption": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
+            },
+            {
+              "filename": "asking-for-a-friend/juancar-zolim-juancar-photo-detail.jpg",
+              "caption": "Juancar Zolim Juancar (detail), 2017. 100&times100&times4cm."
+            },
+            {
+              "filename": "asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
+              "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
+              "orientation": "portrait",
+              "caption": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
+            },
+            {
+              "filename": "asking-for-a-friend/joa-dereck-pitcher-photo-detail.jpg",
+              "caption": "Joa Dereck Pitcher (detail), 2017. 100&times100&times4cm."
+            },
+            {
+              "filename": "asking-for-a-friend/asking-for-a-friend-06.png",
+              "caption": "Algues Artificielles, 2017 (screenshot)"
+            },
+            {
+              "filename": "asking-for-a-friend/algues-artificielles.jpg",
+              "caption": "Algues Artificielles, 2017. Software projection, edition 5+1AP."
+            },
+            {
+              "filename": "asking-for-a-friend/asking-for-a-friend-poster.jpg",
+              "orientation": "portrait",
+              "caption": "Invitation poster image"
+            }
+          ]
         }
       ],
       "old-related": [

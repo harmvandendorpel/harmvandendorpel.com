@@ -777,8 +777,7 @@ blockquote {
 }
 
 .related-item:hover {
-	border-color: blue;
-
+	border-color: rgba(0,0,255,0.35);
 }
 
 .related-item-intro {
@@ -801,12 +800,29 @@ blockquote {
 }
 
 
-@media only screen and (max-width: 500px) {
+.mobile-thumb-image {
+	display:none;
+}
+
+@media only screen and (max-width: 767px) {
+	.index-thumb-item {
+		display: none;
+	}
+
+	.mobile-thumb-image {
+		display: flex;		
+	}
+
+	.mobile-thumb-image > img {
+		width: 100%;
+	}
+
 	.thumb-container {
 		width: 100%;
 		padding:0;
+		max-width: 100%;
 	}
-
+/*
 	.index-thumb-item {
 		width: 100vw;
 		height: 100vw;
@@ -836,5 +852,5 @@ blockquote {
 	}
 	.index-index-list {
 		margin-bottom: 0;
-	}
+	} */
 }
