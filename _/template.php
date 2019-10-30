@@ -126,7 +126,7 @@ function thumb($item, $show_captions = false) {
           <span class='thumb-item-image' ></span>
         </div>
         <?php if ($show_captions): ?>
-          <div style='font-size: 16px;'><?php echo $item['title'];?></div>
+          <div style='font-size: 16px; line-height:22px;'><?php echo $item['title'];?></div>
         <?php endif; ?>
       
     </div>

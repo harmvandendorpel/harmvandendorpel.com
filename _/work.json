@@ -61,9 +61,14 @@
       ],
       "parts": [
         {
+          "type":"list",
+          "content":[
+        {
           "filename": "cartesian-genetic-programming/cgp-1556312769668-framed.jpg",
           "caption": "Multi Dimensional Zoom, 50&times;50cm, 2019",
           "orientation": "portrait"
+        }
+          ]
         }
       ],
       "pubDate": "2019-06-14T13:59:00.731Z",
@@ -1002,7 +1007,7 @@
       "location": "ArtCenter/South Florida Miami Beach",
       "perma": "e-state-realisms",
       "date": "2018-07-25T00:00:00.000Z",
-      "descr": "Group show at the ArtCenter/South Florida with work by Jillian Mayer, Felice Grodin, Gala Committee, Harm van den Dorpel, Nick Lobo, and others. Curated by Emer Grant.",
+      "descr": "Group show at the ArtCenter/South Florida with work by Jillian Mayer, Felice Grodin, Gala Committee, Harm van den Dorpel, Nick Lobo, and others. Curated by Emer M. Grant.",
       "tags": "real estate, Miami, software, dystopian",
       "featured": false,
       "parts": [
@@ -1335,38 +1340,19 @@
       "indexPic": false,
       "parts": [
         {
-          "filename": "Screenshot_20180925-121039.png"
-        },
-        {
-          "filename": "Screenshot_20180701-130418.png"
-        },
-        {
-          "filename": "Screenshot_20180630-144122.png"
-        },
-        {
-          "filename": "Screenshot_20180624-185757.png"
-        },
-        {
-          "thumbs": [
+          "type":"list",
+          "content": [
             {
-              "filename": "pattern-and-presence/0019.jpg"
+              "filename": "Screenshot_20180925-121039.png"
             },
             {
-              "filename": "pattern-and-presence/0021.jpg",
-              "caption": "Assemblage (New), 2018. Ø 85cm."
+              "filename": "Screenshot_20180701-130418.png"
             },
             {
-              "filename": "loomer/sculpture.jpg",
-              "caption": "Untitled Assemblage (shell), 2012. Hand cut printed PETG, spray paint, metal hardware. 1 x 1 x 1m."
+              "filename": "Screenshot_20180630-144122.png"
             },
             {
-              "filename": "about/assemblage_chain.jpg"
-            },
-            {
-              "filename": "about/huh.jpg"
-            },
-            {
-              "filename": "about/WG-HVDD-00109-072.jpg"
+              "filename": "Screenshot_20180624-185757.png"
             }
           ]
         }
