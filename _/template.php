@@ -125,25 +125,23 @@ function thumb($item, $show_captions = false) {
   // $bottomPadding = $height / $width * 100;
   // echo $bottomPadding;
   $padding_bottom = '100%';
-
 ?>
-    <div class='thumb-container'>
-        <div class='index-thumb-item' style='padding-bottom: <?php echo $padding_bottom; ?>;background-image: url(<?php echo $item['image'] ?>);'>
-          <span class='thumb-item-image' ></span>
-        </div>
-        <div class='mobile-thumb-image'>
-          <img src='<?php echo $item['image'] ?>' />
-        </div>
-        <?php if ($show_captions): ?>
-          <div style='font-size: 16px; line-height:22px;'><?php echo $item['title'];?></div>
-        <?php endif; ?>
+  <div class='thumb-container'>
+    <div class='index-thumb-item' style='padding-bottom: <?php echo $padding_bottom; ?>;background-image: url(<?php echo $item['image'] ?>);'>
+      <span class='thumb-item-image' ></span>
     </div>
-  <?php
+    <div class='mobile-thumb-image'>
+      <img src='<?php echo $item['image'] ?>' />
+    </div>
+    <?php if ($show_captions): ?>
+      <div style='font-size: 16px; line-height:22px;'><?php echo $item['title'];?></div>
+    <?php endif; ?>
+  </div>
+<?php
 }
 
 function item($data) {
   $filename = $data['indexPic'];
-
   $imgUrl = "/img/$filename";
   
   ?>
@@ -164,7 +162,6 @@ function item($data) {
     </div>
   <?php
 }
-
 
 function do404($perma, $content) {
     http_response_code(307);
@@ -290,200 +287,200 @@ function d($s) {
     return $result;
 }
 
-
 function searchItem($item) {
-    $link = $item['link'];
-    $title = $item['title'];
-    $text = $item['text'];
-    $from = $item['from'];
-    $before = "<em>";
-    $to = $item['to'] + strlen($before);
-    $caption = substr_replace($text, "<em>", $from, 0);
-    $caption = substr_replace($caption, "</em>", $to, 0);
+  $link = $item['link'];
+  $title = $item['title'];
+  $text = $item['text'];
+  $from = $item['from'];
+  $before = "<em>";
+  $to = $item['to'] + strlen($before);
+  $caption = substr_replace($text, "<em>", $from, 0);
+  $caption = substr_replace($caption, "</em>", $to, 0);
+
+  if ($item['parts']) {
+    $images = $item['parts'];
+    $imageHtml = '<div class="search-item-thumbs-container">';
+    for ($i = 0; $i < count($images); $i++) {
+      $image = $images[$i];
+      $imageHtml .= "<img onclick='location.href=\"".$link."\"' loading='lazy' class='search-item-thumbnail' src='".$image."' />";
+    }
+    $imageHtml .= '</div>';
+  } else {
+    $imageHtml = '';
+  }
+
+  return "
+    <li class='item'>
+      <a href='$link'>$title</a><div style='float:right;'>$caption</div>
+      $imageHtml
+    </li>
+  ";
+}
+  
+function searchContent($items) {
+  $result = '';
+  foreach($items as $item) $result .= searchItem($item);
+  return $result;
+}
+
+function contains($query, $field) {
+  return preg_match("/".$query."/i", $field) > 0;
+}
+
+function makeLink($item) {
+  return $item['link'] ? $item['link'] : '/'.$item['perma'];
+}
+
+function searchTitle($query, $item, &$result) {  
+  $pos = stripos($item['title'], $query);
+
+  if ($pos !== FALSE) {
+    $searchItem = array(
+      title => $item['title'],
+      text => $item['title'],
+      from => $pos,
+      to => $pos + strlen($query),
+      link => makeLink($item),
+      type => 'title'
+    );
+
     if ($item['parts']) {
       $images = $item['parts'];
-      $imageHtml = '<div class="search-item-thumbs-container">';
-      for ($i = 0; $i < count($images); $i++) {
-        $image = $images[$i];
-        $imageHtml .= "<img onclick='location.href=\"".$link."\"' loading='lazy' class='search-item-thumbnail' src='".$image."' />";
-      }
-      $imageHtml .= '</div>';
-    } else {
-      $imageHtml = '';
-    }
-    return "
-      <li class='item'>
-        <a href='$link'>$title</a><div style='float:right;'>$caption</div>
-        $imageHtml
-      </li>
-    ";
-  }
-  
-  function searchContent($items) {
-    $result = '';
-    foreach($items as $item) $result .= searchItem($item);
-    return $result;
-  }
+      $path = $images['path'] ? $images['path'] : '/';
 
-  function contains($query, $field) {
-    return preg_match("/".$query."/i", $field) > 0;
+      for ($i = 0; $i < min(4, count($images)); $i++) {
+        $firstImage = $images[$i];
+        $imageUrl = '/thumb'.$path.$firstImage['filename'];
+        $searchItem['parts'][] = $imageUrl;
+      }
+    }
+
+    $result[] = $searchItem;
+    return true;
   }
+  return false;
+}
   
-  function makeLink($item) {
-    return $item['link'] ? $item['link'] : '/'.$item['perma'];
-  }
-  
-  function searchTitle($query, $item, &$result) {  
-    $pos = stripos($item['title'], $query);
+function searchLocation($query, $item, &$result) {  
+  if ($item['location']) {
+    $pos = stripos($item['location'], $query);
     if ($pos !== FALSE) {
-            
-      $searchItem = array(
+      
+      $result[] = array(
         title => $item['title'],
-        text => $item['title'],
+        text => $item['location'],
         from => $pos,
         to => $pos + strlen($query),
         link => makeLink($item),
-        type => 'title'
+        type => 'location'
       );
-
-      if ($item['parts']) {
-        $images = $item['parts'];
-        $path = $images['path'] ? $images['path'] : '/';
-
-        for ($i = 0; $i < min(4, count($images)); $i++) {
-          $firstImage = $images[$i];
-          $imageUrl = '/thumb'.$path.$firstImage['filename'];
-          $searchItem['parts'][] = $imageUrl;
-        }
-      }
-
-      $result[] = $searchItem;
       return true;
     }
-    return false;
   }
-  
-  function searchLocation($query, $item, &$result) {  
-    if ($item['location']) {
-      $pos = stripos($item['location'], $query);
-      if ($pos !== FALSE) {
-        
-        $result[] = array(
-          title => $item['title'],
-          text => $item['location'],
-          from => $pos,
-          to => $pos + strlen($query),
-          link => makeLink($item),
-          type => 'location'
-        );
-        return true;
-      }
+  return false;
+}
+
+function searchCategory($query, $item, &$result) {  
+  $categories = explode(',', $item['cat']);
+  for ($i = 0; $i < count($categories); $i++) {
+    $category = trim($categories[$i]);
+    $pos = stripos($category, $query);
+    if ($pos !== FALSE) {
+      $result[] = array(
+        title => $item['title'],
+        text => $category,
+        from => $pos,
+        to => $pos + strlen($query),
+        link => makeLink($item),
+        type => 'category'
+      );
+      return true;
     }
-    return false;
   }
-  
-  function searchCategory($query, $item, &$result) {  
-    $categories = explode(',', $item['cat']);
-    for ($i = 0; $i < count($categories); $i++) {
-      $category = trim($categories[$i]);
-      $pos = stripos($category, $query);
-      if ($pos !== FALSE) {
-        $result[] = array(
-          title => $item['title'],
-          text => $category,
-          from => $pos,
-          to => $pos + strlen($query),
-          link => makeLink($item),
-          type => 'category'
-        );
-        return true;
-      }
+  return false;
+}
+
+function searchTags($query, $item, &$result) {  
+  $categories = explode(',', $item['tags']);
+  for ($i = 0; $i < count($categories); $i++) {
+    $tag = trim($categories[$i]);
+    $pos = stripos($tag, $query);
+    if ($pos !== FALSE) {
+      $result[] = array(
+        title => $item['title'],
+        text => $tag,
+        from => $pos,
+        to => $pos + strlen($query),
+        link => makeLink($item),
+        type => 'tag'
+      );
+      return true;
     }
-    return false;
   }
+  return false;
+}
   
-  function searchTags($query, $item, &$result) {  
-    $categories = explode(',', $item['tags']);
-    for ($i = 0; $i < count($categories); $i++) {
-      $tag = trim($categories[$i]);
-      $pos = stripos($tag, $query);
-      if ($pos !== FALSE) {
-        $result[] = array(
-          title => $item['title'],
-          text => $tag,
-          from => $pos,
-          to => $pos + strlen($query),
-          link => makeLink($item),
-          type => 'tag'
-        );
-        return true;
-      }
-    }
-    return false;
-  }
-  
-  function searchImages($query, $item, &$result) {  
+function searchImages($query, $item, &$result) {  
+  if ($item['parts']) {
     if ($item['parts']) {
-      if ($item['parts']) {
-        $images = $item['parts'];
-        $path = $item['parts']['path'];
-        for ($i = 0; $i < count($images); $i++) {
-          $image = $images[$i];
-          $caption = $image['caption'];
-          $pos = stripos($caption, $query);
-          if ($pos !== FALSE) {
-            $result[] = array(
-              title => $item['title'],
-              text => $caption,
-              from => $pos,
-              to => $pos + strlen($query),
-              link => makeLink($item),
-              type => 'image',
-              images => array('/thumb'.$path.$image['filename'])
-            );
-            return true;
-          }
+      $images = $item['parts'];
+      $path = $item['parts']['path'];
+      for ($i = 0; $i < count($images); $i++) {
+        $image = $images[$i];
+        $caption = $image['caption'];
+        $pos = stripos($caption, $query);
+        if ($pos !== FALSE) {
+          $result[] = array(
+            title => $item['title'],
+            text => $caption,
+            from => $pos,
+            to => $pos + strlen($query),
+            link => makeLink($item),
+            type => 'image',
+            images => array('/thumb'.$path.$image['filename'])
+          );
+          return true;
         }
       }
     }
-    return false;
   }
+  return false;
+}
   
-  function searchDescr($query, $item, &$result) {  
-    $sentences = preg_split('/[.,?]+/', strip_tags($item['descr']));
-    for ($i = 0; $i < count($sentences); $i++) {
-      $sentence = trim($sentences[$i]);
-      $pos = stripos($sentence, $query);
-      if ($pos !== FALSE) {
-        $result[] = array(
-          title => $item['title'],
-          text => $sentence,
-          from => $pos,
-          to => $pos + strlen($query),
-          link => makeLink($item),
-          type => 'descr'
-        );
-        return true;
-      }
-    }  
-    return false;
-  }
-  
-  function search($query, $items) {
-    $result = array();
-  
-    if (strlen($query) > 0) {
-      for ($i = 0; $i < count($items); $i++) {
-        $item = $items[$i];
-        if ($item['private'] === TRUE) continue;
-        searchTitle($query, $item, $result) ||
-        searchImages($query, $item, $result) ||
-        searchDescr($query, $item, $result) ||
-        searchTags($query, $item, $result) ||
-        searchLocation($query, $item, $result) ||
-        searchCategory($query, $item, $result);
-      }
+function searchDescr($query, $item, &$result) {  
+  $sentences = preg_split('/[.,?]+/', strip_tags($item['descr']));
+  for ($i = 0; $i < count($sentences); $i++) {
+    $sentence = trim($sentences[$i]);
+    $pos = stripos($sentence, $query);
+    if ($pos !== FALSE) {
+      $result[] = array(
+        title => $item['title'],
+        text => $sentence,
+        from => $pos,
+        to => $pos + strlen($query),
+        link => makeLink($item),
+        type => 'descr'
+      );
+      return true;
     }
-    return $result;
-  }
+  }  
+  return false;
+}
   
+function search($query, $items) {
+  $result = array();
+
+  if (strlen($query) > 0) {
+    for ($i = 0; $i < count($items); $i++) {
+      $item = $items[$i];
+      if ($item['private'] === TRUE) continue;
+      searchTitle($query, $item, $result) ||
+      searchImages($query, $item, $result) ||
+      searchDescr($query, $item, $result) ||
+      searchTags($query, $item, $result) ||
+      searchLocation($query, $item, $result) ||
+      searchCategory($query, $item, $result);
+    }
+  }
+  return $result;
+}
