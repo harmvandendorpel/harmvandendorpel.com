@@ -156,46 +156,6 @@ function findItem($content, $perma) {
     return null;
 }
 
-// function gatherSeriesItems($perma) {
-//     global $content;
-//     $result = [];
-    
-//     for ($i = 0; $i < count($content); $i++) {
-//       $item = $content[$i];
-
-//       if ($item['series'] === $perma && !isPrivate($item) && $item['type'] !== 'series') {
-//         $result[] = $item;
-//       }
-//     }
-
-//     return $result;
-//   }
-
-//   function gatherSeriesWorks($perma) {
-//     global $content;
-//     $result = [];
-    
-//     for ($i = 0; $i < count($content); $i++) {
-//       $item = $content[$i];
-//       $imagesData = $item['parts'];
-//       $images = $imagesData;
-//       for ($j = 0; $j < count($images); $j++) {
-//         $image = $images[$j];
-//         $filename = $image['filename'];
-//         if ($image['series'] === $perma || $item['perma'] === $perma) {
-//           $result[] = array(
-//             'perma' => $item['perma'],
-//             'type' => 'work',
-//             'image' => "/img$filename",
-//             'caption' => $image['caption']
-//           );
-//         }
-//       }
-//     }
-
-//     return $result;
-//   }
-
 function images($content) {
   echo '<div class="images" id="pics">';
     

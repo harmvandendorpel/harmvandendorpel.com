@@ -83,25 +83,11 @@ function backButton($useCategory) { ?>
     <div class="floating-top-left-nav">
         <a rel="nofollow" href="/" class="back-button" id='btn-back-button'>home</a>
     </div>
-    
-    <?php if ($useCategory) { ?>
-    <script>
-      // if (window.localStorage && window.localStorage.getItem('category')) {
-      //   const button = document.getElementById('btn-back-button');
-      //   const cat = window.localStorage.getItem('category');
-      //   button.href = '/list/' + cat;
-      //   button.innerHTML = decodeURIComponent(cat);        
-      // }
-    </script>
-    <?php } ?>
-    
 <?php
 }
 
 function script() {
-    ?>
-    <script src="/_/js/jquery-1.11.1.min.js"></script>
-<?php
+  ?><script src="/_/js/jquery-1.11.1.min.js"></script><?php
 }
 
 function upcomingString($dateString) {
@@ -111,26 +97,41 @@ function upcomingString($dateString) {
   return $item_month; // .' '.$item_year;
 }
 
-function thumb($item, $show_captions = false) {
+function nav_thumb($item, $show_captions = false) {
   $filename = '.'.$item['image'];
-  list($width, $height) = getimagesize($filename);
-  
-  $bottomPadding = $height / $width * 100;
-  // echo $bottomPadding;
   $padding_bottom = '100%';
-  ?>
+
+?>
   <a href='<?php echo $item['link'];?>' class='thumb-link'>
     <div class='thumb-container'>
-      
         <div class='index-thumb-item' style='padding-bottom: <?php echo $padding_bottom; ?>;background-image: url(<?php echo $item['image'] ?>);'>
           <span class='thumb-item-image' ></span>
         </div>
         <?php if ($show_captions): ?>
           <div style='font-size: 16px; line-height:22px;'><?php echo $item['title'];?></div>
         <?php endif; ?>
-      
     </div>
     </a>
+  <?php
+}
+
+function thumb($item, $show_captions = false) {
+  $filename = '.'.$item['image'];
+  // list($width, $height) = getimagesize($filename);
+  
+  // $bottomPadding = $height / $width * 100;
+  // echo $bottomPadding;
+  $padding_bottom = '100%';
+
+?>
+    <div class='thumb-container'>
+        <div class='index-thumb-item' style='padding-bottom: <?php echo $padding_bottom; ?>;background-image: url(<?php echo $item['image'] ?>);'>
+          <span class='thumb-item-image' ></span>
+        </div>
+        <?php if ($show_captions): ?>
+          <div style='font-size: 16px; line-height:22px;'><?php echo $item['title'];?></div>
+        <?php endif; ?>
+    </div>
   <?php
 }
 
