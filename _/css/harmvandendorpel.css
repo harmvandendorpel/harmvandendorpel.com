@@ -270,6 +270,7 @@ figure.main-image.landscape img {
 
 .main-image {
 	text-align: center;
+	cursor: zoom-in;
 }
 
 figure.main-image img {
@@ -816,8 +817,6 @@ blockquote {
 	.mobile-thumb-image {
 		display: flex;		
 	}
-
-
 
 	.thumb-container {
 		width: 100%;

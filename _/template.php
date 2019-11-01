@@ -120,14 +120,14 @@ function nav_thumb($item, $show_captions = false) {
 
 function thumb($item, $show_captions = false) {
   $filename = '.'.$item['image'];
-  // list($width, $height) = getimagesize($filename);
-  
-  // $bottomPadding = $height / $width * 100;
-  // echo $bottomPadding;
   $padding_bottom = '100%';
 ?>
   <div class='thumb-container'>
-    <div class='index-thumb-item' style='padding-bottom: <?php echo $padding_bottom; ?>;background-image: url(<?php echo $item['image'] ?>);'>
+    <div
+      class='index-thumb-item'
+      data-viewer-item='<?php echo $item['image'] ?>'
+      data-viewer-caption='<?php echo $item['title']; ?>'
+      style='cursor: zoom-in; padding-bottom: <?php echo $padding_bottom; ?>; background-image: url(<?php echo $item['image'] ?>);'>
       <span class='thumb-item-image' ></span>
     </div>
     <div class='mobile-thumb-image'>
@@ -143,8 +143,7 @@ function thumb($item, $show_captions = false) {
 function item($data) {
   $filename = $data['indexPic'];
   $imgUrl = "/img/$filename";
-  
-  ?>
+?>
     <div class="image-wide-index" style='position: relative;'>
       <a href='/<?php echo $data['perma']; ?>'>
 
@@ -270,7 +269,7 @@ function indexImage($content, $isUpcoming = false) {
     
     $result = '';
     $result .= "<figure class='main-image $class'>";
-    $result .= "<img alt='$caption' src='$url'>";
+    $result .= "<img alt='$caption' src='$url' data-viewer-item='$url' data-viewer-caption='$caption'>";
     $result .= "<figcaption>$figCaption</figcaption>";
     $result .= "</figure>";
     return $result;
@@ -483,4 +482,123 @@ function search($query, $items) {
     }
   }
   return $result;
+}
+
+function viewer () {
+?>
+  <style>
+    #viewer {
+      display: none;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #efefef;
+      cursor: zoom-out;
+    }
+
+    .theme-dark #viewer {
+      background-color: #222;
+    }
+    
+    .viewer-main-image {
+      width: 100%;
+      height: 100%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+    }
+
+    .viewer-caption-container {
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      text-align: center;
+      margin-bottom:10px;
+    }
+
+    .viewer-caption {
+      background-color: white;
+      display: inline;   
+      padding: 2px 12px;   
+      font-size: 16px;
+    }
+
+  </style>
+  <div id='viewer'>
+    <div class='viewer-main-image'></div>
+    <div class='viewer-caption-container'><div class='viewer-caption'></div></div>
+  </div>
+
+  <script>
+    const $images = $('*[data-viewer-item]');
+    const $viewer = $('#viewer')
+    const $caption = $('.viewer-caption')
+    const $captionContainer = $('.viewer-caption-container')
+    
+    let viewerVisible = false
+    let timeoutId = null
+  
+    $(window).mousemove(function () {
+      setTimeoutHideCaption()
+    })
+
+    function setTimeoutHideCaption() {
+      $captionContainer.show()
+      if (timeoutId) {
+        clearTimeout(timeoutId)
+      }
+      timeoutId = setTimeout(function () {
+        if (viewerVisible) {
+          $captionContainer.fadeOut()
+        }
+      }, 2000)
+    }
+
+    $(window).keydown(function (event) {
+      switch(event.which) {
+        case 27:
+          hideViewer() 
+          break
+      }
+    })
+
+    $viewer.click(function () {
+      hideViewer()
+    })
+
+    $images.click(function (event) {
+      const data = $(event.currentTarget).data()
+      const caption = data.viewerCaption
+      const url = data.viewerItem
+      showViewer()
+      showImage(url, caption)
+    })
+
+    function showViewer() {
+      setTimeoutHideCaption()
+      $captionContainer.show()
+      $viewer.show()
+      viewerVisible = true
+    }
+
+    function hideViewer() {
+      $viewer.hide()
+      viewerVisible = false
+    }
+
+    function showImage(url, caption) {
+      $('.viewer-main-image').css('background-image', 'url(' + url + ')')
+      if (caption.trim().length === 0) {
+        $caption.hide()
+      } else {
+        $caption.html(caption)
+        $caption.show()
+      }
+    }
+
+  </script>
+
+<?php
 }

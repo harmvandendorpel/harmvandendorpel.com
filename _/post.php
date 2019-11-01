@@ -124,6 +124,8 @@
 </article>
 <?php backButton(true); ?>
 <?php script(); ?>
+
+<?php viewer(); ?>
 </body>
 </html>
 
@@ -209,7 +211,12 @@ function image($image, $alt, $link) {
     ?>
     <figure class='main-image <?php echo $class; ?>' id='<?php echo $image['filename']?>'>
     <?php if ($link) { ?><a href='<?php echo $link; ?>' target='_blank'><?php } ?>
-    <img alt='<?php echo $alt; ?>' src='<?php echo($url); ?>'>
+    <img
+        alt='<?php echo $alt; ?>'
+        src='<?php echo($url); ?>'
+        data-viewer-item='<?php echo($url); ?>'
+        data-viewer-caption='<?php echo $image['caption'];?>'
+    >
     <?php if ($link) { ?></a><?php } ?>
     <figcaption><?php echo $image['caption']; ?></figcaption>
     </figure><?php
