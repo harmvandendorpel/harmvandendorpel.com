@@ -40,6 +40,8 @@ time, figcaption, figcaption > * {
 
 .back-button {
 	transform: rotate(0deg);
+	font-size: 16px;
+	line-height: 22px;
 }
 
 /* .back-button:before {
@@ -379,7 +381,7 @@ p+p {
 	justify-content: center;
 }
 
-.content.blurry {
+.blurry {
 	filter: blur(10px);
 }
 
@@ -712,6 +714,28 @@ blockquote {
 .image-wide-index:last-child {
 	margin-bottom: 0;
 }
+
+
+.left-gallery-button {
+	align-items: center;
+	justify-content: center;
+	display: inline-flex;
+	flex-direction: row;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 4px 10px 4px 40px;
+	font-size: 16px;
+	line-height: 22px;
+	background-image:url(https://left.gallery/images/logo.png);
+	background-size: 32px;
+	background-repeat: no-repeat;
+	background-position: 5px 4px;
+}
+
+.left-gallery-button:hover {
+	border-color: rgba(0,0,255,0.5);
+}
+
 
 .image-wide-index img {
   max-width: 100%

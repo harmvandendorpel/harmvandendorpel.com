@@ -12,24 +12,28 @@
 ?>
 </head>
 <body itemscope itemtype="http://schema.org/WebPage">
-<div class="index-thumbs">
-  <?php main_thumbs(); ?>
-</div>
-<div class="index-content">
-  <div class="index-index">
-    <div class="index-index-list" id="list-default">
-      <?php foreach($content as $item) item($item); ?>
+<div class='to-blur'>
+  <div class="index-thumbs">
+    <?php main_thumbs(); ?>
+  </div>
+  <div class="index-content">
+    <div class="index-index">
+      <div class="index-index-list" id="list-default">
+        <?php foreach($content as $item) item($item); ?>
+      </div>
     </div>
   </div>
+
+  <div class="floating-logo floating-logo-deli" data-link="/deli-near-info"></div>
+  <a href='https://left.gallery' target='_blank'><div class="floating-logo floating-logo-left"></div></a>
+  <div class="floating-logo floating-logo-death" data-link="/death-imitates-language"></div>
+  <div class="floating-logo floating-logo-dissociations" data-link="http://dissociations.com/804"></div>
+  <div class="floating-logo floating-logo-tokens" data-link="https://tokens.harmvandendorpel.com/"></div>
+  <div style='position:absolute; top: 0; right: 0;box-sizing:border-box;padding:10px 30px;'>
+    <a style='font-size:16px;' href='#' class="btn-mailinglist">Mailinglist</a>&nbsp;&nbsp;
+    <a style='font-size:16px;' href='/about'>Contact</a>
+  </div>
 </div>
-
-
-<div class="floating-logo floating-logo-deli" data-link="/deli-near-info"></div>
-<a href='https://left.gallery' target='_blank'><div class="floating-logo floating-logo-left"></div></a>
-<div class="floating-logo floating-logo-death" data-link="/death-imitates-language"></div>
-<div class="floating-logo floating-logo-dissociations" data-link="http://dissociations.com/804"></div>
-<div class="floating-logo floating-logo-tokens" data-link="https://tokens.harmvandendorpel.com/"></div>
-
 <?php script(); ?>
 <?php footer(); ?>
 
@@ -68,6 +72,6 @@ function main_thumbs () {
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
 <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-<script src="/_/js/index.js?nocache=a1ruy23"></script>
+<script src="/_/js/index.js?nocache=a1ruyx2x3"></script>
 </body>
 </html>

@@ -39,7 +39,8 @@ $(document).ready(function () {
     });
 
     function showForm(e) {
-        $('.content').addClass('blurry');
+        $('.to-blur').addClass('blurry');
+        console.log('xxx')
         $form.addClass('visible');
         mailinglistFormVisible = true;
         if (e) {
@@ -51,7 +52,7 @@ $(document).ready(function () {
     function hideForm(e) {
         if (mailinglistFormVisible) {
             $form.removeClass('visible');
-            $('.content').removeClass('blurry');
+            $('.to-blur').removeClass('blurry');
             mailinglistFormVisible = false;
             if (e) {
                 e.preventDefault();

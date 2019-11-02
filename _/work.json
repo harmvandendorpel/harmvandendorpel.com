@@ -1,41 +1,44 @@
 {
   "index": [
     {
-      "link": "/death-imitates-language",
-      "image": "/img/Sydgator-Zolim-Juancar.jpg",
-      "title": "Death Imitates Language"
+      "link": "/structures-of-redundancy",
+      "image": "/img/cartesian-genetic-programming/cgp-1554306222667-framed.jpg",
+      "title": "Decompressions (Structures of Redundancy)"
     },
+   
     {
       "link": "/nested-exchange",
       "image": "/img/pattern-and-presence/0006.jpg",
       "title": "Nested Exchange"
     },
+    
+    {
+      "link": "/assemblages",
+      "image": "/img/pattern-and-presence/0021.jpg",
+      "title": "Assemblages"
+    },
+    
     {
       "link": "/drawings",
       "image": "/img/automatic-drawings/fingerprinting.jpg",
       "title": "Drawings"
     },
     {
-      "link": "/assemblages",
-      "image": "/img/pattern-and-presence/0021.jpg",
-      "title": "Assemblages"
-    },
-    {
-      "link": "/structures-of-redundancy",
-      "image": "/img/cartesian-genetic-programming/cgp-1554306222667-framed.jpg",
-      "title": "Decompressions"
+      "link": "/death-imitates-language",
+      "image": "/img/Sydgator-Zolim-Juancar.jpg",
+      "title": "Death Imitates Language"
     }
+    
   ],
   "content": [
     {
       "date": "2012-03-02T00:00:00.000Z",
       "indexPic": true,
-      "id": "about",
       "title": "About",
       "tags": "spheres,sculpture,transparent,assemblage,acrylic,hanging",
       "location": "Wilkinson Gallery, London",
       "cat": "exhibitions,London,solo,sculpture",
-      "descr": "Solo show at <span itemscope='' itemtype='http://schema.org/Place'>Wilkinson Gallery, London</span>",
+      "descr": "My very first solo exhibition.",
       "startDate": "2012-03-02",
       "endDate": "2012-04-22",
       "old-related": [
@@ -425,7 +428,7 @@
       "title": "Harm van den Dorpel",
       "perma": "about",
       "tags": "contact,email,bio,about,cv",
-      "descr": "Born in Zaandam, the Netherlands. Lives and works in Berlin.<br><br><!--a href='https://docs.google.com/document/d/1e3_Y-vZKyWIt-iRXt89vLXwpBHYYtJpHlWmm9B5hrb4/' target='_blank'>Curriculum vitae</a --><br><br><a href='mailto:studio@harmvandendorpel.com'>studio@harmvandendorpel.com</a><br><br><a href='https://www.are.na/harm-van-den-dorpel/channels' target='_blank'>Are.na</a><br><a href='https://twitter.com/harmvddorpel'>Twitter</a><br><a href='https://www.instagram.com/harmvandendorpel/' target='_blank'>Instagram</a><br><a href='http://harmvandendorpel.com/feed' target='_blank'>RSS</a>",
+      "descr": "Born in Zaandam, the Netherlands. Lives and works in Berlin.<!--a href='https://docs.google.com/document/d/1e3_Y-vZKyWIt-iRXt89vLXwpBHYYtJpHlWmm9B5hrb4/' target='_blank'>Curriculum vitae</a --><br><br><a href='mailto:studio@harmvandendorpel.com'>studio@harmvandendorpel.com</a><br><br><a href='https://www.are.na/harm-van-den-dorpel/channels' target='_blank'>Are.na</a><br><a href='https://twitter.com/harmvddorpel'>Twitter</a><br><a href='https://www.instagram.com/harmvandendorpel/' target='_blank'>Instagram</a><br><a href='http://harmvandendorpel.com/feed' target='_blank'>RSS</a>",
       "date": "1981-02-09T11:14:16.339Z",
       "pubDate": "1981-02-09T11:14:46.367Z"
     },
@@ -744,14 +747,21 @@
     },
     {
       "title": "Assemblages",
+      "date": "2011-10-10T00:00:00.000Z",
+      "ongoing": true,
       "kind": "Series",
       "perma": "assemblages",
+      "descr": "Sculptures, usually hanging, made from acrylic glass, hand- or CNC cut, printed on with UV cured inks.",
       "related": {
         "caption": "Exhibited at:",
         "content": [
           {
-            "perma": "about-exhibition"
+            "perma": "pattern-and-presence"
           },
+          {
+            "perma": "I-Was-Raised-On-The-Internet"
+          },
+         
           {
             "perma": "release-early-release-often"
           },
@@ -759,10 +769,7 @@
             "perma": "private-settings"
           },
           {
-            "perma": "I-Was-Raised-On-The-Internet"
-          },
-          {
-            "perma": "pattern-and-presence"
+            "perma": "about-exhibition"
           }
         ]
       },
@@ -771,7 +778,8 @@
           "type": "thumbs",
           "content": [
             {
-              "filename": "pattern-and-presence/0019.jpg"
+              "filename": "pattern-and-presence/0019.jpg",
+              "caption": "Assemblage (About press, reviews, etc.), 2014. Ø 95cm."
             },
             {
               "filename": "loomer/sculpture.jpg",
@@ -904,15 +912,15 @@
           "content": [
             {
               "filename": "uninnocent-bystander/uninnocent-bystander-01.jpg",
-              "caption": "Deconpressions (autobreeder), 2019"
+              "caption": "Decompressions (autobreeder), 2019"
             },
             {
               "filename": "uninnocent-bystander/structures-of-redundancy-projection.jpg",
-              "caption": "Deconpressions (autobreeder), 2019"
+              "caption": "Decompressions (autobreeder), 2019"
             },
             {
               "filename": "uninnocent-bystander/s-of-r.jpg",
-              "caption": "Deconpressions (autobreeder), 2019"
+              "caption": "Decompressions (autobreeder), 2019"
             },
             {
               "filename": "uninnocent-bystander/uninnocent-bystander-02.jpg",
@@ -1505,7 +1513,7 @@
       "meta": "In this solo exhibition Harm van den Dorpel features works that react to different moments in the history of cybernetics. ",
       "indexPic": "pattern-and-presence/0013.jpg",
       "date": "2018-02-24T00:00:00.000Z",
-      "descr": "<div style='font-size:16px; padding:3vh; background-color:white;'>We can understand the complexity of the outer world only because our codes for constructing the inner world are similarly diverse and complex. In this sense, we are a metaphor not only for ourselves but also for the larger system in which we are embedded. This leads her into a subtly nuanced analysis of couplings between inner world and outer world, including the insight that because the worlds are coupled, they must in the (last) analysis be regarded as a single system.</div><br>In his first solo exhibition with Upstream Gallery, Harm van den Dorpel features works from multiple series’ that react to different moments in the history of cybernetics. <br><br>Pattern and Presence, the title of the show, is taken from the book <a href='https://monoskop.org/images/5/50/Hayles_N_Katherine_How_We_Became_Posthuman_Virtual_Bodies_in_Cybernetics_Literature_and_Informatics.pdf' target='_blank'>‘How we became posthuman’</a> by N. Katherine Hayles (1999), in which she describes the historical development of cybernetics and politics of disembodiment.<br><br>Van den Dorpel employs various information technologies from this history of cybernetics in his artistic practice. He wants to demystify both the romantic notion of the ‘artistic genius’ as well as the ‘black box’ of computer algorithms, which increasingly influence our personal lives and forecast our political future. Where other traditional artistic mediums require the artist to create the work with their own hand, Van den Dorpel rather programs software and trains it by looping continuous feedback through its output in order to produce works with unpredictable aesthetic outcomes. In this hybrid process, genetic properties are ascribed to the elements and composition that make up his artworks. By selecting and crossbreeding across many generations, “optimal” artworks emerge.<br><br>For this new series of printed transparent work (which is a continuation of his earlier series “Death Imitates Language”) Van den Dorpel focuses on the structure of ‘nesting’: a strong organizing principle found in architecture, software development and human language. The artist draws on this system in order to compare the construction of language to the construction of artworks, and in doing so, refers to the painterly question of how to fill the two-dimensional plane using composition and layering. The genetic algorithms he uses, originate from developments in computer science which emerged in the 1960s through to the 1980s and include: ‘Turtle graphics’ by Seymour Papert (late 1960s); research of feedback, reflexivity, nesting and recursion (Autopoiesis, Varela & Maturana, 1972); and Artificial Life (Christopher Langton, 1986).<br><br>Van den Dorpel also draws on recent developments in blockchain technology, specifically the Ethereum blockchain, in order to assign each work a unique identifier (a hash or fingerprint). This functions as a token which can be traded on the Ethereum blockchain and changes the status of the artwork to a form of currency – or a representation of itself – which circles back to the initial question of embodiment: are the works in fact the works? Or, are they representations of an external, less material essence? Do we <i>have</i> a body or <i>are</i> we a body?",
+      "descr": "<div style='font-size:16px; padding:3vh; background-color:white;'>We can understand the complexity of the outer world only because our codes for constructing the inner world are similarly diverse and complex. In this sense, we are a metaphor not only for ourselves but also for the larger system in which we are embedded. This leads her into a subtly nuanced analysis of couplings between inner world and outer world, including the insight that because the worlds are coupled, they must in the (last) analysis be regarded as a single system.</div><br>In his first solo exhibition with Upstream Gallery, Harm van den Dorpel features works from multiple series’ that react to different moments in the history of cybernetics. <br><br>Pattern and Presence, the title of the show, is taken from the book <a href='https://monoskop.org/images/5/50/Hayles_N_Katherine_How_We_Became_Posthuman_Virtual_Bodies_in_Cybernetics_Literature_and_Informatics.pdf' target='_blank'>‘How we became posthuman’</a> by N. Katherine Hayles (1999), in which she describes the historical development of cybernetics and politics of disembodiment.<br><br>Van den Dorpel employs various information technologies from this history of cybernetics in his artistic practice. He wants to demystify both the romantic notion of the ‘artistic genius’ as well as the ‘black box’ of computer algorithms, which increasingly influence our personal lives and forecast our political future. Where other traditional artistic mediums require the artist to create the work with their own hand, Van den Dorpel rather programs software and trains it by looping continuous feedback through its output in order to produce works with unpredictable aesthetic outcomes. In this hybrid process, genetic properties are ascribed to the elements and composition that make up his artworks. By selecting and crossbreeding across many generations, “optimal” artworks emerge.<br><br>For this new series of printed transparent work (which is a continuation of his earlier series “Death Imitates Language”) Van den Dorpel focuses on the structure of ‘nesting’: a strong organizing principle found in architecture, software development and human language. The artist draws on this system in order to compare the construction of language to the construction of artworks, and in doing so, refers to the painterly question of how to fill the two-dimensional plane using composition and layering. The genetic algorithms he uses, originate from developments in computer science which emerged in the 1960s through to the 1980s and include: ‘Turtle graphics’ by Seymour Papert (late 1960s); research of feedback, reflexivity, nesting and recursion (Autopoiesis, Varela & Maturana, 1972); and Artificial Life (Christopher Langton, 1986).<br><br>Van den Dorpel also draws on recent developments in blockchain technology, specifically the Ethereum blockchain, in order to assign each work a unique identifier (a hash or fingerprint). This functions as a token which can be traded on the Ethereum blockchain and changes the status of the artwork to a form of currency – or a representation of itself – which circles back to the initial question of embodiment: are the works in fact the works? Or, are they representations of an external, less material essence?",
       "parts": [
         {
           "type": "list",
@@ -1515,19 +1523,19 @@
             },
             {
               "filename": "pattern-and-presence/0001.jpg",
-              "caption": "Exchange, 2018"
+              "caption": "Nested Exchange, 2018"
             },
             {
               "filename": "pattern-and-presence/0002.jpg",
-              "caption": "Exchange, 2018"
+              "caption": "Nested Exchange, 2018"
             },
             {
               "filename": "pattern-and-presence/0003.png",
-              "caption": "Exchange (screenshot)"
+              "caption": "Nested Exchange (screenshot)"
             },
             {
               "filename": "pattern-and-presence/0004.jpg",
-              "caption": "Exchange (screenshot)"
+              "caption": "Nested Exchange (screenshot)"
             },
             {
               "filename": "pattern-and-presence/0006.jpg",
@@ -1927,7 +1935,20 @@
       "date": "2017-09-15T00:00:00.000Z",
       "cat": "exhibitions,Germany",
       "indexPic": false,
-      "parts": [
+      "parts": [{
+          "type": "thumbs",
+          "content": [
+            {
+              "filename": "bamboo.jpg",
+              "caption": "Bamboo, 2017. Ballpoint on paper, 29.7 &times; 21cm"
+            },
+            {
+              "filename": "bamboo2.jpg",
+              "caption": "Bamboo, 2017. Ballpoint on paper, 29.7 &times; 21cm"
+            }
+          ]
+        }
+        ,
         {
           "type": "list",
           "content": [
@@ -1957,6 +1978,7 @@
             }
           ]
         }
+        
       ],
       "old-related": [
         "<a href='http://www.kunstvereinfreiburg.de/htmldocs_e/archive.html' target='_blank'>Website Kunstverein Freiburg</a>",
@@ -3064,7 +3086,7 @@
         ]
       },
       "kind": "Series",
-      "descr": "<p>A series of works exploring the development of meaning in generative aesthetics using micro feedback and a genetic algorithm. It consists of a website and a series of printed and boxed collage works.</p><p>The public website contains an enormous population of speculative works. Each of these works are generated by inheriting sequences of information - a sort of DNA - from their ancestors. These ‘genetic’ codes determine which elements appear in the work and in what form or constellation. The population changes over time by means of subjective ('natural') selection by the artist: micro feedback or 'likes'. This feedback - combined with visitor statistics and simulated aging - causes the genetic program to mutate and (arguably) improve over time. </p><p>When creatures reach their optimal state they are 'frozen' and translated into physical objects. These objects are layered in construction, partly transparent and square. They can be hung and watched from all sides.</p>",
+      "descr": "<p>A series of works exploring the development of meaning in generative aesthetics using micro feedback and a genetic algorithm. It consists of a website and a series of printed and boxed collage works.</p><p>The public website contains an enormous population of speculative works. Each of these works are generated by inheriting sequences of information - a sort of DNA - from their ancestors. These ‘genetic’ codes determine which elements appear in the work and in what form or constellation. The population changes over time by means of subjective ('natural') selection by the artist: micro feedback or 'likes'. This feedback - combined with visitor statistics and simulated aging - causes the genetic program to mutate and (arguably) improve over time. </p><p>When creatures reach their optimal state they are 'frozen' and translated into physical objects. These objects are layered in construction, partly transparent and square. They can be hung and watched from all sides.</p><p><a href='https://left.gallery/autobreeder' target='_blank' class='left-gallery-button'>Buy Autobreeder (lite)</a></p>",
       "parts": [
         {
           "type": "thumbs",
@@ -3408,7 +3430,7 @@
       "title": "Event Listeners",
       "perma": "event-listeners",
       "cat": "AI,software,blockchain,store",
-      "descr": "Generative Lindenmayer systems constrained by dissociative feels of social inadequacy<br><br>OSX Screensaver",
+      "descr": "<p>Generative Lindenmayer systems constrained by dissociative feels of social inadequacy. </p><p><a href='https://left.gallery/event-listeners' target='_blank' class='left-gallery-button'>Buy</a></p></p>",
       "old-related": [
         "<a href='https://left.gallery/event-listeners' target='_blank'>Buy on left gallery</a>",
         "<a href='https://en.wikipedia.org/wiki/L-system' target='_blank'>L-systems on Wikipedia</a>"
