@@ -894,4 +894,8 @@ blockquote {
 		max-height: none;
 		cursor: auto;
 	}
+
+	.date {
+		text-align: right;
+	}
 }

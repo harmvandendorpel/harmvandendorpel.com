@@ -568,11 +568,11 @@ function viewer () {
       }
     })
 
-    $viewer.click(function () {
+    $viewer.mousedown(function () {
       hideViewer()
     })
 
-    $images.click(function (event) {
+    $images.mousedown(function (event) {
       const data = $(event.currentTarget).data()
       const caption = data.viewerCaption
       const url = data.viewerItem
