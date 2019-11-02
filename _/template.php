@@ -118,7 +118,7 @@ function nav_thumb($item, $show_captions = false) {
   <?php
 }
 
-function thumb($item, $show_captions = false) {
+function thumb($item) {
   $filename = '.'.$item['image'];
   $padding_bottom = '100%';
 ?>
@@ -134,9 +134,6 @@ function thumb($item, $show_captions = false) {
       <img src='<?php echo $item['image'] ?>' />
       <div style='font-size: 16px; line-height:22px;'><?php echo $item['title'];?></div>
     </div>
-    <?php if ($show_captions): ?>
-      <div style='font-size: 16px; line-height:22px;'><?php echo $item['title'];?></div>
-    <?php endif; ?>
   </div>
 <?php
 }
@@ -536,17 +533,45 @@ function viewer () {
   </div>
 
   <script>
+    const BREAKPOINT = 768
     const $images = $('*[data-viewer-item]');
     const $viewer = $('#viewer')
     const $caption = $('.viewer-caption')
     const $captionContainer = $('.viewer-caption-container')
-    
+    const hideThreshold = 0.7
+
     let viewerVisible = false
     let timeoutId = null
-  
-    $(window).mousemove(function () {
+    let currentImageIndex = null
+
+    $(window).mousemove(function (event) {
+      setCursor(event)
       setTimeoutHideCaption()
     })
+
+    $(window).resize(function () {
+      hideViewer()
+    })
+
+    function relativePos(event) {
+      const pos = event.clientX - $(window).width() / 2
+      const relativePos = pos / $(window).width() * 2
+      return relativePos
+    }
+
+    function setCursor(event) {
+      if (relativePos(event) < -1 * hideThreshold) {
+        $viewer.css({ cursor: 'w-resize'})
+        return
+      }
+
+      if (relativePos(event) > hideThreshold) {
+        $viewer.css({ cursor: 'e-resize'})
+        return
+      }
+      
+      $viewer.css({ cursor: 'zoom-out'})
+    }
 
     function setTimeoutHideCaption() {
       $captionContainer.show()
@@ -561,26 +586,46 @@ function viewer () {
     }
 
     $(window).keydown(function (event) {
+      if (!viewerVisible) return
       switch(event.which) {
         case 27:
           hideViewer() 
           break
+
+        case 39: // right arrow
+          showNextImage()
+          break
+
+        case 37: // left arrow
+          showPreviousImage()
+          break
       }
     })
 
-    $viewer.mousedown(function () {
+    $viewer.mousedown(function (event) {      
+      
+
+      if (relativePos(event) < -1 * hideThreshold) {
+        showPreviousImage()
+        return
+      }
+
+      if (relativePos(event) > hideThreshold) {
+        showNextImage()
+        return
+      }
+
       hideViewer()
     })
 
-    $images.mousedown(function (event) {
-      const data = $(event.currentTarget).data()
-      const caption = data.viewerCaption
-      const url = data.viewerItem
-      showViewer()
-      showImage(url, caption)
+    $images.each((index, image) => {
+      $(image).mousedown(function (event) {        
+        showImage(index)
+      })
     })
 
     function showViewer() {
+      if ($(window).width() < BREAKPOINT) return
       setTimeoutHideCaption()
       $captionContainer.show()
       $viewer.show()
@@ -592,7 +637,14 @@ function viewer () {
       viewerVisible = false
     }
 
-    function showImage(url, caption) {
+    function showImage(index) {
+      const $image = $($images[index])
+      const data = $image.data()
+
+      const caption = data.viewerCaption
+      const url = data.viewerItem
+
+      currentImageIndex = index
       $('.viewer-main-image').css('background-image', 'url(' + url + ')')
       if (caption.trim().length === 0) {
         $caption.hide()
@@ -600,8 +652,18 @@ function viewer () {
         $caption.html(caption)
         $caption.show()
       }
+      showViewer()
     }
 
+    function showNextImage() {
+      const nextIndex = (currentImageIndex + 1) % $images.length
+      showImage(nextIndex)
+    }
+
+    function showPreviousImage() {
+      const previousIndex = currentImageIndex === 0 ? $images.length - 1 : currentImageIndex - 1
+      showImage(previousIndex)
+    }
   </script>
 
 <?php

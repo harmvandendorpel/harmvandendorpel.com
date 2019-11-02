@@ -4457,6 +4457,7 @@
       ],
       "perma": "release-early-release-often",
       "parts": [
+        {"kind":"list","content":[
         {
           "filename": "/release/ReleaseEarlyAbrons_08.jpg",
           "left": -45,
@@ -4503,6 +4504,7 @@
           "left": 233,
           "top": 57
         }
+      ]}
       ],
       "pubDate": "2013-04-19T00:00:00.000Z",
       "tags": "collage,sculpture,spheres"

@@ -237,7 +237,6 @@ function process_part($part) {
 
 function show_thumbs($thumbs) {
   $content = $thumbs['content'];
-  $show_captions = $thumbs['captions'];
   echo '<div class="index-thumbs">';
   
   foreach ($content as $thumb)  {
@@ -248,7 +247,7 @@ function show_thumbs($thumbs) {
       link => '',
       image => $link
     );
-    thumb($data, $show_captions);
+    thumb($data);
   }
 
   echo '</div>';
