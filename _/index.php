@@ -8,6 +8,7 @@
   $description = 'Remember what it looked like before it meant anything?';
   $keywords = 'art,artist,education,decentralisation,aesthetics,learning,algorithms,platforms,developer,berlin,programming,sculpture,collage';
 
+  $imgUrl = '/img/rite-of-access/rite-of-access-04.jpg';
   meta($title, $description, $imgUrl, 'https://harmvandendorpel.com/', $keywords);
 ?>
 </head>
