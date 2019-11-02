@@ -871,13 +871,27 @@ blockquote {
 	margin-bottom: 22px;
 }
 
+
+.top-nav {
+	position:absolute; 
+	top: 0;
+	right: 0;
+	box-sizing:border-box;
+	padding:10px 30px;
+} 
+
+
 @media only screen and (max-width: 768px) {
+	.top-nav {
+			padding: 12px;
+	}
+
 	.description-columns {
 		column-count: 1;
 	}
 
   body {
-    margin: 12px 12px 12px 12px;
+    margin: 55px 12px 12px 12px;
 	}
 	
 	.index-thumbs {

@@ -29,7 +29,7 @@
   <div class="floating-logo floating-logo-death" data-link="/death-imitates-language"></div>
   <div class="floating-logo floating-logo-dissociations" data-link="http://dissociations.com/804"></div>
   <div class="floating-logo floating-logo-tokens" data-link="https://tokens.harmvandendorpel.com/"></div>
-  <div style='position:absolute; top: 0; right: 0;box-sizing:border-box;padding:10px 30px;'>
+  <div class='top-nav'>
     <a style='font-size:16px;' href='#' class="btn-mailinglist">Mailinglist</a>&nbsp;&nbsp;
     <a style='font-size:16px;' href='/about'>Contact</a>
   </div>
