@@ -54,14 +54,10 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
   }
 
 	function getImageUrl($item) {
-		if (array_key_exists('images', $item) && count($item["images"]["filenames"])) {
+		if (array_key_exists('parts', $item) && count($item["parts"])) {
 			$path = "/img";
-			if (array_key_exists('path', $item["images"])) {
-				$path .= $item["images"]["path"];
-      } else {
-				$path = $path."/";
-			}
-			$filename = str_replace(' ', '%20',$item["images"]["filenames"][0]["filename"]);
+
+			$filename = str_replace(' ', '%20',$item["parts"][0]["filename"]);
 			$imgUrl = $path.$filename;
 			return $imgUrl;
 		}
