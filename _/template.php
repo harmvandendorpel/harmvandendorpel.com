@@ -110,9 +110,7 @@ function nav_thumb($item, $show_captions = false) {
         <div class='mobile-thumb-image'>
           <img src='<?php echo $item['image'] ?>' />
         </div>
-        <?php if ($show_captions): ?>
-          <div style='font-size: 16px; line-height:22px;'><?php echo $item['title'];?></div>
-        <?php endif; ?>
+        <div class='mobile-thumb-image-caption'><?php echo $item['title'];?></div>
     </div>
     </a>
   <?php
@@ -132,7 +130,7 @@ function thumb($item) {
     </div>
     <div class='mobile-thumb-image'>
       <img src='<?php echo $item['image'] ?>' />
-      <div style='font-size: 16px; line-height:22px;'><?php echo $item['title'];?></div>
+      <div class='mobile-thumb-image-caption'><?php echo $item['title'];?></div>
     </div>
   </div>
 <?php
@@ -143,7 +141,7 @@ function item($data) {
   $imgUrl = "/img/$filename";
 ?>
     <div class="image-wide-index" style='position: relative;'>
-      <a href='/<?php echo $data['perma']; ?>'>
+      <a href='/<?php echo $data['perma']; ?>' class='item-item-item'>
 
         <div class='image-container-proportional'>
           <div class='image-loading-watermark'>
@@ -155,8 +153,8 @@ function item($data) {
         </div>
         <img src='<?php echo $imgUrl; ?>' class='image-wide-index-mobile-image' />
         <div class='index-header-container'>
-          <h1 style='background-color: white; display: inline; padding: 10px 15px;'><?php echo $data['title']; ?></h1>
-          <div></div>
+          <h1 style="margin:0"><?php echo $data['title']; ?></h1>
+          <div><?php echo $data['location']; ?></div>
         </div>
       </a>
     </div>

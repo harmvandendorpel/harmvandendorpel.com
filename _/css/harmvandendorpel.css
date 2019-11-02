@@ -32,8 +32,6 @@ time, figcaption, figcaption > * {
 	width: 100%;
 }
 
-
-
 @supports (font-variation-settings: normal) {
   html {
     font-family: 'agipo-regular', 'Inter UI var alt', sans-serif; 
@@ -389,6 +387,13 @@ p+p {
 	display: flex;
 }
 
+.item-item-item {
+	border:none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .floating-logo {
 	position: fixed;
 	width: 50px;
@@ -593,12 +598,20 @@ blockquote {
 	text-align: center;
 	position: absolute;
 	bottom: 0;
-	width:100%;
 	box-sizing: border-box;
 	padding: 3px 10px;
 	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 10px 20px;
+	background-color: white;
+	font-size: 16px;
+	text-align: center;
+	max-width: calc(100% - 44px);
 }
-
 
 .image-loading-watermark {
 	background-image: url(/img/raster.png);
@@ -712,7 +725,6 @@ blockquote {
 	justify-content:center;
 	flex-wrap: wrap;
 	margin-bottom:50px;
-
 }
 
 .related-item {
@@ -771,6 +783,7 @@ blockquote {
 
 .mobile-thumb-image {
 	display:none;
+	/* margin-bottom: 22px; */
 }
 
 .mobile-thumb-image > img {
@@ -824,13 +837,19 @@ blockquote {
 		margin-bottom: 0;
 	} */
 }
+
+
+.mobile-thumb-image-caption {
+	font-size: 16px;
+	line-height:22px;
+	margin-bottom: 22px;
+}
+
 @media only screen and (max-width: 768px) {
 	.description-columns {
 		column-count: 1;
 	}
-}
 
-@media only screen and (max-width: 768px) {
   body {
     margin: 12px 12px 12px 12px;
 	}
@@ -846,6 +865,7 @@ blockquote {
 
 	.image-wide-index {
 		margin: 0;
+		margin-bottom: 22px;
 	}
 
 	.floating-top-left-nav {
@@ -899,11 +919,36 @@ blockquote {
 		cursor: auto;
 	}
 
+	figure.main-image+figure.main-image {
+		margin-top: 0px;
+	}
+
 	.main-image {
 		cursor: auto;
+		margin-bottom: 22px;
 	}
 
 	.date {
 		text-align: right;
+	}
+
+	.related-item {
+		width: 100%;
+		max-width: none;
+		margin: 11px 0;
+	}
+
+	.related-item:last-child {
+		margin-bottom: 0;
+	}
+
+	.related-item-intro {
+		padding: 0;
+		margin: 0;
+	}
+
+	.related-items-container {
+		margin-top: 50px;
+		margin-bottom: 0;
 	}
 }

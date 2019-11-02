@@ -23,10 +23,412 @@
     {
       "link": "/structures-of-redundancy",
       "image": "/img/cartesian-genetic-programming/cgp-1554306222667-framed.jpg",
-      "title": "Structures of Redundancy"
+      "title": "Decompressions"
     }
   ],
   "content": [
+    {
+      "date": "2012-03-02T00:00:00.000Z",
+      "indexPic": true,
+      "id": "about",
+      "title": "About",
+      "tags": "spheres,sculpture,transparent,assemblage,acrylic,hanging",
+      "location": "Wilkinson Gallery, London",
+      "cat": "exhibitions,London,solo,sculpture",
+      "descr": "Solo show at <span itemscope='' itemtype='http://schema.org/Place'>Wilkinson Gallery, London</span>",
+      "startDate": "2012-03-02",
+      "endDate": "2012-04-22",
+      "old-related": [
+        "<a itemprop='url' href='http://www.wilkinsongallery.com/system/e_pdfs/79/original/TEXT_A4.pdf?1329478038' target='_blank'>Press release by Travis Jeppesen</a>",
+        "<a itemprop='url' href='http://www.wilkinsongallery.com/exhibitions/70-HarmVanDenDorpelAbout' target='_blank'>Documentation on Dissociations</a>"
+      ],
+      "image": {
+        "imageSource": "img/slideshows/about/WG-HVDD-INST12-01.jpg",
+        "imageAlt": "",
+        "imageCaption": ""
+      },
+      "perma": "about-exhibition",
+      "parts": [
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "about/WG-HVDD-INST12-01.jpg",
+              "scale": "cover",
+              "left": -34,
+              "top": 22
+            },
+            {
+              "filename": "about/2012_03_01-09.jpg",
+              "left": -135,
+              "top": 120
+            },
+            {
+              "filename": "about/WG_HVDD-INST12-04.jpg",
+              "scale": "cover",
+              "left": 218,
+              "top": 29
+            },
+            {
+              "filename": "about/assemblage_chain.jpg",
+              "left": 483,
+              "top": 174
+            },
+            {
+              "filename": "about/WG_HVDD-INST12-05-x.jpg",
+              "scale": "cover"
+            },
+            {
+              "filename": "about/2012_03_01-14.jpg",
+              "scale": "cover"
+            },
+            {
+              "filename": "about/huh.jpg"
+            },
+            {
+              "filename": "about/WG-HVDD-00109-072.jpg"
+            }
+          ],
+          "pubDate": "2012-03-02T00:00:00.000Z"
+        },
+        {
+          "date": "2014-10-17T00:00:00.000Z",
+          "orientation": "landscape",
+          "link": "http://didacticpoetry.com",
+          "caption": "<a href='http://didacticpoetry.com' target='_blank'>Didactic Poetry .com</a>, 2014",
+          "cat": "websites,software",
+          "perma": "didactic-poetry",
+          "title": "Didactic Poetry",
+          "old-related": [
+            "<a href='http://didacticpoetry.com' target='_blank'>http://didacticpoetry.com</a>"
+          ],
+          "parts": [
+            {
+              "type": "list",
+              "content": [
+                {
+                  "filename": "didacticpoetry-screenshot.jpg"
+                }
+              ]
+            }
+          ],
+          "pubDate": "2014-10-17T00:00:00.000Z"
+        },
+        {
+          "date": "2014-10-17T00:00:00.000Z",
+          "cat": "websites,software",
+          "perma": "deep-tissue",
+          "title": "deep tissue",
+          "parts": [
+            {
+              "type": "list",
+              "content": [
+                {
+                  "filename": "deeptissue-screenshot.jpg",
+                  "caption": "screenshot"
+                }
+              ]
+            }
+          ],
+          "old-related": [
+            "<a href='http://deeptis.su/e'>http://deeptis.su/e</a>"
+          ],
+          "pubDate": "2014-10-17T00:00:00.000Z"
+        },
+        {
+          "date": "2013-10-17T00:00:00.000Z",
+          "orientation": "landscape",
+          "link": "http://wishingwell.biz/",
+          "descr": "Wishing well website with PayPal micro payment option, made in collaboration with Jonas Lund",
+          "parts": [
+            {
+              "type": "list",
+              "content": [
+                {
+                  "filename": "wishingwellbiz-screenshot.jpg"
+                }
+              ]
+            }
+          ],
+          "cat": "websites,software",
+          "perma": "wishingwellbiz",
+          "title": "Wishing Well .biz",
+          "old-related": [
+            "<a href='http://wishingwell.biz/' target='_blank'>http://wishingwell.biz/</a>"
+          ],
+          "pubDate": "2013-10-17T00:00:00.000Z"
+        },
+        {
+          "date": "2012-10-17T00:00:00.000Z",
+          "orientation": "landscape",
+          "cat": "websites,video,software",
+          "perma": "the-four-master-tropes",
+          "title": "The Four Master Tropes",
+          "old-related": [
+            "<a href='http://thef.ourm.aste.rtrop.es/' target='_blank'>http://thef.ourm.aste.rtrop.es/</a>"
+          ],
+          "descr": "<q>The Four Master Tropes, 2011 reflects the artist's ambivalent engagement with, and occasional misreading of, contemporary philosophy gathered via Kindle highlights. These are presented as YouTube annotations layered on top of artwork created by users from the social network deviantart.com, which foreground ‘destabilised’ photographs of Van den Dorpel's studio. A jarring piece of music, made by Van den Dorpel in 2002, plays as the soundtrack.</q> <br><br>HD Video with YouTube annotations (4:52).",
+          "parts": [
+            {
+              "type": "list",
+              "content": [
+                {
+                  "filename": "thefourmmastertropes-screenshot.jpg",
+                  "caption": "video still"
+                },
+                {
+                  "filename": "thefourmastertropes-02.jpg",
+                  "caption": "video still"
+                },
+                {
+                  "filename": "thefourmastertropes-03.jpg",
+                  "caption": "video still"
+                },
+                {
+                  "filename": "thefourmastertropes-04.jpg",
+                  "caption": "video still"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pubDate": "2012-10-17T00:00:00.000Z"
+    },
+    {
+      "date": "2013-10-17T00:00:00.000Z",
+      "link": "http://dissociations.com/",
+      "parts": [
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "dissociations-screenshot.jpg"
+            }
+          ]
+        }
+      ],
+      "cat": "websites,software",
+      "perma": "dissociations",
+      "tags": "archive,Aby Warburg",
+      "title": "Dissociations",
+      "descr": "Algorithmic generative studio, predecessor of Deli Near Info.",
+      "old-related": [
+        "<a href='http://dissociations.com/' target='_blank'>http://dissociations.com/</a>"
+      ],
+      "xseeAlso": [
+        "<a href='/deli-near-info'>Deli Near Info</a>"
+      ],
+      "pubDate": "2013-10-17T00:00:00.000Z"
+    },
+    {
+      "date": "2010-10-17T00:00:00.000Z",
+      "orientation": "landscape",
+      "descr": "This algorithmically generated - but manually edited - video documents the process and narrative of making collages over the course of 2 months. Timestamped screenshots of all attempts, variations, and 'inspirations' were collected and combined with rewritten phrases of advice given by business experts, martial arts gurus, software developers and Jacques Derrida. The background music I made in 2002 and was never used before for anything particular. <br><br>HD Video 720p (5:05)<br><br><iframe style='display: block; clear:both;width:100%;max-width: 1280px; height: 506px;' src='//www.youtube.com/embed/7xx4M8lXxW8?loop=1&rel=0&vq=hd720&controls=0&showinfo=0&autoplay=1' frameborder='0' allowfullscreen></iframe>",
+      "cat": "video,software",
+      "perma": "strategies",
+      "title": "Strategies",
+      "parts": [
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "strategiesscreenshot_01.jpg"
+            },
+            {
+              "filename": "strategies-harmvandendorpel-01.jpg"
+            },
+            {
+              "filename": "strategies-harmvandendorpel-03.jpg"
+            },
+            {
+              "filename": "strategies-harmvandendorpel-02.jpg"
+            }
+          ]
+        }
+      ],
+      "pubDate": "2010-10-17T00:00:00.000Z"
+    },
+    {
+      "date": "2013-10-17T00:00:00.000Z",
+      "title": "Post-Net Aesthetics",
+      "descr": "Panel discussion at the Institute Of Contemporary Arts in London, presented by Rhizome and organized by Karen Archey. Participating speakers were Harm van den Dorpel, Rozsa Farkas, Ben Vickers and Josephine Berry Slater.",
+      "perma": "post-net-aesthetics",
+      "cat": "talks, London",
+      "old-related": [
+        "<a href='https://www.ica.org.uk/whats-on/post-net-aesthetics' target='_blank'>Announcement on the ICA website</a>",
+        "<a href='http://classic.rhizome.org/editorial/2013/nov/1/postinternet/' target='_blank'>Post by Michael Conner on Rhizome</a>"
+      ],
+      "pubDate": "2013-10-17T00:00:00.000Z"
+    },
+    {
+      "date": "2009-10-10T00:00:00.000Z",
+      "orientation": "landscape",
+      "link": "http://dubaibiennale.com/",
+      "caption": "<a href='http://dubaibiennale.com/' target='_blank'>Dubai Biennale .com</a> (showreel), 2009",
+      "imageSource": "img/showreel-screenshot.jpg",
+      "cat": "websites,video,software",
+      "perma": "showreel",
+      "title": "Showreel (Dubai Biennale)",
+      "descr": "Infinite trailer for a non-existing art biennale. HD video (19:49)",
+      "parts": [
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "showreel-screenshot.jpg",
+              "caption": "video still"
+            }
+          ]
+        }
+      ],
+      "old-related": [
+        "<a href='http://dubaibiennale.com/' target='_blank'>http://dubaibiennale.com/</a>"
+      ],
+      "xseeAlso": [
+        "<a href='/strategies'>Strategies</a>"
+      ],
+      "pubDate": "2009-10-10T00:00:00.000Z"
+    },
+    {
+      "date": "2008-08-09T22:00:00.000Z",
+      "orientation": "landscape",
+      "xlink": "http://etherealself.com/",
+      "cat": "websites,software",
+      "perma": "ethereal-self",
+      "title": "ethereal self",
+      "old-related": [
+        "<a href='http://etherealself.com/' target='_blank'>http://etherealself.com/</a>"
+      ],
+      "parts": [
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "etherealself-screenshot.jpg"
+            }
+          ]
+        }
+      ],
+      "xseeAlso": [
+        "<a href='/ethereal-others'>Ethereal Others</a>"
+      ],
+      "tags": "surveillance,panopticon,lure,privacy,anthropology",
+      "pubDate": "2008-08-09T22:00:00.000Z"
+    },
+    {
+      "date": "2008-10-10T00:00:00.000Z",
+      "orientation": "landscape",
+      "xlink": "http://etherealothers.com/",
+      "cat": "websites,software",
+      "perma": "ethereal-others",
+      "title": "ethereal others",
+      "old-related": [
+        "<a href='http://etherealothers.com/' target='_blank'>http://etherealothers.com/</a>"
+      ],
+      "parts": [
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "etherealothers-screenshot.jpg"
+            }
+          ]
+        }
+      ],
+      "xseeAlso": [
+        "<a href='/ethereal-self'>Ethereal Self</a>"
+      ],
+      "tags": "surveillance,panopticon,lure,privacy,value",
+      "pubDate": "2008-10-10T00:00:00.000Z"
+    },
+    {
+      "date": "2007-10-10T00:00:00.000Z",
+      "orientation": "landscape",
+      "link": "http://stillintherunningtowardsbecoming.com/",
+      "caption": "<a href='http://stillintherunningtowardsbecoming.com/' target='_blank'>Still In The Running Towards Becoming .com</a>, 2007",
+      "cat": "websites,software",
+      "perma": "sitrtb",
+      "title": "sitrtb",
+      "parts": [
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "stillintherunningtowardsbecoming.jpg"
+            }
+          ]
+        }
+      ],
+      "old-related": [
+        "<a href='http://stillintherunningtowardsbecoming.com/' target='_blank'>http://stillintherunningtowardsbecoming.com/</a>"
+      ],
+      "tags": "Mark Rothko,clock,recurrence, sound,time,color cycling,pop culture",
+      "pubDate": "2007-10-10T00:00:00.000Z"
+    },
+    {
+      "date": "2008-10-10T00:00:00.000Z",
+      "orientation": "landscape",
+      "link": "http://verybetastill.com/",
+      "caption": "<a href='http://verybetastill.com/' target='_blank'>Very Beta Still .com</a>, 2008",
+      "cat": "websites,software",
+      "perma": "verybetastill",
+      "descr": "Crossfading algorithmic music aggregator",
+      "title": "very beta still",
+      "old-related": [
+        "<a href='http://verybetastill.com/' target='_blank'>http://verybetastill.com/</a>"
+      ],
+      "tags": "aggregator,algorithm,content,redistribution,shuffle,mix,crossfade",
+      "pubDate": "2008-10-10T00:00:00.000Z"
+    },
+    {
+      "date": "2008-10-10T00:00:00.000Z",
+      "orientation": "landscape",
+      "link": "http://clubinternet.org",
+      "caption": "<a href='http://clubinternet.org' target='_blank'>Club Internet .org</a>, 2008",
+      "cat": "websites,software,curatorial",
+      "perma": "clubinternet",
+      "title": "club internet",
+      "descr": "Club Internet was an online exhibition 'space' curated by various people and existed around 2008 and 2009.️️",
+      "old-related": [
+        "<a href='http://clubinternet.org' target='_blank'>http://clubinternet.org/</a>"
+      ],
+      "xseeAlso": [
+        "<a href='/leftgallery'>left gallery</a>"
+      ],
+      "pubDate": "2008-10-10T00:00:00.000Z"
+    },
+    {
+      "date": "2010-10-20T00:00:00.000Z",
+      "title": "Free",
+      "perma": "free",
+      "location": "New Museum, New York City",
+      "descr": "Group exhibition at the New Museum New York City, curated by Lauren Cornell",
+      "cat": "New York City, exhibitions",
+      "parts": [
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "freee.jpg"
+            }
+          ]
+        }
+      ],
+      "old-related": [
+        "<a href='https://archive.newmuseum.org/exhibitions/1092' target='_blank'>More info</a>"
+      ],
+      "pubDate": "2010-10-20T00:00:00.000Z"
+    },
+    {
+      "hideOnIndex": true,
+      "title": "Harm van den Dorpel",
+      "perma": "about",
+      "tags": "contact,email,bio,about,cv",
+      "descr": "Born in Zaandam, the Netherlands. Lives and works in Berlin.<br><br><!--a href='https://docs.google.com/document/d/1e3_Y-vZKyWIt-iRXt89vLXwpBHYYtJpHlWmm9B5hrb4/' target='_blank'>Curriculum vitae</a --><br><br><a href='mailto:studio@harmvandendorpel.com'>studio@harmvandendorpel.com</a><br><br><a href='https://www.are.na/harm-van-den-dorpel/channels' target='_blank'>Are.na</a><br><a href='https://twitter.com/harmvddorpel'>Twitter</a><br><a href='https://www.instagram.com/harmvandendorpel/' target='_blank'>Instagram</a><br><a href='http://harmvandendorpel.com/feed' target='_blank'>RSS</a>",
+      "date": "1981-02-09T11:14:16.339Z",
+      "pubDate": "1981-02-09T11:14:46.367Z"
+    },
     {
       "title": "Harm van den Dorpel Honors Hacktivists and Netizens in London",
       "link": "https://www.sleek-mag.com/article/harm-van-den-dorpel-honors-hacktivists-and-netizens-in-london/",
@@ -196,7 +598,7 @@
           }
         ]
       },
-      "title": "Structures of Redundancy",
+      "title": "Decompressions",
       "kind": "Series",
       "descr": "Compositions evolving from primitive Turing machines. The more I lose myself in coding, the more I encounter historical computer science and AI relics. The algorithm used here is my contemporary interpretation of Cartesian genetic programming, which was invented in 1999.<br><br>UltraChrome HDR print on Hahnemühle paper. Each work unique edition.",
       "date": "2019-05-02T00:00:00.000Z",
@@ -236,7 +638,7 @@
           "content": [
             {
               "filename": "uninnocent-bystander/uninnocent-bystander-01.jpg",
-              "caption": "Structures of Redundancy (autobreeder), 2019"
+              "caption": "Decompressions (autobreeder), 2019"
             }
           ]
         },
@@ -348,23 +750,18 @@
         "caption": "Exhibited at:",
         "content": [
           {
-            "caption": "Wilkinson Gallery London",
             "perma": "about-exhibition"
           },
           {
-            "caption": "Abrons Art Center, NYC",
             "perma": "release-early-release-often"
           },
           {
-            "caption": "Museum of Modern Art Warsaw",
             "perma": "private-settings"
           },
           {
-            "caption": "Museum of Contemporary Art Chicago",
             "perma": "I-Was-Raised-On-The-Internet"
           },
           {
-            "caption": "Upstream Gallery Amsterdam",
             "perma": "pattern-and-presence"
           }
         ]
@@ -507,15 +904,15 @@
           "content": [
             {
               "filename": "uninnocent-bystander/uninnocent-bystander-01.jpg",
-              "caption": "Structures of Redundancy (autobreeder), 2019"
+              "caption": "Deconpressions (autobreeder), 2019"
             },
             {
               "filename": "uninnocent-bystander/structures-of-redundancy-projection.jpg",
-              "caption": "Structures of Redundancy (autobreeder), 2019"
+              "caption": "Deconpressions (autobreeder), 2019"
             },
             {
               "filename": "uninnocent-bystander/s-of-r.jpg",
-              "caption": "Screenshot of Structures of Redundancy (autobreeder), 2019"
+              "caption": "Deconpressions (autobreeder), 2019"
             },
             {
               "filename": "uninnocent-bystander/uninnocent-bystander-02.jpg",
@@ -3073,1386 +3470,962 @@
             "<a href='/strategies'>Strategies</a>"
           ],
           "pubDate": "2014-11-30T00:00:00.000Z"
-        },
-        {
-          "date": "2014-11-15T00:00:00.000Z",
-          "title": "Collecting Mode",
-          "perma": "collecting-mode",
-          "descr": "Group exhibition at <a href='http://neumeisterbaram.com/' target='_blank'>Neumeister Bar-Am</a>, Berlin",
-          "cat": "Germany, exhibitions",
-          "private": true,
-          "pubDate": "2014-11-15T00:00:00.000Z"
-        },
-        {
-          "hideOnIndex": false,
-          "private": true,
-          "date": "2014-10-24T00:00:00.000Z",
-          "title": "Unoriginal Genius",
-          "perma": "unoriginal-genius",
-          "descr": "Group exhibition at Carrol / Fletcher, London. Curated by Domenico Quaranta.",
-          "cat": "exhibitions, London",
-          "old-related": [
-            "<a href='http://www.carrollfletcher.com/usr/documents/exhibitions/press_release_url/33/unoriginal-genius_press-release.pdf' target='_blank'>Press release</a>"
-          ],
-          "pubDate": "2014-10-24T00:00:00.000Z"
-        },
-        {
-          "title": "Emergent Conclusions",
-          "perma": "emergent-conclusions",
-          "location": "The Composing Rooms, Berlin",
-          "descr": "Online solo exhibition at The Composing Rooms, Berlin<br>Curated by Ché Zara Blomfield",
-          "cat": "exhibitions, Germany,solo",
-          "date": "2014-11-14T00:00:00.000Z",
-          "old-related": [
-            "<a href='http://room.thecomposingrooms.com/02/harmvandendorpel.txt' target='_blank'>Press release</a>"
-          ],
-          "parts": [
-            {
-              "type": "list",
-              "content": [
-                {
-                  "filename": "strategies.jpg",
-                  "caption": "Strategies, 2009 (video still)"
-                }
-              ],
-              "xseeAlso": [
-                "<a href='/showreel'>Showreel (Dubai Biennale)</a>",
-                "<a href='/strategies'>Strategies</a>",
-                "<a href='/the-four-master-tropes'>The Four Master Tropes</a>",
-                "<a href='/deep-tissue'>Deep Tissue</a>"
-              ],
-              "pubDate": "2014-11-14T00:00:00.000Z"
-            },
-            {
-              "date": "2014-07-16T00:00:00.000Z",
-              "title": "atractivoquenobello: \"An interview with Harm van den Dorpel\" by Jean Kay",
-              "perma": "interview-aqnb",
-              "cat": "writing",
-              "link": "http://www.aqnb.com/2014/07/16/an-interview-with-harm-van-den-dorpel",
-              "pubDate": "2014-07-16T00:00:00.000Z"
-            },
-            {
-              "date": "2017-12-01T00:00:00.000Z",
-              "title": "Kunstgespräche: \"Death Imitates Language\", interviewed by Nick Koppenhagen (podcast)",
-              "cat": "writing",
-              "tags": "podcast",
-              "link": "http://kunstgespraeche.com/harm-van-den-dorpel/",
-              "pubDate": "2017-12-01T00:00:00.000Z",
-              "perma": "kunstgespr-che-death-imitates-language-interviewed-by-nick-koppenhagen-podcast"
-            },
-            {
-              "date": "2014-06-15T00:00:00.000Z",
-              "title": "Structures and Textures: Databases",
-              "perma": "structures-and-textures-databases",
-              "location": "Foam, Amsterdam",
-              "descr": "Panel discussion at Foam Amsterdam, organized by Melanie Bühler",
-              "cat": "talks,Netherlands",
-              "old-related": [
-                "<a href='http://lunch-bytes.com/events/past/lunch-bytes-21/' target='_blank' itemprop='url'>More information</a>"
-              ],
-              "parts": [
-                {
-                  "type": "list",
-                  "content": [
-                    {
-                      "filename": "Summer-Amsterdam-Flyer.jpg"
-                    }
-                  ],
-                  "pubDate": "2014-06-15T00:00:00.000Z"
-                }
-              ]
-            },
-            {
-              "date": "2014-06-05T00:00:00.000Z",
-              "title": "Wherever I Touch",
-              "perma": "wherever-i-touch",
-              "descr": "<q>Wherever I touch</q> at <a href='http://officesim.com/projects/wherever-i-touch' target='_blank'>SIM</a>",
-              "cat": "sound",
-              "pubDate": "2014-06-05T00:00:00.000Z"
-            },
-            {
-              "date": "2014-06-05T00:00:00.000Z",
-              "title": "General Fine Arts",
-              "perma": "general-fine-arts",
-              "descr": "Contribution to <a href='http://generalfinearts.net/' target='_blank' itemprop='url'>General Fine Arts</a>",
-              "old-related": [
-                "<a target='_blank' href='http://generalfinearts.net/#read/6e9107eb-d7e7-4c79-a863-fc03fa0f591c'>Contribution</a>"
-              ],
-              "cat": "Germany",
-              "pubDate": "2014-06-05T00:00:00.000Z"
-            },
-            {
-              "date": "2015-06-11T00:00:00.000Z",
-              "title": "Vienna Biennale 2015: Ideas For Change",
-              "location": "Museum for Applied Arts, Vienna",
-              "descr": "Group show at the MAK, Vienna<br>Curated by Marlies Wirth",
-              "cat": "exhibitions, Vienna",
-              "old-related": [
-                "<a href='http://www.mak.at/jart/prj3/mak/main.jart?content-id=1343388632770&rel=en&article_id=1427617290522&event_id=1427617290524' target='_blank'>MAK Website</a>",
-                "<a href='http://www.e-flux.com/announcements/exhibitions-and-projects-for-vienna-biennale-2015/' target='_blank'>e-flux announcement</a>",
-                "Observer: <a href='http://observer.com/2015/04/viennese-art-museum-uses-bitcoin-to-buy-a-screensaver/' target='_blank'>Viennese Art Museum Uses Bitcoin to Buy a (&hellip;)</a>",
-                "Art News: <a href='http://www.artnews.com/2015/04/24/mak-vienna-becomes-first-museum-to-acquire-art-using-bitcoin-a-harm-van-den-dorpel/'>MAK Vienna Becomes First Museum to Use Bitcoin (&hellip;)</a>"
-              ],
-              "startDate": "2015-06-11",
-              "endDate": "2015-10-04",
-              "perma": "ideas-for-change",
-              "xseeAlso": [
-                "<a href='/event-listeners'>Event Listeners</a>"
-              ],
-              "pubDate": "2015-06-11T00:00:00.000Z"
-            },
-            {
-              "date": "2015-05-15T00:00:00.000Z",
-              "indexPic": false,
-              "id": "inflected-objects",
-              "location": "Swiss Institute, Milan",
-              "descr": "Group show at the Swiss Institute, Milan<br>Curated by Melanie Bühler and Valerio Mannucci",
-              "title": "Inflected Objects - Rising Automated Reasoning",
-              "cat": "Milan, exhibitions",
-              "old-related": [
-                "<a href='http://www.inflected-objects.com/' target='_blank'>Exhibition series website</a>",
-                "<a href='http://delinear.info/105ef9e0ae' target='_blank'>On Deli Near Info</a>",
-                "<a href='http://www.istitutosvizzero.it/Uploads/File/PR_Inflected_Objects_Abstraction_ok.pdf' target='_blank'>Press release</a>"
-              ],
-              "startDate": "2015-05-15",
-              "endDate": "2015-06-13",
-              "perma": "inflected-objects",
-              "parts": [
-                {
-                  "type": "list",
-                  "content": [
-                    {
-                      "filename": "inflected-objects/IMG_7818-web.jpg",
-                      "caption": "Incompatibility Representation (detail), 2015"
-                    },
-                    {
-                      "filename": "inflected-objects/Room-IO-02.jpg",
-                      "caption": "Installation view"
-                    },
-                    {
-                      "filename": "inflected-objects/Room-IO-01.jpg",
-                      "caption": "Installation view"
-                    }
-                  ]
-                }
-              ],
-              "pubDate": "2015-05-15T00:00:00.000Z"
-            },
-            {
-              "date": "2015-03-20T00:00:00.000Z",
-              "indexPic": false,
-              "location": "Upstream Gallery, Amsterdam",
-              "title": "Shifting Optics II",
-              "old-related": [
-                "<a href='http://www.upstreamgallery.nl/exhibitions/128/shifting-optics-ii' target='_blank'>Press Release</a>"
-              ],
-              "startDate": "2015-03-20",
-              "endDate": "2015-04-25",
-              "descr": "Group show at Upstream Gallery, Amsterdam",
-              "perma": "shifting-optics",
-              "cat": "exhibitions,Netherlands",
-              "parts": [
-                {
-                  "type": "list",
-                  "content": [
-                    {
-                      "filename": "upstream/2015-Shifting Optics II-HIGH-Harm-van-den-Dorpel-2.jpg",
-                      "scale": "cover",
-                      "left": 25,
-                      "top": 36
-                    },
-                    {
-                      "filename": "upstream/2015-Shifting-Optics-II-HIGH-1.jpg",
-                      "caption": "Work on the right by Peter Struycken",
-                      "scale": "cover",
-                      "left": 256,
-                      "top": 43
-                    },
-                    {
-                      "filename": "upstream/2015-Shifting-Optics-II-HIGH-Harm-van-den-Dorpel.jpg",
-                      "scale": "cover",
-                      "left": 506,
-                      "top": 38
-                    }
-                  ]
-                }
-              ],
-              "pubDate": "2015-03-20T00:00:00.000Z"
-            },
-            {
-              "date": "2015-02-20T00:00:00.000Z",
-              "indexPic": true,
-              "id": "jit",
-              "cat": "New York City, exhibitions",
-              "title": "Just-in-Time",
-              "location": "American Medium, New York City",
-              "image": {
-                "imageSource": "/img/slideshows/jit/Just-in-Time%20-%20Installation-view-01.jpg",
-                "imageAlt": "",
-                "imageCaption": ""
-              },
-              "old-related": [
-                "<a href='http://www.americanmedium.net/uploads/3/0/5/8/30583131/just-in-time2015.pdf' target='_blank'>Press release by Jaakko Pallasvuo</a>",
-                "<a href='http://www.americanmedium.net/just-in-time.html' target='_blank'>Documentation on gallery website</a>"
-              ],
-              "startDate": "2015-02-20",
-              "endDate": "2015-04-03",
-              "descr": "Solo show at American Medium, New York City",
-              "perma": "just-in-time",
-              "parts": [
-                {
-                  "type": "list",
-                  "content": [
-                    {
-                      "filename": "jit/Just-in-Time - Installation-view-03.jpg",
-                      "scale": "cover",
-                      "left": 46,
-                      "top": 32
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - Aureool (scrum kanban).jpg",
-                      "caption": "Aureool (Scrum Kanban), 2015. UV print on whiteboard, custom magnets, marker. 60 x 40\"",
-                      "left": 655,
-                      "top": 94
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - Chrysalis (green) MK III.jpg",
-                      "left": -80,
-                      "top": 155
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - Installation-view-01.jpg",
-                      "scale": "cover",
-                      "left": 340,
-                      "top": 40
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - Installation-view-02.jpg",
-                      "scale": "cover",
-                      "left": 275,
-                      "top": 152
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - Oyster (scrum kanban).jpg",
-                      "caption": "Oyster (Scrum Kanban), 2015, UV print on whiteboard, custom magnets, marker. 60 x 40\"",
-                      "left": 568,
-                      "top": 95
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - Installation-view-04.jpg",
-                      "scale": "cover",
-                      "left": 478,
-                      "top": 272
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - Installation-view-05.jpg",
-                      "scale": "cover",
-                      "left": 37,
-                      "top": 258
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - Installation-view-07.jpg",
-                      "scale": "cover",
-                      "left": 104,
-                      "top": 152
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - Installation-view-08.jpg",
-                      "scale": "cover",
-                      "left": 209,
-                      "top": 277
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - Time Management (scrum kanban).jpg",
-                      "caption": "Time Management (Scrum Kanban), 2015. UV print on whiteboard, custom magnets. 60 x 40\"",
-                      "left": 481,
-                      "top": 94
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - Macro Intimacy (a).jpg",
-                      "left": 475,
-                      "top": -71
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - Macro Intimacy (b).jpg"
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - Painting with lens flare.jpg",
-                      "caption": "Painting with Lens Flare, 2015. Printed heat shrink foil, packaging materials. 40 x 27.5\""
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - Painting with lens flare (detail).jpg"
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - Chrysalis (mint).jpg"
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - Very Beta Still (break fast) (a).jpg"
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - Very Beta Still (break fast) (b).jpg"
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - Very Beta Still (break fast) (detail 2).jpg"
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - Very Beta Still (break fast) (detail).jpg"
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - delinearinfo.jpg",
-                      "caption": "Deli Near .info, 2014 - ongoing. Artist developed social network.",
-                      "scale": "cover"
-                    },
-                    {
-                      "filename": "jit/Just-in-Time - delinearinfo (detail).jpg"
-                    }
-                  ]
-                }
-              ],
-              "pubDate": "2015-02-20T00:00:00.000Z"
-            },
-            {
-              "date": "2015-02-07T00:00:00.000Z",
-              "indexPic": true,
-              "id": "ApttMoaR",
-              "cat": "exhibitions,Germany,solo",
-              "location": "Neumeister Bar-Am, Berlin",
-              "title": "Ambiguity points to the mystery of all revealing",
-              "image": {
-                "imageSource": "/img/slideshows/ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView05.jpg",
-                "imageAlt": "",
-                "imageCaption": ""
-              },
-              "old-related": [
-                "<a href='http://neumeisterbaram.com/exhibition/harm-van-den-dorpel/' target='_blank'>Documentation on gallery website</a>",
-                "<a href='http://neumeisterbaram.com/content/uploads/2014/11/HvdD_Online_PR_english.pdf' target='_blank'>Press release</a>"
-              ],
-              "startDate": "2015-02-07",
-              "endDate": "2015-04-11",
-              "descr": "Solo show at Neumeister Bar-Am, Berlin",
-              "perma": "ambiguity-points-to-the-mystery-of-all-revealing",
-              "parts": [
-                {
-                  "type": "list",
-                  "content": [
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView05.jpg",
-                      "scale": "xxxcover",
-                      "left": 522,
-                      "top": 147
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView04.jpg",
-                      "scale": "xxxcover",
-                      "left": 522,
-                      "top": 147
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_Trauma_Scrum.jpg",
-                      "caption": "Trauma (Scrum), 2015. Digital print on whiteboard, custom magnets. 150 x 100 x 2cm",
-                      "left": 140,
-                      "top": 79
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_BabyTrashFractal.jpg",
-                      "caption": "babyTrashFractal, 2015. Digital print on paper, printed heat shrink foil. 100 x 70 x 3cm",
-                      "left": -64,
-                      "top": 44
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_Encapsulation.jpg",
-                      "caption": "Encapsulation (shmuck), 2015. Digital print on paper, printed heat shrink foil. 100 x 70 x 3cm",
-                      "left": 644,
-                      "top": -5
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_EncapsulationDigest.jpg",
-                      "caption": "Encapsulation (digest), 2015. Digital print on paper, printed heat shrink foil. 100 x 70 x 3cm",
-                      "left": 471,
-                      "top": -6
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_Filter69.jpg",
-                      "caption": "Filter69, 2014. Vitrea and acrylic paint on acryl glass, rivets. 105 x 75 x 6cm",
-                      "left": 557,
-                      "top": -7
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InclusionExclusion.jpg",
-                      "caption": "Exclusion (Scrum), 2015. Digital print on whiteboard, custom magnets. 150 x 100 x 2cm",
-                      "left": 231,
-                      "top": 80
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView01a.jpg",
-                      "scale": "cover",
-                      "left": -46,
-                      "top": 250
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_FaradyCage.jpg",
-                      "caption": "Isolation (Scrum), 2014. Digital print on whiteboard, custom magnets, marker. 80 x 120 x 2cm",
-                      "left": 363,
-                      "top": 210
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView01b.jpg",
-                      "scale": "cover",
-                      "left": 183,
-                      "top": 250
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView02.jpg",
-                      "scale": "cover",
-                      "left": 71,
-                      "top": 250
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_VeryBetaStill.jpg",
-                      "caption": "Very Beta Still (Scrum), 2015. Digital print on whiteboard, custom magnets. 150 x 100 x 2cm",
-                      "left": 319,
-                      "top": 79
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView03.jpg",
-                      "scale": "cover"
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView05.jpg",
-                      "scale": "cover"
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_Chrysails_Blue.jpg"
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView06.jpg",
-                      "scale": "cover"
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_ScannedSpiritualDrawing.jpg",
-                      "caption": "Scanned Spiritual Drawing, 2014. Digital print on paper. 100 x 70 x 3cm"
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView07.jpg",
-                      "scale": "cover"
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_UntitledDistributionCorpse.jpg",
-                      "caption": "Untitled Distribution (corpse), 2014 - 2015. UV print on acrylic glass, paint, rivets, MDF. 85 x 65 x 5cm"
-                    },
-                    {
-                      "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_speedbrain.jpg",
-                      "caption": "#speedbrain, 2015. printed heat shrink foil. 30 x 20 x 13cm"
-                    }
-                  ]
-                }
-              ],
-              "pubDate": "2015-02-07T00:00:00.000Z"
-            },
-            {
-              "date": "2015-01-23T00:00:00.000Z",
-              "indexPic": false,
-              "id": "loomer",
-              "title": "Loomer",
-              "location": "Young Projects, Los Angeles",
-              "tags": "sculpture,assemblage,hanging",
-              "image": {
-                "orientation": "portrait",
-                "imageSource": "img/bag.jpg",
-                "imageAlt": ""
-              },
-              "cat": "LA,exhibitions,solo",
-              "xrelated": [
-                "<a href='http://harmvandendorpel.com/_/downloads/loomer.rtf' target='_blank'>Press release</a>"
-              ],
-              "startDate": "2015-01-23",
-              "endDate": "2015-02-22",
-              "descr": "Solo show at Young Projects, LA<br><br><em>I am lying down in my bed, attempting to write texts about my upcoming solo exhibitions. The texts serve multiple purposes, of which the most important two are: a: provoke people to come see the show, write about it, buy the work, etc. and, b: help people understand what the exhibition is ‘about’.<br><br>Although I am writing the text myself, it is common to pretend to write it in the third person: ‘the artist’, ‘Van den Dorpel’, ‘he’, so it looks like I’m not exalting myself too much but appear humble, and to suggest that somebody else is writing it. An outsider perspective gives more authority, and protects the artist from explaining his own work - defence is so tempting.<br><br>I graduated art school in 2006, yet still hesitate to talk with people about what I do. At obligatory gatherings I rather tell that I’m a computer programmer, which is more tangible. Not that my work is not about something - I think it is about many things - but that what it is about, seems to run ahead of myself, and I will never quite catch up with it. (I suspect it is always about the same thing).<br><br>Often people approach explanations of my work in terms of ‘found imagery’, which is ‘culled’ from the internet. This emphasizes the ‘as-found nature’ of my source material. Because these images are from the internet, and I make an object in space using them, I’m labeled ‘post internet’, but this is not sustainable. Using existing images from the internet is not saying much about the work at all. It’s 2015. Appropriation is a default. It is a meaningless gesture in itself.<br><br>Fragments of images, texts, thoughts, sequences I combine, with a faint belief, that the result could somehow be something new, or at least new enough to me. Or at least new enough to you. And every time, when I manage to give a conceptual explanation of the result of this enduring association-mining, I must divert, or it dies.<br><br>Making art compensates a melancholic desire. There is this romantic notion that every object of desire is unattainable, because once acquired, once understood, it disappears by morphing into the banal. Although having access to financial means greatly reduces worries, it makes me sad that I have become a professional now. It sort of spoils it. I should not have married my mistress.<br><br>Absolute potential: performance artists are not theatre actors, and sound artists are not musicians. What is to become of me if not a computer programmer anymore?</em>",
-              "perma": "loomer",
-              "parts": [
-                {
-                  "type": "list",
-                  "content": [
-                    {
-                      "filename": "loomer/sculpture.jpg",
-                      "caption": "Untitled Assemblage (shell), 2012. Hand cut printed PETG, spray paint, metal hardware. 1 x 1 x 1m."
-                    },
-                    {
-                      "filename": "loomer/wrap-02.jpg"
-                    },
-                    {
-                      "filename": "loomer/wall-01.jpg"
-                    },
-                    {
-                      "filename": "loomer/IMG_7695.jpg"
-                    },
-                    {
-                      "filename": "loomer/wrap.jpg"
-                    },
-                    {
-                      "filename": "loomer/butterfly-02.jpg"
-                    },
-                    {
-                      "filename": "loomer/butterfly.jpg"
-                    },
-                    {
-                      "filename": "loomer/set2b.jpg"
-                    },
-                    {
-                      "filename": "d/loomer/etail-01.jpg"
-                    },
-                    {
-                      "filename": "loomer/set.jpg"
-                    },
-                    {
-                      "filename": "loomer/set2.jpg"
-                    },
-                    {
-                      "filename": "loomer/bag.jpg"
-                    }
-                  ]
-                }
-              ],
-              "pubDate": "2015-01-23T00:00:00.000Z"
-            },
-            {
-              "date": "2014-09-25T00:00:00.000Z",
-              "indexPic": false,
-              "id": "private-settings",
-              "location": "Museum of Modern Art, Warsaw",
-              "title": "Private Settings",
-              "descr": "Group show at the <span itemscope itemtype='http://schema.org/Place'>Museum of Modern Art, Warsaw</span><br>Curated by Natalia Sielewicz",
-              "startDate": "2014-09-25",
-              "endDate": "2014-01-06",
-              "cat": "Warsaw, exhibitions",
-              "tags": "sculpture,assemblage",
-              "old-related": [
-                "<a itemprop='url' href='http://www.e-flux.com/announcements/maria-bartuszova-and-private-settings-art-after-the-internet/' target='_blank'>Press release on e-flux</a>",
-                "<a itemprop='url' href='http://private.artmuseum.pl/pl/artist/harm-van-den-dorpel' target='_blank'>Documentation on museum website</a>"
-              ],
-              "perma": "private-settings",
-              "parts": [
-                {
-                  "type": "list",
-                  "content": [
-                    {
-                      "filename": "private-settings/5429363935ca8.jpg",
-                      "left": 1,
-                      "top": 30
-                    },
-                    {
-                      "filename": "private-settings/542443e7ae386.jpg",
-                      "scale": "cover",
-                      "left": 3,
-                      "top": 190
-                    }
-                  ]
-                }
-              ],
-              "pubDate": "2014-09-25T00:00:00.000Z"
-            },
-            {
-              "indexPic": false,
-              "date": "2014-07-19T00:00:00.000Z",
-              "id": "in-its-image",
-              "location": "American Medium, New York City",
-              "title": "In Its Image",
-              "cat": "exhibitions,New York City",
-              "descr": "Group show at <span itemscope itemtype='http://schema.org/Place'>American Medium, New York City</span>",
-              "startDate": "2014-07-19",
-              "endDate": "2014-08-24",
-              "old-related": [
-                "<a itemprop='url' href='http://www.americanmedium.net/in-its-image/' target='_blank'>Documentation on gallery website</a>"
-              ],
-              "image": {
-                "imageSource": "img/df1af4c9c83eb104cfd20199532e3f03.jpg",
-                "imageAlt": "",
-                "imageCaption": "Reverse Engineered Consent (shared), 2014. Sculpture by Hayley Aviva Silverman."
-              },
-              "perma": "in-its-image",
-              "parts": [
-                {
-                  "type": "list",
-                  "content": [
-                    {
-                      "filename": "in-its-image/3135706.jpg",
-                      "caption": "Reverse Engineered Consent (shared), 2014. Sculpture by Hayley Aviva Silverman.",
-                      "left": 511,
-                      "top": 14
-                    },
-                    {
-                      "filename": "in-its-image/2582561_orig.jpg",
-                      "left": 236,
-                      "top": 85
-                    },
-                    {
-                      "filename": "in-its-image/8283800_orig.jpg",
-                      "left": 56,
-                      "top": 84
-                    }
-                  ]
-                }
-              ],
-              "pubDate": "2014-07-19T00:00:00.000Z"
-            },
-            {
-              "date": "2014-03-01T00:00:00.000Z",
-              "indexPic": true,
-              "id": "art-post-internet",
-              "title": "Art Post-Internet",
-              "location": "Ullens Center for Contemporary Art, Beijing",
-              "descr": "Group show at <span itemscope='' itemtype='http://schema.org/Place'>The Ullens Center for Contemporary Art, Beijing</span><br>Curated by Robin Peckham and Karen Archey",
-              "startDate": "2014-03-01",
-              "endDate": "2014-05-11",
-              "old-related": [
-                "<a itemprop='url' href='http://post-inter.net/' target='_blank'>Exhibition Catalogue</a>",
-                "<a itemprop='url' href='http://www.e-flux.com/announcements/art-post-internet/' target='_blank'>Press release on e-flux</a>",
-                "<a itemprop='url' href='http://dissociations.com/1301' target='_blank'>Text on Dissociations</a>",
-                "<a itemprop='url' href='http://ucca.org.cn/en/exhibition/art-post-internet/' target='_blank'>Exhibition on the UCCA website</a>",
-                "<a itemprop='url' href='http://www.aqnb.com/2014/03/03/life-after-internet-concerning-art-post-internet-in-beijing/' target='_blank'>Review at Attractivoquenobello</a>"
-              ],
-              "parts": [
-                {
-                  "type": "list",
-                  "content": [
-                    {
-                      "filename": "art-post-internet/UCCA_Post_Internet_PRESS_14-cropped.jpg",
-                      "left": -80,
-                      "top": 100,
-                      "caption": "Anything vs. Everything, 2014. Background left: Aids-3D, right: Calla Henkel, Max Pitegoff"
-                    },
-                    {
-                      "filename": "art-post-internet/harmvandendorpel-assemblage-2013-web.jpg",
-                      "left": 191,
-                      "top": 39
-                    },
-                    {
-                      "filename": "art-post-internet/UCCA_Post_Internet_PRESS_13-2-webcropped.jpg",
-                      "left": 456,
-                      "top": 80
-                    },
-                    {
-                      "filename": "art-post-internet/API-installantion-view-2-lg.jpg",
-                      "left": 403,
-                      "top": -94
-                    }
-                  ]
-                }
-              ],
-              "perma": "art-post-internet",
-              "cat": "exhibitions, Beijing,sculpture,spheres",
-              "pubDate": "2014-03-01T00:00:00.000Z"
-            },
-            {
-              "date": "2013-05-13T00:00:00.000Z",
-              "indexPic": false,
-              "tags": "archive",
-              "cat": "New York City,websites,software,exhibitions,solo",
-              "title": "First Look: Dissociations",
-              "location": "New Museum, New York City",
-              "descr": "Online exhibition hosted by the New Museum, New York City<br>Curated by Lauren Cornell",
-              "old-related": [
-                "<a href='http://www.newmuseum.org/exhibitions/view/harm-van-den-dorpel-dissociations' target='_blank'>First Look website</a>"
-              ],
-              "startDate": "2013-05-13",
-              "perma": "first-look-dissociations",
-              "parts": [
-                {
-                  "type": "list",
-                  "content": [
-                    {
-                      "filename": "dissociations.jpg",
-                      "left": -80,
-                      "top": 100
-                    }
-                  ]
-                }
-              ],
-              "xseeAlso": [
-                "<a href='/dissociations'>Dissociations</a>"
-              ],
-              "pubDate": "2013-05-13T00:00:00.000Z"
-            },
-            {
-              "date": "2013-04-19T00:00:00.000Z",
-              "indexPic": true,
-              "location": "Abrons Art Center, New York City",
-              "cat": "New York City, exhibitions,solo",
-              "title": "Release Early, Release Often (…)",
-              "descr": " Solo show at <span itemscope='' itemtype='http://schema.org/Place'>Abrons Art Center, New York City</span><br>Curated by Karen Archey",
-              "startDate": "2013-04-19",
-              "endDate": "2013-06-01",
-              "old-related": [
-                "<a itemprop='url' href='http://www.abronsartscenter.org/galleries/past/harm-van-den-dorpel.html' target='_blank'>Press release</a>",
-                "<a itemprop='url' href='http://dissociations.com/1070' target='_blank'>Documentation on Dissociations</a>",
-                "<a itemprop='url' href='http://galleristny.com/2013/05/harm-van-den-dorpel-release-early-release-often-delegate-everything-you-can-be-open-to-the-point-of-promiscuity-at-abrons-arts-center/' target='_blank'>Review on GalleristNY</a>"
-              ],
-              "perma": "release-early-release-often",
-              "parts": [
-                {
-                  "type": "list",
-                  "content": [
-                    {
-                      "filename": "release/ReleaseEarlyAbrons_08.jpg",
-                      "left": -45,
-                      "top": 24
-                    },
-                    {
-                      "filename": "release/ReleaseEarlyAbrons_01.jpg",
-                      "left": 541,
-                      "top": 43
-                    },
-                    {
-                      "filename": "release/ReleaseEarlyAbrons_03.jpg",
-                      "scale": "cover",
-                      "left": 84,
-                      "top": 110
-                    },
-                    {
-                      "filename": "release/ReleaseEarlyAbrons_10.jpg",
-                      "left": 523,
-                      "top": -98
-                    },
-                    {
-                      "filename": "release/ReleaseEarlyAbrons_02.jpg",
-                      "left": 319,
-                      "top": -148
-                    },
-                    {
-                      "filename": "release/ReleaseEarlyAbrons_04.jpg",
-                      "left": -59,
-                      "top": 150
-                    },
-                    {
-                      "filename": "release/ReleaseEarlyAbrons_11.jpg",
-                      "left": 352,
-                      "top": 170
-                    },
-                    {
-                      "filename": "release/ReleaseEarlyAbrons_14.jpg",
-                      "left": 381,
-                      "top": -25
-                    },
-                    {
-                      "filename": "release/ReleaseEarlyAbrons_15.jpg",
-                      "left": 233,
-                      "top": 57
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "pubDate": "2013-04-19T00:00:00.000Z",
-          "tags": "collage,sculpture,spheres"
-        },
-        {
-          "date": "2012-09-16T00:00:00.000Z",
-          "indexPic": false,
-          "theme": "dark",
-          "id": "watch-the-throne",
-          "location": "grouphab.it, Berlin",
-          "title": "Watch the Throne",
-          "cat": "performance,Germany,solo,sculpture",
-          "descr": "Solo sculpture performance at grouphab.it, Berlin<br>Curated by Simon Denny and Yngve Holen",
-          "startDate": "2012-09-16",
-          "old-related": [
-            "<a href='https://www.facebook.com/events/343222509105772/' target='_blank'>Text</a>",
-            "<a href='https://www.facebook.com/media/set/?set=a.275362612581904.63411.223390101112489&type=1' target='_blank'>Photos on Facebook</a>"
-          ],
-          "perma": "watch-the-throne",
-          "parts": [
-            {
-              "type": "list",
-              "content": [
-                {
-                  "filename": "watch-the-throne/131382_275364085915090_692802396_o.jpg",
-                  "left": 274,
-                  "top": 47
-                },
-                {
-                  "filename": "watch-the-throne/132184_275363885915110_1342258350_o.jpg",
-                  "left": -1,
-                  "top": 54
-                },
-                {
-                  "filename": "watch-the-throne/132880_275363119248520_2039332442_o.jpg",
-                  "left": 44,
-                  "top": 45
-                },
-                {
-                  "filename": "watch-the-throne/133611_275363769248455_1466310403_o.jpg",
-                  "left": 220,
-                  "top": -78
-                },
-                {
-                  "filename": "watch-the-throne/133658_275362709248561_990547115_o.jpg",
-                  "left": 318,
-                  "top": 118
-                },
-                {
-                  "filename": "watch-the-throne/133815_275363389248493_27221285_o.jpg",
-                  "left": 61,
-                  "top": 213
-                },
-                {
-                  "filename": "watch-the-throne/133824_275363522581813_1305678323_o.jpg",
-                  "left": 157,
-                  "top": 174
-                },
-                {
-                  "filename": "watch-the-throne/133929_275363429248489_327427273_o.jpg",
-                  "left": 31,
-                  "top": 125
-                },
-                {
-                  "filename": "watch-the-throne/134450_275363845915114_146261733_o.jpg",
-                  "left": 258,
-                  "top": 172
-                },
-                {
-                  "filename": "watch-the-throne/169535_275364109248421_1612406891_o.jpg",
-                  "left": 168,
-                  "top": 37
-                },
-                {
-                  "filename": "watch-the-throne/190848_275362989248533_1846941909_o.jpg",
-                  "left": 133,
-                  "top": 95
-                },
-                {
-                  "filename": "watch-the-throne/190848_275363565915142_1374364789_o.jpg",
-                  "left": 325,
-                  "top": -19
-                },
-                {
-                  "filename": "watch-the-throne/191572_275363369248495_1972132359_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/201039_275363959248436_1825249655_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/201308_275363245915174_988889089_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/202729_275364125915086_1880604946_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/218410_275363035915195_1544909502_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/219049_275363079248524_882650087_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/242234_275363609248471_722818865_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/244045_275364055915093_179843138_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/265747_275363939248438_2106085257_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/266228_275362629248569_1809078465_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/266633_275363662581799_547232508_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/272056_275363342581831_294194623_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/272095_275362915915207_1946819559_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/277633_275362792581886_2077057468_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/322544_275363175915181_1088304819_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/325577_275363465915152_824068218_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/325580_275362819248550_1089486976_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/327323_275362855915213_710444916_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/327476_275363489248483_27619627_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/330549_275363269248505_1034546355_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/333803_275362649248567_1581843997_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/335168_275363292581836_596762729_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/335535_275362872581878_77221105_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/335843_275362932581872_629159005_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/336604_275363872581778_232826757_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/340170_275363645915134_1900427539_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/340779_275363629248469_1156170986_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/340955_275363142581851_1931089327_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/458728_275363549248477_764842390_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/458759_275362895915209_867045609_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/470598_275363739248458_248696903_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/470759_275363692581796_313519288_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/54083_275363409248491_1803373294_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/615884_275363815915117_1772805224_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/615932_275362955915203_847746074_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/616039_275363582581807_1114530712_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/620765_275364025915096_406170412_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/621460_275362742581891_1876899421_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/622827_275363505915148_689927090_o.jpg"
-                },
-                {
-                  "filename": "watch-the-throne/77777_275363439248488_1154382137_o.jpg"
-                }
-              ]
-            }
-          ]
         }
-      ],
-      "pubDate": "2012-09-16T00:00:00.000Z"
+      ]
     },
     {
-      "date": "2012-03-02T00:00:00.000Z",
-      "indexPic": true,
-      "id": "about",
-      "title": "About",
-      "tags": "spheres,sculpture,transparent,assemblage,acrylic,hanging",
-      "location": "Wilkinson Gallery, London",
-      "cat": "exhibitions,London,solo,sculpture",
-      "descr": "Solo show at <span itemscope='' itemtype='http://schema.org/Place'>Wilkinson Gallery, London</span>",
-      "startDate": "2012-03-02",
-      "endDate": "2012-04-22",
+      "date": "2014-11-15T00:00:00.000Z",
+      "title": "Collecting Mode",
+      "perma": "collecting-mode",
+      "descr": "Group exhibition at <a href='http://neumeisterbaram.com/' target='_blank'>Neumeister Bar-Am</a>, Berlin",
+      "cat": "Germany, exhibitions",
+      "private": true,
+      "pubDate": "2014-11-15T00:00:00.000Z"
+    },
+    {
+      "hideOnIndex": false,
+      "private": true,
+      "date": "2014-10-24T00:00:00.000Z",
+      "title": "Unoriginal Genius",
+      "perma": "unoriginal-genius",
+      "descr": "Group exhibition at Carrol / Fletcher, London. Curated by Domenico Quaranta.",
+      "cat": "exhibitions, London",
       "old-related": [
-        "<a itemprop='url' href='http://www.wilkinsongallery.com/system/e_pdfs/79/original/TEXT_A4.pdf?1329478038' target='_blank'>Press release by Travis Jeppesen</a>",
-        "<a itemprop='url' href='http://www.wilkinsongallery.com/exhibitions/70-HarmVanDenDorpelAbout' target='_blank'>Documentation on Dissociations</a>"
+        "<a href='http://www.carrollfletcher.com/usr/documents/exhibitions/press_release_url/33/unoriginal-genius_press-release.pdf' target='_blank'>Press release</a>"
       ],
+      "pubDate": "2014-10-24T00:00:00.000Z"
+    },
+    {
+      "title": "Emergent Conclusions",
+      "perma": "emergent-conclusions",
+      "location": "The Composing Rooms, Berlin",
+      "descr": "Online solo exhibition at The Composing Rooms, Berlin<br>Curated by Ché Zara Blomfield",
+      "cat": "exhibitions, Germany,solo",
+      "date": "2014-11-14T00:00:00.000Z",
+      "old-related": [
+        "<a href='http://room.thecomposingrooms.com/02/harmvandendorpel.txt' target='_blank'>Press release</a>"
+      ],
+      "parts": [
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "strategies.jpg",
+              "caption": "Strategies, 2009 (video still)"
+            }
+          ],
+          "xseeAlso": [
+            "<a href='/showreel'>Showreel (Dubai Biennale)</a>",
+            "<a href='/strategies'>Strategies</a>",
+            "<a href='/the-four-master-tropes'>The Four Master Tropes</a>",
+            "<a href='/deep-tissue'>Deep Tissue</a>"
+          ],
+          "pubDate": "2014-11-14T00:00:00.000Z"
+        }
+      ],
+      "pubDate": "2013-04-19T00:00:00.000Z",
+      "tags": "collage,sculpture,spheres"
+    },
+    {
+      "date": "2015-02-07T00:00:00.000Z",
+      "indexPic": true,
+      "id": "ApttMoaR",
+      "cat": "exhibitions,Germany,solo",
+      "location": "Neumeister Bar-Am, Berlin",
+      "title": "Ambiguity points to the mystery of all revealing",
       "image": {
-        "imageSource": "img/slideshows/about/WG-HVDD-INST12-01.jpg",
+        "imageSource": "/img/slideshows/ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView05.jpg",
         "imageAlt": "",
         "imageCaption": ""
       },
-      "perma": "about-exhibition",
+      "old-related": [
+        "<a href='http://neumeisterbaram.com/exhibition/harm-van-den-dorpel/' target='_blank'>Documentation on gallery website</a>",
+        "<a href='http://neumeisterbaram.com/content/uploads/2014/11/HvdD_Online_PR_english.pdf' target='_blank'>Press release</a>"
+      ],
+      "startDate": "2015-02-07",
+      "endDate": "2015-04-11",
+      "descr": "Solo show at Neumeister Bar-Am, Berlin",
+      "perma": "ambiguity-points-to-the-mystery-of-all-revealing",
       "parts": [
         {
           "type": "list",
           "content": [
             {
-              "filename": "about/WG-HVDD-INST12-01.jpg",
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView05.jpg",
+              "scale": "xxxcover",
+              "left": 522,
+              "top": 147
+            },
+            {
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView04.jpg",
+              "scale": "xxxcover",
+              "left": 522,
+              "top": 147
+            },
+            {
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_Trauma_Scrum.jpg",
+              "caption": "Trauma (Scrum), 2015. Digital print on whiteboard, custom magnets. 150 x 100 x 2cm",
+              "left": 140,
+              "top": 79
+            },
+            {
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_BabyTrashFractal.jpg",
+              "caption": "babyTrashFractal, 2015. Digital print on paper, printed heat shrink foil. 100 x 70 x 3cm",
+              "left": -64,
+              "top": 44
+            },
+            {
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_Encapsulation.jpg",
+              "caption": "Encapsulation (shmuck), 2015. Digital print on paper, printed heat shrink foil. 100 x 70 x 3cm",
+              "left": 644,
+              "top": -5
+            },
+            {
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_EncapsulationDigest.jpg",
+              "caption": "Encapsulation (digest), 2015. Digital print on paper, printed heat shrink foil. 100 x 70 x 3cm",
+              "left": 471,
+              "top": -6
+            },
+            {
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_Filter69.jpg",
+              "caption": "Filter69, 2014. Vitrea and acrylic paint on acryl glass, rivets. 105 x 75 x 6cm",
+              "left": 557,
+              "top": -7
+            },
+            {
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InclusionExclusion.jpg",
+              "caption": "Exclusion (Scrum), 2015. Digital print on whiteboard, custom magnets. 150 x 100 x 2cm",
+              "left": 231,
+              "top": 80
+            },
+            {
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView01a.jpg",
               "scale": "cover",
-              "left": -34,
-              "top": 22
+              "left": -46,
+              "top": 250
             },
             {
-              "filename": "about/2012_03_01-09.jpg",
-              "left": -135,
-              "top": 120
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_FaradyCage.jpg",
+              "caption": "Isolation (Scrum), 2014. Digital print on whiteboard, custom magnets, marker. 80 x 120 x 2cm",
+              "left": 363,
+              "top": 210
             },
             {
-              "filename": "about/WG_HVDD-INST12-04.jpg",
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView01b.jpg",
               "scale": "cover",
-              "left": 218,
-              "top": 29
+              "left": 183,
+              "top": 250
             },
             {
-              "filename": "about/assemblage_chain.jpg",
-              "left": 483,
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView02.jpg",
+              "scale": "cover",
+              "left": 71,
+              "top": 250
+            },
+            {
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_VeryBetaStill.jpg",
+              "caption": "Very Beta Still (Scrum), 2015. Digital print on whiteboard, custom magnets. 150 x 100 x 2cm",
+              "left": 319,
+              "top": 79
+            },
+            {
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView03.jpg",
+              "scale": "cover"
+            },
+            {
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView05.jpg",
+              "scale": "cover"
+            },
+            {
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_Chrysails_Blue.jpg"
+            },
+            {
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView06.jpg",
+              "scale": "cover"
+            },
+            {
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_ScannedSpiritualDrawing.jpg",
+              "caption": "Scanned Spiritual Drawing, 2014. Digital print on paper. 100 x 70 x 3cm"
+            },
+            {
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_InstallationView07.jpg",
+              "scale": "cover"
+            },
+            {
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_UntitledDistributionCorpse.jpg",
+              "caption": "Untitled Distribution (corpse), 2014 - 2015. UV print on acrylic glass, paint, rivets, MDF. 85 x 65 x 5cm"
+            },
+            {
+              "filename": "ApttMoaR/NBA_HvdD_ApttMoaR_speedbrain.jpg",
+              "caption": "#speedbrain, 2015. printed heat shrink foil. 30 x 20 x 13cm"
+            }
+          ]
+        }
+      ],
+      "pubDate": "2015-02-07T00:00:00.000Z"
+    },
+    {
+      "date": "2015-01-23T00:00:00.000Z",
+      "indexPic": false,
+      "id": "loomer",
+      "title": "Loomer",
+      "location": "Young Projects, Los Angeles",
+      "tags": "sculpture,assemblage,hanging",
+      "image": {
+        "orientation": "portrait",
+        "imageSource": "img/bag.jpg",
+        "imageAlt": ""
+      },
+      "cat": "LA,exhibitions,solo",
+      "xrelated": [
+        "<a href='http://harmvandendorpel.com/_/downloads/loomer.rtf' target='_blank'>Press release</a>"
+      ],
+      "startDate": "2015-01-23",
+      "endDate": "2015-02-22",
+      "descr": "Solo show at Young Projects, LA<br><br><em>I am lying down in my bed, attempting to write texts about my upcoming solo exhibitions. The texts serve multiple purposes, of which the most important two are: a: provoke people to come see the show, write about it, buy the work, etc. and, b: help people understand what the exhibition is ‘about’.<br><br>Although I am writing the text myself, it is common to pretend to write it in the third person: ‘the artist’, ‘Van den Dorpel’, ‘he’, so it looks like I’m not exalting myself too much but appear humble, and to suggest that somebody else is writing it. An outsider perspective gives more authority, and protects the artist from explaining his own work - defence is so tempting.<br><br>I graduated art school in 2006, yet still hesitate to talk with people about what I do. At obligatory gatherings I rather tell that I’m a computer programmer, which is more tangible. Not that my work is not about something - I think it is about many things - but that what it is about, seems to run ahead of myself, and I will never quite catch up with it. (I suspect it is always about the same thing).<br><br>Often people approach explanations of my work in terms of ‘found imagery’, which is ‘culled’ from the internet. This emphasizes the ‘as-found nature’ of my source material. Because these images are from the internet, and I make an object in space using them, I’m labeled ‘post internet’, but this is not sustainable. Using existing images from the internet is not saying much about the work at all. It’s 2015. Appropriation is a default. It is a meaningless gesture in itself.<br><br>Fragments of images, texts, thoughts, sequences I combine, with a faint belief, that the result could somehow be something new, or at least new enough to me. Or at least new enough to you. And every time, when I manage to give a conceptual explanation of the result of this enduring association-mining, I must divert, or it dies.<br><br>Making art compensates a melancholic desire. There is this romantic notion that every object of desire is unattainable, because once acquired, once understood, it disappears by morphing into the banal. Although having access to financial means greatly reduces worries, it makes me sad that I have become a professional now. It sort of spoils it. I should not have married my mistress.<br><br>Absolute potential: performance artists are not theatre actors, and sound artists are not musicians. What is to become of me if not a computer programmer anymore?</em>",
+      "perma": "loomer",
+      "parts": [
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "loomer/sculpture.jpg",
+              "caption": "Untitled Assemblage (shell), 2012. Hand cut printed PETG, spray paint, metal hardware. 1 x 1 x 1m."
+            },
+            {
+              "filename": "loomer/wrap-02.jpg"
+            },
+            {
+              "filename": "loomer/wall-01.jpg"
+            },
+            {
+              "filename": "loomer/IMG_7695.jpg"
+            },
+            {
+              "filename": "loomer/wrap.jpg"
+            },
+            {
+              "filename": "loomer/butterfly-02.jpg"
+            },
+            {
+              "filename": "loomer/butterfly.jpg"
+            },
+            {
+              "filename": "loomer/set2b.jpg"
+            },
+            {
+              "filename": "d/loomer/etail-01.jpg"
+            },
+            {
+              "filename": "loomer/set.jpg"
+            },
+            {
+              "filename": "loomer/set2.jpg"
+            },
+            {
+              "filename": "loomer/bag.jpg"
+            }
+          ]
+        }
+      ],
+      "pubDate": "2015-01-23T00:00:00.000Z"
+    },
+    {
+      "date": "2014-09-25T00:00:00.000Z",
+      "indexPic": false,
+      "location": "Museum of Modern Art, Warsaw",
+      "title": "Private Settings",
+      "descr": "Group show at the <span itemscope itemtype='http://schema.org/Place'>Museum of Modern Art, Warsaw</span><br>Curated by Natalia Sielewicz",
+      "startDate": "2014-09-25",
+      "endDate": "2014-01-06",
+      "cat": "Warsaw, exhibitions",
+      "tags": "sculpture,assemblage",
+      "old-related": [
+        "<a itemprop='url' href='http://www.e-flux.com/announcements/maria-bartuszova-and-private-settings-art-after-the-internet/' target='_blank'>Press release on e-flux</a>",
+        "<a itemprop='url' href='http://private.artmuseum.pl/pl/artist/harm-van-den-dorpel' target='_blank'>Documentation on museum website</a>"
+      ],
+      "perma": "private-settings",
+      "parts": [
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "private-settings/5429363935ca8.jpg"
+            },
+            {
+              "filename": "private-settings/542443e7ae386.jpg",
+              "scale": "cover"
+            }
+          ]
+        }
+      ],
+      "pubDate": "2014-09-25T00:00:00.000Z"
+    },
+    {
+      "indexPic": false,
+      "date": "2014-07-19T00:00:00.000Z",
+      "id": "in-its-image",
+      "location": "American Medium, New York City",
+      "title": "In Its Image",
+      "cat": "exhibitions,New York City",
+      "descr": "Group show at <span itemscope itemtype='http://schema.org/Place'>American Medium, New York City</span>",
+      "startDate": "2014-07-19",
+      "endDate": "2014-08-24",
+      "old-related": [
+        "<a itemprop='url' href='http://www.americanmedium.net/in-its-image/' target='_blank'>Documentation on gallery website</a>"
+      ],
+      "image": {
+        "imageSource": "img/df1af4c9c83eb104cfd20199532e3f03.jpg",
+        "imageAlt": "",
+        "imageCaption": "Reverse Engineered Consent (shared), 2014. Sculpture by Hayley Aviva Silverman."
+      },
+      "perma": "in-its-image",
+      "parts": [
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "in-its-image/3135706.jpg",
+              "caption": "Reverse Engineered Consent (shared), 2014. Sculpture by Hayley Aviva Silverman.",
+              "left": 511,
+              "top": 14
+            },
+            {
+              "filename": "in-its-image/2582561_orig.jpg",
+              "left": 236,
+              "top": 85
+            },
+            {
+              "filename": "in-its-image/8283800_orig.jpg",
+              "left": 56,
+              "top": 84
+            }
+          ]
+        }
+      ],
+      "pubDate": "2014-07-19T00:00:00.000Z"
+    },
+    {
+      "date": "2014-03-01T00:00:00.000Z",
+      "indexPic": true,
+      "id": "art-post-internet",
+      "title": "Art Post-Internet",
+      "location": "Ullens Center for Contemporary Art, Beijing",
+      "descr": "Group show at <span itemscope='' itemtype='http://schema.org/Place'>The Ullens Center for Contemporary Art, Beijing</span><br>Curated by Robin Peckham and Karen Archey",
+      "startDate": "2014-03-01",
+      "endDate": "2014-05-11",
+      "old-related": [
+        "<a itemprop='url' href='http://post-inter.net/' target='_blank'>Exhibition Catalogue</a>",
+        "<a itemprop='url' href='http://www.e-flux.com/announcements/art-post-internet/' target='_blank'>Press release on e-flux</a>",
+        "<a itemprop='url' href='http://dissociations.com/1301' target='_blank'>Text on Dissociations</a>",
+        "<a itemprop='url' href='http://ucca.org.cn/en/exhibition/art-post-internet/' target='_blank'>Exhibition on the UCCA website</a>",
+        "<a itemprop='url' href='http://www.aqnb.com/2014/03/03/life-after-internet-concerning-art-post-internet-in-beijing/' target='_blank'>Review at Attractivoquenobello</a>"
+      ],
+      "parts": [
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "art-post-internet/UCCA_Post_Internet_PRESS_14-cropped.jpg",
+              "left": -80,
+              "top": 100,
+              "caption": "Anything vs. Everything, 2014. Background left: Aids-3D, right: Calla Henkel, Max Pitegoff"
+            },
+            {
+              "filename": "art-post-internet/harmvandendorpel-assemblage-2013-web.jpg",
+              "left": 191,
+              "top": 39
+            },
+            {
+              "filename": "art-post-internet/UCCA_Post_Internet_PRESS_13-2-webcropped.jpg",
+              "left": 456,
+              "top": 80
+            },
+            {
+              "filename": "art-post-internet/API-installantion-view-2-lg.jpg",
+              "left": 403,
+              "top": -94
+            }
+          ]
+        }
+      ],
+      "perma": "art-post-internet",
+      "cat": "exhibitions, Beijing,sculpture,spheres",
+      "pubDate": "2014-03-01T00:00:00.000Z"
+    },
+    {
+      "date": "2013-05-13T00:00:00.000Z",
+      "indexPic": false,
+      "tags": "archive",
+      "cat": "New York City,websites,software,exhibitions,solo",
+      "title": "First Look: Dissociations",
+      "location": "New Museum, New York City",
+      "descr": "Online exhibition hosted by the New Museum, New York City<br>Curated by Lauren Cornell",
+      "old-related": [
+        "<a href='http://www.newmuseum.org/exhibitions/view/harm-van-den-dorpel-dissociations' target='_blank'>First Look website</a>"
+      ],
+      "startDate": "2013-05-13",
+      "perma": "first-look-dissociations",
+      "parts": [
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "dissociations.jpg",
+              "left": -80,
+              "top": 100
+            }
+          ]
+        }
+      ],
+      "xseeAlso": [
+        "<a href='/dissociations'>Dissociations</a>"
+      ],
+      "pubDate": "2013-05-13T00:00:00.000Z"
+    },
+    {
+      "date": "2013-04-19T00:00:00.000Z",
+      "indexPic": true,
+      "location": "Abrons Art Center, New York City",
+      "cat": "New York City, exhibitions,solo",
+      "title": "Release Early, Release Often",
+      "descr": " Solo show at <span itemscope='' itemtype='http://schema.org/Place'>Abrons Art Center, New York City</span><br>Curated by Karen Archey",
+      "startDate": "2013-04-19",
+      "endDate": "2013-06-01",
+      "old-related": [
+        "<a itemprop='url' href='http://www.abronsartscenter.org/galleries/past/harm-van-den-dorpel.html' target='_blank'>Press release</a>",
+        "<a itemprop='url' href='http://dissociations.com/1070' target='_blank'>Documentation on Dissociations</a>",
+        "<a itemprop='url' href='http://galleristny.com/2013/05/harm-van-den-dorpel-release-early-release-often-delegate-everything-you-can-be-open-to-the-point-of-promiscuity-at-abrons-arts-center/' target='_blank'>Review on GalleristNY</a>"
+      ],
+      "perma": "release-early-release-often",
+      "parts": [
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "release/ReleaseEarlyAbrons_08.jpg",
+              "left": -45,
+              "top": 24
+            },
+            {
+              "filename": "release/ReleaseEarlyAbrons_01.jpg",
+              "left": 541,
+              "top": 43
+            },
+            {
+              "filename": "release/ReleaseEarlyAbrons_03.jpg",
+              "scale": "cover",
+              "left": 84,
+              "top": 110
+            },
+            {
+              "filename": "release/ReleaseEarlyAbrons_10.jpg",
+              "left": 523,
+              "top": -98
+            },
+            {
+              "filename": "release/ReleaseEarlyAbrons_02.jpg",
+              "left": 319,
+              "top": -148
+            },
+            {
+              "filename": "release/ReleaseEarlyAbrons_04.jpg",
+              "left": -59,
+              "top": 150
+            },
+            {
+              "filename": "release/ReleaseEarlyAbrons_11.jpg",
+              "left": 352,
+              "top": 170
+            },
+            {
+              "filename": "release/ReleaseEarlyAbrons_14.jpg",
+              "left": 381,
+              "top": -25
+            },
+            {
+              "filename": "release/ReleaseEarlyAbrons_15.jpg",
+              "left": 233,
+              "top": 57
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2012-09-16T00:00:00.000Z",
+      "indexPic": false,
+      "theme": "dark",
+      "id": "watch-the-throne",
+      "location": "grouphab.it, Berlin",
+      "title": "Watch the Throne",
+      "cat": "performance,Germany,solo,sculpture",
+      "descr": "Solo sculpture performance at grouphab.it, Berlin<br>Curated by Simon Denny and Yngve Holen",
+      "startDate": "2012-09-16",
+      "old-related": [
+        "<a href='https://www.facebook.com/events/343222509105772/' target='_blank'>Text</a>",
+        "<a href='https://www.facebook.com/media/set/?set=a.275362612581904.63411.223390101112489&type=1' target='_blank'>Photos on Facebook</a>"
+      ],
+      "perma": "watch-the-throne",
+      "parts": [
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "watch-the-throne/131382_275364085915090_692802396_o.jpg",
+              "left": 274,
+              "top": 47
+            },
+            {
+              "filename": "watch-the-throne/132184_275363885915110_1342258350_o.jpg",
+              "left": -1,
+              "top": 54
+            },
+            {
+              "filename": "watch-the-throne/132880_275363119248520_2039332442_o.jpg",
+              "left": 44,
+              "top": 45
+            },
+            {
+              "filename": "watch-the-throne/133611_275363769248455_1466310403_o.jpg",
+              "left": 220,
+              "top": -78
+            },
+            {
+              "filename": "watch-the-throne/133658_275362709248561_990547115_o.jpg",
+              "left": 318,
+              "top": 118
+            },
+            {
+              "filename": "watch-the-throne/133815_275363389248493_27221285_o.jpg",
+              "left": 61,
+              "top": 213
+            },
+            {
+              "filename": "watch-the-throne/133824_275363522581813_1305678323_o.jpg",
+              "left": 157,
               "top": 174
             },
             {
-              "filename": "about/WG_HVDD-INST12-05-x.jpg",
-              "scale": "cover"
+              "filename": "watch-the-throne/133929_275363429248489_327427273_o.jpg",
+              "left": 31,
+              "top": 125
             },
             {
-              "filename": "about/2012_03_01-14.jpg",
-              "scale": "cover"
+              "filename": "watch-the-throne/134450_275363845915114_146261733_o.jpg",
+              "left": 258,
+              "top": 172
             },
             {
-              "filename": "about/huh.jpg"
+              "filename": "watch-the-throne/169535_275364109248421_1612406891_o.jpg",
+              "left": 168,
+              "top": 37
             },
             {
-              "filename": "about/WG-HVDD-00109-072.jpg"
-            }
-          ],
-          "pubDate": "2012-03-02T00:00:00.000Z"
-        },
-        {
-          "date": "2014-10-17T00:00:00.000Z",
-          "orientation": "landscape",
-          "link": "http://didacticpoetry.com",
-          "caption": "<a href='http://didacticpoetry.com' target='_blank'>Didactic Poetry .com</a>, 2014",
-          "cat": "websites,software",
-          "perma": "didactic-poetry",
-          "title": "Didactic Poetry",
-          "old-related": [
-            "<a href='http://didacticpoetry.com' target='_blank'>http://didacticpoetry.com</a>"
-          ],
-          "parts": [
-            {
-              "type": "list",
-              "content": [
-                {
-                  "filename": "didacticpoetry-screenshot.jpg"
-                }
-              ]
-            }
-          ],
-          "pubDate": "2014-10-17T00:00:00.000Z"
-        },
-        {
-          "date": "2014-10-17T00:00:00.000Z",
-          "cat": "websites,software",
-          "perma": "deep-tissue",
-          "title": "deep tissue",
-          "parts": [
-            {
-              "type": "list",
-              "content": [
-                {
-                  "filename": "deeptissue-screenshot.jpg",
-                  "caption": "screenshot"
-                }
-              ]
-            }
-          ],
-          "old-related": [
-            "<a href='http://deeptis.su/e'>http://deeptis.su/e</a>"
-          ],
-          "pubDate": "2014-10-17T00:00:00.000Z"
-        },
-        {
-          "date": "2013-10-17T00:00:00.000Z",
-          "orientation": "landscape",
-          "link": "http://wishingwell.biz/",
-          "descr": "Wishing well website with PayPal micro payment option, made in collaboration with Jonas Lund",
-          "parts": [
-            {
-              "type": "list",
-              "content": [
-                {
-                  "filename": "wishingwellbiz-screenshot.jpg"
-                }
-              ]
-            }
-          ],
-          "cat": "websites,software",
-          "perma": "wishingwellbiz",
-          "title": "Wishing Well .biz",
-          "old-related": [
-            "<a href='http://wishingwell.biz/' target='_blank'>http://wishingwell.biz/</a>"
-          ],
-          "pubDate": "2013-10-17T00:00:00.000Z"
-        },
-        {
-          "date": "2012-10-17T00:00:00.000Z",
-          "orientation": "landscape",
-          "cat": "websites,video,software",
-          "perma": "the-four-master-tropes",
-          "title": "The Four Master Tropes",
-          "old-related": [
-            "<a href='http://thef.ourm.aste.rtrop.es/' target='_blank'>http://thef.ourm.aste.rtrop.es/</a>"
-          ],
-          "descr": "<q>The Four Master Tropes, 2011 reflects the artist's ambivalent engagement with, and occasional misreading of, contemporary philosophy gathered via Kindle highlights. These are presented as YouTube annotations layered on top of artwork created by users from the social network deviantart.com, which foreground ‘destabilised’ photographs of Van den Dorpel's studio. A jarring piece of music, made by Van den Dorpel in 2002, plays as the soundtrack.</q> <br><br>HD Video with YouTube annotations (4:52).",
-          "parts": [
-            {
-              "type": "list",
-              "content": [
-                {
-                  "filename": "thefourmmastertropes-screenshot.jpg",
-                  "caption": "video still"
-                },
-                {
-                  "filename": "thefourmastertropes-02.jpg",
-                  "caption": "video still"
-                },
-                {
-                  "filename": "thefourmastertropes-03.jpg",
-                  "caption": "video still"
-                },
-                {
-                  "filename": "thefourmastertropes-04.jpg",
-                  "caption": "video still"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "pubDate": "2012-10-17T00:00:00.000Z"
-    },
-    {
-      "date": "2013-10-17T00:00:00.000Z",
-      "link": "http://dissociations.com/",
-      "parts": [
-        {
-          "type": "list",
-          "content": [
-            {
-              "filename": "dissociations-screenshot.jpg"
-            }
-          ]
-        }
-      ],
-      "cat": "websites,software",
-      "perma": "dissociations",
-      "tags": "archive,Aby Warburg",
-      "title": "Dissociations",
-      "descr": "Algorithmic generative studio, predecessor of Deli Near Info.",
-      "old-related": [
-        "<a href='http://dissociations.com/' target='_blank'>http://dissociations.com/</a>"
-      ],
-      "xseeAlso": [
-        "<a href='/deli-near-info'>Deli Near Info</a>"
-      ],
-      "pubDate": "2013-10-17T00:00:00.000Z"
-    },
-    {
-      "date": "2010-10-17T00:00:00.000Z",
-      "orientation": "landscape",
-      "descr": "This algorithmically generated - but manually edited - video documents the process and narrative of making collages over the course of 2 months. Timestamped screenshots of all attempts, variations, and 'inspirations' were collected and combined with rewritten phrases of advice given by business experts, martial arts gurus, software developers and Jacques Derrida. The background music I made in 2002 and was never used before for anything particular. <br><br>HD Video 720p (5:05)<br><br><iframe style='display: block; clear:both;width:100%;max-width: 1280px; height: 506px;' src='//www.youtube.com/embed/7xx4M8lXxW8?loop=1&rel=0&vq=hd720&controls=0&showinfo=0&autoplay=1' frameborder='0' allowfullscreen></iframe>",
-      "cat": "video,software",
-      "perma": "strategies",
-      "title": "Strategies",
-      "parts": [
-        {
-          "type": "list",
-          "content": [
-            {
-              "filename": "strategiesscreenshot_01.jpg"
+              "filename": "watch-the-throne/190848_275362989248533_1846941909_o.jpg",
+              "left": 133,
+              "top": 95
             },
             {
-              "filename": "strategies-harmvandendorpel-01.jpg"
+              "filename": "watch-the-throne/190848_275363565915142_1374364789_o.jpg",
+              "left": 325,
+              "top": -19
             },
             {
-              "filename": "strategies-harmvandendorpel-03.jpg"
+              "filename": "watch-the-throne/191572_275363369248495_1972132359_o.jpg"
             },
             {
-              "filename": "strategies-harmvandendorpel-02.jpg"
-            }
-          ]
-        }
-      ],
-      "pubDate": "2010-10-17T00:00:00.000Z"
-    },
-    {
-      "date": "2013-10-17T00:00:00.000Z",
-      "title": "Post-Net Aesthetics",
-      "descr": "Panel discussion at the Institute Of Contemporary Arts in London, presented by Rhizome and organized by Karen Archey. Participating speakers were Harm van den Dorpel, Rozsa Farkas, Ben Vickers and Josephine Berry Slater.",
-      "perma": "post-net-aesthetics",
-      "cat": "talks, London",
-      "old-related": [
-        "<a href='https://www.ica.org.uk/whats-on/post-net-aesthetics' target='_blank'>Announcement on the ICA website</a>",
-        "<a href='http://classic.rhizome.org/editorial/2013/nov/1/postinternet/' target='_blank'>Post by Michael Conner on Rhizome</a>"
-      ],
-      "pubDate": "2013-10-17T00:00:00.000Z"
-    },
-    {
-      "date": "2009-10-10T00:00:00.000Z",
-      "orientation": "landscape",
-      "link": "http://dubaibiennale.com/",
-      "caption": "<a href='http://dubaibiennale.com/' target='_blank'>Dubai Biennale .com</a> (showreel), 2009",
-      "imageSource": "img/showreel-screenshot.jpg",
-      "cat": "websites,video,software",
-      "perma": "showreel",
-      "title": "Showreel (Dubai Biennale)",
-      "descr": "Infinite trailer for a non-existing art biennale. HD video (19:49)",
-      "parts": [
-        {
-          "type": "list",
-          "content": [
+              "filename": "watch-the-throne/201039_275363959248436_1825249655_o.jpg"
+            },
             {
-              "filename": "showreel-screenshot.jpg",
-              "caption": "video still"
-            }
-          ]
-        }
-      ],
-      "old-related": [
-        "<a href='http://dubaibiennale.com/' target='_blank'>http://dubaibiennale.com/</a>"
-      ],
-      "xseeAlso": [
-        "<a href='/strategies'>Strategies</a>"
-      ],
-      "pubDate": "2009-10-10T00:00:00.000Z"
-    },
-    {
-      "date": "2008-08-09T22:00:00.000Z",
-      "orientation": "landscape",
-      "xlink": "http://etherealself.com/",
-      "cat": "websites,software",
-      "perma": "ethereal-self",
-      "title": "ethereal self",
-      "old-related": [
-        "<a href='http://etherealself.com/' target='_blank'>http://etherealself.com/</a>"
-      ],
-      "parts": [
-        {
-          "type": "list",
-          "content": [
+              "filename": "watch-the-throne/201308_275363245915174_988889089_o.jpg"
+            },
             {
-              "filename": "etherealself-screenshot.jpg"
-            }
-          ]
-        }
-      ],
-      "xseeAlso": [
-        "<a href='/ethereal-others'>Ethereal Others</a>"
-      ],
-      "tags": "surveillance,panopticon,lure,privacy,anthropology",
-      "pubDate": "2008-08-09T22:00:00.000Z"
-    },
-    {
-      "date": "2008-10-10T00:00:00.000Z",
-      "orientation": "landscape",
-      "xlink": "http://etherealothers.com/",
-      "cat": "websites,software",
-      "perma": "ethereal-others",
-      "title": "ethereal others",
-      "old-related": [
-        "<a href='http://etherealothers.com/' target='_blank'>http://etherealothers.com/</a>"
-      ],
-      "parts": [
-        {
-          "type": "list",
-          "content": [
+              "filename": "watch-the-throne/202729_275364125915086_1880604946_o.jpg"
+            },
             {
-              "filename": "etherealothers-screenshot.jpg"
-            }
-          ]
-        }
-      ],
-      "xseeAlso": [
-        "<a href='/ethereal-self'>Ethereal Self</a>"
-      ],
-      "tags": "surveillance,panopticon,lure,privacy,value",
-      "pubDate": "2008-10-10T00:00:00.000Z"
-    },
-    {
-      "date": "2007-10-10T00:00:00.000Z",
-      "orientation": "landscape",
-      "link": "http://stillintherunningtowardsbecoming.com/",
-      "caption": "<a href='http://stillintherunningtowardsbecoming.com/' target='_blank'>Still In The Running Towards Becoming .com</a>, 2007",
-      "cat": "websites,software",
-      "perma": "sitrtb",
-      "title": "sitrtb",
-      "parts": [
-        {
-          "type": "list",
-          "content": [
+              "filename": "watch-the-throne/218410_275363035915195_1544909502_o.jpg"
+            },
             {
-              "filename": "stillintherunningtowardsbecoming.jpg"
+              "filename": "watch-the-throne/219049_275363079248524_882650087_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/242234_275363609248471_722818865_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/244045_275364055915093_179843138_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/265747_275363939248438_2106085257_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/266228_275362629248569_1809078465_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/266633_275363662581799_547232508_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/272056_275363342581831_294194623_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/272095_275362915915207_1946819559_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/277633_275362792581886_2077057468_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/322544_275363175915181_1088304819_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/325577_275363465915152_824068218_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/325580_275362819248550_1089486976_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/327323_275362855915213_710444916_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/327476_275363489248483_27619627_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/330549_275363269248505_1034546355_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/333803_275362649248567_1581843997_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/335168_275363292581836_596762729_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/335535_275362872581878_77221105_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/335843_275362932581872_629159005_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/336604_275363872581778_232826757_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/340170_275363645915134_1900427539_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/340779_275363629248469_1156170986_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/340955_275363142581851_1931089327_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/458728_275363549248477_764842390_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/458759_275362895915209_867045609_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/470598_275363739248458_248696903_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/470759_275363692581796_313519288_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/54083_275363409248491_1803373294_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/615884_275363815915117_1772805224_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/615932_275362955915203_847746074_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/616039_275363582581807_1114530712_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/620765_275364025915096_406170412_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/621460_275362742581891_1876899421_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/622827_275363505915148_689927090_o.jpg"
+            },
+            {
+              "filename": "watch-the-throne/77777_275363439248488_1154382137_o.jpg"
             }
           ]
         }
-      ],
-      "old-related": [
-        "<a href='http://stillintherunningtowardsbecoming.com/' target='_blank'>http://stillintherunningtowardsbecoming.com/</a>"
-      ],
-      "tags": "Mark Rothko,clock,recurrence, sound,time,color cycling,pop culture",
-      "pubDate": "2007-10-10T00:00:00.000Z"
+      ]
     },
     {
-      "date": "2008-10-10T00:00:00.000Z",
-      "orientation": "landscape",
-      "link": "http://verybetastill.com/",
-      "caption": "<a href='http://verybetastill.com/' target='_blank'>Very Beta Still .com</a>, 2008",
-      "cat": "websites,software",
-      "perma": "verybetastill",
-      "descr": "Crossfading algorithmic music aggregator",
-      "title": "very beta still",
-      "old-related": [
-        "<a href='http://verybetastill.com/' target='_blank'>http://verybetastill.com/</a>"
-      ],
-      "tags": "aggregator,algorithm,content,redistribution,shuffle,mix,crossfade",
-      "pubDate": "2008-10-10T00:00:00.000Z"
-    },
-    {
-      "date": "2008-10-10T00:00:00.000Z",
-      "orientation": "landscape",
-      "link": "http://clubinternet.org",
-      "caption": "<a href='http://clubinternet.org' target='_blank'>Club Internet .org</a>, 2008",
-      "cat": "websites,software,curatorial",
-      "perma": "clubinternet",
-      "title": "club internet",
-      "descr": "Club Internet was an online exhibition 'space' curated by various people and existed around 2008 and 2009.️️",
-      "old-related": [
-        "<a href='http://clubinternet.org' target='_blank'>http://clubinternet.org/</a>"
-      ],
-      "xseeAlso": [
-        "<a href='/leftgallery'>left gallery</a>"
-      ],
-      "pubDate": "2008-10-10T00:00:00.000Z"
-    },
-    {
-      "date": "2010-10-20T00:00:00.000Z",
-      "title": "Free",
-      "perma": "free",
-      "location": "New Museum, New York City",
-      "descr": "Group exhibition at the New Museum New York City, curated by Lauren Cornell",
+      "date": "2015-02-20T00:00:00.000Z",
+      "indexPic": true,
+      "id": "jit",
       "cat": "New York City, exhibitions",
+      "title": "Just-in-Time",
+      "location": "American Medium, New York City",
+      "image": {
+        "imageSource": "/img/slideshows/jit/Just-in-Time%20-%20Installation-view-01.jpg",
+        "imageAlt": "",
+        "imageCaption": ""
+      },
+      "old-related": [
+        "<a href='http://www.americanmedium.net/uploads/3/0/5/8/30583131/just-in-time2015.pdf' target='_blank'>Press release by Jaakko Pallasvuo</a>",
+        "<a href='http://www.americanmedium.net/just-in-time.html' target='_blank'>Documentation on gallery website</a>"
+      ],
+      "startDate": "2015-02-20",
+      "endDate": "2015-04-03",
+      "descr": "Solo show at American Medium, New York City",
+      "perma": "just-in-time",
       "parts": [
         {
           "type": "list",
           "content": [
             {
-              "filename": "freee.jpg"
+              "filename": "jit/Just-in-Time - Installation-view-03.jpg",
+              "scale": "cover",
+              "left": 46,
+              "top": 32
+            },
+            {
+              "filename": "jit/Just-in-Time - Aureool (scrum kanban).jpg",
+              "caption": "Aureool (Scrum Kanban), 2015. UV print on whiteboard, custom magnets, marker. 60 x 40\"",
+              "left": 655,
+              "top": 94
+            },
+            {
+              "filename": "jit/Just-in-Time - Chrysalis (green) MK III.jpg"
+            },
+            {
+              "filename": "jit/Just-in-Time - Installation-view-01.jpg"
+            },
+            {
+              "filename": "jit/Just-in-Time - Installation-view-02.jpg"
+            },
+            {
+              "filename": "jit/Just-in-Time - Oyster (scrum kanban).jpg",
+              "caption": "Oyster (Scrum Kanban), 2015, UV print on whiteboard, custom magnets, marker. 60 x 40\""
+            },
+            {
+              "filename": "jit/Just-in-Time - Installation-view-04.jpg",
+              "scale": "cover",
+              "left": 478,
+              "top": 272
+            },
+            {
+              "filename": "jit/Just-in-Time - Installation-view-05.jpg",
+              "scale": "cover",
+              "left": 37,
+              "top": 258
+            },
+            {
+              "filename": "jit/Just-in-Time - Installation-view-07.jpg",
+              "scale": "cover",
+              "left": 104,
+              "top": 152
+            },
+            {
+              "filename": "jit/Just-in-Time - Installation-view-08.jpg",
+              "scale": "cover",
+              "left": 209,
+              "top": 277
+            },
+            {
+              "filename": "jit/Just-in-Time - Time Management (scrum kanban).jpg",
+              "caption": "Time Management (Scrum Kanban), 2015. UV print on whiteboard, custom magnets. 60 x 40\"",
+              "left": 481,
+              "top": 94
+            },
+            {
+              "filename": "jit/Just-in-Time - Macro Intimacy (a).jpg",
+              "left": 475,
+              "top": -71
+            },
+            {
+              "filename": "jit/Just-in-Time - Macro Intimacy (b).jpg"
+            },
+            {
+              "filename": "jit/Just-in-Time - Painting with lens flare.jpg",
+              "caption": "Painting with Lens Flare, 2015. Printed heat shrink foil, packaging materials. 40 x 27.5\""
+            },
+            {
+              "filename": "jit/Just-in-Time - Painting with lens flare (detail).jpg"
+            },
+            {
+              "filename": "jit/Just-in-Time - Chrysalis (mint).jpg"
+            },
+            {
+              "filename": "jit/Just-in-Time - Very Beta Still (break fast) (a).jpg"
+            },
+            {
+              "filename": "jit/Just-in-Time - Very Beta Still (break fast) (b).jpg"
+            },
+            {
+              "filename": "jit/Just-in-Time - Very Beta Still (break fast) (detail 2).jpg"
+            },
+            {
+              "filename": "jit/Just-in-Time - Very Beta Still (break fast) (detail).jpg"
+            },
+            {
+              "filename": "jit/Just-in-Time - delinearinfo.jpg",
+              "caption": "Deli Near .info, 2014 - ongoing. Artist developed social network.",
+              "scale": "cover"
+            },
+            {
+              "filename": "jit/Just-in-Time - delinearinfo (detail).jpg"
             }
           ]
         }
       ],
-      "old-related": [
-        "<a href='https://archive.newmuseum.org/exhibitions/1092' target='_blank'>More info</a>"
-      ],
-      "pubDate": "2010-10-20T00:00:00.000Z"
+      "pubDate": "2015-02-20T00:00:00.000Z"
     },
     {
-      "hideOnIndex": true,
-      "title": "Harm van den Dorpel",
-      "perma": "about",
-      "tags": "contact,email,bio,about,cv",
-      "descr": "Born in Zaandam, the Netherlands. Lives and works in Berlin.<br><br><a href='https://docs.google.com/document/d/1e3_Y-vZKyWIt-iRXt89vLXwpBHYYtJpHlWmm9B5hrb4/' target='_blank'>Curriculum vitae</a><br><br><a href='mailto:studio@harmvandendorpel.com'>studio@harmvandendorpel.com</a><br><br><a href='https://www.are.na/harm-van-den-dorpel/channels' target='_blank'>Are.na</a><br><a href='https://twitter.com/harmvddorpel'>Twitter</a><br><a href='https://www.instagram.com/harmvandendorpel/' target='_blank'>Instagram</a><br><a href='http://harmvandendorpel.com/feed' target='_blank'>RSS</a>",
-      "date": "1981-02-09T11:14:16.339Z",
-      "pubDate": "1981-02-09T11:14:46.367Z"
+      "date": "2014-07-16T00:00:00.000Z",
+      "title": "atractivoquenobello: \"An interview with Harm van den Dorpel\" by Jean Kay",
+      "perma": "interview-aqnb",
+      "cat": "writing",
+      "link": "http://www.aqnb.com/2014/07/16/an-interview-with-harm-van-den-dorpel",
+      "pubDate": "2014-07-16T00:00:00.000Z"
+    },
+    {
+      "date": "2017-12-01T00:00:00.000Z",
+      "title": "Kunstgespräche: \"Death Imitates Language\", interviewed by Nick Koppenhagen (podcast)",
+      "cat": "writing",
+      "tags": "podcast",
+      "link": "http://kunstgespraeche.com/harm-van-den-dorpel/",
+      "pubDate": "2017-12-01T00:00:00.000Z",
+      "perma": "kunstgespr-che-death-imitates-language-interviewed-by-nick-koppenhagen-podcast"
+    },
+    {
+      "date": "2014-06-15T00:00:00.000Z",
+      "title": "Structures and Textures: Databases",
+      "perma": "structures-and-textures-databases",
+      "location": "Foam, Amsterdam",
+      "descr": "Panel discussion at Foam Amsterdam, organized by Melanie Bühler",
+      "cat": "talks,Netherlands",
+      "old-related": [
+        "<a href='http://lunch-bytes.com/events/past/lunch-bytes-21/' target='_blank' itemprop='url'>More information</a>"
+      ],
+      "parts": [
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "Summer-Amsterdam-Flyer.jpg"
+            }
+          ],
+          "pubDate": "2014-06-15T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "date": "2014-06-05T00:00:00.000Z",
+      "title": "Wherever I Touch",
+      "perma": "wherever-i-touch",
+      "descr": "<q>Wherever I touch</q> at <a href='http://officesim.com/projects/wherever-i-touch' target='_blank'>SIM</a>",
+      "cat": "sound",
+      "pubDate": "2014-06-05T00:00:00.000Z"
+    },
+    {
+      "date": "2014-06-05T00:00:00.000Z",
+      "title": "General Fine Arts",
+      "perma": "general-fine-arts",
+      "descr": "Contribution to <a href='http://generalfinearts.net/' target='_blank' itemprop='url'>General Fine Arts</a>",
+      "old-related": [
+        "<a target='_blank' href='http://generalfinearts.net/#read/6e9107eb-d7e7-4c79-a863-fc03fa0f591c'>Contribution</a>"
+      ],
+      "cat": "Germany",
+      "pubDate": "2014-06-05T00:00:00.000Z"
+    },
+    {
+      "date": "2015-06-11T00:00:00.000Z",
+      "title": "Vienna Biennale 2015: Ideas For Change",
+      "location": "Museum for Applied Arts, Vienna",
+      "descr": "Group show at the MAK, Vienna<br>Curated by Marlies Wirth",
+      "cat": "exhibitions, Vienna",
+      "old-related": [
+        "<a href='http://www.mak.at/jart/prj3/mak/main.jart?content-id=1343388632770&rel=en&article_id=1427617290522&event_id=1427617290524' target='_blank'>MAK Website</a>",
+        "<a href='http://www.e-flux.com/announcements/exhibitions-and-projects-for-vienna-biennale-2015/' target='_blank'>e-flux announcement</a>",
+        "Observer: <a href='http://observer.com/2015/04/viennese-art-museum-uses-bitcoin-to-buy-a-screensaver/' target='_blank'>Viennese Art Museum Uses Bitcoin to Buy a (&hellip;)</a>",
+        "Art News: <a href='http://www.artnews.com/2015/04/24/mak-vienna-becomes-first-museum-to-acquire-art-using-bitcoin-a-harm-van-den-dorpel/'>MAK Vienna Becomes First Museum to Use Bitcoin (&hellip;)</a>"
+      ],
+      "startDate": "2015-06-11",
+      "endDate": "2015-10-04",
+      "perma": "ideas-for-change",
+      "xseeAlso": [
+        "<a href='/event-listeners'>Event Listeners</a>"
+      ],
+      "pubDate": "2015-06-11T00:00:00.000Z"
+    },
+    {
+      "date": "2015-05-15T00:00:00.000Z",
+      "indexPic": false,
+      "id": "inflected-objects",
+      "location": "Swiss Institute, Milan",
+      "descr": "Group show at the Swiss Institute, Milan<br>Curated by Melanie Bühler and Valerio Mannucci",
+      "title": "Inflected Objects - Rising Automated Reasoning",
+      "cat": "Milan, exhibitions",
+      "old-related": [
+        "<a href='http://www.inflected-objects.com/' target='_blank'>Exhibition series website</a>",
+        "<a href='http://delinear.info/105ef9e0ae' target='_blank'>On Deli Near Info</a>",
+        "<a href='http://www.istitutosvizzero.it/Uploads/File/PR_Inflected_Objects_Abstraction_ok.pdf' target='_blank'>Press release</a>"
+      ],
+      "startDate": "2015-05-15",
+      "endDate": "2015-06-13",
+      "perma": "inflected-objects",
+      "parts": [
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "inflected-objects/IMG_7818-web.jpg",
+              "caption": "Incompatibility Representation (detail), 2015"
+            },
+            {
+              "filename": "inflected-objects/Room-IO-02.jpg",
+              "caption": "Installation view"
+            },
+            {
+              "filename": "inflected-objects/Room-IO-01.jpg",
+              "caption": "Installation view"
+            }
+          ]
+        }
+      ],
+      "pubDate": "2015-05-15T00:00:00.000Z"
+    },
+    {
+      "date": "2015-03-20T00:00:00.000Z",
+      "indexPic": false,
+      "location": "Upstream Gallery, Amsterdam",
+      "title": "Shifting Optics II",
+      "old-related": [
+        "<a href='http://www.upstreamgallery.nl/exhibitions/128/shifting-optics-ii' target='_blank'>Press Release</a>"
+      ],
+      "startDate": "2015-03-20",
+      "endDate": "2015-04-25",
+      "descr": "Group show at Upstream Gallery, Amsterdam",
+      "perma": "shifting-optics",
+      "cat": "exhibitions,Netherlands",
+      "parts": [
+        {
+          "type": "list",
+          "content": [
+            {
+              "filename": "upstream/2015-Shifting Optics II-HIGH-Harm-van-den-Dorpel-2.jpg",
+              "scale": "cover"
+            },
+            {
+              "filename": "upstream/2015-Shifting-Optics-II-HIGH-1.jpg",
+              "caption": "Work on the right by Peter Struycken",
+              "scale": "cover"
+            },
+            {
+              "filename": "upstream/2015-Shifting-Optics-II-HIGH-Harm-van-den-Dorpel.jpg",
+              "scale": "cover"
+            }
+          ]
+        }
+      ],
+      "pubDate": "2015-03-20T00:00:00.000Z"
     }
   ]
 }
