@@ -11,7 +11,7 @@
   meta($title, $description, $imgUrl, 'https://harmvandendorpel.com/', $keywords);
 ?>
 </head>
-<body itemscope itemtype="http://schema.org/WebPage">
+<body itemscope itemtype="http://schema.org/WebPage" class='index'>
 <div class='to-blur'>
   <div class="index-thumbs">
     <?php main_thumbs(); ?>

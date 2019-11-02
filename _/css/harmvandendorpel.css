@@ -883,14 +883,22 @@ blockquote {
 
 @media only screen and (max-width: 768px) {
 	.top-nav {
-			padding: 12px;
+			/* padding: 12px; */
 	}
 
 	.description-columns {
 		column-count: 1;
 	}
 
-  body {
+	body {
+		margin-top: 12px;	
+	}
+	
+	body {
+    margin: 12px 12px 12px 12px;
+	}
+
+  body.index {
     margin: 55px 12px 12px 12px;
 	}
 	
