@@ -19,11 +19,12 @@
     $thisPageUrl = "http://harmvandendorpel.com/$perma";
 
     $description = $item['descr'];
-    if ($item["images"] && count($item["images"])) {
-      $path = "/img";
-      $filename = str_replace(' ', '%20',$item["images"][0]["filename"]);
-      $imgUrl = $path.$filename;
-    }
+    // if ($item["images"] && count($item["images"])) {
+    //   $path = "/img";
+    //   $filename = str_replace(' ', '%20',$item["images"][0]["filename"]);
+    //   $imgUrl = $path.$filename;
+    // }
+    $imgUrl = $item['meta_image'];
 
     $metaKeywords = $item['tags'];
     $white = $item['white'] == 1;

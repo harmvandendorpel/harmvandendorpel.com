@@ -54,14 +54,15 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
   }
 
 	function getImageUrl($item) {
-		if (array_key_exists('parts', $item) && count($item["parts"])) {
-			$path = "/img";
+    return $item['meta_image'];
+		// if (array_key_exists('parts', $item) && count($item["parts"])) {
+		// 	$path = "/img";
 
-			$filename = str_replace(' ', '%20',$item["parts"][0]["filename"]);
-			$imgUrl = $path.$filename;
-			return $imgUrl;
-		}
-		return null;
+		// 	$filename = str_replace(' ', '%20',$item["parts"][0]["filename"]);
+		// 	$imgUrl = $path.$filename;
+		// 	return $imgUrl;
+		// }
+		// return null;
 	}	
   
   function item($data) {

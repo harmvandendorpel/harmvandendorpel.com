@@ -137,7 +137,7 @@ function thumb($item) {
 }
 
 function item($data) {
-  $filename = $data['indexPic'];
+  $filename = $data['meta_image'];
   $imgUrl = "/img/$filename";
 ?>
     <div class="image-wide-index" style='position: relative;'>
