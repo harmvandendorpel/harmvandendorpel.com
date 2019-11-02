@@ -69,8 +69,8 @@ function meta($title, $metaDescription, $metaImg=null, $thisPageUrl, $metaKeywor
 
     <meta name="keywords" content="<?php echo implode(', ', $keywordArr); ?>">
     <link rel="alternate" type="application/rss+xml" title="Harm van den Dorpel RSS Feed" href="https://harmvandendorpel.com/feed/" />
-    <link rel="stylesheet" href="<?php echo ABSOLUTE_URL?>/_/css/agipo.css" />
     <link href="<?php echo ABSOLUTE_URL; ?>/_/css/harmvandendorpel.css?cache=<?php echo $cssCaching ?>" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo ABSOLUTE_URL?>/_/css/agipo.css" />
     <?php
     if ($white) {
         echo "<style>body{background-color:white;} .back-button {background-color:white !important}  .floating-about a, .floating-top-left-nav a {background-color:white !important}</style>";
@@ -132,6 +132,7 @@ function thumb($item, $show_captions = false) {
     </div>
     <div class='mobile-thumb-image'>
       <img src='<?php echo $item['image'] ?>' />
+      <div style='font-size: 16px; line-height:22px;'><?php echo $item['title'];?></div>
     </div>
     <?php if ($show_captions): ?>
       <div style='font-size: 16px; line-height:22px;'><?php echo $item['title'];?></div>
@@ -155,8 +156,11 @@ function item($data) {
             <span class='image-inner-proportional'></span>
           </div>
         </div>
-
-        <div class='index-header-container'><h1 style='background-color: white; display: inline; padding: 10px 15px;'><?php echo $data['title']; ?></h1></div>
+        <img src='<?php echo $imgUrl; ?>' class='image-wide-index-mobile-image' />
+        <div class='index-header-container'>
+          <h1 style='background-color: white; display: inline; padding: 10px 15px;'><?php echo $data['title']; ?></h1>
+          <div></div>
+        </div>
       </a>
     </div>
   <?php
