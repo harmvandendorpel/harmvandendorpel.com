@@ -5,19 +5,16 @@
       "image": "/img/cartesian-genetic-programming/cgp-1554306222667-framed.jpg",
       "title": "Decompressions (Structures of Redundancy)"
     },
-   
     {
       "link": "/nested-exchange",
       "image": "/img/pattern-and-presence/0006.jpg",
       "title": "Nested Exchange"
     },
-    
     {
       "link": "/assemblages",
       "image": "/img/pattern-and-presence/0021.jpg",
       "title": "Assemblages"
     },
-    
     {
       "link": "/drawings",
       "image": "/img/automatic-drawings/fingerprinting.jpg",
@@ -28,12 +25,10 @@
       "image": "/img/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
       "title": "Death Imitates Language"
     }
-    
   ],
   "content": [
     {
       "date": "2012-03-02T00:00:00.000Z",
-      "meta_image": true,
       "title": "About",
       "tags": "spheres,sculpture,transparent,assemblage,acrylic,hanging",
       "location": "Wilkinson Gallery, London",
@@ -363,7 +358,7 @@
       "cat": "websites,software",
       "perma": "sitrtb",
       "title": "sitrtb",
-      "meta_image":"stillintherunningtowardsbecoming.jpg",
+      "meta_image": "stillintherunningtowardsbecoming.jpg",
       "parts": [
         {
           "type": "list",
@@ -419,7 +414,7 @@
       "location": "New Museum, New York City",
       "descr": "Group exhibition at the New Museum New York City, curated by Lauren Cornell",
       "cat": "New York City, exhibitions",
-      "meta_image":"freee.jpg",
+      "meta_image": "freee.jpg",
       "parts": [
         {
           "type": "list",
@@ -476,7 +471,7 @@
         "<a href='/structures-of-redundancy'>Structures of Redundancy (autobreeder)</a>",
         "<a href='/structures-of-redundancy-prints'>Structures of Redundancy (prints)</a>"
       ],
-      "meta_image":"cartesian-genetic-programming/cgp-1556312769668-framed.jpg",
+      "meta_image": "cartesian-genetic-programming/cgp-1556312769668-framed.jpg",
       "parts": [
         {
           "type": "list",
@@ -531,7 +526,7 @@
       ],
       "cat": "Netherlands,curatorial,video,animation",
       "pubDate": "2019-09-06T00:00:00.000Z",
-      "meta_image":"artificial-scarcity.png",
+      "meta_image": "artificial-scarcity.png",
       "parts": [
         {
           "type": "list",
@@ -548,13 +543,12 @@
       "title": "Algues Artificielles Prints",
       "perma": "algues-artificielles",
       "date": "2019-06-01T00:00:00.000Z",
-      "meta_image": true,
       "cat": "software,genetics",
       "xseeAlso": [
         "<a href='/talking-turtles'>Talking Turtles</a>",
         "<a href='https://harmvandendorpel.com/pattern-and-presence#0022.jpg'>Pattern and Presence</a>"
       ],
-      "meta_image":"algues-artificielles-2019/drawing-1481916821427-framed-web.jpg",
+      "meta_image": "algues-artificielles-2019/drawing-1481916821427-framed-web.jpg",
       "parts": [
         {
           "type": "list",
@@ -601,7 +595,6 @@
       "private": false,
       "cat": "AI,software,genetics",
       "tags": "algorithms,genetics,programming,relics",
-      "meta_image": true,
       "perma": "structures-of-redundancy",
       "related": {
         "caption": "Exhibited at:",
@@ -620,7 +613,7 @@
       "kind": "Series",
       "descr": "Compositions evolving from primitive Turing machines. The more I lose myself in coding, the more I encounter historical computer science and AI relics. The algorithm used here is my contemporary interpretation of Cartesian genetic programming, which was invented in 1999.<br><br>UltraChrome HDR print on Hahnemühle paper. Each work unique edition.",
       "date": "2019-05-02T00:00:00.000Z",
-      "meta_image":"cartesian-genetic-programming/cgp-1554306222667-framed.jpg",
+      "meta_image": "cartesian-genetic-programming/cgp-1554306222667-framed.jpg",
       "parts": [
         {
           "type": "thumbs",
@@ -722,7 +715,7 @@
       "perma": "interfaces",
       "tags": "tablet,led,light,usb,power,tracing",
       "descr": "Back lit LED panels, unique edition, 2019.",
-      "meta_image":"interface-works/w3.jpg",
+      "meta_image": "interface-works/w3.jpg",
       "parts": [
         {
           "type": "list",
@@ -769,7 +762,7 @@
       "kind": "Series",
       "perma": "assemblages",
       "descr": "Sculptures, usually hanging, made from acrylic glass, hand- or CNC cut, printed on with UV cured inks.",
-      "meta_image":"pattern-and-presence/0019.jpg",
+      "meta_image": "pattern-and-presence/0019.jpg",
       "related": {
         "caption": "Exhibited at:",
         "content": [
@@ -779,7 +772,6 @@
           {
             "perma": "I-Was-Raised-On-The-Internet"
           },
-         
           {
             "perma": "release-early-release-often"
           },
@@ -833,10 +825,9 @@
       "date": "2019-09-07T00:00:00.000Z",
       "cat": "Netherlands,blockchain,curatorial",
       "pubDate": "2019-09-07T00:00:00.000Z",
-      "meta_image":"rite-of-access/rite-of-access-04.jpg",
+      "meta_image": "rite-of-access/rite-of-access-04.jpg",
       "perma": "rite-of-access",
       "descr": "<p>left gallery took residence in brick and mortar public art institution Stroom Den Haag and tranformed it into a store.</p><p>left gallery is an online platform that produces and sells works of art as downloadable objects. These objects exist in limited editions, available for purchase. Once purchased, buyers receive a cryptographic ‘token’ as proof of ownership. In rite of access, this token mechanism creates the conditions to access the works on display: engagement of visitors, such as purchases and social media activity operate as a stream of credit, which allow the works to remain on view. Follow left gallery on twitter or subscribe to the mailinglist, and the time to see the complete works increases; unlike its pages, and access may be denied. a purchase made through left gallery anywhere in the world extends the display of the works at stroom den haag. So long as sufficient credit remains, visitors can access all works within the project.</p><p>left gallery investigates access to public art by transforming notions of ownership. By guaranteeing the artificial scarcity of objects in their portfolio, left gallery seeks to uncover the invisible degrees of access that are encoded in consuming art in a public institution. Through the proposal of a model that democratises ownership of works of art, the stroom gallery space operates as a ‘serving suggestion’, showing how the works could be installed in a domestic setting once purchased.</p><p>The objects in rite of access represent part of left gallery’s portfolio as well as new works, commissioned for this project. Works include screensavers, a flight simulator, ebooks, an alarm clock, apps, merch, and an ai assistant.</p><p>Curated by Harm van den Dorpel, Emer M. Grant, and Lua Vollaard</p><p><a href='https://left.gallery/collections/rite-of-access' target='_blank' class='left-gallery-button'>Shop Exhibition</a></p>",
-      "meta_image": "rite-of-access/rite-of-access-04.jpg",
       "parts": [
         {
           "type": "list",
@@ -1191,7 +1182,7 @@
       "descr": "Group show at Kate Vass Gallery Zürich, curated by Georg Bak. With works by Nicolas Maigret &amp; Maria Roszkowska, John Watkinson, Grayson Earle, Rob Myers, Kevin Abosch &amp; Ai Weiwei, Terra 0, Cullen Miller &amp; Gabriel Dunne, César Escudero Andaluz & Martin Nadal, Ed Fornieles, Harm van den Dorpel, Distributed Gallery, and Sarah Friend.",
       "date": "2018-11-16T00:00:00.000Z",
       "cat": "exhibitions,blockchain",
-      "meta_image":"nested-exchange.png",
+      "meta_image": "nested-exchange.png",
       "parts": [
         {
           "type": "list",
@@ -1211,7 +1202,7 @@
       "title": "8g273n93824ytv23948y23948t",
       "private": true,
       "perma": "ihw9n18y39284n5p29845",
-      "meta_image":"8b8a11af92de02d6798649bdeae587230241a1be.png",
+      "meta_image": "8b8a11af92de02d6798649bdeae587230241a1be.png",
       "parts": [
         {
           "type": "list",
@@ -1310,7 +1301,7 @@
         "<a href='https://www.bozar.be/en/activities/143790-art-on-paper-2018' target='_blank'>About the fair</a>"
       ],
       "cat": "Brussels,fairs,drawings",
-      "meta_image":"automatic-drawings/006.jpg",
+      "meta_image": "automatic-drawings/006.jpg",
       "parts": [
         {
           "type": "list",
@@ -1369,7 +1360,7 @@
       "date": "2018-07-25T00:00:00.000Z",
       "descr": "Group show at the ArtCenter/South Florida with work by Jillian Mayer, Felice Grodin, Gala Committee, Harm van den Dorpel, Nick Lobo, and others. Curated by Emer M. Grant.",
       "tags": "real estate, Miami, software, dystopian",
-      "meta_image":"e-state/09-e-state-realisms-1-print.jpg",
+      "meta_image": "e-state/09-e-state-realisms-1-print.jpg",
       "featured": false,
       "parts": [
         {
@@ -1451,7 +1442,7 @@
           ]
         }
       ],
-      "meta_image":"live-and-let-live/HD-2004-2018-MarkovsWindow-cropped.jpg",
+      "meta_image": "live-and-let-live/HD-2004-2018-MarkovsWindow-cropped.jpg",
       "pubDate": "2018-06-02T00:00:00.000Z"
     },
     {
@@ -1960,7 +1951,8 @@
       "date": "2017-09-15T00:00:00.000Z",
       "cat": "exhibitions,Germany",
       "meta_image": false,
-      "parts": [{
+      "parts": [
+        {
           "type": "thumbs",
           "content": [
             {
@@ -1972,8 +1964,7 @@
               "caption": "Bamboo, 2017. Ballpoint on paper, 29.7 &times; 21cm"
             }
           ]
-        }
-        ,
+        },
         {
           "type": "list",
           "content": [
@@ -2003,7 +1994,6 @@
             }
           ]
         }
-        
       ],
       "old-related": [
         "<a href='http://www.kunstvereinfreiburg.de/htmldocs_e/archive.html' target='_blank'>Website Kunstverein Freiburg</a>",
@@ -2216,7 +2206,7 @@
       "perma": "drawings",
       "date": "2017-05-11T00:00:00.000Z",
       "ongoing": true,
-      "descr": "Drawings on paper made with a CNC-router and my own hand. Various scripts and custom software were programmed to generate each unique drawing.",
+      "descr": "Drawings on paper made with a CNC-router, disturbed and complemented by my own hand. Various scripts and custom software were programmed to generate each unique drawing.",
       "meta_image": false,
       "tags": "",
       "related": {
