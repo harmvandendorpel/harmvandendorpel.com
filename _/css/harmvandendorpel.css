@@ -978,6 +978,8 @@ blockquote {
 
 	.date {
 		text-align: right;
+		padding-left: 55px;
+		box-sizing: border-box;
 	}
 
 	.related-item {
