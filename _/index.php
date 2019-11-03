@@ -3,7 +3,7 @@
 <head>
 <?php
   $searchQuery = $_GET['q'];
-  $content = filterFeatured();
+  $content = getContent();
   $title = 'Harm van den Dorpel';
   $description = 'Remember what it looked like before it meant anything?';
   $keywords = 'art,artist,education,decentralisation,aesthetics,learning,algorithms,platforms,developer,berlin,programming,sculpture,collage';
@@ -14,16 +14,36 @@
 </head>
 <body itemscope itemtype="http://schema.org/WebPage" class='index'>
 <div class='to-blur'>
-  <div class="index-thumbs">
-    <?php main_thumbs(); ?>
-  </div>
-  <div class="index-content">
-    <div class="index-index">
-      <div class="index-index-list" id="list-default">
-        <?php foreach($content as $item) item($item); ?>
-      </div>
-    </div>
-  </div>
+  <?php foreach(getIndexData() as $index_item): ?>
+  <?php
+    switch ($index_item['type']) {
+      case 'wide':
+        $item = findItem($content, $index_item['perma']);
+        ?>
+        
+        <div class="index-content">
+          <div class="index-index">
+            <div class="index-index-list" id="list-default">
+              <?php item($item); ?>
+            </div>
+          </div>
+        </div>
+        
+        <?php
+        break;
+
+      case 'thumbs':
+        echo '<div class="index-thumbs">';
+        main_thumbs($index_item['content']); // main_thumbs
+        echo '</div>';
+        break;
+    }
+
+  ?>
+  <?php endforeach; ?>
+
+  
+  
 
   <div class="floating-logo floating-logo-deli" data-link="/deli-near-info"></div>
   <a href='https://left.gallery' target='_blank'><div class="floating-logo floating-logo-left"></div></a>
@@ -39,8 +59,8 @@
 <?php footer(); ?>
 
 <?php
-function main_thumbs () {
-  $index_data = getIndexData();
+function main_thumbs ($index_data) {
+  // $index_data = getIndexData();
   foreach($index_data as $item) {
     nav_thumb($item, true);
   }

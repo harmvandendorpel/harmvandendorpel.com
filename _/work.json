@@ -1,29 +1,73 @@
 {
   "index": [
     {
-      "link": "/structures-of-redundancy",
-      "image": "/img/cartesian-genetic-programming/cgp-1554306222667-framed.jpg",
-      "title": "Decompressions (Structures of Redundancy)"
+      "type": "thumbs",
+      "content": [
+        {
+          "link": "/structures-of-redundancy",
+          "image": "/img/cartesian-genetic-programming/cgp-1554306222667-framed.jpg",
+          "title": "Decompressions (Structures of Redundancy)"
+        },
+        {
+          "link": "/nested-exchange",
+          "image": "/img/pattern-and-presence/0006.jpg",
+          "title": "Nested Exchange"
+        },
+        {
+          "link": "/algues-artificielles",
+          "image": "/img/algues-artificielles-2019/drawing-1481896544168-framed.jpg",
+          "title": "Algues Artificielles"
+        },
+        {
+          "link": "/death-imitates-language",
+          "image": "/img/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
+          "title": "Death Imitates Language"
+        }
+      ]
     },
     {
-      "link": "/nested-exchange",
-      "image": "/img/pattern-and-presence/0006.jpg",
-      "title": "Nested Exchange"
+      "type": "wide",
+      "perma": "rite-of-access"
     },
     {
-      "link": "/assemblages",
-      "image": "/img/pattern-and-presence/0021.jpg",
-      "title": "Assemblages"
+      "type": "wide",
+      "perma": "uninnocent-bystander"
     },
     {
-      "link": "/drawings",
-      "image": "/img/automatic-drawings/fingerprinting.jpg",
-      "title": "Drawings"
+      "type": "wide",
+      "perma": "vertiginous-data"
     },
     {
-      "link": "/death-imitates-language",
-      "image": "/img/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
-      "title": "Death Imitates Language"
+      "type": "wide",
+      "perma": "proof-of-work"
+    },
+    {
+      "type": "thumbs",
+      "content": [
+        {
+          "link": "/assemblages",
+          "image": "/img/pattern-and-presence/0021.jpg",
+          "title": "Assemblages"
+        },
+        {
+          "link": "/drawings",
+          "image": "/img/automatic-drawings/fingerprinting.jpg",
+          "title": "Drawings"
+        },
+        {
+          "link": "/event-listeners",
+          "image": "/img/lexachast-krakow-04.jpg",
+          "title": "Software"
+        }
+      ]
+    },
+    {
+      "type": "wide",
+      "perma": "notes-on-objects"
+    },
+    {
+      "type": "wide",
+      "perma": "pattern-and-presence"
     }
   ],
   "content": [
@@ -540,10 +584,24 @@
       "descr": "I was asked to curate a screening program taking from the Stedelijk’s single channel video collection and new one-minute videos solicited via an open call. As a starting point I suggested to investigate the concept of <q>artificial scarcity</q> as we might encounter in economics, but also in language and artistic process. The works from the program will remain on view as part of the permanent collection exhibition, as well as on a video screen in the entrance hall.<br><br>With works by Samuel Beckett, Culturesport, Martha Rosler, Petra Cortright, and many more.<br><br>Thanks go out to Karen Archey and Henri Sandront of the Stedelijk Museum Amsterdam, and Julia van Mourik of The One Minutes Foundation."
     },
     {
-      "title": "Algues Artificielles Prints",
+      "title": "Algues Artificielles",
       "perma": "algues-artificielles",
+      "kind": "Series",
       "date": "2019-06-01T00:00:00.000Z",
       "cat": "software,genetics",
+      "descr": "<p>UltraChrome HDR print on Hahnemühle paper. Each unique edition.<p><p><a class='btn' target='_blank' href='http://hybrid.vigor.bio/'>View Hybrid Vigor</a></p>",
+      "related": {
+        "caption": "Exhibited at:",
+        "content": [
+          {
+            "perma": "asking-for-a-friend"
+          },
+          {
+           
+            "perma": "pattern-and-presence"
+          }
+        ]
+      },
       "xseeAlso": [
         "<a href='/talking-turtles'>Talking Turtles</a>",
         "<a href='https://harmvandendorpel.com/pattern-and-presence#0022.jpg'>Pattern and Presence</a>"
@@ -551,27 +609,74 @@
       "meta_image": "algues-artificielles-2019/drawing-1481916821427-framed-web.jpg",
       "parts": [
         {
+          "type": "thumbs",
+          "content": [
+            {
+              "caption": "Unscripted Relinings, 2018. 80×65cm.",
+              "filename": "pattern-and-presence/0025.jpg"
+            },
+            {
+              "filename": "pattern-and-presence/0025b.jpg",
+              "caption": "Unscripted Relinings, 2018. 80×65cm."
+            },
+            {
+              "filename": "algues-artificielles-2019/drawing-1481916821427-framed-web.jpg",
+              "caption": "Unheard Estimator, 2019. 80×65cm."
+            }
+            
+          ]
+        },
+        {
+          "type":"list",
+          "content": [
+            {
+              "filename": "asking-for-a-friend/algues-artificielles.jpg",
+              "caption":"Algues Artificielles, 2017. Software projection, edition 5+1AP."
+            }
+          ]
+        },
+
+        {
+          "type": "thumbs",
+          "content": [
+            {
+              "filename": "asking-for-a-friend/frouters.jpg",
+              "caption": "Frouters. 100×80cm."
+            },
+            {
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9677.jpg",
+              "caption": "Availablesky, 2016. 100×80cm."
+            },
+            {
+
+              "filename": "asking-for-a-friend/2017-11-24-Narrative-Projects-IMG_9654.jpg",
+              "caption": "Adoreway, 2016. 100×80cm."
+            }
+          ]
+        },
+        {
           "type": "list",
           "content": [
             {
-              "filename": "algues-artificielles-2019/drawing-1481916821427-framed-web.jpg",
-              "caption": "Unheard Estimator, 80&times;65cm, 2019"
-            },
+              "filename": "algues-artificielles-2019/drawing-1481896544168-framed.jpg",
+              "caption": "Audit Myth Buzz, 2019. 80×65cm."
+            }
+          ]
+        },
+        {
+          "type": "thumbs",
+          "content": [
             {
-              "filename": "algues-artificielles-2019/1481915995217-mock-framed-web.jpg",
-              "caption": "Profane Snout, 80&times;65cm, 2019"
+              "filename": "pattern-and-presence/0023.jpg",
+              "caption": "Freeling Tristesse, 2018. 80×65cm."
             },
             {
               "filename": "algues-artificielles-2019/drawing-1481916029428-framed-mock.jpg",
-              "caption": "Bloated Taunt, 80&times;65cm, 2019"
+              "caption": "Bloated Taunt, 2019. 80×65cm."
             },
             {
-              "filename": "algues-artificielles-2019/drawing-1481896544168-framed.jpg",
-              "caption": "Audit Myth Buzz, 80&times;65cm"
-            },
-            {
-              "filename": "algues-artificielles-2019/drawing-1481916803778-framed.jpg",
-              "caption": "Muted Shine Synonym, 80&times;65cm"
+              "caption": "Eponymous Seedling, 2019. 80×65cm.",
+              "filename": "pattern-and-presence/0024.jpg"
             }
           ]
         }
@@ -827,7 +932,7 @@
       "pubDate": "2019-09-07T00:00:00.000Z",
       "meta_image": "rite-of-access/rite-of-access-04.jpg",
       "perma": "rite-of-access",
-      "descr": "<p>left gallery took residence in brick and mortar public art institution Stroom Den Haag and tranformed it into a store.</p><p>left gallery is an online platform that produces and sells works of art as downloadable objects. These objects exist in limited editions, available for purchase. Once purchased, buyers receive a cryptographic ‘token’ as proof of ownership. In rite of access, this token mechanism creates the conditions to access the works on display: engagement of visitors, such as purchases and social media activity operate as a stream of credit, which allow the works to remain on view. Follow left gallery on twitter or subscribe to the mailinglist, and the time to see the complete works increases; unlike its pages, and access may be denied. a purchase made through left gallery anywhere in the world extends the display of the works at stroom den haag. So long as sufficient credit remains, visitors can access all works within the project.</p><p>left gallery investigates access to public art by transforming notions of ownership. By guaranteeing the artificial scarcity of objects in their portfolio, left gallery seeks to uncover the invisible degrees of access that are encoded in consuming art in a public institution. Through the proposal of a model that democratises ownership of works of art, the stroom gallery space operates as a ‘serving suggestion’, showing how the works could be installed in a domestic setting once purchased.</p><p>The objects in rite of access represent part of left gallery’s portfolio as well as new works, commissioned for this project. Works include screensavers, a flight simulator, ebooks, an alarm clock, apps, merch, and an ai assistant.</p><p>Curated by Harm van den Dorpel, Emer M. Grant, and Lua Vollaard</p><p><a href='https://left.gallery/collections/rite-of-access' target='_blank' class='left-gallery-button'>Shop Exhibition</a></p>",
+      "descr": "<p>left gallery took residence in brick and mortar public art institution Stroom Den Haag and transformed it into a store.</p><p>left gallery is an online platform that produces and sells works of art as downloadable objects. These objects exist in limited editions, available for purchase. Once purchased, buyers receive a cryptographic ‘token’ as proof of ownership. In rite of access, this token mechanism creates the conditions to access the works on display: engagement of visitors, such as purchases and social media activity operate as a stream of credit, which allow the works to remain on view. Follow left gallery on twitter or subscribe to the mailinglist, and the time to see the complete works increases; un-like its pages, and access may be denied. A purchase made- through left gallery anywhere in the world extends the display of the works at stroom den haag. So long as sufficient credit remains, visitors can access all works within the project.</p><p>left gallery investigates access to public art by transforming notions of ownership. By guaranteeing the artificial scarcity of objects in their portfolio, left gallery seeks to uncover the invisible degrees of access that are encoded in consuming art in a public institution. Through the proposal of a model that democratises ownership of works of art, the stroom gallery space operates as a ‘serving suggestion’, showing how the works could be installed in a domestic setting once purchased.</p><p>The objects in rite of access represent part of left gallery’s portfolio as well as new works, commissioned for this project. Works include screensavers, a flight simulator, E-books, an alarm clock, apps, merch, and an AI assistant.</p><p>Curated by Harm van den Dorpel, Emer M. Grant, and Lua Vollaard</p><p><a href='https://left.gallery/collections/rite-of-access' target='_blank' class='left-gallery-button'>Shop Exhibition</a></p>",
       "parts": [
         {
           "type": "list",

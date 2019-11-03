@@ -133,30 +133,21 @@
 <?php
 
 function cats($cats, $isUpcoming) {
-    $catArr = explode(',', $cats);
+  $catArr = explode(',', $cats);
 
-    if ($isUpcoming) {
-        $catArr[] = 'upcoming';
-    }
+  if ($isUpcoming) {
+    $catArr[] = 'upcoming';
+  }
 
-    echo "List all from ";
-    $first = true;
-    foreach($catArr as $cat) {
-        $cat = trim($cat);
-        if (!$first) echo ' or ';
-        echo "<a rel='category' href='".ABSOLUTE_URL."/list/".rawurlencode($cat)."'>$cat</a>";
+  echo "List all from ";
+  $first = true;
 
-        $first = false;
-    }
-}
-
-function findItem($content, $perma) {
-    foreach($content as $item) {
-        if (strtolower($item['perma']) == strtolower($perma) && !isPrivate($item) ) {
-            return $item;
-        }
-    }
-    return null;
+  foreach($catArr as $cat) {
+    $cat = trim($cat);
+    if (!$first) echo ' or ';
+    echo "<a rel='category' href='".ABSOLUTE_URL."/list/".rawurlencode($cat)."'>$cat</a>";
+    $first = false;
+  }
 }
 
 function images($content) {
@@ -164,17 +155,17 @@ function images($content) {
     
   if (count($content)) {
     foreach ($content as $image) {
-        if ($image['caption']) {
-            $alt = $image['caption'];
-        } else {
-            $alt = $item['title'];
-        }
-        if ($image['link']) {
-            $link = $image['link'];
-        } else {
-            $link = null;
-        }
-        image($image, $alt, $link);
+      if ($image['caption']) {
+        $alt = $image['caption'];
+      } else {
+        $alt = $item['title'];
+      }
+      if ($image['link']) {
+        $link = $image['link'];
+      } else {
+        $link = null;
+      }
+      image($image, $alt, $link);
     }
   }
   echo "</div>";

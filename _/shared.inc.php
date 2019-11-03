@@ -34,6 +34,16 @@ function getIndexData() {
   return $json_data['index'];
 }
 
+function findItem($content, $perma) {
+  foreach($content as $item) {
+    if (strtolower($item['perma']) == strtolower($perma) && !isPrivate($item) ) {
+        return $item;
+    }
+  }
+  return null;
+}
+
+
 function getContent() {
   function sortDesc($a, $b) {
     return @strtotime($a['date']) < @strtotime($b['date']);
