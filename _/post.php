@@ -237,6 +237,7 @@ function show_thumbs($thumbs) {
     $link = "/img/$filename";
     $data = array(
       title => $thumb['title'],
+      caption => $thumb['title'],
       image => $link
     );
 
