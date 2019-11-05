@@ -47,17 +47,17 @@
         {
           "link": "/assemblages",
           "image": "/img/pattern-and-presence/0021.jpg",
-          "title": "Assemblages"
+          "caption": "Assemblages"
         },
         {
           "link": "/drawings",
           "image": "/img/automatic-drawings/fingerprinting.jpg",
-          "title": "Drawings"
+          "caption": "Drawings"
         },
         {
           "link": "/software",
           "image": "/img/lexachast-krakow-04.jpg",
-          "title": "Software"
+          "caption": "Software"
         }
       ]
     },
