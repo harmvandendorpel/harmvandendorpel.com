@@ -110,7 +110,7 @@ function nav_thumb($item, $show_captions = false) {
         <div class='mobile-thumb-image'>
           <img src='<?php echo $item['image'] ?>' />
         </div>
-        <div class='mobile-thumb-image-caption'><?php echo $item['title'];?></div>
+        <div class='mobile-thumb-image-caption'><?php echo $item['caption'];?></div>
     </div>
     </a>
   <?php
@@ -124,13 +124,13 @@ function thumb($item) {
     <div
       class='index-thumb-item'
       data-viewer-item='<?php echo $item['image'] ?>'
-      data-viewer-caption='<?php echo $item['title']; ?>'
+      data-viewer-caption='<?php echo $item['caption']; ?>'
       style='cursor: zoom-in; padding-bottom: <?php echo $padding_bottom; ?>; background-image: url(<?php echo $item['image'] ?>);'>
       <span class='thumb-item-image'></span>
     </div>
     <div class='mobile-thumb-image'>
       <img src='<?php echo $item['image'] ?>' />
-      <div class='mobile-thumb-image-caption'><?php echo $item['title'];?></div>
+      <div class='mobile-thumb-image-caption'><?php echo $item['caption'];?></div>
     </div>
   </div>
 <?php
