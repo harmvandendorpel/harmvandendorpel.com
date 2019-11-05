@@ -102,7 +102,7 @@
           "content": [
             {
               "filename": "ear.png",
-              "caption": "eAR",
+              "caption": "eAR (PAN 72)",
               "link": "https://p-a-n.org/release/pan-72-jenna-sutela-ville-haimala-ear/",
               "new_window": true
             }
@@ -3250,7 +3250,7 @@
     {
       "date": "2016-04-15T00:00:00.000Z",
       "title": "Death Imitates Language",
-      "meta_image": true,
+      "meta_image": "asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
       "cat": "software,genetics",
       "perma": "death-imitates-language",
       "related": {
