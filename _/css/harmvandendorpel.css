@@ -698,7 +698,7 @@ blockquote {
 	/* padding-bottom: ${bottomPadding}; */
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	mix-blend-mode: multiply;
+	/* mix-blend-mode: multiply; */
 }
 
 .thumb-item-image {

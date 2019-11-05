@@ -151,7 +151,7 @@ function cats($cats, $isUpcoming) {
 }
 
 function images($content) {
-  echo '<div class="images" id="pics">';
+  echo '<div class="images">';
     
   if (count($content)) {
     foreach ($content as $image) {
@@ -190,28 +190,29 @@ function seeAlso($seeAlso) {
 }
 
 function image($image, $alt, $link) {
-    $fullFilename = '/img/' . $image['filename'];
-    list($width, $height) = getimagesize('.' . $fullFilename);
+  $is_nav = $link ? true : false;
+  $fullFilename = '/img/' . $image['filename'];
+  list($width, $height) = getimagesize('.' . $fullFilename);
 
-    $url = ABSOLUTE_URL . $fullFilename;
-    if ($image['orientation']) {
-        $class = $image['orientation'];
-    } else {
-        $class = $width > $height ? 'landscape' : 'portrait';
-    }
+  $url = ABSOLUTE_URL . $fullFilename;
+  if ($image['orientation']) {
+      $class = $image['orientation'];
+  } else {
+      $class = $width > $height ? 'landscape' : 'portrait';
+  }
 
-    ?>
-    <figure class='main-image <?php echo $class; ?>' id='<?php echo $image['filename']?>'>
-    <?php if ($link) { ?><a href='<?php echo $link; ?>' target='_blank'><?php } ?>
-    <img
-        alt='<?php echo $alt; ?>'
-        src='<?php echo($url); ?>'
-        data-viewer-item='<?php echo($url); ?>'
-        data-viewer-caption='<?php echo $image['caption'];?>'
-    >
-    <?php if ($link) { ?></a><?php } ?>
-    <figcaption><?php echo $image['caption']; ?></figcaption>
-    </figure><?php
+  ?>
+  <figure class='main-image <?php echo $class; ?>' id='<?php echo $image['filename']?>'>
+  <?php if ($link) { ?><a href='<?php echo $link; ?>' target='_blank'><?php } ?>
+  <img
+      alt='<?php echo $alt; ?>'
+      src='<?php echo($url); ?>'
+      <?php if (!$is_nav): ?>data-viewer-item='<?php echo($url); ?>'<?php endif; ?>
+      data-viewer-caption='<?php echo $image['caption'];?>'
+  >
+  <?php if ($link) { ?></a><?php } ?>
+  <figcaption><?php echo $image['caption']; ?></figcaption>
+  </figure><?php
 }
 
 
@@ -235,11 +236,17 @@ function show_thumbs($thumbs) {
     $filename = $thumb['filename'];
     $link = "/img/$filename";
     $data = array(
-      title => $thumb['caption'],
-      link => '',
+      title => $thumb['title'],
       image => $link
     );
-    thumb($data);
+
+    if ($thumb['link']) {
+      $data['link'] = $thumb['link'];
+      $data['new_window'] = $thumb['new_window'];
+      nav_thumb($data);
+    } else {
+      thumb($data);
+    }
   }
 
   echo '</div>';

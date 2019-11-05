@@ -100,9 +100,9 @@ function upcomingString($dateString) {
 function nav_thumb($item, $show_captions = false) {
   $filename = '.'.$item['image'];
   $padding_bottom = '100%';
-
+  $target = $item['new_window'] ? ' target="_blank" ' : '';
 ?>
-  <a href='<?php echo $item['link'];?>' class='thumb-link'>
+  <a href='<?php echo $item['link'];?>' class='thumb-link' <?php echo $target; ?>>
     <div class='thumb-container'>
         <div class='index-thumb-item' style='padding-bottom: <?php echo $padding_bottom; ?>;background-image: url(<?php echo $item['image'] ?>);'>
           <span class='thumb-item-image' ></span>
@@ -126,7 +126,7 @@ function thumb($item) {
       data-viewer-item='<?php echo $item['image'] ?>'
       data-viewer-caption='<?php echo $item['title']; ?>'
       style='cursor: zoom-in; padding-bottom: <?php echo $padding_bottom; ?>; background-image: url(<?php echo $item['image'] ?>);'>
-      <span class='thumb-item-image' ></span>
+      <span class='thumb-item-image'></span>
     </div>
     <div class='mobile-thumb-image'>
       <img src='<?php echo $item['image'] ?>' />
