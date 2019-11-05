@@ -79,14 +79,13 @@
         {
           "type": "thumbs",
           "content": [
-           
             {
               "filename": "lexachast-krakow-04.jpg",
               "link": "/lexachast",
               "title": "Lexachat"
             },
             {
-              "filename":"transplant/transplant-03.jpg",
+              "filename": "transplant/transplant-03.jpg",
               "link": "/transplant",
               "title": "Transplant"
             },
@@ -112,7 +111,7 @@
           "type": "thumbs",
           "content": [
             {
-              "filename":"temporality-screenshot.jpg",
+              "filename": "temporality-screenshot.jpg",
               "title": "temporality is",
               "link": "http://temporality.is/",
               "new_window": true
@@ -124,7 +123,7 @@
               "new_window": true
             },
             {
-              "filename":"event-listeners-03.png",
+              "filename": "event-listeners-03.png",
               "title": "Event Listeners",
               "link": "/event-listeners"
             }
@@ -139,13 +138,14 @@
               "link": "/deli-near-info"
             },
             {
-              "filename":"dissociations-screenshot.jpg",
+              "filename": "dissociations-screenshot.jpg",
               "title": "Dissociations",
               "link": "/dissociations"
             }
           ]
         }
-      ]
+      ],
+      "meta_image": "lexachast-krakow-04.jpg"
     },
     {
       "date": "2012-03-02T00:00:00.000Z",
@@ -887,7 +887,8 @@
         }
       ],
       "date": "2019-06-12T11:14:16.339Z",
-      "pubDate": "2019-06-12T11:14:46.366Z"
+      "pubDate": "2019-06-12T11:14:46.366Z",
+      "meta_image": "abmb2019/abmb2019-01.jpg"
     },
     {
       "title": "Interfaces",
@@ -1045,7 +1046,8 @@
         }
       ],
       "private": true,
-      "pubDate": "2019-02-16T00:00:00.000Z"
+      "pubDate": "2019-02-16T00:00:00.000Z",
+      "meta_image": "watercoolertalks.jpg"
     },
     {
       "title": "Vertiginous Data",
@@ -1164,7 +1166,8 @@
       "old-related": [
         "<a href='https://www.artbasel.com/events/detail/7953/Conversations-Art-Market-Talk-Which-Art-Problems-can-Blockchain-Solve?openTime=4405' target='_blank'>More information&hellip;</a>"
       ],
-      "pubDate": "2018-12-07T00:00:00.000Z"
+      "pubDate": "2018-12-07T00:00:00.000Z",
+      "meta_image": "tokens.jpg"
     },
     {
       "title": "Notes on Objects",
@@ -1261,7 +1264,8 @@
       "old-related": [
         "<a href='http://www.upstreamgallery.nl/news/515/harm-van-den-dorpel-nominated-for-nn-group-art-award-2019' target='_blank'>More information&hellip;</a>"
       ],
-      "pubDate": "2019-02-06T00:00:00.000Z"
+      "pubDate": "2019-02-06T00:00:00.000Z",
+      "meta_image": "HD-2018-Peached-Renitencies-Mercer-hires.jpg"
     },
     {
       "title": "Nested Exchange",
@@ -1658,7 +1662,8 @@
           ]
         }
       ],
-      "pubDate": "2018-02-24T00:00:00.000Z"
+      "pubDate": "2018-02-24T00:00:00.000Z",
+      "meta_image": "recursion.fyi/f72873ef1b1a489dad60f27bef79f03902d3b5fe-01.jpg"
     },
     {
       "title": "Hybrid Vigor Prints",
@@ -1694,7 +1699,8 @@
         }
       ],
       "date": "2019-06-12T11:14:16.339Z",
-      "pubDate": "2019-06-12T11:14:46.366Z"
+      "pubDate": "2019-06-12T11:14:46.366Z",
+      "meta_image": "recursion.fyi/drawing-1481896077059.jpg"
     },
     {
       "title": "Pattern and Presence",
@@ -2224,7 +2230,8 @@
           ]
         }
       ],
-      "pubDate": "2017-12-25T00:00:00.000Z"
+      "pubDate": "2017-12-25T00:00:00.000Z",
+      "meta_image": "dil-book/d2.jpg"
     },
     {
       "title": "recursion.fyi",
@@ -2269,7 +2276,8 @@
           ]
         }
       ],
-      "pubDate": "2017-10-10T00:00:00.000Z"
+      "pubDate": "2017-10-10T00:00:00.000Z",
+      "meta_image": "recursion.fyi/a.png"
     },
     {
       "title": "Wild Flowers (wildness is contextual!)",
@@ -2554,7 +2562,8 @@
           ]
         }
       ],
-      "pubDate": "2017-03-24T00:00:00.000Z"
+      "pubDate": "2017-03-24T00:00:00.000Z",
+      "meta_image": "sitevisit.png"
     },
     {
       "title": "Shifting Optics IV",
@@ -2721,7 +2730,8 @@
           ]
         }
       ],
-      "pubDate": "2015-11-19T00:00:00.000Z"
+      "pubDate": "2015-11-19T00:00:00.000Z",
+      "meta_image": "transplant/transplant.jpg"
     },
     {
       "title": "PAN × ICA",
@@ -2743,7 +2753,8 @@
           ]
         }
       ],
-      "pubDate": "2016-10-04T00:00:00.000Z"
+      "pubDate": "2016-10-04T00:00:00.000Z",
+      "meta_image": "brainalone.png"
     },
     {
       "title": "Death Imitates Language",
@@ -2831,7 +2842,8 @@
       "old-related": [
         "<a href='http://www.clubpro.la/exhibitions/' target='_blank'>Website Club Pro LA</a>"
       ],
-      "pubDate": "2016-10-21T00:00:00.000Z"
+      "pubDate": "2016-10-21T00:00:00.000Z",
+      "meta_image": "mauve.png"
     },
     {
       "title": "Group exhibition Casco",
@@ -2852,7 +2864,8 @@
           ]
         }
       ],
-      "pubDate": "2016-10-27T00:00:00.000Z"
+      "pubDate": "2016-10-27T00:00:00.000Z",
+      "meta_image": "83082bb2d9d5510624efef866c91c770ddd37554.jpg"
     },
     {
       "title": "Windoes",
@@ -2875,7 +2888,8 @@
       "old-related": [
         "<a href='http://thecomposingrooms.com/2015/#windoes' target='_blank'>The Composing Rooms website</a>"
       ],
-      "pubDate": "2015-09-19T00:00:00.000Z"
+      "pubDate": "2015-09-19T00:00:00.000Z",
+      "meta_image": "TCR_Windoes_Harm van den Dorpel_GWN.jpg"
     },
     {
       "title": "Lexachast",
@@ -2943,7 +2957,8 @@
       "xseeAlso": [
         "<a href='http://p-a-n.org/release/pan-72-jenna-sutela-ville-haimala-ear/' target='_blank'>PAN Catalogue Release #72</a>"
       ],
-      "pubDate": "2016-09-23T00:00:00.000Z"
+      "pubDate": "2016-09-23T00:00:00.000Z",
+      "meta_image": "ear.png"
     },
     {
       "date": "2016-09-05T00:00:00.000Z",
@@ -3202,7 +3217,8 @@
           ]
         }
       ],
-      "pubDate": "2014-05-05T00:00:00.000Z"
+      "pubDate": "2014-05-05T00:00:00.000Z",
+      "meta_image": "drawings/Familie-Nr-1-2013.jpg"
     },
     {
       "date": "2016-04-01T00:00:00.000Z",
@@ -3675,7 +3691,8 @@
           ],
           "pubDate": "2014-11-30T00:00:00.000Z"
         }
-      ]
+      ],
+      "meta_image": "liminal-01.jpg"
     },
     {
       "date": "2014-11-15T00:00:00.000Z",
@@ -3728,7 +3745,8 @@
         }
       ],
       "pubDate": "2013-04-19T00:00:00.000Z",
-      "tags": "collage,sculpture,spheres"
+      "tags": "collage,sculpture,spheres",
+      "meta_image": "strategies.jpg"
     },
     {
       "date": "2015-02-07T00:00:00.000Z",
@@ -4506,7 +4524,8 @@
           ],
           "pubDate": "2014-06-15T00:00:00.000Z"
         }
-      ]
+      ],
+      "meta_image": "Summer-Amsterdam-Flyer.jpg"
     },
     {
       "date": "2014-06-05T00:00:00.000Z",
