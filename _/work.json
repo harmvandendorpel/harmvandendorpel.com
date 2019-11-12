@@ -1009,19 +1009,17 @@
               "filename": "lexachast-record.jpg",
               "title": "Lexachast (PAN 83)",
               "link": "https://amnesiascanner.bandcamp.com/album/lexachast"
-            }
-            ,{
+            },
+            {
               "filename": "shifting-optics-4/shifting-optics-4-05.jpg",
               "link": "https://left.gallery/autobreeder",
               "title": "Death Imitates Language Autobreeder (lite)"
             },
             {
-              "filename":"event-listeners-install.jpg",
+              "filename": "event-listeners-install.jpg",
               "title": "Event Listeners",
               "link": "https://left.gallery/event-listeners"
-
             }
-
           ]
         }
       ]
@@ -3459,7 +3457,9 @@
             {
               "filename": "lexachast-krakow-07.jpg"
             }
-      ],
+          ]
+        }
+      ], 
       "pubDate": "2016-01-05T00:00:00.000Z"
     },
     {
