@@ -1,0 +1,670 @@
+[
+  {
+    "tag": "exhibitions",
+    "count": 43
+  },
+  {
+    "tag": "software",
+    "count": 37
+  },
+  {
+    "tag": "websites",
+    "count": 17
+  },
+  {
+    "tag": "genetics",
+    "count": 16
+  },
+  {
+    "tag": "blockchain",
+    "count": 15
+  },
+  {
+    "tag": "writing",
+    "count": 15
+  },
+  {
+    "tag": "Germany",
+    "count": 15
+  },
+  {
+    "tag": "solo",
+    "count": 13
+  },
+  {
+    "tag": "sculpture",
+    "count": 12
+  },
+  {
+    "tag": "Netherlands",
+    "count": 11
+  },
+  {
+    "tag": "London",
+    "count": 9
+  },
+  {
+    "tag": "animation",
+    "count": 9
+  },
+  {
+    "tag": "drawings",
+    "count": 7
+  },
+  {
+    "tag": "New York City",
+    "count": 7
+  },
+  {
+    "tag": "performance",
+    "count": 6
+  },
+  {
+    "tag": "music",
+    "count": 6
+  },
+  {
+    "tag": "algorithm",
+    "count": 6
+  },
+  {
+    "tag": "PAN",
+    "count": 6
+  },
+  {
+    "tag": "talks",
+    "count": 6
+  },
+  {
+    "tag": "AI",
+    "count": 5
+  },
+  {
+    "tag": "assemblage",
+    "count": 4
+  },
+  {
+    "tag": "spheres",
+    "count": 4
+  },
+  {
+    "tag": "generative",
+    "count": 4
+  },
+  {
+    "tag": "curatorial",
+    "count": 4
+  },
+  {
+    "tag": "Switzerland",
+    "count": 4
+  },
+  {
+    "tag": "fairs",
+    "count": 4
+  },
+  {
+    "tag": "store",
+    "count": 3
+  },
+  {
+    "tag": "sound",
+    "count": 3
+  },
+  {
+    "tag": "video",
+    "count": 3
+  },
+  {
+    "tag": "archive",
+    "count": 3
+  },
+  {
+    "tag": "hanging",
+    "count": 3
+  },
+  {
+    "tag": "genealogy",
+    "count": 3
+  },
+  {
+    "tag": "Deli Near Info",
+    "count": 3
+  },
+  {
+    "tag": "light",
+    "count": 2
+  },
+  {
+    "tag": "usb",
+    "count": 2
+  },
+  {
+    "tag": "power",
+    "count": 2
+  },
+  {
+    "tag": "tracing",
+    "count": 2
+  },
+  {
+    "tag": "lure",
+    "count": 2
+  },
+  {
+    "tag": "panopticon",
+    "count": 2
+  },
+  {
+    "tag": "surveillance",
+    "count": 2
+  },
+  {
+    "tag": "algorithms",
+    "count": 2
+  },
+  {
+    "tag": "William Kherbek",
+    "count": 2
+  },
+  {
+    "tag": "privacy",
+    "count": 2
+  },
+  {
+    "tag": "programming",
+    "count": 2
+  },
+  {
+    "tag": "acrylic",
+    "count": 2
+  },
+  {
+    "tag": "LA",
+    "count": 2
+  },
+  {
+    "tag": "tablet",
+    "count": 2
+  },
+  {
+    "tag": "genetic algorithm",
+    "count": 2
+  },
+  {
+    "tag": "led",
+    "count": 2
+  },
+  {
+    "tag": "collage",
+    "count": 2
+  },
+  {
+    "tag": "education",
+    "count": 2
+  },
+  {
+    "tag": "bitcoin",
+    "count": 2
+  },
+  {
+    "tag": "platform",
+    "count": 2
+  },
+  {
+    "tag": "social media",
+    "count": 2
+  },
+  {
+    "tag": "rhizome",
+    "count": 2
+  },
+  {
+    "tag": "events",
+    "count": 2
+  },
+  {
+    "tag": "pop culture",
+    "count": 1
+  },
+  {
+    "tag": "aggregator",
+    "count": 1
+  },
+  {
+    "tag": "transparent",
+    "count": 1
+  },
+  {
+    "tag": "content",
+    "count": 1
+  },
+  {
+    "tag": "relics",
+    "count": 1
+  },
+  {
+    "tag": "redistribution",
+    "count": 1
+  },
+  {
+    "tag": "shuffle",
+    "count": 1
+  },
+  {
+    "tag": "mix",
+    "count": 1
+  },
+  {
+    "tag": "crossfade",
+    "count": 1
+  },
+  {
+    "tag": "Milan",
+    "count": 1
+  },
+  {
+    "tag": "anthropology",
+    "count": 1
+  },
+  {
+    "tag": "contact",
+    "count": 1
+  },
+  {
+    "tag": "porto",
+    "count": 1
+  },
+  {
+    "tag": "uv",
+    "count": 1
+  },
+  {
+    "tag": "prints",
+    "count": 1
+  },
+  {
+    "tag": "email",
+    "count": 1
+  },
+  {
+    "tag": "Brussels",
+    "count": 1
+  },
+  {
+    "tag": "bio",
+    "count": 1
+  },
+  {
+    "tag": "proof of work",
+    "count": 1
+  },
+  {
+    "tag": "crypto",
+    "count": 1
+  },
+  {
+    "tag": "cryptocurrencies",
+    "count": 1
+  },
+  {
+    "tag": "decentralization",
+    "count": 1
+  },
+  {
+    "tag": "real estate",
+    "count": 1
+  },
+  {
+    "tag": "Miami",
+    "count": 1
+  },
+  {
+    "tag": "dystopian",
+    "count": 1
+  },
+  {
+    "tag": "epistemology",
+    "count": 1
+  },
+  {
+    "tag": "complexity",
+    "count": 1
+  },
+  {
+    "tag": "about",
+    "count": 1
+  },
+  {
+    "tag": "codes",
+    "count": 1
+  },
+  {
+    "tag": "meta",
+    "count": 1
+  },
+  {
+    "tag": "recursion",
+    "count": 1
+  },
+  {
+    "tag": "cv",
+    "count": 1
+  },
+  {
+    "tag": "value",
+    "count": 1
+  },
+  {
+    "tag": "Mark Rothko",
+    "count": 1
+  },
+  {
+    "tag": "studio",
+    "count": 1
+  },
+  {
+    "tag": "berlin",
+    "count": 1
+  },
+  {
+    "tag": "turtlegraphics",
+    "count": 1
+  },
+  {
+    "tag": "papert",
+    "count": 1
+  },
+  {
+    "tag": "minsky",
+    "count": 1
+  },
+  {
+    "tag": "mit",
+    "count": 1
+  },
+  {
+    "tag": "clock",
+    "count": 1
+  },
+  {
+    "tag": "cartesian genetic programming",
+    "count": 1
+  },
+  {
+    "tag": "deathimitateslanguage",
+    "count": 1
+  },
+  {
+    "tag": "kleve",
+    "count": 1
+  },
+  {
+    "tag": "germany",
+    "count": 1
+  },
+  {
+    "tag": "drawing",
+    "count": 1
+  },
+  {
+    "tag": "app",
+    "count": 1
+  },
+  {
+    "tag": "rita vitorelli",
+    "count": 1
+  },
+  {
+    "tag": "Basel",
+    "count": 1
+  },
+  {
+    "tag": "HeK",
+    "count": 1
+  },
+  {
+    "tag": "Prize",
+    "count": 1
+  },
+  {
+    "tag": "Award",
+    "count": 1
+  },
+  {
+    "tag": "recurrence",
+    "count": 1
+  },
+  {
+    "tag": "breeding",
+    "count": 1
+  },
+  {
+    "tag": "pedigree",
+    "count": 1
+  },
+  {
+    "tag": "aesthetics",
+    "count": 1
+  },
+  {
+    "tag": "Aby Warburg",
+    "count": 1
+  },
+  {
+    "tag": "big data",
+    "count": 1
+  },
+  {
+    "tag": "propaganda",
+    "count": 1
+  },
+  {
+    "tag": "teaching",
+    "count": 1
+  },
+  {
+    "tag": "workshop",
+    "count": 1
+  },
+  {
+    "tag": "time",
+    "count": 1
+  },
+  {
+    "tag": "decentralisation",
+    "count": 1
+  },
+  {
+    "tag": "distribution",
+    "count": 1
+  },
+  {
+    "tag": "dispersion",
+    "count": 1
+  },
+  {
+    "tag": "workshops",
+    "count": 1
+  },
+  {
+    "tag": "nsfw",
+    "count": 1
+  },
+  {
+    "tag": "pan",
+    "count": 1
+  },
+  {
+    "tag": "ps1",
+    "count": 1
+  },
+  {
+    "tag": "amnesia scanner",
+    "count": 1
+  },
+  {
+    "tag": "bill kouligas",
+    "count": 1
+  },
+  {
+    "tag": "ken burns",
+    "count": 1
+  },
+  {
+    "tag": "music video",
+    "count": 1
+  },
+  {
+    "tag": "future",
+    "count": 1
+  },
+  {
+    "tag": "website",
+    "count": 1
+  },
+  {
+    "tag": "machine learning",
+    "count": 1
+  },
+  {
+    "tag": "ideology",
+    "count": 1
+  },
+  {
+    "tag": "Berlin",
+    "count": 1
+  },
+  {
+    "tag": "ché zara blomfield",
+    "count": 1
+  },
+  {
+    "tag": "editorial",
+    "count": 1
+  },
+  {
+    "tag": "front page",
+    "count": 1
+  },
+  {
+    "tag": "annet dekker",
+    "count": 1
+  },
+  {
+    "tag": "interview",
+    "count": 1
+  },
+  {
+    "tag": "metropolis m",
+    "count": 1
+  },
+  {
+    "tag": "dutch",
+    "count": 1
+  },
+  {
+    "tag": "gallery",
+    "count": 1
+  },
+  {
+    "tag": "online",
+    "count": 1
+  },
+  {
+    "tag": "editions",
+    "count": 1
+  },
+  {
+    "tag": "aaron swartz",
+    "count": 1
+  },
+  {
+    "tag": "tribute",
+    "count": 1
+  },
+  {
+    "tag": "painting",
+    "count": 1
+  },
+  {
+    "tag": "thermopaper",
+    "count": 1
+  },
+  {
+    "tag": "ai",
+    "count": 1
+  },
+  {
+    "tag": "politics",
+    "count": 1
+  },
+  {
+    "tag": "alternative",
+    "count": 1
+  },
+  {
+    "tag": "delinear",
+    "count": 1
+  },
+  {
+    "tag": "startup",
+    "count": 1
+  },
+  {
+    "tag": "organisation",
+    "count": 1
+  },
+  {
+    "tag": "scrum",
+    "count": 1
+  },
+  {
+    "tag": "kanban",
+    "count": 1
+  },
+  {
+    "tag": "agile",
+    "count": 1
+  },
+  {
+    "tag": "work",
+    "count": 1
+  },
+  {
+    "tag": "vj",
+    "count": 1
+  },
+  {
+    "tag": "commission",
+    "count": 1
+  },
+  {
+    "tag": "color cycling",
+    "count": 1
+  },
+  {
+    "tag": "Rotterdam",
+    "count": 1
+  },
+  {
+    "tag": "Warsaw",
+    "count": 1
+  },
+  {
+    "tag": "Beijing",
+    "count": 1
+  },
+  {
+    "tag": "podcast",
+    "count": 1
+  },
+  {
+    "tag": "Vienna",
+    "count": 1
+  },
+  {
+    "tag": "systems",
+    "count": 1
+  }
+]

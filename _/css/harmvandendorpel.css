@@ -89,6 +89,7 @@ img {
   color: white;
 }
 
+
 .description {
 	hyphens: auto;	
 }
@@ -149,6 +150,11 @@ a {
   color: white;
   border-bottom: 1px solid white;
 }
+
+.theme-dark a.thumb-link {
+	border: none;
+}
+
 
 .floating-about a,
 .floating-top-left-nav a {
@@ -689,6 +695,7 @@ blockquote {
 	border: none;
 	cursor: pointer;
 	align-self: flex-start;	
+
 }
 
 .index-thumb-item {  

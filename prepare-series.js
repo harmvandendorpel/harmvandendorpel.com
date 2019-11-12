@@ -5,26 +5,35 @@ const fs = require('fs')
 const rawdata = fs.readFileSync('_/work.json')
 const content = JSON.parse(rawdata)
 
-const series = {}
+const result = content.content.reduce((acc, item) => {
+  if ('tags' in item) {
+    const tags = item.tags.split(',')
+    tags.forEach(tag => acc.push(tag.trim()))    
+  }
 
-const result = {
-  index: content.index,
-  content: content.content.map((item) => {
-    if (!('meta_image' in item)) {
-      // item.meta_image = 'test.jpg'
-      if ('parts' in item) {
-        if (item.parts.length) {
-          if ('content' in item.parts[0]) {
-            item.meta_image = item.parts[0].content[0].filename
+  if ('cat' in item) {
+    const cats = item.cat.split(',')
+    cats.forEach(cat => acc.push(cat.trim()))
+  }
+  return acc
+}, [])
 
-          }
-        }
-      }
+const distinct = result.reduce((acc, current) => {
+  if (current === '') return acc
+  if (current in acc) {
+    acc[current].count++
+  } else {
+    acc[current] = {
+      tag: current,
+      count: 1
     }
-    return item
-  })
-}
+  }
 
-const stringData = JSON.stringify(result)
+  return acc
+}, {})
 
-fs.writeFileSync('_/work-output.json', stringData)
+const array = Object.keys(distinct).map(tag => distinct[tag]).sort((a, b) => b.count - a.count)
+
+console.log(array)
+
+fs.writeFileSync('_/tags.json', JSON.stringify(array))

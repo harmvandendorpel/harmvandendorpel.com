@@ -101,7 +101,7 @@
     <?php if ($item['related']): ?>
     <div class="related-items-container">
         <div class='related-item-intro'>
-            <?php echo $item['related']['caption']; ?>
+            <?php echo $item['related']['title']; ?>
         </div>
         <?php foreach ($item['related']['content'] as $related): ?>
             <?php $related_item = findItem($content, $related['perma']); ?>
@@ -155,8 +155,8 @@ function images($content) {
     
   if (count($content)) {
     foreach ($content as $image) {
-      if ($image['caption']) {
-        $alt = $image['caption'];
+      if ($image['title']) {
+        $alt = $image['title'];
       } else {
         $alt = $item['title'];
       }
@@ -208,10 +208,10 @@ function image($image, $alt, $link) {
       alt='<?php echo $alt; ?>'
       src='<?php echo($url); ?>'
       <?php if (!$is_nav): ?>data-viewer-item='<?php echo($url); ?>'<?php endif; ?>
-      data-viewer-caption='<?php echo $image['caption'];?>'
+      data-viewer-caption='<?php echo $image['title'];?>'
   >
   <?php if ($link) { ?></a><?php } ?>
-  <figcaption><?php echo $image['caption']; ?></figcaption>
+  <figcaption><?php echo $image['title']; ?></figcaption>
   </figure><?php
 }
 
@@ -237,7 +237,6 @@ function show_thumbs($thumbs) {
     $link = "/img/$filename";
     $data = array(
       title => $thumb['title'],
-      caption => $thumb['caption'],
       image => $link
     );
 
