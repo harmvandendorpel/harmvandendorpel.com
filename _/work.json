@@ -2931,11 +2931,15 @@
         {
           "type": "list",
           "content": [
-          
+            {
+              "filename": "lexachast-krakow-01.jpg"
+            },
             {
               "filename": "lexachast-krakow-02.jpg"
             },
-            
+            {
+              "filename": "lexachast-krakow-03.jpg"
+            },
             {
               "filename": "lexachast-krakow-04.jpg"
             },
@@ -2944,6 +2948,9 @@
             },
             {
               "filename": "lexachast-krakow-06.jpg"
+            },
+            {
+              "filename": "lexachast-krakow-07.jpg"
             }
           ]
         }
@@ -3429,15 +3436,11 @@
         {
           "type": "thumbs",
           "content": [
-            {
-              "filename": "lexachast-krakow-01.jpg"
-            },
+           
             {
               "filename": "lexachast-krakow-02.jpg"
             },
-            {
-              "filename": "lexachast-krakow-03.jpg"
-            },
+           
             {
               "filename": "lexachast-krakow-04.jpg"
             },
@@ -3446,9 +3449,6 @@
             },
             {
               "filename": "lexachast-krakow-06.jpg"
-            },
-            {
-              "filename": "lexachast-krakow-07.jpg"
             }
           ]
         }
