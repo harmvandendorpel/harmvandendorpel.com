@@ -1248,7 +1248,7 @@
       "link": "http://darkcalendar.com/",
       "date": "2019-02-01T00:00:00.000Z",
       "cat": "software,websites",
-      "meta_image": false,
+      "meta_image": "dark-calendar.png",
       "parts": [
         {
           "type": "list",
@@ -1882,7 +1882,7 @@
       "title": "Open Codes",
       "location": "ZKM Karlsruhe",
       "date": "2017-10-20T00:00:00.000Z",
-      "meta_image": false,
+      "meta_image": "Sydgator-Zolim-Juancar.jpg",
       "descr": "Group exhibition at the ZKM, Karlsruhe. Curated by Peter Weibel, Lívia Nolasco-Rózsás, Yasemin Keskintepe, and Blanca Gimenez.",
       "perma": "open-codes",
       "cat": "exhibitions,Germany",
@@ -1925,7 +1925,7 @@
       "descr": "Group exhibition at the Museum of Contemporary Art, Chicago.",
       "cat": "exhibitions,sculpture",
       "tags": "assemblage,meta,recursion,hanging",
-      "meta_image": false,
+      "meta_image": "Screenshot_20180925-121039.png",
       "parts": [
         {
           "type": "list",
@@ -1957,7 +1957,7 @@
       "date": "2017-06-24T00:00:00.000Z",
       "descr": "Group exhibition at Neumeister Bar-Am, Berlin. With work by Ry David Bradley, Harm van den Dorpel, Kalle Lindmark, Jonas Lund, Jeffrey Alan Scudder, Kate Steciw, Steciw / de Joode, and Priscilla Tea. Curated by NBA and Domenico de Chirico. <br><br>Series of unique pen and pencil drawings made with a mechanical plotter and my hand.",
       "cat": "exhibitions,Germany,drawings",
-      "meta_image": false,
+      "meta_image": "new-dawn/NBA_NewDawn_HvdD_PapaverSomniferum_Detail.jpg",
       "parts": [
         {
           "type": "list",
@@ -1981,7 +1981,7 @@
       "date": "2017-12-01T00:00:00.000Z",
       "descr": "Group exhibition at the Fotomuseum Winterthur, Switzerland.<br><br>With work by Adam Basanta, Discipula, Peter Halley, Felicity Hammond, Joey Holder, Michael Mandiberg, Jon Rafman, Harm van den Dorpel, and others. Curated by Matteo Cremonesi in collaboration with Link Art Center.",
       "cat": "exhibitions,Switzerland",
-      "meta_image": false,
+      "meta_image": "post-fail.jpg",
       "private": true,
       "xseeAlso": [
         "<a href='http://harmvandendorpel.com/ambiguity-points-to-the-mystery-of-all-revealing'>Ambiguity points to the mystery of all revealing</a>",
@@ -2160,7 +2160,7 @@
       "descr": "Group exhibition at the Kunstverein Freiburg, Germany. With Ivana Bašić, Harm van den Dorpel, Cécile B. Evans, Pakui Hardware, Lina Hermsdorf, Kitty Kraus, Oliver Laric, Dominik Sittig, Anton Vidokle, and Tchelet Weisstub. Curated by Heinrich Dietz.",
       "date": "2017-09-15T00:00:00.000Z",
       "cat": "exhibitions,Germany",
-      "meta_image": false,
+      "meta_image": "bamboo.jpg",
       "parts": [
         {
           "type": "thumbs",
@@ -2312,7 +2312,7 @@
       "location": "narrative projects London",
       "descr": "Group show at narrative projects, London.<br><br>With works by Mahmoud Bakhshi, Juliette Blightman, Lynn Chadwick, Ilya Dolgov, Harm van den Dorpel, Marte Eknæs, Marita Fraser, Neil Haas, Richard Hamilton, Mustafa Hulusi, Xiao-yang Li, Georgy Litichevsky, Gabriela Machado, Lulou Margarine, Carlos Noronha Feio, Alice Ronchi, Daniel van Straalen, Sigrid Viir. Curated by Carlos Noronha Feio.",
       "date": "2017-07-20T00:00:00.000Z",
-      "meta_image": false,
+      "meta_image": "new-drawings-2017/new-turtle-01.jpg",
       "old-related": [
         "<a href='http://narrativeprojects.com/exhibitions/wild-flowers-wildness-is-contextual/' target='_blank'>Gallery website</a>"
       ],
@@ -2419,7 +2419,7 @@
       "date": "2017-05-11T00:00:00.000Z",
       "ongoing": true,
       "descr": "Drawings on paper made with a CNC-router, disturbed and complemented by my own hand. Various scripts and custom software were programmed to generate each unique drawing.",
-      "meta_image": false,
+      "meta_image": "automatic-drawings/fingerprinting.jpg",
       "tags": "",
       "related": {
         "title": "Exhibited at:",
@@ -2598,7 +2598,7 @@
       "location": "Upstream Gallery Amsterdam",
       "date": "2017-03-25T00:00:00.000Z",
       "cat": "exhibitions,Netherlands",
-      "meta_image": false,
+      "meta_image": "shifting-optics-4/shifting-optics-4-02.jpg",
       "xseeAlso": [
         "<a href='/death-imitates-language'>Death Imitates Language</a>"
       ],
@@ -2643,7 +2643,7 @@
       "date": "2017-01-12T00:00:00.000Z",
       "hideOnIndex": false,
       "descr": "A series of <a href='https://en.wikipedia.org/wiki/Turtle_graphics' target='_blank'>turtle</a> drawings created with a custom <a href='https://www.youtube.com/watch?v=kHyNqSnzP8Y' target='_blank'>genetic algorithm</a>: a method to create variation (while maintaining improvements) by matching partners and selection of the 'fittest' offspring.<br><br><a href='http://hybrid.vigor.bio' target='_blank'>Launch hybrid.vigor.bio</a>",
-      "meta_image": false,
+      "meta_image": "untitled-sf/drawing-5.jpg",
       "tags": "genetics,generative,software,drawings",
       "xseeAlso": [
         "<a href='/talking-turtles'>Turtle Graphics</a>",
@@ -2921,7 +2921,7 @@
     {
       "title": "Lexachast",
       "location": "Unsound Krakow",
-      "meta_image": false,
+      "meta_image": "lexachast-krakow-01.jpg",
       "perma": "lexachast-at-unsound-krakow",
       "date": "2016-10-22T00:00:00.000Z",
       "cat": "performance,music,software,PAN",
@@ -2991,7 +2991,7 @@
       "date": "2016-09-05T00:00:00.000Z",
       "title": "Talking Turtles",
       "white": true,
-      "meta_image": false,
+      "meta_image": "talking-turtles/talking-turtles-01.png",
       "descr": "<em>Learning is especially felicitous in a context where the learner is consciously engaged in constructing a public entity, whether it’s a sand castle on the beach or a theory of the universe.</em><br><br>Turtle graphics are a drawing system described by Seymour Papert, in which an imaginary turtle moves around the computer screen drawing as it goes, all under the control of instructions given by a computer program. This sort of programming, and the results it produces, are easy to understand because they are so immediately visual. But it can go well beyond simple graphics, and provide a basis for fascinating and powerful programs that introduce fundamental concepts of software engineering and artificial intelligence. <br><br>The images below are generated by combining a custom turtle graphics implementation with a genetic algorithm, not unlike my earlier <q>Death Imitates Language</q>.<br><br>Thank you Laurel Schwulst for title suggestions.<style>.main-image{margin-bottom:200px;} </style>",
       "cat": "software, drawings",
       "perma": "talking-turtles",
@@ -3385,7 +3385,7 @@
       "pubDate": "2016-04-15T00:00:00.000Z"
     },
     {
-      "meta_image": false,
+      "meta_image": "overcast-publishing.jpg",
       "date": "2016-02-10T00:00:00.000Z",
       "title": "Overcast Publishing",
       "descr": "I'll be moderating a workshop at the Offenbach University of Art and Design, invited by <em>Internet TBD: an attempt to map topics related to the hangover of the internet</em>. We will question the supposed messianic potential of decentralised infrastructure, and research how theory and aesthetic content could be transformed to benefit from these alternative modes of distribution.",
@@ -3476,7 +3476,7 @@
     },
     {
       "date": "2015-12-12T00:00:00.000Z",
-      "meta_image": false,
+      "meta_image": "leftgallery.png",
       "link": "https://left.gallery",
       "perma": "left-gallery",
       "title": "left gallery",
@@ -3929,7 +3929,7 @@
     },
     {
       "date": "2015-01-23T00:00:00.000Z",
-      "meta_image": false,
+      "meta_image": "loomer/sculpture.jpg",
       "id": "loomer",
       "title": "Loomer",
       "location": "Young Projects, Los Angeles",
@@ -3995,7 +3995,7 @@
     },
     {
       "date": "2014-09-25T00:00:00.000Z",
-      "meta_image": false,
+      "meta_image": "private-settings/5429363935ca8.jpg",
       "location": "Museum of Modern Art, Warsaw",
       "title": "Private Settings",
       "descr": "Group show at the <span itemscope itemtype='http://schema.org/Place'>Museum of Modern Art, Warsaw</span><br>Curated by Natalia Sielewicz",
@@ -4025,7 +4025,7 @@
       "pubDate": "2014-09-25T00:00:00.000Z"
     },
     {
-      "meta_image": false,
+      "meta_image": "in-its-image/3135706.jpg",
       "date": "2014-07-19T00:00:00.000Z",
       "id": "in-its-image",
       "location": "American Medium, New York City",
@@ -4118,7 +4118,7 @@
     },
     {
       "date": "2013-05-13T00:00:00.000Z",
-      "meta_image": false,
+      "meta_image": "dissociations.jpg",
       "tags": "archive",
       "cat": "New York City,websites,software,exhibitions,solo",
       "title": "First Look: Dissociations",
@@ -4208,7 +4208,7 @@
     },
     {
       "date": "2012-09-16T00:00:00.000Z",
-      "meta_image": false,
+      "meta_image": "watch-the-throne/131382_275364085915090_692802396_o.jpg",
       "theme": "dark",
       "id": "watch-the-throne",
       "location": "grouphab.it, Berlin",
@@ -4612,7 +4612,7 @@
     },
     {
       "date": "2015-05-15T00:00:00.000Z",
-      "meta_image": false,
+      "meta_image": "inflected-objects/IMG_7818-web.jpg",
       "id": "inflected-objects",
       "location": "Swiss Institute, Milan",
       "descr": "Group show at the Swiss Institute, Milan<br>Curated by Melanie Bühler and Valerio Mannucci",
@@ -4649,7 +4649,7 @@
     },
     {
       "date": "2015-03-20T00:00:00.000Z",
-      "meta_image": false,
+      "meta_image": "upstream/2015-Shifting Optics II-HIGH-Harm-van-den-Dorpel-2.jpg",
       "location": "Upstream Gallery, Amsterdam",
       "title": "Shifting Optics II",
       "old-related": [
