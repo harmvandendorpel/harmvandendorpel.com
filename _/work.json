@@ -72,6 +72,37 @@
   ],
   "content": [
     {
+      "date": "2019-09-06T00:00:00.000Z",
+      "perma": "cgp2",
+      "title": "cgp 2",
+      "parts": [
+        {
+          "type": "thumbs",
+          "content": [
+            {
+              "filename": "cgp-02/cgp-1554191045421.jpg"
+            },
+            {
+              "filename": "cgp-02/cgp-1554197412416.jpg"
+            },
+            {
+              "filename": "cgp-02/cgp-1554297595971.jpg"
+            },
+            {
+              "filename": "cgp-02/cgp-1554306488937-01.jpg"
+            },
+            {
+              "filename": "cgp-02/cgp-1554207972769-01.jpg"
+            },
+            {
+              "filename": "cgp-02/cgp-1554209176412.jpg"
+            }
+          ]
+        }
+      ],
+      "pubDate": "2020-01-13T14:07:05.147Z"
+    },
+    {
       "title": "Software",
       "perma": "software",
       "descr": "",
@@ -145,7 +176,9 @@
           ]
         }
       ],
-      "meta_image": "lexachast-krakow-04.jpg"
+      "meta_image": "lexachast-krakow-04.jpg",
+      "date": "2020-01-13T14:07:05.147Z",
+      "pubDate": "2020-01-13T14:07:05.147Z"
     },
     {
       "date": "2012-03-02T00:00:00.000Z",
@@ -684,10 +717,10 @@
         {
           "type": "thumbs",
           "content": [
-		  {
-		  "title":"Defenseless Qualm, 2019. 80×65cm.",
-		  "filename":"Untitled-1-framed.jpg"
-		  },
+            {
+              "title": "Defenseless Qualm, 2019. 80×65cm.",
+              "filename": "Untitled-1-framed.jpg"
+            },
             {
               "title": "Bemused Aversatility, 2018. 80×65cm.",
               "filename": "pattern-and-presence/0025.jpg"
@@ -995,7 +1028,8 @@
             }
           ]
         }
-      ]
+      ],
+      "pubDate": "2020-01-13T14:07:05.147Z"
     },
     {
       "perma": "Shop",
@@ -1026,7 +1060,9 @@
             }
           ]
         }
-      ]
+      ],
+      "date": "2020-01-13T14:07:05.147Z",
+      "pubDate": "2020-01-13T14:07:05.147Z"
     },
     {
       "location": "Stroom Den Haag",
@@ -1287,7 +1323,7 @@
             },
             {
               "filename": "HD-2018-Uttered-Modality-hires.jpg",
-              "title": "Uttered Modality, 2018. Ballpoint on paper, 40&times;30cm"
+              "title": "Uttered Modality, 2018. Ballpoint and pencil on paper, 40&times;30cm"
             }
           ]
         }
@@ -2497,7 +2533,7 @@
           "content": [
             {
               "filename": "automatic-drawings/last.jpg",
-              "title": "Uttered Modality, 2018. Ballpoint on paper, 40&times;30cm"
+              "title": "Uttered Modality, 2018. Ballpoint and pencil on paper, 40&times;30cm"
             }
           ]
         },
@@ -2544,7 +2580,8 @@
           ],
           "pubDate": "2017-06-12T00:00:00.000Z"
         }
-      ]
+      ],
+      "pubDate": "2020-01-13T14:07:05.147Z"
     },
     {
       "title": "Lexachast (PAN 83)",
@@ -3416,7 +3453,7 @@
       "meta_image": "lexachast-zkm.jpg",
       "date": "2016-01-05T00:00:00.000Z",
       "title": "Lexachast",
-      "ongoing":true,
+      "ongoing": true,
       "descr": "<p><em>Tiles say decay spoil, walls now meant house. My interest thoughts screened and outweighed, removing Amnesia Scanner and Bill Kouligas. Evening society besides my musical inhabit. Elinor talked now for excuse or result. Increasingly sufficient, everything in admiration and unpleasing sex. Around him, uneasy, his use no longer man, a pulled nature. He over the hill, will lose.<br><br>Chapter too parties its letters cheerful, whatever disposed. My greatest mistake raptures, and now outweigh Lexachast. Discourse otherwise disposing it of strangers forfeited. The last answer opposes months with no esteem. Branched directly on an ecstatic. Put off, continue you denoting, returned juvenile. Replied demands charmed the viewing colonel to do so. Algorithms by Harm. Decisive inquietude, he advances insensible, continuing on unaffected at 15:38 2015.</em></p><p><a class='btn' target='_blank' href='https://amnesiascanner.bandcamp.com/album/lexachast'>Listen on Bandcamp</a>&nbsp;<a class='btn' target='_blank' href='https://p-a-n.org/product/amnesia-scanner-bill-kouligas-lexachast-pan83/'>Buy vinyl or digital (PAN 83)</a></p>",
       "cat": "websites,music,PAN,software",
       "xseeAlso": [
@@ -3441,11 +3478,9 @@
         {
           "type": "thumbs",
           "content": [
-           
             {
               "filename": "lexachast-krakow-02.jpg"
             },
-           
             {
               "filename": "lexachast-krakow-04.jpg"
             },
@@ -3457,7 +3492,7 @@
             }
           ]
         }
-      ], 
+      ],
       "pubDate": "2016-01-05T00:00:00.000Z"
     },
     {
@@ -3740,7 +3775,8 @@
           "pubDate": "2014-11-30T00:00:00.000Z"
         }
       ],
-      "meta_image": "liminal-01.jpg"
+      "meta_image": "liminal-01.jpg",
+      "pubDate": "2020-01-13T14:07:05.148Z"
     },
     {
       "date": "2014-11-15T00:00:00.000Z",
@@ -4208,7 +4244,8 @@
             }
           ]
         }
-      ]
+      ],
+      "pubDate": "2020-01-13T14:07:05.148Z"
     },
     {
       "date": "2012-09-16T00:00:00.000Z",
@@ -4411,7 +4448,8 @@
             }
           ]
         }
-      ]
+      ],
+      "pubDate": "2020-01-13T14:07:05.148Z"
     },
     {
       "date": "2015-02-20T00:00:00.000Z",
@@ -4573,7 +4611,8 @@
           "pubDate": "2014-06-15T00:00:00.000Z"
         }
       ],
-      "meta_image": "Summer-Amsterdam-Flyer.jpg"
+      "meta_image": "Summer-Amsterdam-Flyer.jpg",
+      "pubDate": "2020-01-13T14:07:05.148Z"
     },
     {
       "date": "2014-06-05T00:00:00.000Z",
