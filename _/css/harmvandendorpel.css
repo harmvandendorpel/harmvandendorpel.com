@@ -136,12 +136,12 @@ li.website img {
 }
 
 h2 {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #202020;
 	display: inline-block;
 }
 
 a {
-	color:black;
+	color:#202020;
 	text-decoration: none;
 	border-bottom: 1px solid #000000;
 }
@@ -300,7 +300,7 @@ h3 {
 hr {
   width: 20%;
 	border: none;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #202020;
 	margin-top: 48px;
 	margin-bottom: 24px;
 }
