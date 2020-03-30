@@ -19,8 +19,10 @@
           "title": "Algues Artificielles"
         },
         {
+
+
           "link": "/death-imitates-language",
-          "image": "/img/asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
+          "image": "/img/shifting-optics-4/shifting-optics-4-02.jpg",
           "title": "Death Imitates Language"
         }
       ]
@@ -2136,16 +2138,7 @@
               "filename": "asking-for-a-friend/juancar-zolim-juancar-photo-detail.jpg",
               "title": "Juancar Zolim Juancar (detail), 2017. 100&times100&times4cm."
             },
-            {
-              "filename": "asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
-              "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
-              "orientation": "portrait",
-              "title": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
-            },
-            {
-              "filename": "asking-for-a-friend/joa-dereck-pitcher-photo-detail.jpg",
-              "title": "Joa Dereck Pitcher (detail), 2017. 100&times100&times4cm."
-            },
+           
             {
               "filename": "asking-for-a-friend/asking-for-a-friend-06.png",
               "title": "Algues Artificielles, 2017 (screenshot)"
@@ -3189,12 +3182,7 @@
                   "orientation": "portrait",
                   "title": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
                 },
-                {
-                  "filename": "asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
-                  "link": "https://deathimitateslanguage.harmvandendorpel.com/language/ce7379a49c295cf5e8af01ac12e17a0e545c7f2a",
-                  "orientation": "portrait",
-                  "title": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
-                },
+              
                 {
                   "filename": "shifting-optics-4/shifting-optics-4-02.jpg",
                   "title": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm",
@@ -3332,7 +3320,9 @@
     {
       "date": "2016-04-15T00:00:00.000Z",
       "title": "Death Imitates Language",
-      "meta_image": "asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
+
+
+      "meta_image": "shifting-optics-4/shifting-optics-4-02.jpg",
       "cat": "software,genetics",
       "perma": "death-imitates-language",
       "related": {
@@ -3379,11 +3369,7 @@
               "orientation": "portrait",
               "title": "Juancar Zolim Juancar, 2017. Unique, 100&times100&times4cm."
             },
-            {
-              "filename": "asking-for-a-friend/joa-dereck-pitcher-photo.jpg",
-              "orientation": "portrait",
-              "title": "Joa Dereck Pitcher, 2017. Unique, 100&times100&times4cm."
-            },
+           
             {
               "filename": "shifting-optics-4/shifting-optics-4-02.jpg",
               "title": "Vvgdamn Pipikaka Yozdczmi, 2017, 100&times;100&times;3cm"
