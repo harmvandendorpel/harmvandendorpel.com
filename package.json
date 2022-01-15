@@ -20,6 +20,6 @@
   "homepage": "https://github.com/harmvandendorpel/harmvandendorpel.com#readme",
   "dependencies": {
     "sharp": "^0.22.1",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.5"
   }
 }
