@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/harmvandendorpel/harmvandendorpel.com#readme",
   "dependencies": {
-    "sharp": "^0.22.1",
+    "sharp": "^0.30.5",
     "shelljs": "^0.8.3"
   }
 }
